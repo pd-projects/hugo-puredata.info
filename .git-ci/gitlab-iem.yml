@@ -1,4 +1,5 @@
 pages:
+  image: alpine
   script:
   - mkdir -p public
 #  - sed -e "s|@date@|$(date)|g" index.html.template > public/index.html
