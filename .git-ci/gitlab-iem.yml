@@ -1,0 +1,9 @@
+pages:
+  image: alpine
+  script:
+  - echo "create pages..."
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
