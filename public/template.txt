@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>index</title>	 
+<title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>	 
 <meta http-equiv="Content-Type" content="text/html">
 <link rel="stylesheet" type="text/css" href="http://pd.iem.sh/defaults/pd.iem.sh-v0.1.css" media="screen">
 <link rel="icon" type="image/png" href="http://pd.iem.sh/defaults/favicon.ico">  
@@ -15,8 +15,10 @@
 </div>
 <div id=corpus>
 <button class="btn-toggle-theme">&#9680;</button> <a href="../index.html">home</a> <a href="../index.html">up </a>
-<h2 id="pure-data">Pure Data</h2>
-<p><a href="./welcome/index.html">Welcome to Pd</a></p>
+$body$
+$for(include-after)$
+$include-after$
+$endfor$
 </div>
 <script src="http://pd.iem.sh/defaults/pd.iem.sh-v0.1.js"></script>
 </body>
