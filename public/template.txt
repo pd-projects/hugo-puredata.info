@@ -14,7 +14,7 @@
 
 </div>
 <div id=corpus>
-<button class="btn-toggle-theme">&#9680;</button> <a href="../index.html">home</a> <a href="../index.html">up </a>
+<button class="btn-toggle-theme">&#9680;</button> <a href="https://pd.iem.sh">home</a> <a href="../index.html">up </a>
 $body$
 $for(include-after)$
 $include-after$
