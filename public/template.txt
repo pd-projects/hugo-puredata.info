@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>	 
 <meta http-equiv="Content-Type" content="text/html">
-<link rel="stylesheet" type="text/css" href="http://pd.iem.sh/defaults/pd.iem.sh-v0.1.css" media="screen">
-<link rel="icon" type="image/png" href="http://pd.iem.sh/defaults/favicon.ico">  
+<link rel="stylesheet" type="text/css" href="https://pd.iem.sh/defaults/pd.iem.sh-v0.1.css" media="screen">
+<link rel="icon" type="image/png" href="https://pd.iem.sh/defaults/favicon.ico">  
 </head>
 <body>
 <div class="butt">
@@ -20,6 +20,6 @@ $for(include-after)$
 $include-after$
 $endfor$
 </div>
-<script src="http://pd.iem.sh/defaults/pd.iem.sh-v0.1.js"></script>
+<script src="https://pd.iem.sh/defaults/pd.iem.sh-v0.1.js"></script>
 </body>
 </html>
