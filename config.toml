@@ -1,0 +1,7 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Pure Data'
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+relativeURLs = 'true'
