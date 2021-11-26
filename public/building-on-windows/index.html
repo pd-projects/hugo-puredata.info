@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Building on Windows</title>	 
+<meta http-equiv="Content-Type" content="text/html">
+<link rel="stylesheet" type="text/css" href="../pd.iem.sh-v0.1.css" media="screen">
+<link rel="icon" type="image/png" href="../favicon.ico">  
+</head>
+<body>
+<div class="butt">
+</div>
+<div id=corpus>
+<button class="btn-toggle-theme">&#9680;</button> <a href="../">home</a> <a href="../index.html">up </a>
+
+<h2 id="building-on-windows-with-msys2">Building on Windows with Msys2</h2>
+<p>Download the 64-bit installer from:</p>
+<p><a href="https://www.msys2.org/">https://www.msys2.org/</a></p>
+<p>Follow installation instructions on: <a href="https://www.msys2.org/wiki/MSYS2-installation/">https://www.msys2.org/wiki/MSYS2-installation/</a></p>
+<p>Add with pacman these packages:</p>
+<p><code>pacman -S make pkg-config autoconf automake libtool</code></p>
+<p>Then the 32-bit compiler:</p>
+<p><code>pacman -S mingw32/mingw-w64-i686-gcc</code></p>
+<p>also the 64-bit compiler:</p>
+<p><code>pacman -S mingw64/mingw-w64-x86_64-gcc</code></p>
+
+
+</div>
+<script src="../pd.iem.sh-v0.1.js"></script>
+</body>
+</html>

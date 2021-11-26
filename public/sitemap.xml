@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/list-of-objects/bang/</loc>
+  </url><url>
+    <loc>/list-of-objects/float/</loc>
+  </url><url>
+    <loc>/list-of-objects/int/</loc>
+  </url><url>
+    <loc>/list-of-objects/send/</loc>
+  </url><url>
+    <loc>/list-of-objects/symbol/</loc>
+  </url><url>
+    <loc>/building-on-windows/</loc>
+  </url><url>
+    <loc>/list-of-objects/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url><url>
+    <loc>/welcome/</loc>
+  </url>
+</urlset>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pure data on Pure Data</title>
+    <link>/</link>
+    <description>Recent content in Pure data on Pure Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[bang]</title>
+      <link>/list-of-objects/bang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/list-of-objects/bang/</guid>
+      <description>[bang] Outputs a &amp;ldquo;bang&amp;rdquo; message for whatever message it receives.
+inlet 0
+ anything  outlet 0
+ bang   updated for Pd version 0.27
+ </description>
+    </item>
+    
+    <item>
+      <title>[float]</title>
+      <link>/list-of-objects/float/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/list-of-objects/float/</guid>
+      <description>[float] Store a (floating point) number
+The float object stores a number, initialized by its creation argument, which may be reset using its inlet and output by sending it the &amp;ldquo;bang&amp;rdquo; message. Sending a number sets a new value and outputs it.
+inlet 0
+ bang: outputs the float float: outputs the float symbol: converts to float send to a named object  inlet 1
+ float: sets a float without outputting  outlet 0</description>
+    </item>
+    
+    <item>
+      <title>[int]</title>
+      <link>/list-of-objects/int/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/list-of-objects/int/</guid>
+      <description>[int] Store an integer
+The int object stores a number, initialized by its creation argument, which may be reset using its inlet and output by sending it the &amp;ldquo;bang&amp;rdquo; message. Sending a number sets a new value and outputs it. The output is truncated to an integer a la Max.
+inlet 0
+ bang: outputs the value float: set and output the value send to a named object  inlet 1</description>
+    </item>
+    
+    <item>
+      <title>[send]</title>
+      <link>/list-of-objects/send/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/list-of-objects/send/</guid>
+      <description>[send] Send messages without patch cords.
+[send] sends messages to [receive] objects. Sends and receives are named to tell them whom to connect to. They work across windows too. Also, you can use message boxes as shown:
+;help-send1 34;help-send2 67If invoked without an argument, &amp;ldquo;send&amp;rdquo; creates an inlet to let you set the target via &amp;ldquo;symbol&amp;rdquo; messages.
+The [value] object receives float values for variables with the same name.</description>
+    </item>
+    
+    <item>
+      <title>[symbol]</title>
+      <link>/list-of-objects/symbol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/list-of-objects/symbol/</guid>
+      <description>[symbol] Store a symbol (i.e., string)
+The symbol object stores a symbol, Pd&amp;rsquo;s data type for handling fixed strings (often filenames or the names of other objects in pd).
+note: unlike &amp;ldquo;float&amp;rdquo;, etc., there&amp;rsquo;s no &amp;ldquo;s&amp;rdquo; message to forward to another object &amp;ndash; that would conflict with the function of converting arbitrary messages to symbols.
+inlet 0
+ bang: outputs the value symbol set and output the value any other message is &amp;lsquo;converted&amp;rsquo;  inlet 1</description>
+    </item>
+    
+    <item>
+      <title>Building on Windows</title>
+      <link>/building-on-windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/building-on-windows/</guid>
+      <description>Building on Windows with Msys2 Download the 64-bit installer from:
+https://www.msys2.org/
+Follow installation instructions on: https://www.msys2.org/wiki/MSYS2-installation/
+Add with pacman these packages:
+pacman -S make pkg-config autoconf automake libtool
+Then the 32-bit compiler:
+pacman -S mingw32/mingw-w64-i686-gcc
+also the 64-bit compiler:
+pacman -S mingw64/mingw-w64-x86_64-gcc</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Pd</title>
+      <link>/welcome/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/welcome/</guid>
+      <description>Welcome to Pd You can reach the Pd mailing list for help, please subscribe to the pd-list. It is perfectly reasonable to post &amp;ldquo;beginner&amp;rdquo; questions there.
+There is a very extensive Pd community web site, pure-data.info, which aims to be the central resource for Pd, from documentation and downloads; to forums, member pages, and a patch exchange. A link to it is also available in the Help Menu.
+You can read the Pd Manual for more details on running and configuring Pd http://msp.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>List of objects</title>	 
+<meta http-equiv="Content-Type" content="text/html">
+<link rel="stylesheet" type="text/css" href="../pd.iem.sh-v0.1.css" media="screen">
+<link rel="icon" type="image/png" href="../favicon.ico">  
+</head>
+<body>
+<div class="butt">
+</div>
+<div id=corpus>
+<button class="btn-toggle-theme">&#9680;</button> <a href="../">home</a> <a href="../index.html">up </a>
+
+<h2 id="list-of-objects">List of objects</h2>
+<p>The following is a list of built-in objects in Pd. (Not included in this 
+list are messages, atoms, graphs, etc. which aren&rsquo;t typed into object 
+boxes but come straight off the &ldquo;add&rdquo; menu.)</p>
+<h3 id="general">General</h3>
+<p><a href="bang">[bang]</a> - output a bang message<br>
+<a href="float">[float]</a> - store and recall a number<br>
+<a href="symbol">[symbol]</a> - store and recall a symbol<br>
+<a href="int">[int]</a> - store and recall an integer<br>
+<a href="send">[send]</a> - send a message to a named object<br>
+<a href="#">[receive]</a> - catch &ldquo;sent&rdquo; messages<br>
+<a href="#">[select]</a> - test for matching numbers or symbols<br>
+<a href="#">[route]</a> - route messages according to first element<br>
+<a href="#">[pack]</a> - make compound messages<br>
+<a href="#">[unpack]</a> - get elements of compound messages<br>
+<a href="#">[trigger]</a> - sequence and convert messages<br>
+<a href="#">[spigot]</a> - interruptible message connection<br>
+<a href="#">[moses]</a> - part a numeric stream<br>
+<a href="#">[until]</a> - looping mechanism<br>
+<a href="#">[print]</a> - print out messages<br>
+<a href="#">[makefilename]</a> - format a symbol with a variable field<br>
+<a href="#">[change]</a> - remove repeated numbers from a stream<br>
+<a href="#">[swap]</a> - swap two numbers<br>
+<a href="#">[value]</a> - shared numeric value<br>
+<a href="#">[list]</a> - manipulate lists\</p>
+<h3 id="time">Time</h3>
+<p><a href="#">[delay]</a> - send a message after a time delay<br>
+<a href="#">[metro]</a> - send a message periodically<br>
+<a href="#">[line]</a> - send a series of linearly stepped numbers<br>
+<a href="#">[timer]</a> - measure time intervals<br>
+<a href="#">[cputime]</a> - measure CPU time<br>
+<a href="#">[realtime]</a> - measure real time<br>
+<a href="#">[pipe]</a> - dynamically growable delay line for numbers\</p>
+<h3 id="math">Math</h3>
+<p><a href="#">[expr]</a> - C-style expressions<br>
+<a href="#">[+]</a> - arithmetic<br>
+<a href="#">[-]</a><br>
+<a href="#">[*]</a><br>
+<a href="#">[/]</a><br>
+<a href="#">[pow]</a><br>
+<a href="#">[==]</a> - relational tests<br>
+<a href="#">[!=]</a><br>
+<a href="#">[&gt;]</a><br>
+<a href="#">[&lt;]</a><br>
+<a href="#">[&gt;=]</a><br>
+<a href="#">[&lt;=]</a><br>
+<a href="#">[&amp;]</a> - bit twiddling<br>
+<a href="#">[&amp;&amp;]</a><br>
+<a href="#">[|]</a><br>
+<a href="#">[||]</a><br>
+<a href="#">[%]</a><br>
+<a href="#">[&laquo;]</a><br>
+<a href="#">[&raquo;]</a><br>
+<a href="#">[mtof]</a> - convert acoustical units<br>
+<a href="#">[ftom]</a><br>
+<a href="#">[powtodb]</a><br>
+<a href="#">[dbtopow]</a><br>
+<a href="#">[rmstodb]</a><br>
+<a href="#">[dbtorms]</a> <br>
+<a href="#">[mod]</a> - higher math<br>
+<a href="#">[div]</a><br>
+<a href="#">[sin]</a><br>
+<a href="#">[cos]</a><br>
+<a href="#">[tan]</a><br>
+<a href="#">[atan]</a><br>
+<a href="#">[atan2]</a><br>
+<a href="#">[sqrt]</a><br>
+<a href="#">[log]</a><br>
+<a href="#">[exp]</a><br>
+<a href="#">[abs]</a><br>
+<a href="#">[random]</a> - lower math<br>
+<a href="#">[max]</a> - greater or lesser of 2 numbers<br>
+<a href="#">[min]</a><br>
+<a href="#">[clip]</a> - force a number into a range<br>
+<a href="#">[wrap]</a> - wrap a number to range [[0, 1)\</p>
+<h3 id="io-via-midi-osc-and-fudi">I/O via MIDI, OSC, and FUDI</h3>
+<p><a href="#">[notein]</a> - MIDI input<br>
+<a href="#">[ctlin]</a><br>
+<a href="#">[pgmin]</a><br>
+<a href="#">[bendin]</a><br>
+<a href="#">[touchin]</a><br>
+<a href="#">[midiin]</a><br>
+<a href="#">[polytouchin]</a><br>
+<a href="#">[sysexin]</a><br>
+<a href="#">[midirealtimein]</a><br>
+<a href="#">[noteout]</a> - MIDI output<br>
+<a href="#">[ctlout]</a><br>
+<a href="#">[pgmout]</a><br>
+<a href="#">[bendout]</a><br>
+<a href="#">[touchout]</a><br>
+<a href="#">[polytouchout]</a><br>
+<a href="#">[midiout]</a><br>
+<a href="#">[makenote]</a> - schedule delayed &ldquo;note off&rdquo; message for a note-on<br>
+<a href="#">[stripnote]</a> - strip &ldquo;note off&rdquo; messages<br>
+<a href="#">[oscparse]</a> - OSC messages to and from Pd lists<br>
+<a href="#">[oscformat]</a><br>
+<a href="#">[fudiparse]</a> - FUDI messages to and from Pd lists<br>
+<a href="#">[fudiformat]</a>\</p>
+<h3 id="arrays--tables">Arrays &amp; Tables</h3>
+<p><a href="#">[tabread]</a> - read a number from a table<br>
+<a href="#">[tabread4]</a> - read a number from a table<br>
+<a href="#">[tabwrite]</a> - write a number to a table<br>
+<a href="#">[soundfiler]</a> - read and write tables to soundfiles<br>
+<a href="#">[table]</a> - create a named table<br>
+<a href="#">[array]</a> - general array creation and manipulation\</p>
+<h3 id="misc">Misc</h3>
+<p><a href="#">[loadbang]</a> - bang on load<br>
+<a href="#">[declare]</a> - set search path and/or load libraries<br>
+<a href="#">[savestate]</a> - mechanism for saving state of an abstraction<br>
+<a href="#">[pdcontrol]</a> - communicate with canvas (for example, to get directory)<br>
+<a href="#">[netsend]</a> - send messages over the internet<br>
+<a href="#">[netreceive]</a> - receive them<br>
+<a href="#">[qlist]</a> - message sequencer<br>
+<a href="#">[textfile]</a> - file to message converter<br>
+<a href="#">[text]</a> - general text handling<br>
+<a href="#">[openpanel]</a> - &ldquo;Open&rdquo; dialog<br>
+<a href="#">[savepanel]</a> - &ldquo;Save as&rdquo; dialog<br>
+<a href="#">[bag]</a> - set of numbers<br>
+<a href="#">[poly]</a> - polyphonic voice allocation<br>
+<a href="#">[key]</a> - numeric key values from keyboard<br>
+<a href="#">[keyup]</a><br>
+<a href="#">[keyname]</a> - symbolic key name\</p>
+<h3 id="audio-math">Audio Math</h3>
+<p><a href="#">[expr~]</a> - C-style expressions<br>
+<a href="#">[fexpr~]</a><br>
+<a href="#">[+~]</a> - arithmetic on audio signals<br>
+<a href="#">[-~]</a><br>
+<a href="#">[*~]</a><br>
+<a href="#">[/~]</a><br>
+<a href="#">[max~]</a> - maximum or minimum of 2 inputs<br>
+<a href="#">[min~]</a><br>
+<a href="#">[clip~]</a> - constrict signal to lie between two bounds<br>
+<a href="#">[sqrt~]</a> - approximate (16-bit) square root<br>
+<a href="#">[rsqrt~]</a> - reciprocal square root<br>
+<a href="#">[q8_sqrt~]</a> - fast, cheap 8 bits versions<br>
+<a href="#">[q8_rsqrt~]</a><br>
+<a href="#">[wrap~]</a> - wraparound (fractional part)<br>
+<a href="#">[fft~]</a> - complex forward discrete Fourier transform<br>
+<a href="#">[ifft~]</a> - complex inverse discrete Fourier transform<br>
+<a href="#">[rfft~]</a> - real forward discrete Fourier transform<br>
+<a href="#">[rifft~]</a> - real inverse discrete Fourier transform<br>
+<a href="#">[pow~]</a> - math<br>
+<a href="#">[log~]</a><br>
+<a href="#">[exp~]</a><br>
+<a href="#">[abs~]</a><br>
+<a href="#">[framp~]</a> - estimate frequency and amplitude of FFT components<br>
+<a href="#">[mtof~]</a> - acoustic conversions<br>
+<a href="#">[ftom~]</a><br>
+<a href="#">[rmstodb~]</a><br>
+<a href="#">[dbtorms~]</a>\</p>
+<h3 id="general-audio-manipulation">General Audio Manipulation</h3>
+<p><a href="#">[dac~]</a> - audio output<br>
+<a href="#">[adc~]</a> - audio input<br>
+<a href="#">[sig~]</a> - convert numbers to audio signals<br>
+<a href="#">[line~]</a> - generate audio ramps<br>
+<a href="#">[vline~]</a> - deluxe line~<br>
+<a href="#">[threshold~]</a> - detect signal thresholds<br>
+<a href="#">[snapshot~]</a> - sample a signal (convert it back to a number)<br>
+<a href="#">[vsnapshot~]</a> - deluxe snapshot~<br>
+<a href="#">[bang~]</a> - send a bang message after each DSP block<br>
+<a href="#">[samplerate~]</a> - get the sample rate<br>
+<a href="#">[send~]</a> - nonlocal signal connection with fanout<br>
+<a href="#">[receive~]</a> - get signal from send~<br>
+<a href="#">[throw~]</a> - add to a summing bus<br>
+<a href="#">[catch~]</a> - define and read a summing bus<br>
+<a href="#">[readsf~]</a> - soundfile playback from disk<br>
+<a href="#">[writesf~]</a> - record sound to disk\</p>
+<h3 id="audio-oscillators-and-tables">Audio Oscillators And Tables</h3>
+<p><a href="#">[phasor~]</a> - sawtooth oscillator<br>
+<a href="#">[cos~]</a> - cosine<br>
+<a href="#">[osc~]</a> - cosine oscillator<br>
+<a href="#">[tabwrite~]</a> - write to a table<br>
+<a href="#">[tabplay~]</a> - play back from a table (non-transposing)<br>
+<a href="#">[tabread~]</a> - non-interpolating table read<br>
+<a href="#">[tabread4~]</a> - four-point interpolating table read<br>
+<a href="#">[tabosc4~]</a> - wavetable oscillator<br>
+<a href="#">[tabsend~]</a> - write one block continuously to a table<br>
+<a href="#">[tabreceive~]</a> - read one block continuously from a table\</p>
+<h3 id="audio-filters">Audio Filters</h3>
+<p><a href="#">[vcf~]</a> - voltage controlled filter<br>
+<a href="#">[noise~]</a> - white noise generator<br>
+<a href="#">[env~]</a> - envelope follower<br>
+<a href="#">[hip~]</a> - high pass filter<br>
+<a href="#">[lop~]</a> - low pass filter<br>
+<a href="#">[slop~]</a> - slew-limiting (nonlinear) low pass filter<br>
+<a href="#">[bp~]</a> - band pass filter<br>
+<a href="#">[biquad~]</a> - raw filter<br>
+<a href="#">[samphold~]</a> - sample and hold unit<br>
+<a href="#">[print~]</a> - print out one or more &ldquo;blocks&rdquo;<br>
+<a href="#">[rpole~]</a> - raw real-valued one-pole filter<br>
+<a href="#">[rzero~]</a> - raw real-valued one-zero filter<br>
+<a href="#">[rzero_rev~]</a> - time-reversed<br>
+<a href="#">[cpole~]</a> - corresponding complex-valued filters<br>
+<a href="#">[czero~]</a><br>
+<a href="#">[czero_rev~]</a>\</p>
+<h3 id="audio-delay">Audio Delay</h3>
+<p><a href="#">[delwrite~]</a> - write to a delay line<br>
+<a href="#">[delread~]</a> - read from a delay line<br>
+<a href="#">[delread4~]</a> - read with a time-varying delay time<br>
+<a href="#">[vd~]</a>\</p>
+<h3 id="subwindows">Subwindows</h3>
+<p><a href="#">[pd]</a> - define a subwindow<br>
+<a href="#">[inlet]</a> - add an inlet to a pd<br>
+<a href="#">[outlet]</a> - add an outlet to a pd<br>
+<a href="#">[inlet~]</a> - signal versions<br>
+<a href="#">[outlet~]</a><br>
+<a href="#">[clone]</a> - multiple copies of a patch<br>
+<a href="#">[block~]</a> - specify block size and overlap, or, if invoked as &ldquo;switch&rdquo;, also switch subpatches on and off<br>
+<a href="#">[switch]</a>\</p>
+<h3 id="data-templates">Data Templates</h3>
+<p><a href="#">[struct]</a> - define a data structure<br>
+<a href="#">[drawcurve]</a> - draw a curve<br>
+<a href="#">[filledcurve]</a><br>
+<a href="#">[drawpolygon]</a> - draw a polygon<br>
+<a href="#">[filledpolygon]</a><br>
+<a href="#">[drawtext]</a> - draw text<br>
+<a href="#">[drawsymbol]</a><br>
+<a href="#">[plot]</a> - plot an array field<br>
+<a href="#">[drawnumber]</a> - print a numeric value\</p>
+<h3 id="accessing-data">Accessing Data</h3>
+<p><a href="#">[pointer]</a> - point to an object belonging to a template<br>
+<a href="#">[get]</a> - get numeric fields<br>
+<a href="#">[set]</a> - change numeric fields<br>
+<a href="#">[element]</a> - get an array element<br>
+<a href="#">[getsize]</a> - get the size of an array<br>
+<a href="#">[setsize]</a> - change the size of an array<br>
+<a href="#">[append]</a> - add an element to a list<br>
+<a href="#">[scalar]</a> - create a single scalar\</p>
+<h3 id="extra-patches-and-externs-in-pdextra">&ldquo;EXTRA&rdquo; (patches and externs in pd/extra)</h3>
+<p><a href="#">[sigmund~]</a> - pitch tracker<br>
+<a href="#">[bonk~]</a> - attack detector<br>
+<a href="#">[choice]</a> - best match of list to templates<br>
+<a href="#">[hilbert~]</a> - phase quadrature / frequency shifting<br>
+<a href="#">[complex-mod~]</a><br>
+<a href="#">[loop~]</a> - phasor~ with S/H on its frequency input<br>
+<a href="#">[lrshift~]</a> - left and right shift (useful with FFT objects)<br>
+<a href="#">[pd~]</a> - run another copy of Pd (for multiprocessing)<br>
+<a href="#">[stdout]</a><br>
+<a href="#">[rev1~]</a> - reverberators<br>
+<a href="#">[rev2~]</a><br>
+<a href="#">[rev3~]</a><br>
+<a href="#">[bob~]</a> - Moog resonant filter model\</p>
+<h3 id="obsolete">Obsolete</h3>
+<p><a href="#">[scope~]</a> (use tabwrite~ now)<br>
+<a href="#">[namecanvas]</a> (potentially dangerous but no substitute exists yet)<br>
+<a href="#">[template]</a> (use struct now)<br>
+<br>
+\</p>
+<blockquote>
+<p><a href="#">[quote]</a></p>
+</blockquote>
+
+
+</div>
+<script src="../pd.iem.sh-v0.1.js"></script>
+</body>
+</html>
