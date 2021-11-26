@@ -11,4 +11,6 @@ draft: false
 
 [Welcome to Pd](/welcome)
 
+[List of objects](/list-of-objects/)
+
 [Building on Windows](building-on-windows)

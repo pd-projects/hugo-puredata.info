@@ -1,4 +1,12 @@
-## Building On Windows With Msys2
+---
+title: "Building on Windows"
+
+draft: false
+---
+
+
+
+## Building on Windows with Msys2
 
 Download the 64-bit installer from:
 
