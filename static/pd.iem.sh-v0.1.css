@@ -285,7 +285,7 @@ color: var(--ccolor);
 }
 
 PRE { 
-   font-size: 80%;
+   /*font-size: 80%;*/
    background-color:var(--color);
    text-align:  left;
    border-radius: 8px;
@@ -308,6 +308,10 @@ tr:nth-child(even) {background-color: var(--background-color);}
 CODE { 
    background-color:var(--color);
    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+   font-size: 80%;
+   text-align:  left;
+   border-radius: 8px;
+   padding: 4px 8px;
 }
 
 ol {
