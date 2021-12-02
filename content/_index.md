@@ -1,5 +1,5 @@
 ---
-title: "Pure data"
+title: "Pure Data"
 
 draft: false
 ---
