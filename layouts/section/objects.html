@@ -5,6 +5,9 @@
   <div id="hero">
     <h1>{{.Title}}</h1>
   </div>
+  {{ with .Content }}
+  {{ . }}
+  {{ else }}
   <div id="components">
     <div class="row gutters">
       {{ range .Data.Pages.ByWeight }}
@@ -15,9 +18,9 @@
         {{ end }}
       </div>
       {{ end }}
-
     </div>
   </div>
+  {{ end }}
 </div>
 {{ end }}
 
