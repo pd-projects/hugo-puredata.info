@@ -1,5 +1,8 @@
 ---
 title: "[send]"
+description: "send a message to a named object"
+bref: "send a message to a named object"
+categories: ["object", "General"]
 
 draft: false
 ---

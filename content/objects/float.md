@@ -1,6 +1,8 @@
 ---
 title: "[float]"
-
+description: "store and recall a number"
+bref: "store and recall a number"
+categories: ["object", "General"]
 draft: false
 ---
 

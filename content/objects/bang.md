@@ -1,6 +1,8 @@
 ---
 title: "[bang]"
-
+description: "output a bang message"
+bref: "output a bang message"
+categories: ["object", "General"]
 draft: false
 ---
 

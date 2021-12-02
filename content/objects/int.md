@@ -1,6 +1,8 @@
 ---
 title: "[int]"
-
+description: "store and recall an integer"
+bref: "store and recall an integer"
+categories: ["object", "General"]
 draft: false
 ---
 
