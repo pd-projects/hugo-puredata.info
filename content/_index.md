@@ -11,7 +11,7 @@ draft: false
 
   - [**Get Pd**](http://puredata.info/downloads)
   - [**Welcome to Pd**](/welcome)
-  - [**List of objects**](/list-of-objects)
+  - [**List of objects**](/objects)
 
 ### People 
 
