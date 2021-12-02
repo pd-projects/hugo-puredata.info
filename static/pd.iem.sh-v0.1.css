@@ -198,19 +198,19 @@ IMG.dark-theme {
 
 
 a:link {
-	--color: #006699;
+	--color: #0e5eb9;
 }
 
 a.dark-theme:link {
-	--color: #0077b3;
+	--color: #0e5eb9;
 }
 
 a:visited {
-	--color: #006699;
+	--color: #0e5eb9;
 }
 
 a.dark-theme:visited {
-	--color: #0077b3;
+	--color: #0e5eb9;
 }
 
 
@@ -311,7 +311,7 @@ CODE {
    font-size: 80%;
    text-align:  left;
    border-radius: 8px;
-   padding: 4px 8px;
+   padding: 4px 8px;   
 }
 
 ol {
@@ -388,15 +388,19 @@ a.green:visited {
 
 /* button like a link */
 
+
+
 .btn-toggle-theme, .btn-toggle-font {
   background-color: transparent;
   border: none;
   color: #666666;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 12.7pt;
   cursor: pointer;
 }
+
+
 
 /* standard images */
 
