@@ -39,8 +39,3 @@ draft: false
 ### Arduino
 
   - [**pduino**](https://github.com/pd-externals/pduino)
-  
-  
-{{< footer >}}
-
-
