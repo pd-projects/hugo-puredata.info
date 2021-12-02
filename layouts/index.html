@@ -1,2 +1,4 @@
-{{ define "main" }}
-{{ end}}
+{{ define "title" }} {{ .Site.Title }}       {{ end }}
+{{ define "header"}} {{ partial "header" .}} {{ end }}
+{{ define "main"  }}                         {{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{ end }}
