@@ -3,7 +3,7 @@ title: "[sig~]"
 description: "convert numbers to audio signals"
 bref: "convert numbers to audio signals"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [sig~]

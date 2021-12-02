@@ -3,7 +3,7 @@ title: "[makenote]"
 description: "schedule delayed 'note off' message for a note-on"
 bref: "schedule delayed 'note off' message for a note-on"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 ---
 
 ### [makenote]

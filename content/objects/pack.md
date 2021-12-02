@@ -3,7 +3,7 @@ title: "[pack]"
 description: "make compound messages"
 bref: "make compound messages"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [pack]

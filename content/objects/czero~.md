@@ -3,7 +3,7 @@ title: "[czero~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [czero~]

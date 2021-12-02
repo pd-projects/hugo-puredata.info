@@ -3,7 +3,7 @@ title: "[stripnote]"
 description: "strip 'note off' messages"
 bref: "strip 'note off' messages"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 ---
 
 ### [stripnote]

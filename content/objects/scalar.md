@@ -3,7 +3,7 @@ title: "[scalar]"
 description: "create a single scalar"
 bref: "create a single scalar"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Accessing Data"]
 ---
 
 ### [scalar]

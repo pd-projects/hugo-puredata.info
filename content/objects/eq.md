@@ -3,7 +3,7 @@ title: "[==]"
 description: "relational tests"
 bref: "relational tests"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [==]

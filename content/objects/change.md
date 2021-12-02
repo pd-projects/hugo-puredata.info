@@ -3,7 +3,7 @@ title: "[change]"
 description: "remove repeated numbers from a stream"
 bref: "remove repeated numbers from a stream"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [change]

@@ -3,7 +3,7 @@ title: "[set]"
 description: "change numeric fields"
 bref: "change numeric fields"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Accessing Data"]
 ---
 
 ### [set]

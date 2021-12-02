@@ -3,7 +3,7 @@ title: "[max]"
 description: "greater or lesser of 2 numbers"
 bref: "greater or lesser of 2 numbers"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [max]

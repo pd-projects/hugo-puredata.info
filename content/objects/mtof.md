@@ -3,7 +3,7 @@ title: "[mtof]"
 description: "convert acoustical units"
 bref: "convert acoustical units"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [mtof]

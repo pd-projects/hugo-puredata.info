@@ -3,7 +3,7 @@ title: "[savepanel]"
 description: "'Save as' dialog"
 bref: "'Save as' dialog"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [savepanel]

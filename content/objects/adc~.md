@@ -3,7 +3,7 @@ title: "[adc~]"
 description: "audio input"
 bref: "audio input"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [adc~]

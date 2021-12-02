@@ -3,7 +3,7 @@ title: "[inlet~]"
 description: "signal versions"
 bref: "signal versions"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Subwindows"]
 ---
 
 ### [inlet~]

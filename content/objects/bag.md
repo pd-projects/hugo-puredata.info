@@ -3,7 +3,7 @@ title: "[bag]"
 description: "set of numbers"
 bref: "set of numbers"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [bag]

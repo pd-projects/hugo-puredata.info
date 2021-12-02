@@ -3,7 +3,7 @@ title: "[vcf~]"
 description: "voltage controlled filter"
 bref: "voltage controlled filter"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [vcf~]

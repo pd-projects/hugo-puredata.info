@@ -3,7 +3,7 @@ title: "[line~]"
 description: "generate audio ramps"
 bref: "generate audio ramps"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [line~]

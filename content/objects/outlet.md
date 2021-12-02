@@ -3,7 +3,7 @@ title: "[outlet]"
 description: "add an outlet to a pd"
 bref: "add an outlet to a pd"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Subwindows"]
 ---
 
 ### [outlet]

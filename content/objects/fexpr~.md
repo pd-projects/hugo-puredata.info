@@ -3,7 +3,7 @@ title: "[fexpr~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [fexpr~]

@@ -3,7 +3,7 @@ title: "[tabreceive~]"
 description: "read one block continuously from a table"
 bref: "read one block continuously from a table"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Oscillators And Tables"]
 ---
 
 ### [tabreceive~]

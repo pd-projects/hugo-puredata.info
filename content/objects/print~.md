@@ -3,7 +3,7 @@ title: "[print~]"
 description: "print out one or more 'blocks'"
 bref: "print out one or more 'blocks'"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [print~]

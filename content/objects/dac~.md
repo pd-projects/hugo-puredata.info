@@ -3,7 +3,7 @@ title: "[dac~]"
 description: "audio output"
 bref: "audio output"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [dac~]

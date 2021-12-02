@@ -3,7 +3,7 @@ title: "[catch~]"
 description: "define and read a summing bus"
 bref: "define and read a summing bus"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [catch~]

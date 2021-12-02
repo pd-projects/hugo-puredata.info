@@ -3,7 +3,7 @@ title: "[hilbert~]"
 description: "phase quadrature / frequency shifting"
 bref: "phase quadrature / frequency shifting"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
 ---
 
 ### [hilbert~]

@@ -3,7 +3,7 @@ title: "[rzero_rev~]"
 description: "time-reversed"
 bref: "time-reversed"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [rzero_rev~]

@@ -3,7 +3,7 @@ title: "[sin]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [sin]

@@ -3,7 +3,7 @@ title: "[key]"
 description: "numeric key values from keyboard"
 bref: "numeric key values from keyboard"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [key]

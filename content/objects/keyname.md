@@ -3,7 +3,7 @@ title: "[keyname]"
 description: "symbolic key name"
 bref: "symbolic key name"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [keyname]

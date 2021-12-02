@@ -3,7 +3,7 @@ title: "[vd~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Delay"]
 ---
 
 ### [vd~]

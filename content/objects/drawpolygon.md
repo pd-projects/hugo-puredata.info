@@ -3,7 +3,7 @@ title: "[drawpolygon]"
 description: "draw a polygon"
 bref: "draw a polygon"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Data Templates"]
 ---
 
 ### [drawpolygon]

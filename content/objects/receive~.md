@@ -3,7 +3,7 @@ title: "[receive~]"
 description: "get signal from send~"
 bref: "get signal from send~"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [receive~]

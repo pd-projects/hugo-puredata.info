@@ -3,7 +3,7 @@ title: "[drawsymbol]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Data Templates"]
 ---
 
 ### [drawsymbol]

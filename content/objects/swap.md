@@ -3,7 +3,7 @@ title: "[swap]"
 description: "swap two numbers"
 bref: "swap two numbers"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [swap]

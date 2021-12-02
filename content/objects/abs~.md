@@ -3,7 +3,7 @@ title: "[abs~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [abs~]

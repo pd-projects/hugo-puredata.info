@@ -3,7 +3,7 @@ title: "[env~]"
 description: "envelope follower"
 bref: "envelope follower"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [env~]

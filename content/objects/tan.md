@@ -3,7 +3,7 @@ title: "[tan]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [tan]

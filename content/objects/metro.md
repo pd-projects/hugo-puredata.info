@@ -3,7 +3,7 @@ title: "[metro]"
 description: "send a message periodically"
 bref: "send a message periodically"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Time"]
 ---
 
 ### [metro]

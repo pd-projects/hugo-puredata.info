@@ -3,7 +3,7 @@ title: "[textfile]"
 description: "file to message converter"
 bref: "file to message converter"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [textfile]

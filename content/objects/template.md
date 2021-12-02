@@ -3,7 +3,7 @@ title: "[template]"
 description: "(use struct now)"
 bref: "(use struct now)"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Obsolete"]
 ---
 
 ### [template]

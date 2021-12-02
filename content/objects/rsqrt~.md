@@ -3,7 +3,7 @@ title: "[rsqrt~]"
 description: "reciprocal square root"
 bref: "reciprocal square root"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [rsqrt~]

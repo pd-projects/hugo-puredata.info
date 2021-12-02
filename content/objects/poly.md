@@ -3,7 +3,7 @@ title: "[poly]"
 description: "polyphonic voice allocation"
 bref: "polyphonic voice allocation"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [poly]

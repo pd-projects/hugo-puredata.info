@@ -3,7 +3,7 @@ title: "[pipe]"
 description: "dynamically growable delay line for numbers"
 bref: "dynamically growable delay line for numbers"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Time"]
 ---
 
 ### [pipe]

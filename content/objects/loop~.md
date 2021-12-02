@@ -3,7 +3,7 @@ title: "[loop~]"
 description: "phasor~ with S/H on its frequency input"
 bref: "phasor~ with S/H on its frequency input"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
 ---
 
 ### [loop~]

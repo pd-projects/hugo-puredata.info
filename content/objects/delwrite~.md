@@ -3,7 +3,7 @@ title: "[delwrite~]"
 description: "write to a delay line"
 bref: "write to a delay line"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Delay"]
 ---
 
 ### [delwrite~]

@@ -3,7 +3,7 @@ title: "[delread4~]"
 description: "read with a time-varying delay time"
 bref: "read with a time-varying delay time"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Delay"]
 ---
 
 ### [delread4~]

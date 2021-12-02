@@ -3,7 +3,7 @@ title: "[route]"
 description: "route messages according to first element"
 bref: "route messages according to first element"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [route]

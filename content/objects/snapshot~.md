@@ -3,7 +3,7 @@ title: "[snapshot~]"
 description: "sample a signal (convert it back to a number)"
 bref: "sample a signal (convert it back to a number)"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [snapshot~]

@@ -3,7 +3,7 @@ title: "[noise~]"
 description: "white noise generator"
 bref: "white noise generator"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [noise~]

@@ -3,7 +3,7 @@ title: "[rev1~]"
 description: "reverberators"
 bref: "reverberators"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
 ---
 
 ### [rev1~]

@@ -3,7 +3,7 @@ title: "[plot]"
 description: "plot an array field"
 bref: "plot an array field"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Data Templates"]
 ---
 
 ### [plot]

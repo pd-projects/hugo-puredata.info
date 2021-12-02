@@ -3,7 +3,7 @@ title: "[drawcurve]"
 description: "draw a curve"
 bref: "draw a curve"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Data Templates"]
 ---
 
 ### [drawcurve]

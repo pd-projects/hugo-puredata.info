@@ -3,7 +3,7 @@ title: "[pow]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [pow]

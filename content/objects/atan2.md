@@ -3,7 +3,7 @@ title: "[atan2]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [atan2]

@@ -3,7 +3,7 @@ title: "[receive]"
 description: "catch 'sent' messages"
 bref: "catch 'sent' messages"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [receive]

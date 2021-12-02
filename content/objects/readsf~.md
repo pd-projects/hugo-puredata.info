@@ -3,7 +3,7 @@ title: "[readsf~]"
 description: "soundfile playback from disk"
 bref: "soundfile playback from disk"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [readsf~]

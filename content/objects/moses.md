@@ -3,7 +3,7 @@ title: "[moses]"
 description: "part a numeric stream"
 bref: "part a numeric stream"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [moses]

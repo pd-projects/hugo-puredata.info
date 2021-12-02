@@ -3,7 +3,7 @@ title: "[trigger]"
 description: "sequence and convert messages"
 bref: "sequence and convert messages"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [trigger]

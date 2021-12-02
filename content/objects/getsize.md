@@ -3,7 +3,7 @@ title: "[getsize]"
 description: "get the size of an array"
 bref: "get the size of an array"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Accessing Data"]
 ---
 
 ### [getsize]

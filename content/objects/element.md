@@ -3,7 +3,7 @@ title: "[element]"
 description: "get an array element"
 bref: "get an array element"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Accessing Data"]
 ---
 
 ### [element]

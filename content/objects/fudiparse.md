@@ -3,7 +3,7 @@ title: "[fudiparse]"
 description: "FUDI messages to and from Pd lists"
 bref: "FUDI messages to and from Pd lists"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 ---
 
 ### [fudiparse]

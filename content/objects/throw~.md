@@ -3,7 +3,7 @@ title: "[throw~]"
 description: "add to a summing bus"
 bref: "add to a summing bus"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [throw~]

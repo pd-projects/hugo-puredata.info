@@ -3,7 +3,7 @@ title: "[drawnumber]"
 description: "print a numeric value"
 bref: "print a numeric value"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Data Templates"]
 ---
 
 ### [drawnumber]

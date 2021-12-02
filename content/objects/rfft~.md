@@ -3,7 +3,7 @@ title: "[rfft~]"
 description: "real forward discrete Fourier transform"
 bref: "real forward discrete Fourier transform"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [rfft~]

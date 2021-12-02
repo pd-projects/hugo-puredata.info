@@ -3,7 +3,7 @@ title: "[tabread]"
 description: "read a number from a table"
 bref: "read a number from a table"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Arrays Arrays Arrays GENERAL Tables Tables Tables"]
 ---
 
 ### [tabread]

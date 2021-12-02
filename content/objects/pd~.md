@@ -3,7 +3,7 @@ title: "[pd~]"
 description: "run another copy of Pd (for multiprocessing)"
 bref: "run another copy of Pd (for multiprocessing)"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
 ---
 
 ### [pd~]

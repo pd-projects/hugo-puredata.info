@@ -3,7 +3,7 @@ title: "[get]"
 description: "get numeric fields"
 bref: "get numeric fields"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Accessing Data"]
 ---
 
 ### [get]

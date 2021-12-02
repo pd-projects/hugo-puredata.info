@@ -3,7 +3,7 @@ title: "[fft~]"
 description: "complex forward discrete Fourier transform"
 bref: "complex forward discrete Fourier transform"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [fft~]

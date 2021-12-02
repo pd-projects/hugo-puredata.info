@@ -3,7 +3,7 @@ title: "[slop~]"
 description: "slew-limiting (nonlinear) low pass filter"
 bref: "slew-limiting (nonlinear) low pass filter"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [slop~]

@@ -3,7 +3,7 @@ title: "[filledpolygon]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Data Templates"]
 ---
 
 ### [filledpolygon]

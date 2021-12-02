@@ -3,7 +3,7 @@ title: "[table]"
 description: "create a named table"
 bref: "create a named table"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Arrays Arrays Arrays GENERAL Tables Tables Tables"]
 ---
 
 ### [table]

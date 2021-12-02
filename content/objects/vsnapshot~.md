@@ -3,7 +3,7 @@ title: "[vsnapshot~]"
 description: "deluxe snapshot~"
 bref: "deluxe snapshot~"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [vsnapshot~]

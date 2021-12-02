@@ -3,7 +3,7 @@ title: "[mtof~]"
 description: "acoustic conversions"
 bref: "acoustic conversions"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [mtof~]

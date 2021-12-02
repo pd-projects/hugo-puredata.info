@@ -3,7 +3,7 @@ title: "[tabwrite~]"
 description: "write to a table"
 bref: "write to a table"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Oscillators And Tables"]
 ---
 
 ### [tabwrite~]

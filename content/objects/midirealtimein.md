@@ -3,7 +3,7 @@ title: "[midirealtimein]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 ---
 
 ### [midirealtimein]

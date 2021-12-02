@@ -3,7 +3,7 @@ title: "[cputime]"
 description: "measure CPU time"
 bref: "measure CPU time"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Time"]
 ---
 
 ### [cputime]

@@ -3,7 +3,7 @@ title: "[phasor~]"
 description: "sawtooth oscillator"
 bref: "sawtooth oscillator"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Oscillators And Tables"]
 ---
 
 ### [phasor~]

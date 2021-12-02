@@ -3,7 +3,7 @@ title: "[append]"
 description: "add an element to a list"
 bref: "add an element to a list"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Accessing Data"]
 ---
 
 ### [append]

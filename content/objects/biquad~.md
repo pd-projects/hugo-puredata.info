@@ -3,7 +3,7 @@ title: "[biquad~]"
 description: "raw filter"
 bref: "raw filter"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [biquad~]

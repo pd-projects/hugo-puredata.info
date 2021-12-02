@@ -3,7 +3,7 @@ title: "[loadbang]"
 description: "bang on load"
 bref: "bang on load"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [loadbang]

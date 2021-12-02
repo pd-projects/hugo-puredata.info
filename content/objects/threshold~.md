@@ -3,7 +3,7 @@ title: "[threshold~]"
 description: "detect signal thresholds"
 bref: "detect signal thresholds"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General Audio Manipulation"]
 ---
 
 ### [threshold~]

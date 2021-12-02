@@ -3,7 +3,7 @@ title: "[list]"
 description: "manipulate lists"
 bref: "manipulate lists"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [list]

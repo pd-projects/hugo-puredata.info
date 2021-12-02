@@ -3,7 +3,7 @@ title: "[hip~]"
 description: "high pass filter"
 bref: "high pass filter"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Filters"]
 ---
 
 ### [hip~]

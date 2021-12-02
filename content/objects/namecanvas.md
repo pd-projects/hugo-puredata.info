@@ -3,7 +3,7 @@ title: "[namecanvas]"
 description: "(potentially dangerous but no substitute exists yet)"
 bref: "(potentially dangerous but no substitute exists yet)"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Obsolete"]
 ---
 
 ### [namecanvas]

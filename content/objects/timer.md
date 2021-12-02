@@ -3,7 +3,7 @@ title: "[timer]"
 description: "measure time intervals"
 bref: "measure time intervals"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Time"]
 ---
 
 ### [timer]

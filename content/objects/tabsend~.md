@@ -3,7 +3,7 @@ title: "[tabsend~]"
 description: "write one block continuously to a table"
 bref: "write one block continuously to a table"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Oscillators And Tables"]
 ---
 
 ### [tabsend~]

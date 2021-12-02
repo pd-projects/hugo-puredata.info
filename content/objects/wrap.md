@@ -3,7 +3,7 @@ title: "[wrap]"
 description: "wrap a number to range [[0, 1)"
 bref: "wrap a number to range [[0, 1)"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [wrap]

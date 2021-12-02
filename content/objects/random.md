@@ -3,7 +3,7 @@ title: "[random]"
 description: "lower math"
 bref: "lower math"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [random]

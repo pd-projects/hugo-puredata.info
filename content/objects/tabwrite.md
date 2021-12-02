@@ -3,7 +3,7 @@ title: "[tabwrite]"
 description: "write a number to a table"
 bref: "write a number to a table"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Arrays Arrays Arrays GENERAL Tables Tables Tables"]
 ---
 
 ### [tabwrite]

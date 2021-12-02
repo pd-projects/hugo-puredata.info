@@ -3,7 +3,7 @@ title: "[mod]"
 description: "higher math"
 bref: "higher math"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [mod]

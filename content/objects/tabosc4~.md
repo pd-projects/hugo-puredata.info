@@ -3,7 +3,7 @@ title: "[tabosc4~]"
 description: "wavetable oscillator"
 bref: "wavetable oscillator"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Oscillators And Tables"]
 ---
 
 ### [tabosc4~]

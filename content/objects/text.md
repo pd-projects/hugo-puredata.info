@@ -3,7 +3,7 @@ title: "[text]"
 description: "general text handling"
 bref: "general text handling"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [text]

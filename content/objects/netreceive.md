@@ -3,7 +3,7 @@ title: "[netreceive]"
 description: "receive them"
 bref: "receive them"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [netreceive]

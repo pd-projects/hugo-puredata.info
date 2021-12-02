@@ -3,7 +3,7 @@ title: "[expr~]"
 description: "C-style expressions"
 bref: "C-style expressions"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [expr~]

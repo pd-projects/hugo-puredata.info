@@ -3,7 +3,7 @@ title: "[delay]"
 description: "send a message after a time delay"
 bref: "send a message after a time delay"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Time"]
 ---
 
 ### [delay]

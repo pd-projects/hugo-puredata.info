@@ -3,7 +3,7 @@ title: "[until]"
 description: "looping mechanism"
 bref: "looping mechanism"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [until]

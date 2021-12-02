@@ -3,7 +3,7 @@ title: "[outlet~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Subwindows"]
 ---
 
 ### [outlet~]

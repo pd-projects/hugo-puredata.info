@@ -3,7 +3,7 @@ title: "[spigot]"
 description: "interruptible message connection"
 bref: "interruptible message connection"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [spigot]

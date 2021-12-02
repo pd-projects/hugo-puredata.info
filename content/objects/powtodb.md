@@ -3,7 +3,7 @@ title: "[powtodb]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [powtodb]

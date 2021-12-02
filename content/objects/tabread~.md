@@ -3,7 +3,7 @@ title: "[tabread~]"
 description: "non-interpolating table read"
 bref: "non-interpolating table read"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Oscillators And Tables"]
 ---
 
 ### [tabread~]

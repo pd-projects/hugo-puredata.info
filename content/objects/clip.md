@@ -3,7 +3,7 @@ title: "[clip]"
 description: "force a number into a range"
 bref: "force a number into a range"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Math"]
 ---
 
 ### [clip]

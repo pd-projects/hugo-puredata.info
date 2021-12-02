@@ -3,7 +3,7 @@ title: "[print]"
 description: "print out messages"
 bref: "print out messages"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [print]

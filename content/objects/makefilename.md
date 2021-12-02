@@ -3,7 +3,7 @@ title: "[makefilename]"
 description: "format a symbol with a variable field"
 bref: "format a symbol with a variable field"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "General"]
 ---
 
 ### [makefilename]

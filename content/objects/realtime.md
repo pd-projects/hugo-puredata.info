@@ -3,7 +3,7 @@ title: "[realtime]"
 description: "measure real time"
 bref: "measure real time"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Time"]
 ---
 
 ### [realtime]

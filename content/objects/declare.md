@@ -3,7 +3,7 @@ title: "[declare]"
 description: "set search path and/or load libraries"
 bref: "set search path and/or load libraries"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Misc"]
 ---
 
 ### [declare]

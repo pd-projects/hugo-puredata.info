@@ -3,7 +3,7 @@ title: "[q8_sqrt~]"
 description: "fast, cheap 8 bits versions"
 bref: "fast, cheap 8 bits versions"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [q8_sqrt~]

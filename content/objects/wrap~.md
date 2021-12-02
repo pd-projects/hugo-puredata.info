@@ -3,7 +3,7 @@ title: "[wrap~]"
 description: "wraparound (fractional part)"
 bref: "wraparound (fractional part)"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Math"]
 ---
 
 ### [wrap~]

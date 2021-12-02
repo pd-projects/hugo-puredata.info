@@ -3,7 +3,7 @@ title: "[cos~]"
 description: "cosine"
 bref: "cosine"
 draft: false
-categories: ["object", "GENERAL"]
+categories: ["object", "Audio Oscillators And Tables"]
 ---
 
 ### [cos~]
