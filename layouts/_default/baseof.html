@@ -1,27 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ .Page.Title }}</title>	 
-<meta http-equiv="Content-Type" content="text/html">
-<link rel="stylesheet" type="text/css" href="{{ "css/pd-v0.1.css" | absURL }}" media="screen">
-<link rel="icon" type="image/png" href="{{ "favicon.ico" | absURL }}">  
-</head>
-<body>
-<div class="butt">
-</div>
-<div id=corpus>
- <a href="{{ .Site.BaseURL }}"><b>home</b></a> | <a href="../"><b>up</b> </a> <span style="float:right;"> <button class="btn-toggle-theme">&#9680;</button> </span>
-
-<hr style="margin: 1px 0px;"> 
-
-<p style="margin: 0px;"><small><sub>{{.File.Path}}</sub></small></p>
-
-
-{{ block "main" . }}{{ .Content }}{{ end}}
-
-</div>
-<script src="{{ "js/pd-v0.1.js" | absURL }}"></script>
-</body>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta http-equiv="Content-Type" content="text/html">
+    <link rel="stylesheet" type="text/css" href="{{ "css/pd-v0.1.css" | absURL }}" media="screen">
+    <link rel="icon" type="image/png" href="{{ "favicon.ico" | absURL }}">
+  </head>
+  <body>
+    <div id=corpus>
+      <header>{{ block "header" . }}{{ end }}</header>
+      <main>{{ block "main" . }}{{ .Content }}{{ end}}</main>
+      <footer>{{ block "footer" . }}{{ end }}</footer>
+    </div>
+    <script src="{{ "js/pd-v0.1.js" | absURL }}"></script>
+  </body>
 </html>
