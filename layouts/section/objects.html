@@ -1,27 +1,4 @@
-{{ define "title"}} {{ .Title}} {{end}}
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
 {{ define "header"}} {{ partial "header" .}} {{end}}
-{{ define "main"}}
-<div id="main">
-  <div id="hero">
-    <h1>{{.Title}}</h1>
-  </div>
-  {{ with .Content }}
-  {{ . }}
-  {{ else }}
-  <div id="components">
-    <div class="row gutters">
-      {{ range .Data.Pages.ByWeight }}
-      <div class="col col-4 item">
-        <a href="{{ .Permalink }}"><tt>{{ .Title }}</tt></a>
-        {{ with .Params.description }}
-        - {{ . }}
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-  {{ end }}
-</div>
-{{ end }}
-
+{{ define "main"}}{{ .Content }}{{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}

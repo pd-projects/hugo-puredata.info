@@ -2,8 +2,9 @@
 <html lang="{{ .Site.LanguageCode }}">
   <head>
     <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <title>{{ block "title" . }}{{ end }}</title>
     <meta http-equiv="Content-Type" content="text/html">
     <link rel="stylesheet" type="text/css" href="{{ "css/pd-v0.1.css" | absURL }}" media="screen">
     <link rel="icon" type="image/png" href="{{ "favicon.ico" | absURL }}">
@@ -17,3 +18,4 @@
     <script src="{{ "js/pd-v0.1.js" | absURL }}"></script>
   </body>
 </html>
+
