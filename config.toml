@@ -1,5 +1,5 @@
 baseURL = '/'
-languageCode = 'en-us'
+# languageCode = 'en-us'
 title = 'Pure Data'
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
