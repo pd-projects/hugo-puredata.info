@@ -247,6 +247,11 @@ btntheme.addEventListener("click", function () {
 });
 
 
+function xi18n () {	
+  document.getElementById("xi18n").style.display = "inline";
+    
+}
+
 
 /*
 btnfont.addEventListener("click", function () {

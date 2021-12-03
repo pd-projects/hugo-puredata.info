@@ -1,11 +1,11 @@
-<a href="{{ .Site.BaseURL }}"><b>home</b></a> | <a href="../"><b>up</b> </a> <span style="float:right;"> <button class="btn-toggle-theme">&#9680;</button> </span>
+<a href="{{ .Site.BaseURL }}"><b>home</b></a> | <a href="../"><b>up</b> </a> <span style="float:right;"> <a href="#" onClick="xi18n()"><small><b>i18n</b></small></a> | <button class="btn-toggle-theme">&#9680;</button> </span>
 <hr style="margin: 1px 0px;">
 <p style="margin: 0px;"><small><sub>{{.File.Path}}
-<span style="float:right;">
+<span id="xi18n" style="float:right;">
 {{ if .IsTranslated }}
 	
 	{{ range .Translations }}
-		<a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+		<a id="x-i18n" style="diplay: inline;"href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
 	{{ end}}
 	
 {{ end }} </span> </sub></small></p>

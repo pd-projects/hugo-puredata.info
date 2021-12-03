@@ -441,6 +441,10 @@ footer {
     font-size: smaller;
 }
 
+#xi18n {
+  display:none;
+}
+
 
 /* responsive css for small "devices" */
 
