@@ -3,9 +3,7 @@
 <p style="margin: 0px;"><small><sub>{{.File.Path}}
 <span id="xi18n" style="float:right;">
 {{ if .IsTranslated }}
-	
 	{{ range .Translations }}
-		<a id="x-i18n" style="diplay: inline;"href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+		<a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
 	{{ end}}
-	
 {{ end }} </span> </sub></small></p>
