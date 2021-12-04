@@ -1,29 +1,27 @@
 baseURL = '/'
-# languageCode = 'en-us'
 title = 'Pure Data'
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
-relativeURLs = 'true'
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = 'false'
+
 
 [languages]
   [languages.en]
     contentDir = 'content/english'
-	baseURL = 'pd.iem.sh/'
     languageName = 'English'
     weight = 10
   [languages.es]
     contentDir = 'content/spanish'
-	baseURL = 'es.pd.iem.sh/'
     languageName = 'Español'
     weight = 20
   [languages.fr]
     contentDir = 'content/french'
-	baseURL = 'fr.pd.iem.sh/'
     languageName = 'Français'
     weight = 30
   [languages.de]
     contentDir = 'content/german'
-	baseURL = 'de.pd.iem.sh/'
     languageName = 'Deutsch'
-    weight = 30
+    weight = 40

@@ -10,8 +10,8 @@ draft: false
 ### General
 
   - [**Get Pd**](http://puredata.info/downloads)
-  - [**Welcome to Pd**](/welcome)
-  - [**List of objects**](/objects)
+  - [**Welcome to Pd**](welcome)
+  - [**List of objects**](objects)
 
 ### People 
 
