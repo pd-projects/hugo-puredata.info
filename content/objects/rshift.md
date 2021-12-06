@@ -6,7 +6,7 @@ draft: false
 categories: ["object", "Math"]
 ---
 
-### [>>]
+### [&gt;&gt;]
 
 Does something.
 

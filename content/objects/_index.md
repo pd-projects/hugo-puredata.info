@@ -64,8 +64,8 @@ boxes but come straight off the "add" menu.)
 [[|]]( # )\
 [[||]]( # )\
 [[%]]( # )\
-[[<<]]( # )\
-[[>>]]( # )\
+[[&lt;&lt;]]( # )\
+[[&gt;&gt;]]( # )\
 [[mtof]]( # ) - convert acoustical units\
 [[ftom]]( # )\
 [[powtodb]]( # )\
