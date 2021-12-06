@@ -201,16 +201,16 @@ a:link {
 	--color: #0e5eb9;
 }
 
-a.dark-theme:link {
-	--color: #0e5eb9;
-}
-
 a:visited {
 	--color: #0e5eb9;
 }
 
+a.dark-theme:link {
+	--color: #e68a00;
+}
+
 a.dark-theme:visited {
-	--color: #0e5eb9;
+	--color:#e68a00;
 }
 
 
