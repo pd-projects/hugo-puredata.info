@@ -343,6 +343,7 @@ ul {
 a:link {
     text-decoration: none;
 	color: var(--color);
+	font-weight: bold;
 }
 
 a:visited {
