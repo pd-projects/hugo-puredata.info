@@ -17,9 +17,7 @@ the central resource for Pd, from documentation and downloads;
 to forums, member pages, and a patch exchange. A link to it
 is also available in the Help Menu.
 
-You can read the Pd Manual for more details on running and configuring
-Pd [http://msp.ucsd.edu/Pd_documentation/index.htm](https://msp.puredata.info/Pd_documentation/index.htm),
-this is also available in the Help/Manual menu.
+You can read the [Pd Manual](https://msp.puredata.info/Pd_documentation/index.htm) for more details on running and configuring Pd, this is also available in the **Help/Manual** menu.
 
 **Help/Browser** will give you access to documentation resources
 under the 'Pure Data' tab. You'll also find the manual there as
