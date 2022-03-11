@@ -16,7 +16,7 @@ Follow installation instructions on: https://www.msys2.org/wiki/MSYS2-installati
 
 Add with pacman these packages:
 
-`pacman -S make pkg-config autoconf automake libtool`
+`pacman -S make autoconf automake libtool`
 
 Then the 32-bit compiler:
 
