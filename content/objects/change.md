@@ -8,15 +8,26 @@ categories: ["object", "General"]
 
 ### [change]
 
-remove repeated numbers from a stream
+Remove repeated numbers from a stream
 
-### Inlets & Outlets
+The change object outputs its input only when it changes. You can "set" the current value,  or bang to force output.
 
-inlet 0
+INLET:
 
- - dummy
+- float - input value (repeated numbers are filtered).
 
-outlet 0
+- bang - output current value.
 
- - dummy
+- set &lt;float&gt; - set the value.
+
+OUTLET:
+
+- float - unrepeated value.
+
+ARGUMENTS:
+
+- float - initial value (default 0).
+
+
  
+> updated for Pd version 0.27

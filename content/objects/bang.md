@@ -8,15 +8,19 @@ draft: false
 
 ### [bang]
 
-Outputs a "bang" message for whatever message it receives.
+The [bang] object outputs a "bang" message for whatever message it receives.
 
-inlet 0
+INLET:
 
- - anything
+- anything - any message outputs a bang
 
-outlet 0
+OUTLET:
 
- - bang
+- bang - a bang message
+
+ARGUMENT:
+
+- NONE.
  
 > updated for Pd version 0.27
  

@@ -1,22 +1,34 @@
 ---
 title: "[spigot]"
-description: "interruptible message connection"
-bref: "interruptible message connection"
+description: "pass or block messages"
+bref: "pass or block messages"
 draft: false
 categories: ["object", "General"]
 ---
 
 ### [spigot]
 
-interruptible message connection
+Pass or block messages.
 
-### Inlets & Outlets
+Spigot passes messages from its left inlet to its outlet,  as long as a nonzero number is sent to its right inlet. When its right inlet gets zero,  incoming messages are "blocked" i.e.,  ignored.
 
-inlet 0
+INLET:
 
- - dummy
+- 1st:
 
-outlet 0
+  - anything - any message to pass or not.
 
- - dummy
+- 2nd:
+
+  - float - nonzero to pass messages,  zero to stop them.
+
+OUTLET:
+
+- anything - any input message if spigot is openned.
+
+ARGUMENT:
+
+- float - initialize right inlet.
+
  
+> updated for Pd version 0.38

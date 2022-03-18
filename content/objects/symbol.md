@@ -10,25 +10,33 @@ draft: false
 
 Store a symbol (i.e., string)
 
-The symbol object stores a symbol, Pd's data type for handling fixed 
-strings (often filenames or the names of other objects in pd).
+The symbol object stores a symbol,  Pd's data type for handling fixed strings (often filenames,  array names,  send/receive names or the names of other objects in pd).
 
-note: unlike "float", etc., there's no "s" message to forward to 
-another object -- that would conflict with the function of converting 
-arbitrary messages to symbols.
+NOTE: unlike "float",  etc.,  there's no "send" message to forward to another object -- that would conflict with the function of converting arbitrary messages to symbols.
 
-inlet 0
+INLETS:
 
- - bang: outputs the value
- - `symbol` set and output the value
- - any other message is 'converted'
+- 1st:
 
-inlet 1
+  - bang - output the stored symbol.
 
- - symbol: set the value
+  - symbol - stores the symbol received and outputs it.
 
-outlet 0
+  - anything - converts to symbol,  stores it and outputs it.
 
- - symbol
+- 2nd:
+
+  - symbol - stores the symbol (no output).
+
+OUTLET:
+
+- symbol - the stored symbol.
+
+ARGUMENT:
+
+- symbol - initially stored symbol (default: empty symbol).
+
+
+> see also [[print]](../print) [[int]](../int) [[float]](../float) 
  
 > updated for Pd version 0.45

@@ -18,22 +18,23 @@ boxes but come straight off the "add" menu.)
 [[float]](float) - store and recall a number\
 [[symbol]](symbol) - store and recall a symbol\
 [[int]](int) - store and recall an integer\
-[[send]](send) - send a message to a named object\
-[[receive]]( # ) - catch "sent" messages\
-[[select]]( # ) - test for matching numbers or symbols\
-[[route]]( # ) - route messages according to first element\
-[[pack]]( # ) - make compound messages\
-[[unpack]]( # ) - get elements of compound messages\
-[[trigger]]( # ) - sequence and convert messages\
-[[spigot]]( # ) - interruptible message connection\
-[[moses]]( # ) - part a numeric stream\
-[[until]]( # ) - looping mechanism\
-[[print]]( # ) - print out messages\
-[[makefilename]]( # ) - format a symbol with a variable field\
-[[change]]( # ) - remove repeated numbers from a stream\
-[[swap]]( # ) - swap two numbers\
-[[value]]( # ) - shared numeric value\
-[[list]]( # ) - manipulate lists\
+[[send]](send-receive) - send a message to a named object\
+[[receive]](send-receive#receive) - catch "sent" messages\
+[[select]](select) - test for matching numbers or symbols\
+[[route]](route) - route messages according to first element\
+[[pack]](pack) - make compound messages\
+[[unpack]](unpack) - get elements of compound messages\
+[[trigger]](trigger) - sequence and convert messages\
+[[spigot]](spigot) - interruptible message connection\
+[[moses]](moses) - part a numeric stream\
+[[until]](until) - looping mechanism\
+[[print]](print) - print out messages\
+[[trace]](trace) - message tracing for debugging\
+[[makefilename]](makefilename) - format a symbol with a variable field\
+[[change]](change) - remove repeated numbers from a stream\
+[[swap]](swap) - swap two numbers\
+[[value]](value) - shared numeric value\
+[[list]](list) - manipulate lists
 
 ### Time 
 
@@ -43,7 +44,7 @@ boxes but come straight off the "add" menu.)
 [[timer]]( # ) - measure time intervals\
 [[cputime]]( # ) - measure CPU time\
 [[realtime]]( # ) - measure real time\
-[[pipe]]( # ) - dynamically growable delay line for numbers\
+[[pipe]]( # ) - dynamically growable delay line for numbers
 
 ### Math 
 
@@ -87,7 +88,7 @@ boxes but come straight off the "add" menu.)
 [[max]]( # ) - greater or lesser of 2 numbers\
 [[min]]( # )\
 [[clip]]( # ) - force a number into a range\
-[[wrap]]( # ) - wrap a number to range [[0, 1)\
+[[wrap]]( # ) - wrap a number to range [[0, 1)
 
 ### I/O via MIDI, OSC, and FUDI 
 
@@ -112,7 +113,7 @@ boxes but come straight off the "add" menu.)
 [[oscparse]]( # ) - OSC messages to and from Pd lists\
 [[oscformat]]( # )\
 [[fudiparse]]( # ) - FUDI messages to and from Pd lists\
-[[fudiformat]]( # )\
+[[fudiformat]]( # )
 
 ### Arrays & Tables 
 
@@ -121,7 +122,7 @@ boxes but come straight off the "add" menu.)
 [[tabwrite]]( # ) - write a number to a table\
 [[soundfiler]]( # ) - read and write tables to soundfiles\
 [[table]]( # ) - create a named table\
-[[array]]( # ) - general array creation and manipulation\
+[[array]]( # ) - general array creation and manipulation
 
 ### Misc 
 
@@ -134,13 +135,14 @@ boxes but come straight off the "add" menu.)
 [[qlist]]( # ) - message sequencer\
 [[textfile]]( # ) - file to message converter\
 [[text]]( # ) - general text handling\
+[[file]]( # ) - low-level file operations\
 [[openpanel]]( # ) - "Open" dialog\
 [[savepanel]]( # ) - "Save as" dialog\
 [[bag]]( # ) - set of numbers\
 [[poly]]( # ) - polyphonic voice allocation\
 [[key]]( # ) - numeric key values from keyboard\
 [[keyup]]( # )\
-[[keyname]]( # ) - symbolic key name\
+[[keyname]]( # ) - symbolic key name
 
 ### Audio Math 
 
@@ -170,7 +172,7 @@ boxes but come straight off the "add" menu.)
 [[mtof~]]( # ) - acoustic conversions\
 [[ftom~]]( # )\
 [[rmstodb~]]( # )\
-[[dbtorms~]]( # )\
+[[dbtorms~]]( # )
 
 ### General Audio Manipulation 
 
@@ -190,9 +192,11 @@ boxes but come straight off the "add" menu.)
 [[catch~]]( # ) - define and read a summing bus\
 [[readsf~]]( # ) - soundfile playback from disk\
 [[writesf~]]( # ) - record sound to disk\
+[[print~]]( # ) - print out one or more "blocks"
 
 ### Audio Oscillators And Tables 
 
+[[noise~]]( # ) - white noise generator\
 [[phasor~]]( # ) - sawtooth oscillator\
 [[cos~]]( # ) - cosine\
 [[osc~]]( # ) - cosine oscillator\
@@ -202,12 +206,11 @@ boxes but come straight off the "add" menu.)
 [[tabread4~]]( # ) - four-point interpolating table read\
 [[tabosc4~]]( # ) - wavetable oscillator\
 [[tabsend~]]( # ) - write one block continuously to a table\
-[[tabreceive~]]( # ) - read one block continuously from a table\
+[[tabreceive~]]( # ) - read one block continuously from a table
 
 ### Audio Filters 
 
 [[vcf~]]( # ) - voltage controlled filter\
-[[noise~]]( # ) - white noise generator\
 [[env~]]( # ) - envelope follower\
 [[hip~]]( # ) - high pass filter\
 [[lop~]]( # ) - low pass filter\
@@ -221,14 +224,14 @@ boxes but come straight off the "add" menu.)
 [[rzero_rev~]]( # ) - time-reversed\
 [[cpole~]]( # ) - corresponding complex-valued filters\
 [[czero~]]( # )\
-[[czero_rev~]]( # )\
+[[czero_rev~]]( # )
 
 ### Audio Delay 
 
 [[delwrite~]]( # ) - write to a delay line\
 [[delread~]]( # ) - read from a delay line\
 [[delread4~]]( # ) - read with a time-varying delay time\
-[[vd~]]( # )\
+[[vd~]]( # )
 
 ### Subwindows 
 
@@ -238,8 +241,9 @@ boxes but come straight off the "add" menu.)
 [[inlet~]]( # ) - signal versions\
 [[outlet~]]( # )\
 [[clone]]( # ) - multiple copies of a patch\
+[[namecanvas]]( # ) - attach a name to a pd window\
 [[block~]]( # ) - specify block size and overlap, or, if invoked as "switch", also switch subpatches on and off\
-[[switch]]( # )\
+[[switch]]( # )
 
 ### Data Templates 
 
@@ -251,7 +255,7 @@ boxes but come straight off the "add" menu.)
 [[drawtext]]( # ) - draw text\
 [[drawsymbol]]( # )\
 [[plot]]( # ) - plot an array field\
-[[drawnumber]]( # ) - print a numeric value\
+[[drawnumber]]( # ) - print a numeric value
 
 ### Accessing Data 
 
@@ -262,7 +266,7 @@ boxes but come straight off the "add" menu.)
 [[getsize]]( # ) - get the size of an array\
 [[setsize]]( # ) - change the size of an array\
 [[append]]( # ) - add an element to a list\
-[[scalar]]( # ) - create a single scalar\
+[[scalar]]( # ) - create a single scalar
 
 ### "EXTRA" (patches and externs in pd/extra) 
 
@@ -278,15 +282,12 @@ boxes but come straight off the "add" menu.)
 [[rev1~]]( # ) - reverberators\
 [[rev2~]]( # )\
 [[rev3~]]( # )\
-[[bob~]]( # ) - Moog resonant filter model\
+[[bob~]]( # ) - Moog resonant filter model
 
 ### Obsolete 
 
 [[scope~]]( # ) (use tabwrite~ now)\
-[[namecanvas]]( # ) (potentially dangerous but no substitute exists yet)\
-[[template]]( # ) (use struct now)\
-\
-\
+[[template]]( # ) (use struct now)
 
  
  

@@ -8,15 +8,29 @@ categories: ["object", "General"]
 
 ### [pack]
 
-make compound messages
+The pack object outputs a concatenated list from a series of inputs. Creation arguments set the number of inlets and their type,  possible values are: float (or 'f'),  symbol (or 's') and pointer (or 'p') - see [pd pointer]. A number sets a numeric inlet and initializes the value ('float'/'f' initializes to 0).
 
-### Inlets & Outlets
+The [pack] object can pack a pointer into a list. A pointer can be the location of a Data Structure scalar somewhere or the head of a Data Structure list. To know more about Data Structures,  how to handle pointers and see examples,  please refer to the 4.Data.Structure section of the Pd's tutorials.
 
-inlet 0
+INLETS:
 
- - dummy
+- n: (number depends on number of arguments)
 
-outlet 0
+- 1st:
 
- - dummy
+  - bang - output the packed list.
+
+  - anything - each inlet takes a message type acccording to its corresponding creation argument. These can be float,  symbol and pointer. The 1st inlet causes an output and can also match an 'anything' to a symbol.
+
+OUTLET:
+
+- list - the packed list.
+
+ARGUMENTS:
+
+- list - list of types (defining the number of inlets). These can be 'float/'f',  'symbol/'s' and 'pointer/'p'. A number sets a numeric inlet and initializes the value,  'float/f' initialized to 0 (default 0 0).
+ 
+> see also [[trigger]](../trigger) [[unpack]](../unpack) 
+ 
+> updated for Pd version 0.34
  
