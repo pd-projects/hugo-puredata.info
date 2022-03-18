@@ -8,30 +8,40 @@ draft: false
 
 ### [int] 
 
-Store an integer
+Truncate floats and store an integer
 
-The int object stores a number, initialized by its creation argument, 
-which may be reset using its inlet and output by sending it the "bang" 
-message. Sending a number sets a new value and outputs it. The output 
-is truncated to an integer a la Max.
+The int object stores a number initialized by its creation argument,  which may be reset using its inlet and output by sending it the "bang" message. Sending a number sets a new value and outputs it. A non-integer input is truncated to an integer (a la Max) so the object can also be used to truncate values and convert from float to integers.
 
 
 
-inlet 0
+INLETS: 
 
- - bang: outputs the value
- - float: set and output the value
- - `send` to a named object
+- 1st: 
 
-inlet 1
+  - bang - output the stored value.
+  
+  - float -store and output the value,  non-integers are truncated.
 
- - float: set the value
+  - list - considers the first element if it's a float,  stores and outputs it.
 
-outlet 0
+  - send &lt;symbol&gt; - send the stored value to a [receive] or [value] object that has the same name as the symbol (no output).
 
- - float
+
+- 2nd: 
+
+  - float - store the value, non-integers are truncated (no output).
+
+OUTLET:
+
+- float - the stored integer value.
+
+ARGUMENT:
+
+- float - initially stored value (default 0).
+
+
  
-> see also [[float]](../float) [[value]](../value) [[send]](../send)
+> see also [[float]](../float) [[value]](../value) [[send]](../send-receive)
 
 > updated for Pd version 0.48
 

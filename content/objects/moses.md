@@ -8,15 +8,35 @@ categories: ["object", "General"]
 
 ### [moses]
 
-part a numeric stream
+Part a numeric stream
 
-### Inlets & Outlets
+Moses takes numbers and outputs them at left if they're less than a control value,  and at right if they're greater or equal to it.
 
-inlet 0
+INLETS:
 
- - dummy
+- 1st:
 
-outlet 0
+  - float - number to be parted.
 
- - dummy
+- 2nd:
+
+  - float - set control value.
+
+OUTLETS:
+
+- 1st:
+
+  - float - input number if less than control value.
+
+- 2nd:
+
+  - float - input number if equal or higher than control value.
+
+ARGUMENT:
+
+- float - set initial control value (default 0).
  
+ 
+> see also [[change]](../change) [[select]](../select) 
+ 
+> updated for Pd version 0.33

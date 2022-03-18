@@ -18,23 +18,23 @@ boxes but come straight off the "add" menu.)
 [[float]](float) - store and recall a number\
 [[symbol]](symbol) - store and recall a symbol\
 [[int]](int) - store and recall an integer\
-[[send]](send) - send a message to a named object\
-[[receive]]( # ) - catch "sent" messages\
-[[select]]( # ) - test for matching numbers or symbols\
-[[route]]( # ) - route messages according to first element\
-[[pack]]( # ) - make compound messages\
-[[unpack]]( # ) - get elements of compound messages\
-[[trigger]]( # ) - sequence and convert messages\
-[[spigot]]( # ) - interruptible message connection\
-[[moses]]( # ) - part a numeric stream\
-[[until]]( # ) - looping mechanism\
-[[print]]( # ) - print out messages\
-[[trace]]( # ) - message tracing for debugging\
-[[makefilename]]( # ) - format a symbol with a variable field\
-[[change]]( # ) - remove repeated numbers from a stream\
-[[swap]]( # ) - swap two numbers\
-[[value]]( # ) - shared numeric value\
-[[list]]( # ) - manipulate lists
+[[send]](send-receive) - send a message to a named object\
+[[receive]](send-receive#receive) - catch "sent" messages\
+[[select]](select) - test for matching numbers or symbols\
+[[route]](route) - route messages according to first element\
+[[pack]](pack) - make compound messages\
+[[unpack]](unpack) - get elements of compound messages\
+[[trigger]](trigger) - sequence and convert messages\
+[[spigot]](spigot) - interruptible message connection\
+[[moses]](moses) - part a numeric stream\
+[[until]](until) - looping mechanism\
+[[print]](print) - print out messages\
+[[trace]](trace) - message tracing for debugging\
+[[makefilename]](makefilename) - format a symbol with a variable field\
+[[change]](change) - remove repeated numbers from a stream\
+[[swap]](swap) - swap two numbers\
+[[value]](value) - shared numeric value\
+[[list]](list) - manipulate lists
 
 ### Time 
 

@@ -8,15 +8,31 @@ categories: ["object", "General"]
 
 ### [until]
 
-looping mechanism
+Looping mechanism.
 
-### Inlets & Outlets
+The until object's left inlet starts a loop in which it outputs "bang" until its right inlet gets a bang which stops it. If you start "until" with a number,  it iterates at most that number of times,  as in the Max "uzi" object.
 
-inlet 0
 
- - dummy
+INLET:
 
-outlet 0
+- 1st:
 
- - dummy
+  - float - set number of iterations in the loop.
+
+  - bang - start loop until a bang reaches the right inlet.
+
+- 2nd:
+
+  - bang - stops the loop.
+
+OUTLET:
+
+- bang - bangs in a loop.
+
+ARGUMENT:
+
+- NONE
  
+
+ 
+> updated for Pd version 0.28

@@ -8,15 +8,26 @@ categories: ["object", "General"]
 
 ### [trace]
 
-print out messages
+Message tracing for debugging.
 
-### Inlets & Outlets
+When 'set-tracing' is on and the object is armed,  trace prints in the Pd window the message it receives and also outputs the messages all the other objects further down in the chain send. You can control-click on the printout to select in the patch the object that caused the message. Once this is done,  trace also prints a backtrace of messages leading up to the one that has set it off.
 
-inlet 0
+INLETS:
 
- - dummy
+- 1st:
 
-outlet 0
+  - anything - any message to be traced from this point on.
 
- - dummy
+- 2nd:
+
+  - float - arms the object for the given number of messages.
+
+OUTLET:
+
+- anything - bypasses the input message further down the chain.
+
+ARGUMENTS:
+
+- NONE
  
+> updated for Pd version 0.52
