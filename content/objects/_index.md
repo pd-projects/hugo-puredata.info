@@ -38,13 +38,13 @@ boxes but come straight off the "add" menu.)
 
 ### Time 
 
-[[delay]]( # ) - send a message after a time delay\
-[[metro]]( # ) - send a message periodically\
-[[line]]( # ) - send a series of linearly stepped numbers\
-[[timer]]( # ) - measure time intervals\
-[[cputime]]( # ) - measure CPU time\
-[[realtime]]( # ) - measure real time\
-[[pipe]]( # ) - dynamically growable delay line for numbers
+[[delay]](delay) - send a message after a time delay\
+[[metro]](metro) - send a message periodically\
+[[line]](line) - send a series of linearly stepped numbers\
+[[timer]](timer) - measure time intervals\
+[[cputime]](cputime) - measure CPU time\
+[[realtime]](realtime) - measure real time\
+[[pipe]](pipe) - dynamically growable delay line for numbers
 
 ### Math 
 

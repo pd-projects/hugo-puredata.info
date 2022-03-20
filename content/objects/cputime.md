@@ -8,15 +8,30 @@ categories: ["object", "Time"]
 
 ### [cputime]
 
-measure CPU time
+Measure CPU time.
 
-### Inlets & Outlets
+The cputime object measures elapsed CPU time,  as measured by your operating system. This appears to work on NT,  IRIX,  and Linux,  but not on W98.
 
-inlet 0
+INLET:
 
- - dummy
+- 1st
 
-outlet 0
+  - bang - reset (set elapsed time to zero).
+  
+- 2nd
+  
+  - bang - time to measure.
 
- - dummy
+OUTLET:
+
+- bang - output elapsed time.
+
+ARGUMENTS:
+
+- NONE.
+
+
+
+> see also [[realtime]](../realtime) [[timer]](../timer)
  
+> updated for Pd version 0.33
