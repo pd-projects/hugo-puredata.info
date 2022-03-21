@@ -54,6 +54,6 @@ ARGUMENTS:
 
 
  
-> > see also [[metro]](../metro) [[pipe]](../pipe) [[text sequence]](../text-sequence) [[timer]](../timer)
+> > see also [[metro]](../metro) [[pipe]](../pipe) [[text sequence]](../#) [[timer]](../timer)
  
 > updated for Pd version 0.45

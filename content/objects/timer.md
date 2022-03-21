@@ -43,6 +43,6 @@ ARGUMENTS:
 
 - symbol - time unit (default 'msec').
  
-> see also [[cputime]](../cputime) [[realtime]](../realtime) [[delay]](../delay) [[metro]](../metro) [[text sequence]](../text-sequence)
+> see also [[cputime]](../cputime) [[realtime]](../realtime) [[delay]](../delay) [[metro]](../metro) [[text sequence]](../#)
  
 > updated for Pd version 0.47

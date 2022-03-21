@@ -49,7 +49,7 @@ ARGUMENT:
 
 
 
-> see also [[delay]](../delay) [[text sequence]](../text-sequence) [[timer]](../timer)
+> see also [[delay]](../delay) [[text sequence]](../#) [[timer]](../timer)
 
 
 > Updated for Pd version 0.48

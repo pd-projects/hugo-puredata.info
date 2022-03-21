@@ -48,47 +48,47 @@ boxes but come straight off the "add" menu.)
 
 ### Math 
 
-[[expr]]( # ) - C-style expressions\
-[[+]]( # ) - arithmetic\
-[[-]]( # )\
-[[*]]( # )\
-[[/]]( # )\
-[[pow]]( # )\
-[[==]]( # ) - relational tests\
-[[!=]]( # )\
-[[>]]( # )\
-[[<]]( # )\
-[[>=]]( # )\
-[[<=]]( # )\
-[[&]]( # ) - bit twiddling\
-[[&&]]( # )\
-[[|]]( # )\
-[[||]]( # )\
-[[%]]( # )\
-[[&lt;&lt;]]( # )\
-[[&gt;&gt;]]( # )\
-[[mtof]]( # ) - convert acoustical units\
-[[ftom]]( # )\
-[[powtodb]]( # )\
-[[dbtopow]]( # )\
-[[rmstodb]]( # )\
-[[dbtorms]]( # ) \
-[[mod]]( # ) - higher math\
-[[div]]( # )\
-[[sin]]( # )\
-[[cos]]( # )\
-[[tan]]( # )\
-[[atan]]( # )\
-[[atan2]]( # )\
-[[sqrt]]( # )\
-[[log]]( # )\
-[[exp]]( # )\
-[[abs]]( # )\
-[[random]]( # ) - lower math\
-[[max]]( # ) - greater or lesser of 2 numbers\
-[[min]]( # )\
-[[clip]]( # ) - force a number into a range\
-[[wrap]]( # ) - wrap a number to range [[0, 1)
+[[expr]](expr-family) - C-style expressions\
+[[+]](binary-arithmetic-operators) - arithmetic\
+[[-]](binary-arithmetic-operators)\
+[[*]](binary-arithmetic-operators)\
+[[/]](binary-arithmetic-operators)\
+[[max]](binary-arithmetic-operators)\
+[[min]]( binary-arithmetic-operators)\
+[[==]](other-binary-operators) - relational tests\
+[[!=]](other-binary-operators)\
+[[>]](other-binary-operators)\
+[[<]](other-binary-operators)\
+[[>=]](other-binary-operators)\
+[[<=]](other-binary-operators)\
+[[&]](other-binary-operators) - bit twiddling\
+[[&&]](other-binary-operators)\
+[[|]](other-binary-operators)\
+[[||]](other-binary-operators)\
+[[%]](other-binary-operators)\
+[[&lt;&lt;]](other-binary-operators)\
+[[&gt;&gt;]](other-binary-operators)\
+[[mod]](other-binary-operators)\
+[[div]](other-binary-operators)\
+[[mtof]](acoustic-conversions) - convert acoustical units\
+[[ftom]](acoustic-conversions)\
+[[powtodb]](acoustic-conversions)\
+[[dbtopow]](acoustic-conversions)\
+[[rmstodb]](acoustic-conversions)\
+[[dbtorms]](acoustic-conversions) \
+[[sin]](math-functions) - higher math\
+[[cos]](math-functions)\
+[[tan]](math-functions)\
+[[atan]](math-functions)\
+[[atan2]](math-functions)\
+[[sqrt]](math-functions)\
+[[pow]](math-functions)\
+[[log]](math-functions)\
+[[exp]](math-functions)\
+[[abs]]( math-functions)\
+[[random]](random) - lower math\
+[[clip]](clip) - force a number into a range\
+[[wrap]](math-functions) - wrap a number to range [[0, 1)
 
 ### I/O via MIDI, OSC, and FUDI 
 

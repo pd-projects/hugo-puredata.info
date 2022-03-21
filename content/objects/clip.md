@@ -8,15 +8,37 @@ categories: ["object", "Math"]
 
 ### [clip]
 
-force a number into a range
+Bound a number between two limits.
 
-### Inlets & Outlets
+The clip object passes its signal input to its output,  clipping it to lie between two limits.
 
-inlet 0
+INLETS:
 
- - dummy
+- 1st:
 
-outlet 0
+  - float - number to clip.
 
- - dummy
+  - bang - re clip last incomming number between the two limits.
+
+- 2nd:
+
+  - float - set lower limit.
+
+- 3rd:
+
+  - float - set upper limit.
+
+OUTLET:
+
+- float - the clipped value.
+
+ARGUMENT:
+
+- 1st float - initial lower limit (default 0).
+
+- 2nd float - initial upper limit (default 0).
+
+> see also [[clip~]](../clip~) [[expr]](../expr-family) [[max]](../binary-arithmetic-operators) [[min]](../binary-arithmetic-operators)
+
+> updated for Pd version 0.47
  
