@@ -10,7 +10,7 @@ categories: ["object", "Math"]
 
 C-style expressions.
 
-Expr family objects by Shahrokh Yadegari.
+Expr family objects by [Shahrokh Yadegari](http://yadegari.org/).
 
 Based on original sources from IRCAM’s jMax Released under BSD License.
 

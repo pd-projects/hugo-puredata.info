@@ -92,28 +92,28 @@ boxes but come straight off the "add" menu.)
 
 ### I/O via MIDI, OSC, and FUDI 
 
-[[notein]]( # ) - MIDI input\
-[[ctlin]]( # )\
-[[pgmin]]( # )\
-[[bendin]]( # )\
-[[touchin]]( # )\
-[[midiin]]( # )\
-[[polytouchin]]( # )\
-[[sysexin]]( # )\
-[[midirealtimein]]( # )\
-[[noteout]]( # ) - MIDI output\
-[[ctlout]]( # )\
-[[pgmout]]( # )\
-[[bendout]]( # )\
-[[touchout]]( # )\
-[[polytouchout]]( # )\
-[[midiout]]( # )\
-[[makenote]]( # ) - schedule delayed "note off" message for a note-on\
-[[stripnote]]( # ) - strip "note off" messages\
-[[oscparse]]( # ) - OSC messages to and from Pd lists\
-[[oscformat]]( # )\
-[[fudiparse]]( # ) - FUDI messages to and from Pd lists\
-[[fudiformat]]( # )
+[[notein]](midi-in#notein) - MIDI input\
+[[ctlin]](midi-in#ctlin)\
+[[pgmin]](midi-in#pgmin)\
+[[bendin]](midi-in#bendin)\
+[[touchin]](midi-in#touchin)\
+[[midiin]](midi-in#midiin)\
+[[polytouchin]](midi-in#polytouchin)\
+[[sysexin]](midi-in#sysexin)\
+[[midirealtimein]](midi-in#midirealtimein)\
+[[noteout]](midi-out#noteout) - MIDI output\
+[[ctlout]](midi-out#ctlout)\
+[[pgmout]](midi-out#pgmout)\
+[[bendout]](midi-out#bendout)\
+[[touchout]](midi-out#touchout)\
+[[polytouchout]](midi-out#polytouchout)\
+[[midiout]](midi-out#midiout)\
+[[makenote]](makenote) - schedule delayed "note off" message for a note-on\
+[[stripnote]](stripnote) - strip "note off" messages\
+[[oscparse]](osc-format-parse) - OSC messages to and from Pd lists\
+[[oscformat]](osc-format-parse)\
+[[fudiparse]](fudi-format-parse) - FUDI messages to and from Pd lists\
+[[fudiformat]](fudi-format-parse)
 
 ### Arrays & Tables 
 

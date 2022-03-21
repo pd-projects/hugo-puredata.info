@@ -34,6 +34,6 @@ ARGUMENT:
 
 -  float - initial range value (default 1).
 
-> see also [[expr]](expr-family)
+> see also [[expr]](../expr-family)
  
 > updated for Pd version 0.33

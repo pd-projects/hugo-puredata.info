@@ -8,15 +8,46 @@ categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 
 ### [makenote]
 
-schedule delayed 'note off' message for a note-on
+Schedule delayed 'note off' message for a note-on.
 
-### Inlets & Outlets
+Makenote makes MIDI-style note-on/note-off pairs,  which you can use for MIDI output or to drive note-like processes within Pd. It can deal with any numbers (negative,  floats,  whatever) even though MIDI values need to be integers from 0 to 127!
 
-inlet 0
+numbers at left are "pitches" which may be integers or not.
 
- - dummy
 
-outlet 0
+INLET:
 
- - dummy
+- 1st:
+
+  - float - MIDI pitch.
+
+- 2nd:
+
+  - float - MIDI velocity.
+
+- 3rd:
+
+  - float - MIDI note duratin in ms.
+
+OUTLET: 
+
+- 1st:
+
+  - float - MIDI pitch.
+
+- 2nd:
+
+  - float - MIDI velocity.
+
+ARGUMENTS:
+
+- 1st - float - initial velocity value (default 0).
+
+- 2nd - float - initial duration value (default 0).
+
+
+
  
+> see also [[stripnote]](../stripnote)
+
+> updated for Pd version 0.33
