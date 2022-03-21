@@ -202,12 +202,12 @@ Added mtof(), mtof(), dbtorms(), rmstodb(), powtodb(), dbtopow()
   
 ---------------
 
-> see also [[+]](../+) [[>]](../>) [[sin]](../sin) [[+~]](../+~)
+> see also [[+]](../binary-arithmetic-operators) [[>]](../objects/other-binary-operators) [[sin]](../math-functions) [[+~]](../#)
 
 > [[block~]](../block~) [[value]](../value) [[random]](../random) [[array]](../array)
 
-> [[cos~]](../cos~) [[wrap~]](../wrap~) [[exp~]](../exp~) [[abs~]](../abs~)
+> [[cos~]](../cos~) [[wrap~]](../wrap~) [[abs~]](../#)
 
-> [[log~]](../log~) [[sqrt~]](../sqrt~) [[pow~]](../pow~)
+> [[log~]](../#) [[sqrt~]](../#) [[pow~]](../#)
 
 > updated for Pd version 0.51-3
