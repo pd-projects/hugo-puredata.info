@@ -5,16 +5,40 @@ import yaml
 import pprint
 import frontmatter
 import logging
-
-fm = frontmatter.Frontmatter()
+import collections
 
 log = logging.getLogger()
 logging.basicConfig()
+
+# allow to export OrderedDicts as YAML
+_mapping_tag = yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG
+
+
+def dict_representer(dumper, data):
+    return dumper.represent_mapping(_mapping_tag, data.items())
+
+
+yaml.add_representer(collections.OrderedDict, dict_representer)
+
+# read markdown with frontmatter
+fm = frontmatter.Frontmatter()
 
 bodyreg = re.compile(
     r"(\n*### \[([^\n]*)\] *)\n(.*?)\n+(INLETS?: *\n+(.*?)\n)?(OUTLETS?: *\n+(.*?)\n)?(ARGUMENTS?: *\n+(.*?)\n)?(### Inlets . Outlets *\n+.*?\n)?(> see also (.*?)\n)?(> updated for Pd version (.*?)\.?)?\n*$",
     re.DOTALL,
 )
+
+
+def dict2order(d, keys):
+    d = dict(d)
+    o = collections.OrderedDict()
+    for k in keys:
+        if k in d:
+            o[k] = d[k]
+            del d[k]
+    o.update(d)
+    print(o)
+    return o
 
 
 def parse_iolets(ioletstr, multiple=True):
@@ -127,11 +151,24 @@ class ObjectFile:
             self.data["arguments"] = arguments.get("1st")
 
         # as is the "see also"
-        self.data["see_also"] = re.findall(r'\[\[([^]]*)\]\]', see_also.strip())
+        self.data["see_also"] = re.findall(r"\[\[([^]]*)\]\]", see_also.strip())
 
         self.data["last_update"] = last_update.strip()
 
-        self.data = {k: v for k, v in self.data.items() if v != "" and v != None}
+        self.data = dict2order(
+            {k: v for k, v in self.data.items() if v == 0 or v},
+            [
+                "title",
+                "description",
+                "bref",
+                "categories",
+                "last_update",
+                "see_also",
+                "arguments",
+                "inlets",
+                "outlets",
+            ],
+        )
 
     def __str__(self):
         return self.frontmatter() + "\n" + self.body
