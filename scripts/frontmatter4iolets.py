@@ -127,7 +127,7 @@ class ObjectFile:
             self.data["arguments"] = arguments.get("1st")
 
         # as is the "see also"
-        self.data["see_also"] = see_also.strip()
+        self.data["see_also"] = re.findall(r'\[\[([^]]*)\]\]', see_also.strip())
 
         self.data["last_update"] = last_update.strip()
 
