@@ -8,15 +8,29 @@ categories: ["object", "Time"]
 
 ### [realtime]
 
-measure real time
+Ask OS for elapsed real time.
 
-### Inlets & Outlets
+The realtime object measures elapsed real time,  as measured by your operating system.
 
-inlet 0
+INLET:
 
- - dummy
+- 1st
 
-outlet 0
+  - bang - reset (set elapsed time to zero).
 
- - dummy
+- 2nd
+
+  - bang - time to measure.
+
+OUTLET:
+
+- bang - output elapsed time.
+
+ARGUMENTS:
+
+- NONE.
+
+
+> see also [[timer]](../timer) [[cputime]](../cputime)
  
+> updated for Pd version 0.33
