@@ -193,5 +193,7 @@ if __name__ == "__main__":
         try:
             of = ObjectFile(f)
             printOF(of)
+            with open(f, "w") as fil:
+                fil.write(str(of))
         except IndexError as e:
             log.exception("OOPSIE: %s" % (f,))
