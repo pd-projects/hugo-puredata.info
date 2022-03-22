@@ -17,6 +17,47 @@ bodyreg = re.compile(
 )
 
 
+def parse_iolets(ioletstr, multiple=True):
+    def parse_iolet(iolet):
+        result = {}
+        for l in iolet.splitlines():
+            l = l.strip()
+            if not l:
+                continue
+            if l.startswith("-"):
+                x = re.findall("^- (.*) - (.*)", l)
+                if x:
+                    msg, descr = x[0]
+                    result[msg] = descr
+            else:
+                log.error("OOOOPSIE: %s" % (l,))
+        return result
+
+    ioletstr = ioletstr.strip()
+    if "- NONE" == ioletstr:
+        return None
+
+    if not multiple:
+        # single iolet
+        return {"1st": parse_iolet(ioletstr)}
+
+    # multiple iolets
+    result = {}
+    ioletdata = []
+    ioletid = ""
+    for l in ioletstr.splitlines():
+        if l.startswith("-"):
+            if ioletid and ioletdata:
+                result[ioletid] = parse_iolet("\n".join(ioletdata))
+            ioletdata = []
+            ioletid = l.strip().lstrip("-").rstrip(":").strip()
+            continue
+        ioletdata.append(l.strip())
+    if ioletid and ioletdata:
+        result[ioletid] = parse_iolet("\n".join(ioletdata))
+    return result
+
+
 class ObjectFile:
     def __init__(self, filename):
         data = fm.read_file(filename)
@@ -43,9 +84,9 @@ class ObjectFile:
                 _,
                 title,
                 body,
-                _,
+                inlets_full,
                 inlets,
-                _,
+                outlets_full,
                 outlets,
                 _,
                 arguments,
@@ -59,25 +100,38 @@ class ObjectFile:
             pprint.pprint(data["body"])
             pprint.pprint(dataparsed)
             raise e
+
+        # check if the first line of the body just repeats the description
+        # and if so drop that line
         bodylines = body.strip().splitlines()
         desc = bodylines[0].strip().rstrip(".").lower()
         if desc == self.data["description"].strip().rstrip(".").lower():
-            body = "\n".join(bodylines[1:]).strip()
+            body = "\n".join(bodylines[1:])
 
-        if title != self.data["title"].strip().lstrip("[").rstrip("]"):
-            log.warning("title-mismatch: %s != %s" % (title, self.data["title"]))
-
-        # self.data["title"] = title.strip()
-        # self.data["body"] = body.strip()
-        self.data["inlets"] = inlets.strip()
-        self.data["outlets"] = outlets.strip()
-        self.data["arguments"] = arguments.strip()
-        self.data["see_also"] = see_also.strip()
-        self.data["last_update"] = last_update.strip()
-
-        self.data = {k: v for k, v in self.data.items() if v != ""}
+        body = body.strip()
+        if body == "Does something.":
+            body = ""
 
         self.body = body
+
+        # the title and the heading should match...
+        # (if they don't, we trust the title)
+        if title != self.data["title"].strip().lstrip("[").rstrip("]"):
+            log.warning("title mismatch: %s != %s" % (title, self.data["title"]))
+
+        ## inlets/outlets/arguments are structured
+        self.data["inlets"] = parse_iolets(inlets, "INLETS" in inlets_full)
+        self.data["outlets"] = parse_iolets(outlets, "OUTLETS" in outlets_full)
+        arguments = parse_iolets(arguments, False)
+        if arguments:
+            self.data["arguments"] = arguments.get("1st")
+
+        # as is the "see also"
+        self.data["see_also"] = see_also.strip()
+
+        self.data["last_update"] = last_update.strip()
+
+        self.data = {k: v for k, v in self.data.items() if v != "" and v != None}
 
     def __str__(self):
         return self.frontmatter() + "\n" + self.body
@@ -90,8 +144,13 @@ if __name__ == "__main__":
     import sys
 
     def printOF(of):
-        print(of)
-        print("=============================================")
+        x = str(of)
+        # x = of.data.get("last_update")
+        # x = of.data.get("inlets")
+        # x = of.body
+        if x:
+            print(x)
+            print("=============================================")
 
     for f in sys.argv[1:]:
         try:
