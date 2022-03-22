@@ -117,12 +117,12 @@ boxes but come straight off the "add" menu.)
 
 ### Arrays & Tables 
 
-[[tabread]]( # ) - read a number from a table\
-[[tabread4]]( # ) - read a number from a table\
-[[tabwrite]]( # ) - write a number to a table\
-[[soundfiler]]( # ) - read and write tables to soundfiles\
-[[table]]( # ) - create a named table\
-[[array]]( # ) - general array creation and manipulation
+[[tabread]](tabread) - read a number from a table\
+[[tabread4]](tabread4) - read a number from a table\
+[[tabwrite]](tabwrite) - write a number to a table\
+[[soundfiler]](soundfiler) - read and write tables to soundfiles\
+[[table]](array) - create a named table\
+[[array]](array) - general array creation and manipulation
 
 ### Misc 
 

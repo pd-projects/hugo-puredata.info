@@ -31,9 +31,9 @@ INLETS:
 
   - tempo &lt;float,  symbol&gt; - set tempo value (float) and time unit symbol.
 
-2nd:
+- 2nd:
 
-- float - set metronome time for the next tempo.
+  - float - set metronome time for the next tempo.
 
 OUTLET:
 

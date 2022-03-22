@@ -22,13 +22,13 @@ INLETS:
 
   - set &lt;float&gt; - set initial ramp value.
 
-2nd:
+- 2nd:
 
-- float - set next ramp time (cleared when ramp starts).
+  - float - set next ramp time (cleared when ramp starts).
 
-3rd:
+- 3rd:
 
-- float - sets time grain in ms.
+  - float - sets time grain in ms.
 
 OUTLET:
 
