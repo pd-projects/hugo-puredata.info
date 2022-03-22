@@ -18,8 +18,8 @@ boxes but come straight off the "add" menu.)
 [[float]](float) - store and recall a number\
 [[symbol]](symbol) - store and recall a symbol\
 [[int]](int) - store and recall an integer\
-[[send]](send-receive) - send a message to a named object\
-[[receive]](send-receive#receive) - catch "sent" messages\
+[[send]](send) - send a message to a named object\
+[[receive]](receive) - catch "sent" messages\
 [[select]](select) - test for matching numbers or symbols\
 [[route]](route) - route messages according to first element\
 [[pack]](pack) - make compound messages\
@@ -34,7 +34,15 @@ boxes but come straight off the "add" menu.)
 [[change]](change) - remove repeated numbers from a stream\
 [[swap]](swap) - swap two numbers\
 [[value]](value) - shared numeric value\
-[[list]](list) - manipulate lists
+[[list]](list) - manipulate lists\
+[[list append]](list-append)\
+[[list prepend]](list-prepend)\
+[[list store]](list-store)\
+[[list split]](list-split)\
+[[list trim]](list-trim)\
+[[list length]](list-length)\
+[[list fromsymbol]](list-fromsymbol)\
+[[list tosymbol]](list-tosymbol)
 
 ### Time 
 
