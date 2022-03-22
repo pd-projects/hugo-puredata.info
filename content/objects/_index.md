@@ -57,33 +57,33 @@ boxes but come straight off the "add" menu.)
 ### Math 
 
 [[expr]](expr-family) - C-style expressions\
-[[+]](binary-arithmetic-operators) - arithmetic\
-[[-]](binary-arithmetic-operators)\
-[[*]](binary-arithmetic-operators)\
-[[/]](binary-arithmetic-operators)\
-[[max]](binary-arithmetic-operators)\
-[[min]]( binary-arithmetic-operators)\
-[[==]](other-binary-operators) - relational tests\
-[[!=]](other-binary-operators)\
-[[>]](other-binary-operators)\
-[[<]](other-binary-operators)\
-[[>=]](other-binary-operators)\
-[[<=]](other-binary-operators)\
-[[&]](other-binary-operators) - bit twiddling\
-[[&&]](other-binary-operators)\
-[[|]](other-binary-operators)\
-[[||]](other-binary-operators)\
-[[%]](other-binary-operators)\
-[[&lt;&lt;]](other-binary-operators)\
-[[&gt;&gt;]](other-binary-operators)\
-[[mod]](other-binary-operators)\
-[[div]](other-binary-operators)\
-[[mtof]](acoustic-conversions) - convert acoustical units\
-[[ftom]](acoustic-conversions)\
-[[powtodb]](acoustic-conversions)\
-[[dbtopow]](acoustic-conversions)\
-[[rmstodb]](acoustic-conversions)\
-[[dbtorms]](acoustic-conversions) \
+[[+]](plus) - arithmetic\
+[[-]](minus)\
+[[*]](mul)\
+[[/]](divide)\
+[[max]](max)\
+[[min]](min)\
+[[==]](eq) - relational tests\
+[[!=]](neq)\
+[[>]](gt)\
+[[<]](lt)\
+[[>=]](ge)\
+[[<=]](le)\
+[[&]](and) - bit twiddling\
+[[&&]](andand)\
+[[|]](or)\
+[[||]](oror)\
+[[&lt;&lt;]](lshift)\
+[[&gt;&gt;]](rshift)\
+[[mtof]](mtof) - convert acoustical units\
+[[ftom]](ftom)\
+[[powtodb]](powtodb)\
+[[dbtopow]](dbtopow)\
+[[rmstodb]](rmstodb)\
+[[dbtorms]](dbtorms) \
+
+----------above done --------------
+
 [[sin]](math-functions) - higher math\
 [[cos]](math-functions)\
 [[tan]](math-functions)\
@@ -94,9 +94,13 @@ boxes but come straight off the "add" menu.)
 [[log]](math-functions)\
 [[exp]](math-functions)\
 [[abs]]( math-functions)\
+[[%]](percent)\
+[[mod]](mod)\
+[[div]](div)\
+[[wrap]](math-functions)\
 [[random]](random) - lower math\
-[[clip]](clip) - force a number into a range\
-[[wrap]](math-functions) - wrap a number to range [[0, 1)
+[[clip]](clip) - force a number into a range
+
 
 ### I/O via MIDI, OSC, and FUDI 
 
