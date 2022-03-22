@@ -4,8 +4,12 @@ import re
 import yaml
 import pprint
 import frontmatter
+import logging
 
 fm = frontmatter.Frontmatter()
+
+log = logging.getLogger()
+logging.basicConfig()
 
 bodyreg = re.compile(
     r"(\n*### \[([^\n]*)\] *)\n(.*?)\n+(INLETS?: *\n+(.*?)\n)?(OUTLETS?: *\n+(.*?)\n)?(ARGUMENTS?: *\n+(.*?)\n)?(### Inlets . Outlets *\n+.*?\n)?(> see also (.*?)\n)?(> updated for Pd version (.*?)\.?)?\n*$",
@@ -61,7 +65,7 @@ class ObjectFile:
             body = "\n".join(bodylines[1:]).strip()
 
         if title != self.data["title"].strip().lstrip("[").rstrip("]"):
-            print("ERROR: %s != %s" % (title, self.data["title"]))
+            log.warning("title-mismatch: %s != %s" % (title, self.data["title"]))
 
         # self.data["title"] = title.strip()
         # self.data["body"] = body.strip()
@@ -94,4 +98,4 @@ if __name__ == "__main__":
             of = ObjectFile(f)
             printOF(of)
         except IndexError as e:
-            print("OOPSIE[%s] %s" % (f, e))
+            log.exception("OOPSIE: %s" % (f,))
