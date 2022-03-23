@@ -206,9 +206,22 @@ if __name__ == "__main__":
 
     def getConfig():
         import argparse
+        formats=[]
+        if yaml:
+            formats.append("yaml")
+        if toml:
+            formats.append("toml")
+        if json:
+            formats.append("json")
+
+        if not formats:
+            import sys
+            log.fatal("no output format available")
+            sys.exit(1)
 
         defaults = {
             "verbosity": 0,
+            "format": formats[0],
         }
 
         parser = argparse.ArgumentParser()
@@ -217,6 +230,12 @@ if __name__ == "__main__":
             "-O",
             "--outdir",
             help="Output directory for converted files (default: overwrite input files)",
+        )
+
+        parser.add_argument(
+            "--format",
+            choices=formats,
+            help="Write output frontmatter in the given format (DEFAULT: {format})".format(**defaults),
         )
 
         parser.add_argument(
@@ -245,6 +264,14 @@ if __name__ == "__main__":
         verbosity = int(args.verbosity) + args.verbose - args.quiet
         del args.verbose
         del args.quiet
+
+        if args.format == "toml":
+            args.format = ObjectFile.TOML
+        elif args.format == "json":
+            args.format = ObjectFile.JSON
+        else:
+            args.format = ObjectFile.YAML
+
         return args
 
     def printOF(of):
@@ -268,7 +295,7 @@ if __name__ == "__main__":
             else:
                 outfile = infile
             with open(outfile, "w") as ofile:
-                ofile.write(str(parsed))
+                ofile.write(parsed.toString(cfg.format))
 
         except IndexError as e:
             log.exception("OOPSIE: %s" % (f,))
