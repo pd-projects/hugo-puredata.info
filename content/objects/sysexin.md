@@ -8,15 +8,27 @@ categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 
 ### [sysexin]
 
-Does something.
+INLETS:
 
-### Inlets & Outlets
+- NONE.
 
-inlet 0
+OUTLETS:
 
- - dummy
+- 1st: 
+ 
+  - float - MIDI system exclusive messages only, byte by byte
+  
+- 2nd: 
 
-outlet 0
+  - float - MIDI channel/port
+  
+ARGUMENTS:
 
- - dummy
+- NONE.
+
+> see also [[notein]](../notein) (etc) - MIDI in objects.
+
+> see also [[noteout]](../noteout) (etc) - MIDI out objects.
+
+> updated for Pd version 0.48-2
  

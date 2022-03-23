@@ -30,11 +30,13 @@ ARGUMENT:
 
 - float - initialize value of right inlet (default 0).
 
-> see also [[+~]](../#) (etc) - binary signal operators
+> see also [[+~]](../plus~) (etc) - signal versions
+
+> [[+]](../plus) (etc) - binary arithmetic operators
+
+> [[div]](../div) (etc) - other binary operators
 
 > [[expr]](../expr-family) - evaluation expressions
 
-> [[sin]](../#) [[log]](../#) (etc) - math functions
-
-> Updated for Pd version 0.47
+> Updated for Pd version 0.52
  

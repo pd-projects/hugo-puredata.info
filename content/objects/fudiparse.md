@@ -8,15 +8,21 @@ categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 
 ### [fudiparse]
 
-FUDI messages to and from Pd lists
+The fudiparse object takes incoming lists of numbers, interpreting them as the bytes in a FUDI message (as received when sending Pd-messages via [netreceive -b]).
 
-### Inlets & Outlets
+INLET:
 
-inlet 0
+- list - FUDI packet to convert to Pd messages.
 
- - dummy
+OUTLET:
 
-outlet 0
+- anything - Pd messages.
 
- - dummy
+ARGUMENTS:
+
+- NONE.
+
+> see also [[fudiformat]](../fudiformat) [[oscformat]](../oscformat) 
+
+> updated for Pd version 0.48
  
