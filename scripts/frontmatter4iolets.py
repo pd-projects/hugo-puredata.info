@@ -178,6 +178,40 @@ class ObjectFile:
 
 if __name__ == "__main__":
     import sys
+    def getConfig():
+        import argparse
+
+        defaults = {
+            "verbosity": 0,
+        }
+
+        parser.add_argument(
+            "-q",
+            "--quiet",
+            action="count",
+            default=0,
+            help="lower verbosity",
+        )
+        parser.add_argument(
+            "-v",
+            "--verbose",
+            action="count",
+            default=0,
+            help="raise verbosity",
+        )
+
+        parser.add_argument(
+            "files",
+            nargs="+",
+            metavar="MDFILE",
+            help="markdown file to convert",
+        )
+
+        args = parser.parse_args()
+        verbosity = int(args.verbosity) + args.verbose - args.quiet
+        del args.verbose
+        del args.quiet
+        return args
 
     def printOF(of):
         x = str(of)
@@ -188,7 +222,10 @@ if __name__ == "__main__":
             print(x)
             print("=============================================")
 
-    for f in sys.argv[1:]:
+    cfg = getConfig()
+    logging.getLogger().setLevel(logging.WARNING - (10 * cfg.verbosity))
+
+    for f in cfg.files:
         try:
             of = ObjectFile(f)
             printOF(of)
