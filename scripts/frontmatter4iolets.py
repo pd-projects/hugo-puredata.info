@@ -177,13 +177,22 @@ class ObjectFile:
 
 
 if __name__ == "__main__":
-    import sys
+    import os
+
     def getConfig():
         import argparse
 
         defaults = {
             "verbosity": 0,
         }
+
+        parser = argparse.ArgumentParser()
+        parser.set_defaults(**defaults)
+        parser.add_argument(
+            "-O",
+            "--outdir",
+            help="Output directory for converted files (default: overwrite input files)",
+        )
 
         parser.add_argument(
             "-q",
@@ -225,11 +234,16 @@ if __name__ == "__main__":
     cfg = getConfig()
     logging.getLogger().setLevel(logging.WARNING - (10 * cfg.verbosity))
 
-    for f in cfg.files:
+    for infile in cfg.files:
         try:
-            of = ObjectFile(f)
-            printOF(of)
-            with open(f, "w") as fil:
-                fil.write(str(of))
+            parsed = ObjectFile(infile)
+            # printOF(parsed)
+            if cfg.outdir:
+                outfile = os.path.join(cfg.outdir, os.path.basename(infile))
+            else:
+                outfile = infile
+            with open(outfile, "w") as ofile:
+                ofile.write(str(parsed))
+
         except IndexError as e:
             log.exception("OOPSIE: %s" % (f,))
