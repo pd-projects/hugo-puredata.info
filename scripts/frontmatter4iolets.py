@@ -37,7 +37,6 @@ def dict2order(d, keys):
             o[k] = d[k]
             del d[k]
     o.update(d)
-    print(o)
     return o
 
 
