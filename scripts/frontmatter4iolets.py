@@ -170,7 +170,7 @@ class ObjectFile:
         )
 
     def __str__(self):
-        return self.frontmatter() + "\n" + self.body
+        return self.frontmatter() + "\n" + self.body.strip() + "\n"
 
     def frontmatter(self):
         return "\n".join(["---", yaml.dump(self.data), "---"])
