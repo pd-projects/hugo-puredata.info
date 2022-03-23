@@ -6,6 +6,14 @@ import pprint
 import frontmatter
 import logging
 import collections
+try:
+    import json
+except ImportError:
+    json=None
+try:
+    import toml
+except ImportError:
+    toml=None
 
 log = logging.getLogger()
 logging.basicConfig()
@@ -82,6 +90,10 @@ def parse_iolets(ioletstr, multiple=True):
 
 
 class ObjectFile:
+    YAML = 0
+    TOML = 1
+    JSON = 2
+
     def __init__(self, filename):
         data = fm.read_file(filename)
         self.data = data["attributes"]
@@ -170,11 +182,24 @@ class ObjectFile:
         )
 
     def __str__(self):
-        return self.frontmatter() + "\n" + self.body.strip() + "\n"
+        return self.toString()
 
-    def frontmatter(self):
+    def yaml(self):
         return "\n".join(["---", yaml.dump(self.data), "---"])
 
+    def toml(self):
+        return "\n".join(["+++", toml.dumps(self.data), "+++"])
+
+    def json(self):
+        return json.dumps(self.data, indent=2)
+
+    def toString(self, format=YAML):
+        if ObjectFile.YAML == format:
+            return self.yaml() + "\n" + self.body.strip() + "\n"
+        if ObjectFile.TOML == format:
+            return self.toml() + "\n" + self.body.strip() + "\n"
+        if ObjectFile.JSON == format:
+            return self.json() + "\n\n" + self.body.strip() + "\n"
 
 if __name__ == "__main__":
     import os
