@@ -30,7 +30,7 @@
     {{/* LATER use 'delimit' to generate a nicer string */}}
     see also:
     {{ range where (where $pages "Section" $section) "Title" "in" . }}
-    <a href="../{{.File.BaseFileName}}">[{{.Title}}]</a>
+    <a href="{{.Permalink}}">[{{.Title}}]</a>
     {{end}}
   </div>
   {{end}}
