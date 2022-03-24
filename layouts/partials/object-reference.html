@@ -1,0 +1,48 @@
+<div id="reference">
+  {{ with .inlets }}
+  <h3>INLETs</h3>
+  {{ range $elem_key, $elem_val := . }}
+  <h4>{{$elem_key}}</h4>
+  <dl>
+    {{ range $elem_definition, $elem_description := $elem_val }}
+    <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
+    {{ end }}
+  </dl>
+  {{ end }}
+  {{ end }}
+
+  {{ with .outlets }}
+  <h3>OUTLETs</h3>
+  {{ range $elem_key, $elem_val := . }}
+    <h4>{{$elem_key}}</h4>
+    <dl>
+      {{ range $elem_definition, $elem_description := $elem_val }}
+      <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
+      {{ end }}
+    </dl>
+  {{ end }}
+  {{ end }}
+
+  {{ with .arguments }}
+  <h3>ARGUMENTs</h3>
+  <dl>
+  {{ range $elem_definition, $elem_description := . }}
+  <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
+  {{ end }}
+  </dl>
+  {{ end }}
+
+  {{ with .last_update }}
+  <p>Last updated for Pd-{{.}}</p>
+  {{end}}
+
+  {{ with .see_also }}
+  <div id="see-also">
+    {{/* LATER use 'delimit' to generate a nicer string */}}
+    see also: {{ range . }}
+    <a href="../{{.}}">[{{.}}]</a>
+    {{end}}
+  </div>
+  {{end}}
+  <hr>
+</div>
