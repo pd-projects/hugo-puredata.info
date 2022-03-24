@@ -5,6 +5,7 @@ bref: "manipulate lists"
 draft: false
 categories: ["object"]
 pdcategory: "General"
+aliases: ["list"]
 ---
 
 ### [list append]
