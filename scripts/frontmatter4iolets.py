@@ -6,14 +6,15 @@ import pprint
 import frontmatter
 import logging
 import collections
+
 try:
     import json
 except ImportError:
-    json=None
+    json = None
 try:
     import toml
 except ImportError:
-    toml=None
+    toml = None
 
 log = logging.getLogger()
 logging.basicConfig()
@@ -190,9 +191,6 @@ class ObjectFile:
             result[ioletid] = parse_iolet("\n".join(ioletdata))
         return result
 
-
-
-
     def __str__(self):
         return self.toString()
 
@@ -213,12 +211,14 @@ class ObjectFile:
         if ObjectFile.JSON == format:
             return self.json() + "\n\n" + self.body.strip() + "\n"
 
+
 if __name__ == "__main__":
     import os
 
     def getConfig():
         import argparse
-        formats=[]
+
+        formats = []
         if yaml:
             formats.append("yaml")
         if toml:
@@ -228,6 +228,7 @@ if __name__ == "__main__":
 
         if not formats:
             import sys
+
             log.fatal("no output format available")
             sys.exit(1)
 
@@ -247,7 +248,9 @@ if __name__ == "__main__":
         parser.add_argument(
             "--format",
             choices=formats,
-            help="Write output frontmatter in the given format (DEFAULT: {format})".format(**defaults),
+            help="Write output frontmatter in the given format (DEFAULT: {format})".format(
+                **defaults
+            ),
         )
 
         parser.add_argument(
