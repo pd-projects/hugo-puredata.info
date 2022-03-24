@@ -4,7 +4,7 @@ description: "create a named table"
 bref: "create a named table"
 draft: false
 categories: ["object"]
-pd-category: "Arrays Arrays Arrays GENERAL Tables Tables Tables"
+pd-category: "Arrays & Tables"
 ---
 
 ### [table]
