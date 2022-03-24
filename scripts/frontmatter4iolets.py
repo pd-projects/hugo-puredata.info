@@ -119,7 +119,8 @@ class ObjectFile:
 
         # the title and the heading should match...
         # (if they don't, we trust the title)
-        if title != self.data["title"].strip().lstrip("[").rstrip("]"):
+        self.data["title"] = self.data["title"].strip().lstrip("[").rstrip("]")
+        if title != self.data["title"]:
             log.warning("title mismatch: %s != %s" % (title, self.data["title"]))
 
         ## inlets/outlets/arguments are structured
