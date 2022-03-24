@@ -1,7 +1,7 @@
 {{ define "title" }} {{ .Site.Title }} - {{ .Page.Title }} {{ end }}
 {{ define "header"}} {{ partial "header" .}} {{ end }}
 {{ define "main"  }}
-  {{ partial "object-reference" .Params}}
+  {{ partial "object-reference" .}}
   {{ with .Content }}{{ . }}{{ end }}
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{ end }}
