@@ -38,7 +38,7 @@ ARGUMENT:
 
 - 2nd float - initial upper limit (default 0).
 
-> see also [[clip~]](../clip~) [[expr]](../expr-family) [[max]](../binary-arithmetic-operators) [[min]](../binary-arithmetic-operators)
+> see also [[clip~]](../clip~) [[expr]](../expr-family) [[max]](../max) [[min]](../min)
 
 > updated for Pd version 0.47
  

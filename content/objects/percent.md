@@ -34,7 +34,7 @@ ARGUMENT:
 
 > [[expr]](../expr-family) - evaluation expressions
 
-> [[sin]](../#) [[log]](../#) (etc) - math functions
+> [[sin]](../sin) [[log]](../log) (etc) - math functions
 
 > Updated for Pd version 0.47
  
