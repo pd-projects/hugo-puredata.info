@@ -416,6 +416,8 @@ IMG {
 
 mark {
 background-color: var(--background-color);
+border-radius: 6px;
+padding: 0px 4px;
 }
 
 p.fig {

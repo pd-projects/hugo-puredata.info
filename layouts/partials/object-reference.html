@@ -6,15 +6,18 @@
   <hr>
   {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4>{{ partial "object-reference/iolets" .}}</div>{{ end }}
   {{ with .outlets}}<div id="outlets" class="reference-iolets"><h4>OUTLETs</h4>{{ partial "object-reference/iolets" .}}</div>{{ end }}
+  
 
   {{ with .arguments }}
   <div id="arguments"  class="reference-arguments">
   <h4>ARGUMENTs</h4>
-  <li>
+  
   {{ range $elem_definition, $elem_description := . }}
-  {{$elem_definition}} - {{$elem_description}}
-  {{ end }}
+  <li>
+  <mark>{{$elem_definition}}</mark> - {{$elem_description}}
   </li>
+  {{ end }}
+  
   
   </div>
   {{ end }}

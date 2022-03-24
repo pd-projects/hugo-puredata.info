@@ -2,7 +2,7 @@
 <li>{{$elem_key}}</li>
 <ul>
   {{ range $elem_definition, $elem_description := $elem_val }}
-  <li>{{$elem_definition}} - {{$elem_description}}</li>
+  <li><mark>{{$elem_definition}}</mark> - {{$elem_description}}</li>
   {{ end }}
 </ul>
 {{ end }}
