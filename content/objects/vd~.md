@@ -1,23 +1,13 @@
 ---
-title: "[vd~]"
-description: ""
-bref: ""
+title: vd~
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Delay"
+pdcategory: Audio Delay
+
 ---
 
-### [vd~]
-
-Does something.
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

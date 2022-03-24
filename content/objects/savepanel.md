@@ -1,23 +1,15 @@
 ---
-title: "[savepanel]"
-description: "'Save as' dialog"
-bref: "'Save as' dialog"
+title: savepanel
+description: '''Save as'' dialog'
+bref: '''Save as'' dialog'
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [savepanel]
-
-'Save as' dialog
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

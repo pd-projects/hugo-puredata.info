@@ -1,23 +1,15 @@
 ---
-title: "[readsf~]"
-description: "soundfile playback from disk"
-bref: "soundfile playback from disk"
+title: readsf~
+description: soundfile playback from disk
+bref: soundfile playback from disk
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "General Audio Manipulation"
+pdcategory: General Audio Manipulation
+
 ---
 
-### [readsf~]
-
-soundfile playback from disk
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

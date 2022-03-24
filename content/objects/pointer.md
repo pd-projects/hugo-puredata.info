@@ -1,23 +1,15 @@
 ---
-title: "[pointer]"
-description: "point to an object belonging to a template"
-bref: "point to an object belonging to a template"
+title: pointer
+description: point to an object belonging to a template
+bref: point to an object belonging to a template
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Accessing Data"
+pdcategory: Accessing Data
+
 ---
 
-### [pointer]
-
-point to an object belonging to a template
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

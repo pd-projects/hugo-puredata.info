@@ -1,23 +1,15 @@
 ---
-title: "[getsize]"
-description: "get the size of an array"
-bref: "get the size of an array"
+title: getsize
+description: get the size of an array
+bref: get the size of an array
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Accessing Data"
+pdcategory: Accessing Data
+
 ---
 
-### [getsize]
-
-get the size of an array
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

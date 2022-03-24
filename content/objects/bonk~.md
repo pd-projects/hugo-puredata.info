@@ -1,23 +1,15 @@
 ---
-title: "[bonk~]"
-description: "attack detector"
-bref: "attack detector"
+title: bonk~
+description: attack detector
+bref: attack detector
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: '''EXTRA'' (patches and externs in pd/extra)'
+
 ---
 
-### [bonk~]
-
-attack detector
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

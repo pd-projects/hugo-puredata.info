@@ -1,23 +1,15 @@
 ---
-title: "[max~]"
-description: "maximum or minimum of 2 inputs"
-bref: "maximum or minimum of 2 inputs"
+title: max~
+description: maximum or minimum of 2 inputs
+bref: maximum or minimum of 2 inputs
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [max~]
-
-maximum or minimum of 2 inputs
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

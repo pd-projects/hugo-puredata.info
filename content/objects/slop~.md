@@ -1,23 +1,15 @@
 ---
-title: "[slop~]"
-description: "slew-limiting (nonlinear) low pass filter"
-bref: "slew-limiting (nonlinear) low pass filter"
+title: slop~
+description: slew-limiting (nonlinear) low pass filter
+bref: slew-limiting (nonlinear) low pass filter
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Filters"
+pdcategory: Audio Filters
+
 ---
 
-### [slop~]
-
-slew-limiting (nonlinear) low pass filter
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

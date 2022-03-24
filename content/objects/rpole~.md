@@ -1,23 +1,15 @@
 ---
-title: "[rpole~]"
-description: "raw real-valued one-pole filter"
-bref: "raw real-valued one-pole filter"
+title: rpole~
+description: raw real-valued one-pole filter
+bref: raw real-valued one-pole filter
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Filters"
+pdcategory: Audio Filters
+
 ---
 
-### [rpole~]
-
-raw real-valued one-pole filter
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

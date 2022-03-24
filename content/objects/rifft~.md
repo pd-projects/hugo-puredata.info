@@ -1,23 +1,15 @@
 ---
-title: "[rifft~]"
-description: "real inverse discrete Fourier transform"
-bref: "real inverse discrete Fourier transform"
+title: rifft~
+description: real inverse discrete Fourier transform
+bref: real inverse discrete Fourier transform
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [rifft~]
-
-real inverse discrete Fourier transform
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

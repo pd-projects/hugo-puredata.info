@@ -1,23 +1,15 @@
 ---
-title: "[rsqrt~]"
-description: "reciprocal square root"
-bref: "reciprocal square root"
+title: rsqrt~
+description: reciprocal square root
+bref: reciprocal square root
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [rsqrt~]
-
-reciprocal square root
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

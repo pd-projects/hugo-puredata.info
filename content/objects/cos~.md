@@ -1,23 +1,15 @@
 ---
-title: "[cos~]"
-description: "cosine"
-bref: "cosine"
+title: cos~
+description: cosine
+bref: cosine
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Oscillators And Tables"
+pdcategory: Audio Oscillators And Tables
+
 ---
 
-### [cos~]
-
-cosine
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

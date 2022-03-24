@@ -1,23 +1,15 @@
 ---
-title: "[drawnumber]"
-description: "print a numeric value"
-bref: "print a numeric value"
+title: drawnumber
+description: print a numeric value
+bref: print a numeric value
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Data Templates"
+pdcategory: Data Templates
+
 ---
 
-### [drawnumber]
-
-print a numeric value
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

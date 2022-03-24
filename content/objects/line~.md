@@ -1,23 +1,15 @@
 ---
-title: "[line~]"
-description: "generate audio ramps"
-bref: "generate audio ramps"
+title: line~
+description: generate audio ramps
+bref: generate audio ramps
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "General Audio Manipulation"
+pdcategory: General Audio Manipulation
+
 ---
 
-### [line~]
-
-generate audio ramps
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

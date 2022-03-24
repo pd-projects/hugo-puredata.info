@@ -1,23 +1,15 @@
 ---
-title: "[mtof~]"
-description: "acoustic conversions"
-bref: "acoustic conversions"
+title: mtof~
+description: acoustic conversions
+bref: acoustic conversions
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [mtof~]
-
-acoustic conversions
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

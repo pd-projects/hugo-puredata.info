@@ -1,23 +1,15 @@
 ---
-title: "[samplerate~]"
-description: "get the sample rate"
-bref: "get the sample rate"
+title: samplerate~
+description: get the sample rate
+bref: get the sample rate
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "General Audio Manipulation"
+pdcategory: General Audio Manipulation
+
 ---
 
-### [samplerate~]
-
-get the sample rate
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

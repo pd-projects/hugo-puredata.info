@@ -1,23 +1,15 @@
 ---
-title: "[file]"
-description: "low-level file operations"
-bref: "low-level file operations"
+title: file
+description: low-level file operations
+bref: low-level file operations
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
-
-### [text]
-
 general text handling
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

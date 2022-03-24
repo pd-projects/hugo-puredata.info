@@ -1,23 +1,15 @@
 ---
-title: "[inlet~]"
-description: "signal versions"
-bref: "signal versions"
+title: inlet~
+description: signal versions
+bref: signal versions
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Subwindows"
+pdcategory: Subwindows
+
 ---
 
-### [inlet~]
-
-signal versions
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

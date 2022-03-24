@@ -1,16 +1,27 @@
 ---
-title: "[sin], [cos], [tan], [atan], [atan2], [wrap], [abs], [sqrt], [exp], [log], [pow]"
-description: "math functions"
-bref: "math functions"
+title: sin], [cos], [tan], [atan], [atan2], [wrap], [abs], [sqrt], [exp], [log], [pow
+description: math functions
+bref: math functions
+categories:
+- object
+see_also:
+- +~
+- +
+- div
+- expr
+arguments:
+  bang: output the operation on the previously set values.
+  float: initialize value of right inlet (default 0).
+inlets:
+  1st:
+    float: input value to given function.
+outlets:
+  1st:
+    float: the result of the operation.
 draft: false
-categories: ["object"]
-pdcategory: "Math"
+pdcategory: Math
+
 ---
-
-### [sin], [cos], [tan], [atan], [atan2], [wrap], [abs], [sqrt], [exp], [log], [pow]
-
-Math functions.
-
 Unlike the signal version cos~, control-rate trigonometric functions take inputs in radians.
 
 The arc tangent takes two forms. The atan2 version takes an (x, y) pair and gives you an output between -pi and pi, it also takes a bang message in the left inlet to evaluate the operation with the previously set values.
@@ -21,53 +32,3 @@ We also have wrap, absolute value, square root, exponential, logarithms and powe
 
 
 ------------------------
-INLET:
-
-- float - input value to given function.
-
-OUTLET:
-
-- float - the result of the operation.
-
-ARGUMENT:
-
-- NONE.
-
---------------------------
-
-**[atan2], [log], [pow]*** - math functions (two inlets)
-
-INLETS:
-
-- float - input value to given function.
-
-  - bang - output the operation on the previously set values.
-
-  - float - value to the left side of operation and output.
-
-- 2nd:
-
-  - float - value to the right side of operation.
-
-OUTLET:
-
-- float - the result of the operation.
-
-ARGUMENT:
-
-- float - initialize value of right inlet (default 0).
-
--------------------------
-
- 
-
-> see also [[+~]](../#) (etc) - signal versions
-
-> [[+]](../plus) (etc) - binary arithmetic operators
-
-> [[div]](../div) (etc) - other binary operators
-
-> [[expr]](../expr-family) - evaluation expressions
-
-> Updated for Pd version 0.52
- 

@@ -1,23 +1,15 @@
 ---
-title: "[tabreceive~]"
-description: "read one block continuously from a table"
-bref: "read one block continuously from a table"
+title: tabreceive~
+description: read one block continuously from a table
+bref: read one block continuously from a table
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Oscillators And Tables"
+pdcategory: Audio Oscillators And Tables
+
 ---
 
-### [tabreceive~]
-
-read one block continuously from a table
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

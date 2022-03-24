@@ -1,23 +1,15 @@
 ---
-title: "[delread~]"
-description: "read from a delay line"
-bref: "read from a delay line"
+title: delread~
+description: read from a delay line
+bref: read from a delay line
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Delay"
+pdcategory: Audio Delay
+
 ---
 
-### [delread~]
-
-read from a delay line
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

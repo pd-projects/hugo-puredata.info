@@ -1,23 +1,15 @@
 ---
-title: "[delwrite~]"
-description: "write to a delay line"
-bref: "write to a delay line"
+title: delwrite~
+description: write to a delay line
+bref: write to a delay line
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Delay"
+pdcategory: Audio Delay
+
 ---
 
-### [delwrite~]
-
-write to a delay line
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

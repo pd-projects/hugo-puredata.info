@@ -1,35 +1,18 @@
 ---
-title: "[midirealtimein]"
-description: ""
-bref: ""
+title: midirealtimein
+categories:
+- object
+last_update: 0.48-2
+see_also:
+- notein
+- noteout
+outlets:
+  1st:
+    float: MIDI real-time messages
+  2nd:
+    float: MIDI channel/port
 draft: false
-categories: ["object"]
-pdcategory: "I/O via MIDI, OSC, and FUDI"
+pdcategory: I/O via MIDI, OSC, and FUDI
+
 ---
 
-### [midirealtimein]
-
-INLETS:
-
-- NONE.
-
-OUTLETS:
-
-- 1st: 
- 
-  - float - MIDI real-time messages
-  
-- 2nd: 
-
-  - float - MIDI channel/port
-  
-ARGUMENTS:
-
-- NONE.
-
-> see also [[notein]](../notein) (etc) - MIDI in objects.
-
-> see also [[noteout]](../noteout) (etc) - MIDI out objects.
-
-> updated for Pd version 0.48-2
- 

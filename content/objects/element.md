@@ -1,23 +1,15 @@
 ---
-title: "[element]"
-description: "get an array element"
-bref: "get an array element"
+title: element
+description: get an array element
+bref: get an array element
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Accessing Data"
+pdcategory: Accessing Data
+
 ---
 
-### [element]
-
-get an array element
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

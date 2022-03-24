@@ -1,44 +1,27 @@
 ---
-title: "[log]"
-description: "math functions"
-bref: "math functions"
+title: log
+description: math functions
+bref: math functions
+categories:
+- object
+see_also:
+- +~
+- +
+- div
+- expr
+arguments:
+  float: initialize value of right inlet (default 0).
+inlets:
+  2nd:
+    float: value to the right side of operation.
+  float - input value to given function.:
+    bang: output the operation on the previously set values.
+    float: value to the left side of operation and output.
+outlets:
+  1st:
+    float: the result of the operation.
 draft: false
-categories: ["object"]
-pdcategory: "Math"
+pdcategory: Math
+
 ---
-
-### [log]
-
-As in the signal version log~, log takes a base value via an argument or the right inlet, but it defaults to â€œeâ€.
-
-
-INLETS:
-
-- float - input value to given function.
-
-  - bang - output the operation on the previously set values.
-
-  - float - value to the left side of operation and output.
-
-- 2nd:
-
-  - float - value to the right side of operation.
-
-OUTLET:
-
-- float - the result of the operation.
-
-ARGUMENT:
-
-- float - initialize value of right inlet (default 0).
- 
-> see also [[+~]](../plus~) (etc) - signal versions
-
-> [[+]](../plus) (etc) - binary arithmetic operators
-
-> [[div]](../div) (etc) - other binary operators
-
-> [[expr]](../expr-family) - evaluation expressions
-
-> Updated for Pd version 0.52
- 
+As in the signal version log~, log takes a base value via an argument or the right inlet, but it defaults to “e”.

@@ -1,23 +1,15 @@
 ---
-title: "[ifft~]"
-description: "complex inverse discrete Fourier transform"
-bref: "complex inverse discrete Fourier transform"
+title: ifft~
+description: complex inverse discrete Fourier transform
+bref: complex inverse discrete Fourier transform
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [ifft~]
-
-complex inverse discrete Fourier transform
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

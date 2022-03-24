@@ -15,7 +15,7 @@
       <h3>{{$cat}}</h3>
       {{ range where $pages "Params.pdcategory" $cat }}
       <div class="col col-4 item">
-        <a href="{{ .Permalink }}"><tt>[{{ .Title }}]</tt></a>
+        <a href="{{ .Permalink }}">[{{ .Title }}]</a>
         {{ with .Params.description }} - {{ . }} {{ end }}
       </div>
       {{end}}

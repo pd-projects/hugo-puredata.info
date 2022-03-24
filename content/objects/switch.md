@@ -1,23 +1,13 @@
 ---
-title: "[switch]"
-description: ""
-bref: ""
+title: switch
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Subwindows"
+pdcategory: Subwindows
+
 ---
 
-### [switch]
-
-Does something.
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

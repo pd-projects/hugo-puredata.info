@@ -1,23 +1,15 @@
 ---
-title: "[biquad~]"
-description: "raw filter"
-bref: "raw filter"
+title: biquad~
+description: raw filter
+bref: raw filter
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Filters"
+pdcategory: Audio Filters
+
 ---
 
-### [biquad~]
-
-raw filter
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

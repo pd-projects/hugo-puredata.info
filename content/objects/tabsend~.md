@@ -1,23 +1,15 @@
 ---
-title: "[tabsend~]"
-description: "write one block continuously to a table"
-bref: "write one block continuously to a table"
+title: tabsend~
+description: write one block continuously to a table
+bref: write one block continuously to a table
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Oscillators And Tables"
+pdcategory: Audio Oscillators And Tables
+
 ---
 
-### [tabsend~]
-
-write one block continuously to a table
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

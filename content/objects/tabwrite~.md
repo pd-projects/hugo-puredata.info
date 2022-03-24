@@ -1,23 +1,15 @@
 ---
-title: "[tabwrite~]"
-description: "write to a table"
-bref: "write to a table"
+title: tabwrite~
+description: write to a table
+bref: write to a table
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Oscillators And Tables"
+pdcategory: Audio Oscillators And Tables
+
 ---
 
-### [tabwrite~]
-
-write to a table
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,23 +1,13 @@
 ---
-title: "[complex-mod~]"
-description: ""
-bref: ""
+title: complex-mod~
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: '''EXTRA'' (patches and externs in pd/extra)'
+
 ---
 
-### [complex-mod~]
-
-Does something.
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

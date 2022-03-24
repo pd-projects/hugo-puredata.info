@@ -1,38 +1,21 @@
 ---
-title: "[cputime]"
-description: "measure CPU time"
-bref: "measure CPU time"
+title: cputime
+description: measure CPU time
+bref: measure CPU time
+categories:
+- object
+last_update: '0.33'
+see_also:
+- realtime
+- timer
+inlets:
+  1st:
+    bang: time to measure.
+outlets:
+  1st:
+    bang: output elapsed time.
 draft: false
-categories: ["object"]
-pdcategory: "Time"
+pdcategory: Time
+
 ---
-
-### [cputime]
-
-Measure CPU time.
-
 The cputime object measures elapsed CPU time,  as measured by your operating system. This appears to work on NT,  IRIX,  and Linux,  but not on W98.
-
-INLET:
-
-- 1st
-
-  - bang - reset (set elapsed time to zero).
-  
-- 2nd
-  
-  - bang - time to measure.
-
-OUTLET:
-
-- bang - output elapsed time.
-
-ARGUMENTS:
-
-- NONE.
-
-
-
-> see also [[realtime]](../realtime) [[timer]](../timer)
- 
-> updated for Pd version 0.33

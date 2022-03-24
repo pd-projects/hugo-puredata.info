@@ -1,23 +1,15 @@
 ---
-title: "[keyname]"
-description: "symbolic key name"
-bref: "symbolic key name"
+title: keyname
+description: symbolic key name
+bref: symbolic key name
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [keyname]
-
-symbolic key name
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

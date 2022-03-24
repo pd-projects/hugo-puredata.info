@@ -1,23 +1,15 @@
 ---
-title: "[noise~]"
-description: "white noise generator"
-bref: "white noise generator"
+title: noise~
+description: white noise generator
+bref: white noise generator
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Filters"
+pdcategory: Audio Filters
+
 ---
 
-### [noise~]
-
-white noise generator
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

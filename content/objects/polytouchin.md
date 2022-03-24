@@ -1,41 +1,23 @@
 ---
-title: "[polytouchin]"
-description: ""
-bref: ""
+title: polytouchin
+categories:
+- object
+last_update: 0.48-2
+see_also:
+- notein
+- noteout
+arguments:
+  float: channel/port
+outlets:
+  1st:
+    float: MIDI aftertouch value.
+  2nd:
+    float: MIDI note number
+  3rd:
+    float: channel/port
+  'n: (number depends on number of arguments)': {}
 draft: false
-categories: ["object"]
-pdcategory: "I/O via MIDI, OSC, and FUDI"
+pdcategory: I/O via MIDI, OSC, and FUDI
+
 ---
 
-### [polytouchin]
-
-INLETS:
-
-- NONE.
-
-OUTLETS:
-
-- n: (number depends on number of arguments)
-
-- 1st: 
- 
-  - float - MIDI aftertouch value.
-  
-- 2nd: 
-
-  - float - MIDI note number
-  
-- 3rd: 
-
-  - float - channel/port
-  
-ARGUMENTS:
-
-- float - channel/port
-
-> see also [[notein]](../notein) (etc) - MIDI in objects.
-
-> see also [[noteout]](../noteout) (etc) - MIDI out objects.
-
-> updated for Pd version 0.48-2
- 

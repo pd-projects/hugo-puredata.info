@@ -1,23 +1,15 @@
 ---
-title: "[key]"
-description: "numeric key values from keyboard"
-bref: "numeric key values from keyboard"
+title: key
+description: numeric key values from keyboard
+bref: numeric key values from keyboard
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [key]
-
-numeric key values from keyboard
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,23 +1,15 @@
 ---
-title: "[vcf~]"
-description: "voltage controlled filter"
-bref: "voltage controlled filter"
+title: vcf~
+description: voltage controlled filter
+bref: voltage controlled filter
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Filters"
+pdcategory: Audio Filters
+
 ---
 
-### [vcf~]
-
-voltage controlled filter
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

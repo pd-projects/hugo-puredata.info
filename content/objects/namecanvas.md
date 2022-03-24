@@ -1,23 +1,15 @@
 ---
-title: "[namecanvas]"
-description: "(potentially dangerous but no substitute exists yet)"
-bref: "(potentially dangerous but no substitute exists yet)"
+title: namecanvas
+description: (potentially dangerous but no substitute exists yet)
+bref: (potentially dangerous but no substitute exists yet)
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Obsolete"
+pdcategory: Obsolete
+
 ---
 
-### [namecanvas]
-
-(potentially dangerous but no substitute exists yet)
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

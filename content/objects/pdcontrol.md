@@ -1,23 +1,15 @@
 ---
-title: "[pdcontrol]"
-description: "communicate with canvas (for example, to get directory)"
-bref: "communicate with canvas (for example, to get directory)"
+title: pdcontrol
+description: communicate with canvas (for example, to get directory)
+bref: communicate with canvas (for example, to get directory)
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [pdcontrol]
-
-communicate with canvas (for example, to get directory)
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

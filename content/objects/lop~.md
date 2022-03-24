@@ -1,23 +1,15 @@
 ---
-title: "[lop~]"
-description: "low pass filter"
-bref: "low pass filter"
+title: lop~
+description: low pass filter
+bref: low pass filter
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Filters"
+pdcategory: Audio Filters
+
 ---
 
-### [lop~]
-
-low pass filter
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

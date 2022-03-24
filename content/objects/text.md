@@ -1,23 +1,15 @@
 ---
-title: "[text]"
-description: "general text handling"
-bref: "general text handling"
+title: text
+description: general text handling
+bref: general text handling
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [text]
-
-general text handling
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

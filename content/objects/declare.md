@@ -1,23 +1,15 @@
 ---
-title: "[declare]"
-description: "set search path and/or load libraries"
-bref: "set search path and/or load libraries"
+title: declare
+description: set search path and/or load libraries
+bref: set search path and/or load libraries
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [declare]
-
-set search path and/or load libraries
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

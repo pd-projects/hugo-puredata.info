@@ -1,23 +1,15 @@
 ---
-title: "[osc~]"
-description: "cosine oscillator"
-bref: "cosine oscillator"
+title: osc~
+description: cosine oscillator
+bref: cosine oscillator
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Oscillators And Tables"
+pdcategory: Audio Oscillators And Tables
+
 ---
 
-### [osc~]
-
-cosine oscillator
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

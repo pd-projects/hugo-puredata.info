@@ -1,23 +1,15 @@
 ---
-title: "[send~]"
-description: "nonlocal signal connection with fanout"
-bref: "nonlocal signal connection with fanout"
+title: send~
+description: nonlocal signal connection with fanout
+bref: nonlocal signal connection with fanout
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "General Audio Manipulation"
+pdcategory: General Audio Manipulation
+
 ---
 
-### [send~]
-
-nonlocal signal connection with fanout
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,23 +1,15 @@
 ---
-title: "[choice]"
-description: "best match of list to templates"
-bref: "best match of list to templates"
+title: choice
+description: best match of list to templates
+bref: best match of list to templates
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: '''EXTRA'' (patches and externs in pd/extra)'
+
 ---
 
-### [choice]
-
-best match of list to templates
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

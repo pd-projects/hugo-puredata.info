@@ -1,23 +1,15 @@
 ---
-title: "[sqrt~]"
-description: "approximate (16-bit) square root"
-bref: "approximate (16-bit) square root"
+title: sqrt~
+description: approximate (16-bit) square root
+bref: approximate (16-bit) square root
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [sqrt~]
-
-approximate (16-bit) square root
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

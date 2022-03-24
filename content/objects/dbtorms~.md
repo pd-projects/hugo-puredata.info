@@ -1,23 +1,13 @@
 ---
-title: "[dbtorms~]"
-description: ""
-bref: ""
+title: dbtorms~
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [dbtorms~]
-
-Does something.
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

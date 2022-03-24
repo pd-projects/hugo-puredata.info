@@ -1,23 +1,15 @@
 ---
-title: "[struct]"
-description: "define a data structure"
-bref: "define a data structure"
+title: struct
+description: define a data structure
+bref: define a data structure
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Data Templates"
+pdcategory: Data Templates
+
 ---
 
-### [struct]
-
-define a data structure
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

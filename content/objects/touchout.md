@@ -1,36 +1,20 @@
 ---
-title: "[touchout]"
-description: ""
-bref: ""
+title: touchout
+categories:
+- object
+last_update: 0.48-2
+see_also:
+- notein
+- noteout
+arguments:
+  float: MIDI channel/port
+inlets:
+  1st:
+    float: MIDI aftertouch value.
+  2nd:
+    float: MIDI channel/port
 draft: false
-categories: ["object"]
-pdcategory: "I/O via MIDI, OSC, and FUDI"
+pdcategory: I/O via MIDI, OSC, and FUDI
+
 ---
 
-### [touchout]
-
-INLETS:
-
-- 1st: 
- 
-  - float - MIDI aftertouch value.
-  
-- 2nd: 
-
-  - float - MIDI channel/port
-
-OUTLETS:
-  
-- NONE.
-  
-ARGUMENTS:
-
-- float - MIDI channel/port
-
-
-> see also [[notein]](../notein) (etc) - MIDI in objects.
-
-> see also [[noteout]](../noteout) (etc) - MIDI out objects.
-
-> updated for Pd version 0.48-2
- 

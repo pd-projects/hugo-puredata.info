@@ -1,23 +1,15 @@
 ---
-title: "[qlist]"
-description: "message sequencer"
-bref: "message sequencer"
+title: qlist
+description: message sequencer
+bref: message sequencer
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [qlist]
-
-message sequencer
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

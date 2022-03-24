@@ -1,23 +1,15 @@
 ---
-title: "[catch~]"
-description: "define and read a summing bus"
-bref: "define and read a summing bus"
+title: catch~
+description: define and read a summing bus
+bref: define and read a summing bus
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "General Audio Manipulation"
+pdcategory: General Audio Manipulation
+
 ---
 
-### [catch~]
-
-define and read a summing bus
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,23 +1,15 @@
 ---
-title: "[+~]"
-description: "arithmetic on audio signals"
-bref: "arithmetic on audio signals"
+title: +~
+description: arithmetic on audio signals
+bref: arithmetic on audio signals
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [+~]
-
-arithmetic on audio signals
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,16 +1,29 @@
 ---
-title: "[list store]"
-description: "manipulate lists"
-bref: "manipulate lists"
+title: list store
+description: manipulate lists
+bref: manipulate lists
+categories:
+- object
+see_also:
+- list
+- list append
+- list prepend
+- list split
+- list trim
+- list length
+- list fromsymbol
+- list tosymbol
+arguments:
+  list: initialize the stored list (default empty).
+inlets:
+  1st: {}
+outlets:
+  1st:
+    list: the stored list.
 draft: false
-categories: ["object"]
-pdcategory: "General"
+pdcategory: General
+
 ---
-
-
-
-### [list store]
-
 Put together or break apart a list to/from sublists
 
 INLETS
@@ -36,20 +49,3 @@ INLETS
 - 2nd:
 
   - anything - set stored list (a bang is a zero element list and clears it).
-
-OUTLET:
-
-- list - the stored list.
-
-ARGUMENTS:
-
-- list - initialize the stored list (default empty).
-
-> see also [[list]](../list)\
-> [[list append]](../list-append)\
-> [[list prepend]](../list-prepend)\
-> [[list split]](../list-split)\
-> [[list trim]](../list-trim)\
-> [[list length]](../list-length)\
-> [[list fromsymbol]](../list-fromsymbol)\
-> [[list tosymbol]](../list-tosymbol)

@@ -1,15 +1,31 @@
 ---
-title: "[list append]"
-description: "manipulate lists"
-bref: "manipulate lists"
+title: list append
+description: manipulate lists
+bref: manipulate lists
+categories:
+- object
+see_also:
+- list
+- list prepend
+- list store
+- list split
+- list trim
+- list length
+- list fromsymbol
+- list tosymbol
+arguments:
+  list: initialize the list to append (default empty).
+inlets:
+  1st: {}
+outlets:
+  1st:
+    list: the concatenated list.
 draft: false
-categories: ["object"]
-pdcategory: "General"
-aliases: ["list"]
+pdcategory: General
+aliases:
+- list
+
 ---
-
-### [list append]
-
 Use list append to concatenate a second list (defined via arguments or the right inlet) to the first list via the left inlet.
 
 INLETS
@@ -21,20 +37,3 @@ INLETS
 - 2nd:
 
   - anything - set messages to append to the first list (a bang is a zero element list and clears it).
-
-OUTLET:
-
-- list - the concatenated list.
-
-ARGUMENTS:
-
-- list - initialize the list to append (default empty).
-
-> see also [[list]](../list)\
-> [[list prepend]](../list-prepend)\
-> [[list store]](../list-store)\
-> [[list split]](../list-split)\
-> [[list trim]](../list-trim)\
-> [[list length]](../list-length)\
-> [[list fromsymbol]](../list-fromsymbol)\
-> [[list tosymbol]](../list-tosymbol)

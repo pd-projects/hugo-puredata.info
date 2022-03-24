@@ -1,23 +1,15 @@
 ---
-title: "[lrshift~]"
-description: "left and right shift (useful with FFT objects)"
-bref: "left and right shift (useful with FFT objects)"
+title: lrshift~
+description: left and right shift (useful with FFT objects)
+bref: left and right shift (useful with FFT objects)
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: '''EXTRA'' (patches and externs in pd/extra)'
+
 ---
 
-### [lrshift~]
-
-left and right shift (useful with FFT objects)
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

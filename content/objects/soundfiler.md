@@ -1,14 +1,35 @@
 ---
-title: "[soundfiler]"
-description: "read and write tables to soundfiles"
-bref: "read and write tables to soundfiles"
+title: soundfiler
+description: read and write tables to soundfiles
+bref: read and write tables to soundfiles
+categories:
+- object
+last_update: '0.51'
+see_also:
+- array
+- readsf~
+- tabplay~
+- tabread4~
+- tabwrite~
+- writesf~
+inlets:
+  1st:
+    read <list>: 'sets a filename to open and optionally one or more arrays to load
+      channels. `Optional flags`: -wave,  -aiff,  -caf,  -next,  -skip <float>,  -maxsize
+      <float>,  -ascii,  -raw <list>.'
+    write <list>: 'sets a filename to write and one or more arrays to specify channels.
+      `Optional flags`: -wave,  -aiff,  -caf,  -next,  -big,  -little,  -skip <float>,  -nframes
+      <float>,  -ascii,  -normalize,  -rate <float>.'
+outlets:
+  1st:
+    float: number of samples (when reading a file).
+  2nd:
+    list: sample rate,  header size,  number of channels,  bytes per sample & endianness
+      (when reading a file).
 draft: false
-categories: ["object"]
-pdcategory: "Arrays & Tables"
+pdcategory: Arrays & Tables
+
 ---
-
-### [soundfiler]
-
 The soundfiler object reads and writes floating point arrays to binary soundfiles which may contain uncompressed 2- or 3-byte integer ("pcm") or 4-byte floating point samples in wave, aiff, caf, next, or ascii text formats. The number of channels of the soundfile need not match the number of arrays given (extras are dropped and unsupplied channels are zeroed out).
 
 The number of channels is limited to 64.
@@ -46,32 +67,3 @@ The number of channels is limited to 64.
 - -normalize
 
 - -rate &lt;sample rate&gt;
-
-
-
-INLET:
-
-- read &lt;list&gt; - sets a filename to open and optionally one or more arrays to load channels. `Optional flags`: -wave,  -aiff,  -caf,  -next,  -skip &lt;float&gt;,  -maxsize &lt;float&gt;,  -ascii,  -raw &lt;list&gt;.
-
-
-- write &lt;list&gt; - sets a filename to write and one or more arrays to specify channels. `Optional flags`: -wave,  -aiff,  -caf,  -next,  -big,  -little,  -skip &lt;float&gt;,  -nframes &lt;float&gt;,  -ascii,  -normalize,  -rate &lt;float&gt;.
-
-OUTLETS:
-
-- 1st:
-
-  - float - number of samples (when reading a file).
-
-- 2nd:
-
-  - list - sample rate,  header size,  number of channels,  bytes per sample & endianness (when reading a file).
-
-ARGUMENTS:
-
-- NONE.
- 
-> see also [[array]](../array) [[readsf~]](../readsf~) [[tabplay~]](../tabplay~) 
-
-> [[tabread4~]](../tabread4~) [[tabwrite~]](../tabwrite~) [[writesf~]](../writesf~)
- 
-> updated for Pd version 0.51

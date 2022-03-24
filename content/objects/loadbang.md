@@ -1,23 +1,15 @@
 ---
-title: "[loadbang]"
-description: "bang on load"
-bref: "bang on load"
+title: loadbang
+description: bang on load
+bref: bang on load
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [loadbang]
-
-bang on load
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

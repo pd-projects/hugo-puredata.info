@@ -1,23 +1,15 @@
 ---
-title: "[clone]"
-description: "multiple copies of a patch"
-bref: "multiple copies of a patch"
+title: clone
+description: multiple copies of a patch
+bref: multiple copies of a patch
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Subwindows"
+pdcategory: Subwindows
+
 ---
 
-### [clone]
-
-multiple copies of a patch
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

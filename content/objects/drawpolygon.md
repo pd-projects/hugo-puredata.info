@@ -1,23 +1,15 @@
 ---
-title: "[drawpolygon]"
-description: "draw a polygon"
-bref: "draw a polygon"
+title: drawpolygon
+description: draw a polygon
+bref: draw a polygon
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Data Templates"
+pdcategory: Data Templates
+
 ---
 
-### [drawpolygon]
-
-draw a polygon
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

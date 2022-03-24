@@ -1,23 +1,15 @@
 ---
-title: "[drawcurve]"
-description: "draw a curve"
-bref: "draw a curve"
+title: drawcurve
+description: draw a curve
+bref: draw a curve
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Data Templates"
+pdcategory: Data Templates
+
 ---
 
-### [drawcurve]
-
-draw a curve
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,23 +1,15 @@
 ---
-title: "[template]"
-description: "(use struct now)"
-bref: "(use struct now)"
+title: template
+description: (use struct now)
+bref: (use struct now)
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Obsolete"
+pdcategory: Obsolete
+
 ---
 
-### [template]
-
-(use struct now)
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

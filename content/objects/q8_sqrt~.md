@@ -1,23 +1,15 @@
 ---
-title: "[q8_sqrt~]"
-description: "fast, cheap 8 bits versions"
-bref: "fast, cheap 8 bits versions"
+title: q8_sqrt~
+description: fast, cheap 8 bits versions
+bref: fast, cheap 8 bits versions
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [q8_sqrt~]
-
-fast, cheap 8 bits versions
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,23 +1,15 @@
 ---
-title: "[vsnapshot~]"
-description: "deluxe snapshot~"
-bref: "deluxe snapshot~"
+title: vsnapshot~
+description: deluxe snapshot~
+bref: deluxe snapshot~
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "General Audio Manipulation"
+pdcategory: General Audio Manipulation
+
 ---
 
-### [vsnapshot~]
-
-deluxe snapshot~
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

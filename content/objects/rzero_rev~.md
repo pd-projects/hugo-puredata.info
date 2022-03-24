@@ -1,23 +1,15 @@
 ---
-title: "[rzero_rev~]"
-description: "time-reversed"
-bref: "time-reversed"
+title: rzero_rev~
+description: time-reversed
+bref: time-reversed
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Filters"
+pdcategory: Audio Filters
+
 ---
 
-### [rzero_rev~]
-
-time-reversed
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

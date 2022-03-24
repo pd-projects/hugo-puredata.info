@@ -1,23 +1,15 @@
 ---
-title: "[framp~]"
-description: "estimate frequency and amplitude of FFT components"
-bref: "estimate frequency and amplitude of FFT components"
+title: framp~
+description: estimate frequency and amplitude of FFT components
+bref: estimate frequency and amplitude of FFT components
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [framp~]
-
-estimate frequency and amplitude of FFT components
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

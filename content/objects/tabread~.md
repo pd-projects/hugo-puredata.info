@@ -1,23 +1,15 @@
 ---
-title: "[tabread~]"
-description: "non-interpolating table read"
-bref: "non-interpolating table read"
+title: tabread~
+description: non-interpolating table read
+bref: non-interpolating table read
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Oscillators And Tables"
+pdcategory: Audio Oscillators And Tables
+
 ---
 
-### [tabread~]
-
-non-interpolating table read
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

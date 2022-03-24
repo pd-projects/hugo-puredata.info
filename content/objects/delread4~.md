@@ -1,23 +1,15 @@
 ---
-title: "[delread4~]"
-description: "read with a time-varying delay time"
-bref: "read with a time-varying delay time"
+title: delread4~
+description: read with a time-varying delay time
+bref: read with a time-varying delay time
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Delay"
+pdcategory: Audio Delay
+
 ---
 
-### [delread4~]
-
-read with a time-varying delay time
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,23 +1,15 @@
 ---
-title: "[tabosc4~]"
-description: "wavetable oscillator"
-bref: "wavetable oscillator"
+title: tabosc4~
+description: wavetable oscillator
+bref: wavetable oscillator
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Oscillators And Tables"
+pdcategory: Audio Oscillators And Tables
+
 ---
 
-### [tabosc4~]
-
-wavetable oscillator
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

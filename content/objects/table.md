@@ -1,23 +1,15 @@
 ---
-title: "[table]"
-description: "create a named table"
-bref: "create a named table"
+title: table
+description: create a named table
+bref: create a named table
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Arrays & Tables"
+pdcategory: Arrays & Tables
+
 ---
 
-### [table]
-
-create a named table
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

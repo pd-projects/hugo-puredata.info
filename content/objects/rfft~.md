@@ -1,23 +1,15 @@
 ---
-title: "[rfft~]"
-description: "real forward discrete Fourier transform"
-bref: "real forward discrete Fourier transform"
+title: rfft~
+description: real forward discrete Fourier transform
+bref: real forward discrete Fourier transform
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
+pdcategory: Audio Math
+
 ---
 
-### [rfft~]
-
-real forward discrete Fourier transform
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

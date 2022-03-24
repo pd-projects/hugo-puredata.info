@@ -1,23 +1,15 @@
 ---
-title: "[hilbert~]"
-description: "phase quadrature / frequency shifting"
-bref: "phase quadrature / frequency shifting"
+title: hilbert~
+description: phase quadrature / frequency shifting
+bref: phase quadrature / frequency shifting
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: '''EXTRA'' (patches and externs in pd/extra)'
+
 ---
 
-### [hilbert~]
-
-phase quadrature / frequency shifting
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

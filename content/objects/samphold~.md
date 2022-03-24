@@ -1,23 +1,15 @@
 ---
-title: "[samphold~]"
-description: "sample and hold unit"
-bref: "sample and hold unit"
+title: samphold~
+description: sample and hold unit
+bref: sample and hold unit
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Filters"
+pdcategory: Audio Filters
+
 ---
 
-### [samphold~]
-
-sample and hold unit
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

@@ -1,23 +1,15 @@
 ---
-title: "[rev1~]"
-description: "reverberators"
-bref: "reverberators"
+title: rev1~
+description: reverberators
+bref: reverberators
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: '''EXTRA'' (patches and externs in pd/extra)'
+
 ---
 
-### [rev1~]
-
-reverberators
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

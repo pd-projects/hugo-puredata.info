@@ -1,23 +1,15 @@
 ---
-title: "[poly]"
-description: "polyphonic voice allocation"
-bref: "polyphonic voice allocation"
+title: poly
+description: polyphonic voice allocation
+bref: polyphonic voice allocation
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [poly]
-
-polyphonic voice allocation
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

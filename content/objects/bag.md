@@ -1,23 +1,15 @@
 ---
-title: "[bag]"
-description: "set of numbers"
-bref: "set of numbers"
+title: bag
+description: set of numbers
+bref: set of numbers
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [bag]
-
-set of numbers
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

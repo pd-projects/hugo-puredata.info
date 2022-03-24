@@ -1,23 +1,15 @@
 ---
-title: "[phasor~]"
-description: "sawtooth oscillator"
-bref: "sawtooth oscillator"
+title: phasor~
+description: sawtooth oscillator
+bref: sawtooth oscillator
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Audio Oscillators And Tables"
+pdcategory: Audio Oscillators And Tables
+
 ---
 
-### [phasor~]
-
-sawtooth oscillator
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

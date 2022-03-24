@@ -1,16 +1,30 @@
 ---
-title: "[list]"
-description: "manipulate lists"
-bref: "manipulate lists"
+title: list
+description: manipulate lists
+bref: manipulate lists
+categories:
+- object
+see_also:
+- list append
+- list prepend
+- list store
+- list split
+- list trim
+- list length
+- list fromsymbol
+- list tosymbol
+arguments:
+  symbol: 'sets the function of [list], possible values: append, prepend, store, split,
+    trim, length, fromsymbol and tosymbol. The default value is ''append''.'
+inlets:
+  1st: {}
+outlets:
+  1st:
+    list: the concatenated list.
 draft: false
-categories: ["object"]
-pdcategory: "General"
+pdcategory: General
+
 ---
-
-### [list]
-
-Manipulate lists.
-
 Short for "list append"
 
 INLETS
@@ -22,22 +36,3 @@ INLETS
 - 2nd:
 
   - anything - set messages to append to the first list (a bang is a zero element list and clears it).
-
-OUTLET:
-
-- list - the concatenated list.
-
-ARGUMENTS:
-
-- symbol - sets the function of [list], possible values: append, prepend, store, split, trim, length, fromsymbol and tosymbol. The default value is 'append'.
-
-> see also [[list append]](../list-append)\
-> [[list prepend]](../list-prepend)\
-> [[list store]](../list-store)\
-> [[list split]](../list-split)\
-> [[list trim]](../list-trim)\
-> [[list length]](../list-length)\
-> [[list fromsymbol]](../list-fromsymbol)\
-> [[list tosymbol]](../list-tosymbol)
-
-

@@ -1,23 +1,15 @@
 ---
-title: "[savestate]"
-description: "mechanism for saving state of an abstraction"
-bref: "mechanism for saving state of an abstraction"
+title: savestate
+description: mechanism for saving state of an abstraction
+bref: mechanism for saving state of an abstraction
+categories:
+- object
+inlets:
+  1st: {}
+outlets:
+  1st: {}
 draft: false
-categories: ["object"]
-pdcategory: "Misc"
+pdcategory: Misc
+
 ---
 
-### [savestate]
-
-mechanism for saving state of an abstraction
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 
