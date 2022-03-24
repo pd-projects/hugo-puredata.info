@@ -4,34 +4,37 @@
 {{ with .Params }}
 <div class="object-reference">
   <hr>
-  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h3>INLETs </h3>{{ partial "object-reference/iolets" .}}</div>{{ end }}
-  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h3>OUTLETs</h3>{{ partial "object-reference/iolets" .}}</div>{{ end }}
+  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4>{{ partial "object-reference/iolets" .}}</div>{{ end }}
+  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h4>OUTLETs</h4>{{ partial "object-reference/iolets" .}}</div>{{ end }}
 
   {{ with .arguments }}
   <div id="arguments"  class="reference-arguments">
-  <h3>ARGUMENTs</h3>
-  <dl>
+  <h4>ARGUMENTs</h4>
+  <li>
   {{ range $elem_definition, $elem_description := . }}
-  <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
+  {{$elem_definition}} - {{$elem_description}}
   {{ end }}
-  </dl>
+  </li>
+  
   </div>
   {{ end }}
 
+  </br>
 
   {{ with .last_update }}
   <div class="reference-lastupdate">
-    Last updated for Pd-{{.}}
+    <blockquote><p>Last updated for Pd-{{.}}</p></blockquote>
   </div>
   {{end}}
 
   {{ with .see_also }}
   <div id="reference-seealso">
     {{/* LATER use 'delimit' to generate a nicer string */}}
-    see also:
+    <blockquote><p> see also:
     {{ range where (where $pages "Section" $section) "Title" "in" . }}
     <a href="{{.Permalink}}">[{{.Title}}]</a>
     {{end}}
+	</p></blockquote>
   </div>
   {{end}}
   <hr>
