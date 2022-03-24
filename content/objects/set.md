@@ -4,7 +4,7 @@ description: "change numeric fields"
 bref: "change numeric fields"
 draft: false
 categories: ["object"]
-pd-category: "Accessing Data"
+pdcategory: "Accessing Data"
 ---
 
 ### [set]

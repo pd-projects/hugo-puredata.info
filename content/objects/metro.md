@@ -4,7 +4,7 @@ description: "send a message periodically"
 bref: "send a message periodically"
 draft: false
 categories: ["object"]
-pd-category: "Time"
+pdcategory: "Time"
 ---
 
 ### [metro]

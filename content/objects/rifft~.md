@@ -4,7 +4,7 @@ description: "real inverse discrete Fourier transform"
 bref: "real inverse discrete Fourier transform"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [rifft~]

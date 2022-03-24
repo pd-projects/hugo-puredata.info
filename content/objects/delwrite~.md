@@ -4,7 +4,7 @@ description: "write to a delay line"
 bref: "write to a delay line"
 draft: false
 categories: ["object"]
-pd-category: "Audio Delay"
+pdcategory: "Audio Delay"
 ---
 
 ### [delwrite~]

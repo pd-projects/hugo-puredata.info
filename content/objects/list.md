@@ -4,7 +4,7 @@ description: "manipulate lists"
 bref: "manipulate lists"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [list]

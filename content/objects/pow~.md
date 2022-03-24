@@ -4,7 +4,7 @@ description: "math"
 bref: "math"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [pow~]

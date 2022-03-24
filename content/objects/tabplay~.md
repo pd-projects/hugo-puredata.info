@@ -4,7 +4,7 @@ description: "play back from a table (non-transposing)"
 bref: "play back from a table (non-transposing)"
 draft: false
 categories: ["object"]
-pd-category: "Audio Oscillators And Tables"
+pdcategory: "Audio Oscillators And Tables"
 ---
 
 ### [tabplay~]

@@ -4,7 +4,7 @@ description: "draw a polygon"
 bref: "draw a polygon"
 draft: false
 categories: ["object"]
-pd-category: "Data Templates"
+pdcategory: "Data Templates"
 ---
 
 ### [drawpolygon]

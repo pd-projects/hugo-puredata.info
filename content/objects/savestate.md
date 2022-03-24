@@ -4,7 +4,7 @@ description: "mechanism for saving state of an abstraction"
 bref: "mechanism for saving state of an abstraction"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [savestate]

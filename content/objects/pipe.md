@@ -4,7 +4,7 @@ description: "dynamically growable delay line for numbers"
 bref: "dynamically growable delay line for numbers"
 draft: false
 categories: ["object"]
-pd-category: "Time"
+pdcategory: "Time"
 ---
 
 ### [pipe]

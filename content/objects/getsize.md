@@ -4,7 +4,7 @@ description: "get the size of an array"
 bref: "get the size of an array"
 draft: false
 categories: ["object"]
-pd-category: "Accessing Data"
+pdcategory: "Accessing Data"
 ---
 
 ### [getsize]

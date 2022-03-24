@@ -4,7 +4,7 @@ description: "multiple copies of a patch"
 bref: "multiple copies of a patch"
 draft: false
 categories: ["object"]
-pd-category: "Subwindows"
+pdcategory: "Subwindows"
 ---
 
 ### [clone]

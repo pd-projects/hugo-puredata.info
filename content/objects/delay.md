@@ -4,7 +4,7 @@ description: "send a message after a time delay"
 bref: "send a message after a time delay"
 draft: false
 categories: ["object"]
-pd-category: "Time"
+pdcategory: "Time"
 ---
 
 ### [delay]

@@ -4,7 +4,7 @@ description: "sample and hold unit"
 bref: "sample and hold unit"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [samphold~]

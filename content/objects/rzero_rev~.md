@@ -4,7 +4,7 @@ description: "time-reversed"
 bref: "time-reversed"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [rzero_rev~]

@@ -4,7 +4,7 @@ description: "pseudo random integers"
 bref: "pseudo random integers"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [random]

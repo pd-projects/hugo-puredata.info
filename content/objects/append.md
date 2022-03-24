@@ -4,7 +4,7 @@ description: "add an element to a list"
 bref: "add an element to a list"
 draft: false
 categories: ["object"]
-pd-category: "Accessing Data"
+pdcategory: "Accessing Data"
 ---
 
 ### [append]

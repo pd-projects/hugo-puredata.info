@@ -4,7 +4,7 @@ description: "route messages according to first element"
 bref: "route messages according to first element"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [route]

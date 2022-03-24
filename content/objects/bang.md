@@ -3,7 +3,7 @@ title: "[bang]"
 description: "output a bang message"
 bref: "output a bang message"
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 draft: false
 ---
 

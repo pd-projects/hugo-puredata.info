@@ -4,7 +4,7 @@ description: "shared numeric value"
 bref: "shared numeric value"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [value]

@@ -4,7 +4,7 @@ description: "C-style expressions"
 bref: "C-style expressions"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [Expr], [Expr~], [Fexpr~]

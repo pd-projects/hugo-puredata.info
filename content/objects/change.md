@@ -4,7 +4,7 @@ description: "remove repeated numbers from a stream"
 bref: "remove repeated numbers from a stream"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [change]

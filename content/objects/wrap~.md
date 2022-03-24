@@ -4,7 +4,7 @@ description: "wraparound (fractional part)"
 bref: "wraparound (fractional part)"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [wrap~]

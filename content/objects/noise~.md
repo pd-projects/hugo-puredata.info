@@ -4,7 +4,7 @@ description: "white noise generator"
 bref: "white noise generator"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [noise~]

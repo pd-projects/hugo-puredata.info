@@ -4,7 +4,7 @@ description: "test for matching numbers or symbols"
 bref: "test for matching numbers or symbols"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [select]

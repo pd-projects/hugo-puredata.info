@@ -4,7 +4,7 @@ description: "part a numeric stream"
 bref: "part a numeric stream"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [moses]

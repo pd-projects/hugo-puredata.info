@@ -4,7 +4,7 @@ description: "swap two numbers"
 bref: "swap two numbers"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [swap]

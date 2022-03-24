@@ -4,7 +4,7 @@ description: "high pass filter"
 bref: "high pass filter"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [hip~]

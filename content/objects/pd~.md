@@ -4,7 +4,7 @@ description: "run another copy of Pd (for multiprocessing)"
 bref: "run another copy of Pd (for multiprocessing)"
 draft: false
 categories: ["object"]
-pd-category: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: "'EXTRA' (patches and externs in pd/extra)"
 ---
 
 ### [pd~]

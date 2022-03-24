@@ -4,7 +4,7 @@ description: "specify block size and overlap, or, if invoked as 'switch', also s
 bref: "specify block size and overlap, or, if invoked as 'switch', also switch subpatches on and off"
 draft: false
 categories: ["object"]
-pd-category: "Subwindows"
+pdcategory: "Subwindows"
 ---
 
 ### [block~]

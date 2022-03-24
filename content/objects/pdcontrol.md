@@ -4,7 +4,7 @@ description: "communicate with canvas (for example, to get directory)"
 bref: "communicate with canvas (for example, to get directory)"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [pdcontrol]

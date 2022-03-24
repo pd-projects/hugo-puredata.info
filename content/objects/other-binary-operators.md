@@ -4,7 +4,7 @@ description: "other binary operators"
 bref: "other binary operators"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [>], [>=], [<], [<=], [==], [!=], [&&], [||], [&], [|], [&lt;&lt;], [&gt;&gt;], [div], [mod]

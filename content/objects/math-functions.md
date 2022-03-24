@@ -4,7 +4,7 @@ description: "math functions"
 bref: "math functions"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [sin], [cos], [tan], [atan], [atan2], [wrap], [abs], [sqrt], [exp], [log], [pow]

@@ -4,7 +4,7 @@ description: "bang on load"
 bref: "bang on load"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [loadbang]

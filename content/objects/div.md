@@ -4,7 +4,7 @@ description: "higher math"
 bref: "higher math"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [div]

@@ -4,7 +4,7 @@ description: "(use tabwrite~ now)"
 bref: "(use tabwrite~ now)"
 draft: false
 categories: ["object"]
-pd-category: "Obsolete"
+pdcategory: "Obsolete"
 ---
 
 ### [scope~]

@@ -4,7 +4,7 @@ description: "print a numeric value"
 bref: "print a numeric value"
 draft: false
 categories: ["object"]
-pd-category: "Data Templates"
+pdcategory: "Data Templates"
 ---
 
 ### [drawnumber]

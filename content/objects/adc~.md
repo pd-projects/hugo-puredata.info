@@ -4,7 +4,7 @@ description: "audio input"
 bref: "audio input"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [adc~]

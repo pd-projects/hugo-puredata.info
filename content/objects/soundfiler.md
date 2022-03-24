@@ -4,7 +4,7 @@ description: "read and write tables to soundfiles"
 bref: "read and write tables to soundfiles"
 draft: false
 categories: ["object"]
-pd-category: "Arrays & Tables"
+pdcategory: "Arrays & Tables"
 ---
 
 ### [soundfiler]

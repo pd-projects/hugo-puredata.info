@@ -4,7 +4,7 @@ description: "non-interpolating table read"
 bref: "non-interpolating table read"
 draft: false
 categories: ["object"]
-pd-category: "Audio Oscillators And Tables"
+pdcategory: "Audio Oscillators And Tables"
 ---
 
 ### [tabread~]

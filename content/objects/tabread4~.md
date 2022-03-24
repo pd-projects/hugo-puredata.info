@@ -4,7 +4,7 @@ description: "four-point interpolating table read"
 bref: "four-point interpolating table read"
 draft: false
 categories: ["object"]
-pd-category: "Audio Oscillators And Tables"
+pdcategory: "Audio Oscillators And Tables"
 ---
 
 ### [tabread4~]

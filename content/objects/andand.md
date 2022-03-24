@@ -4,7 +4,7 @@ description: "bit twiddling"
 bref: "bit twiddling"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [&&]

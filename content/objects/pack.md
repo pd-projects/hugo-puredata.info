@@ -4,7 +4,7 @@ description: "make compound messages"
 bref: "make compound messages"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [pack]

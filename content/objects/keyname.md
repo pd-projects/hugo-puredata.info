@@ -4,7 +4,7 @@ description: "symbolic key name"
 bref: "symbolic key name"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [keyname]

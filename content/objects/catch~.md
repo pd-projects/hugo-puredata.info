@@ -4,7 +4,7 @@ description: "define and read a summing bus"
 bref: "define and read a summing bus"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [catch~]

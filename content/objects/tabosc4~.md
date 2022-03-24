@@ -4,7 +4,7 @@ description: "wavetable oscillator"
 bref: "wavetable oscillator"
 draft: false
 categories: ["object"]
-pd-category: "Audio Oscillators And Tables"
+pdcategory: "Audio Oscillators And Tables"
 ---
 
 ### [tabosc4~]

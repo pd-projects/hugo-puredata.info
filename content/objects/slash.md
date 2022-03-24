@@ -4,7 +4,7 @@ description: "divide two numbers"
 bref: "divide two numbers"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [/]

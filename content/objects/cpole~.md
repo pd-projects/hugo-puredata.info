@@ -4,7 +4,7 @@ description: "corresponding complex-valued filters"
 bref: "corresponding complex-valued filters"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [cpole~]

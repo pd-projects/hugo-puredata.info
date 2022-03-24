@@ -4,7 +4,7 @@ description: "sequence messages in right-to-left order."
 bref: "sequence messages in right-to-left order."
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [trigger]

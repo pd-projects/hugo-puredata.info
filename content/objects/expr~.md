@@ -4,7 +4,7 @@ description: "C-style expressions"
 bref: "C-style expressions"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [expr~]

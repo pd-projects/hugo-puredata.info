@@ -4,7 +4,7 @@ description: "complex forward discrete Fourier transform"
 bref: "complex forward discrete Fourier transform"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [fft~]

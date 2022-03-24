@@ -4,7 +4,7 @@ description: "add two numbers"
 bref: "add two numbers"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [+]

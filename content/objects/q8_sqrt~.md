@@ -4,7 +4,7 @@ description: "fast, cheap 8 bits versions"
 bref: "fast, cheap 8 bits versions"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [q8_sqrt~]

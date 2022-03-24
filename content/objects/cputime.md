@@ -4,7 +4,7 @@ description: "measure CPU time"
 bref: "measure CPU time"
 draft: false
 categories: ["object"]
-pd-category: "Time"
+pdcategory: "Time"
 ---
 
 ### [cputime]

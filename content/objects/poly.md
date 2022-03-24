@@ -4,7 +4,7 @@ description: "polyphonic voice allocation"
 bref: "polyphonic voice allocation"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [poly]

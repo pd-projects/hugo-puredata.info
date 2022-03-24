@@ -4,7 +4,7 @@ description: "measure time intervals"
 bref: "measure time intervals"
 draft: false
 categories: ["object"]
-pd-category: "Time"
+pdcategory: "Time"
 ---
 
 ### [timer]

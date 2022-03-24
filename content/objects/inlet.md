@@ -4,7 +4,7 @@ description: "add an inlet to a pd"
 bref: "add an inlet to a pd"
 draft: false
 categories: ["object"]
-pd-category: "Subwindows"
+pdcategory: "Subwindows"
 ---
 
 ### [inlet]

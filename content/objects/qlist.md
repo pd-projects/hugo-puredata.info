@@ -4,7 +4,7 @@ description: "message sequencer"
 bref: "message sequencer"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [qlist]

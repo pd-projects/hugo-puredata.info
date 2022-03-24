@@ -4,7 +4,7 @@ description: "set search path and/or load libraries"
 bref: "set search path and/or load libraries"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [declare]

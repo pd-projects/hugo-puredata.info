@@ -4,7 +4,7 @@ description: "sample a signal (convert it back to a number)"
 bref: "sample a signal (convert it back to a number)"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [snapshot~]

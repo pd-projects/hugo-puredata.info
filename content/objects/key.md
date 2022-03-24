@@ -4,7 +4,7 @@ description: "numeric key values from keyboard"
 bref: "numeric key values from keyboard"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [key]

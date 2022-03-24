@@ -4,7 +4,7 @@ description: "sawtooth oscillator"
 bref: "sawtooth oscillator"
 draft: false
 categories: ["object"]
-pd-category: "Audio Oscillators And Tables"
+pdcategory: "Audio Oscillators And Tables"
 ---
 
 ### [phasor~]

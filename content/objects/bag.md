@@ -4,7 +4,7 @@ description: "set of numbers"
 bref: "set of numbers"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [bag]

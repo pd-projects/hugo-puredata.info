@@ -4,7 +4,7 @@ description: "get signal from send~"
 bref: "get signal from send~"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [receive~]

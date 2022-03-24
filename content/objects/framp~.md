@@ -4,7 +4,7 @@ description: "estimate frequency and amplitude of FFT components"
 bref: "estimate frequency and amplitude of FFT components"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [framp~]

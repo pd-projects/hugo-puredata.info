@@ -4,7 +4,7 @@ description: "soundfile playback from disk"
 bref: "soundfile playback from disk"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [readsf~]

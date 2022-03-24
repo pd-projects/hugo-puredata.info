@@ -4,7 +4,7 @@ description: "point to an object belonging to a template"
 bref: "point to an object belonging to a template"
 draft: false
 categories: ["object"]
-pd-category: "Accessing Data"
+pdcategory: "Accessing Data"
 ---
 
 ### [pointer]

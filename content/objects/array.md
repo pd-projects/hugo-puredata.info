@@ -4,7 +4,7 @@ description: "general array creation and manipulation"
 bref: "general array creation and manipulation"
 draft: false
 categories: ["object"]
-pd-category: "Arrays & Tables"
+pdcategory: "Arrays & Tables"
 ---
 
 ### [array]

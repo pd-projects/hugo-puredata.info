@@ -4,7 +4,7 @@ description: "Moog resonant filter model"
 bref: "Moog resonant filter model"
 draft: false
 categories: ["object"]
-pd-category: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: "'EXTRA' (patches and externs in pd/extra)"
 ---
 
 ### [bob~]

@@ -4,7 +4,7 @@ description: "write a number to a table"
 bref: "write a number to a table"
 draft: false
 categories: ["object"]
-pd-category: "Arrays & Tables"
+pdcategory: "Arrays & Tables"
 ---
 
 ### [tabwrite]

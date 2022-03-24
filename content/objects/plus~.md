@@ -4,7 +4,7 @@ description: "arithmetic on audio signals"
 bref: "arithmetic on audio signals"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [+~]

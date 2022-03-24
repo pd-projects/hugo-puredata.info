@@ -4,7 +4,7 @@ description: "relational tests"
 bref: "relational tests"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [!=]

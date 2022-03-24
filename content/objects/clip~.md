@@ -4,7 +4,7 @@ description: "constrict signal to lie between two bounds"
 bref: "constrict signal to lie between two bounds"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [clip~]

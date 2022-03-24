@@ -4,7 +4,7 @@ description: "general text handling"
 bref: "general text handling"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [text]

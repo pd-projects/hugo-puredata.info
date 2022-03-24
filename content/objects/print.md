@@ -4,7 +4,7 @@ description: "print messages to terminal window"
 bref: "print messages to terminal window"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [print]

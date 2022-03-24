@@ -4,7 +4,7 @@ description: "wrap a number to range [[0, 1)"
 bref: "wrap a number to range [[0, 1)"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [wrap]

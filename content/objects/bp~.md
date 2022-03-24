@@ -4,7 +4,7 @@ description: "band pass filter"
 bref: "band pass filter"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [bp~]

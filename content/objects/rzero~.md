@@ -4,7 +4,7 @@ description: "raw real-valued one-zero filter"
 bref: "raw real-valued one-zero filter"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [rzero~]

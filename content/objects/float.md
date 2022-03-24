@@ -3,7 +3,7 @@ title: "[float]"
 description: "store and recall a number"
 bref: "store and recall a number"
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 aliases: [ "f" ]
 draft: false
 ---

@@ -4,7 +4,7 @@ description: "print out one or more 'blocks'"
 bref: "print out one or more 'blocks'"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [print~]

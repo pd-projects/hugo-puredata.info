@@ -4,7 +4,7 @@ description: "get elements of compound messages"
 bref: "get elements of compound messages"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [unpack]

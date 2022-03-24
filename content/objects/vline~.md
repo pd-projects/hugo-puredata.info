@@ -4,7 +4,7 @@ description: "deluxe line~"
 bref: "deluxe line~"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [vline~]

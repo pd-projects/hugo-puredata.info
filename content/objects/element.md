@@ -4,7 +4,7 @@ description: "get an array element"
 bref: "get an array element"
 draft: false
 categories: ["object"]
-pd-category: "Accessing Data"
+pdcategory: "Accessing Data"
 ---
 
 ### [element]

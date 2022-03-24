@@ -4,7 +4,7 @@ description: "read one block continuously from a table"
 bref: "read one block continuously from a table"
 draft: false
 categories: ["object"]
-pd-category: "Audio Oscillators And Tables"
+pdcategory: "Audio Oscillators And Tables"
 ---
 
 ### [tabreceive~]

@@ -4,7 +4,7 @@ description: "strip 'note off' messages"
 bref: "strip 'note off' messages"
 draft: false
 categories: ["object"]
-pd-category: "I/O via MIDI, OSC, and FUDI"
+pdcategory: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [stripnote]

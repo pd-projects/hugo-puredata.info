@@ -4,7 +4,7 @@ description: ""
 bref: ""
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [czero_rev~]

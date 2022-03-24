@@ -4,7 +4,7 @@ description: "read with a time-varying delay time"
 bref: "read with a time-varying delay time"
 draft: false
 categories: ["object"]
-pd-category: "Audio Delay"
+pdcategory: "Audio Delay"
 ---
 
 ### [delread4~]

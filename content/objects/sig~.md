@@ -4,7 +4,7 @@ description: "convert numbers to audio signals"
 bref: "convert numbers to audio signals"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [sig~]

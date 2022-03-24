@@ -3,7 +3,7 @@ title: "[receive]"
 description: "Receive messages without patch cords."
 bref: "Receive messages without patch cords."
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 
 draft: false
 ---

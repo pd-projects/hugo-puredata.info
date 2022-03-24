@@ -4,7 +4,7 @@ description: "measure real time"
 bref: "measure real time"
 draft: false
 categories: ["object"]
-pd-category: "Time"
+pdcategory: "Time"
 ---
 
 ### [realtime]

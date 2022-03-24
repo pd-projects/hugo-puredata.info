@@ -4,7 +4,7 @@ description: "trigonometric functions"
 bref: "trigonometric functions"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [tan]

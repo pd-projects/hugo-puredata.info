@@ -4,7 +4,7 @@ description: "pass or block messages"
 bref: "pass or block messages"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [spigot]

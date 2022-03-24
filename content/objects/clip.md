@@ -4,7 +4,7 @@ description: "force a number into a range"
 bref: "force a number into a range"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [clip]

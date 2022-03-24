@@ -4,7 +4,7 @@ description: "raw filter"
 bref: "raw filter"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [biquad~]

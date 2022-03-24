@@ -4,7 +4,7 @@ description: "phasor~ with S/H on its frequency input"
 bref: "phasor~ with S/H on its frequency input"
 draft: false
 categories: ["object"]
-pd-category: "'EXTRA' (patches and externs in pd/extra)"
+pdcategory: "'EXTRA' (patches and externs in pd/extra)"
 ---
 
 ### [loop~]

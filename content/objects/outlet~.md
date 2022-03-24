@@ -4,7 +4,7 @@ description: ""
 bref: ""
 draft: false
 categories: ["object"]
-pd-category: "Subwindows"
+pdcategory: "Subwindows"
 ---
 
 ### [outlet~]

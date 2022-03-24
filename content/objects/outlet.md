@@ -4,7 +4,7 @@ description: "add an outlet to a pd"
 bref: "add an outlet to a pd"
 draft: false
 categories: ["object"]
-pd-category: "Subwindows"
+pdcategory: "Subwindows"
 ---
 
 ### [outlet]

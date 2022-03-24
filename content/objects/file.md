@@ -4,7 +4,7 @@ description: "low-level file operations"
 bref: "low-level file operations"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [text]

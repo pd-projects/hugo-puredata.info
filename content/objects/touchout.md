@@ -4,7 +4,7 @@ description: ""
 bref: ""
 draft: false
 categories: ["object"]
-pd-category: "I/O via MIDI, OSC, and FUDI"
+pdcategory: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [touchout]

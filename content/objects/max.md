@@ -4,7 +4,7 @@ description: "maximum of 2 numbers"
 bref: "maximum of 2 numbers"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [max]

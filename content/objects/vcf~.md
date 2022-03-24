@@ -4,7 +4,7 @@ description: "voltage controlled filter"
 bref: "voltage controlled filter"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [vcf~]

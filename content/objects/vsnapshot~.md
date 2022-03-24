@@ -4,7 +4,7 @@ description: "deluxe snapshot~"
 bref: "deluxe snapshot~"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [vsnapshot~]

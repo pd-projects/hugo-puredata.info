@@ -4,7 +4,7 @@ description: "complex inverse discrete Fourier transform"
 bref: "complex inverse discrete Fourier transform"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [ifft~]

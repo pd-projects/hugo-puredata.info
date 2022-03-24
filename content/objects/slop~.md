@@ -4,7 +4,7 @@ description: "slew-limiting (nonlinear) low pass filter"
 bref: "slew-limiting (nonlinear) low pass filter"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [slop~]

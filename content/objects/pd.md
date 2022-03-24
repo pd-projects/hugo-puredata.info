@@ -4,7 +4,7 @@ description: "define a subwindow"
 bref: "define a subwindow"
 draft: false
 categories: ["object"]
-pd-category: "Subwindows"
+pdcategory: "Subwindows"
 ---
 
 ### [pd]

@@ -4,7 +4,7 @@ description: "FUDI messages to and from Pd lists"
 bref: "FUDI messages to and from Pd lists"
 draft: false
 categories: ["object"]
-pd-category: "I/O via MIDI, OSC, and FUDI"
+pdcategory: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [fudiparse]

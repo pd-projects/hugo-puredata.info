@@ -4,7 +4,7 @@ description: "generate audio ramps"
 bref: "generate audio ramps"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [line~]

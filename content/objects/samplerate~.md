@@ -4,7 +4,7 @@ description: "get the sample rate"
 bref: "get the sample rate"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [samplerate~]

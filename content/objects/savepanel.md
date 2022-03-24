@@ -4,7 +4,7 @@ description: "'Save as' dialog"
 bref: "'Save as' dialog"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [savepanel]

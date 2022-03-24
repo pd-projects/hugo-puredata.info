@@ -4,7 +4,7 @@ description: "add to a summing bus"
 bref: "add to a summing bus"
 draft: false
 categories: ["object"]
-pd-category: "General Audio Manipulation"
+pdcategory: "General Audio Manipulation"
 ---
 
 ### [throw~]

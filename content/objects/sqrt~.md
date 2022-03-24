@@ -4,7 +4,7 @@ description: "approximate (16-bit) square root"
 bref: "approximate (16-bit) square root"
 draft: false
 categories: ["object"]
-pd-category: "Audio Math"
+pdcategory: "Audio Math"
 ---
 
 ### [sqrt~]

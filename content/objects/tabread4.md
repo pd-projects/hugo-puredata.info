@@ -4,7 +4,7 @@ description: "read a number from a table"
 bref: "read a number from a table"
 draft: false
 categories: ["object"]
-pd-category: "Arrays & Tables"
+pdcategory: "Arrays & Tables"
 ---
 
 ### [tabread4]

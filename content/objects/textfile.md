@@ -4,7 +4,7 @@ description: "file to message converter"
 bref: "file to message converter"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [textfile]

@@ -4,7 +4,7 @@ description: "acoustic conversions"
 bref: "acoustic conversions"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [mtof], [ftom], [dbtorms], [rmstodb], [dbtopow], [powtodb]

@@ -4,7 +4,7 @@ description: "(use struct now)"
 bref: "(use struct now)"
 draft: false
 categories: ["object"]
-pd-category: "Obsolete"
+pdcategory: "Obsolete"
 ---
 
 ### [template]

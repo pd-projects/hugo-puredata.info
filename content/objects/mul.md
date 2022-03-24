@@ -4,7 +4,7 @@ description: "multiply two numbers"
 bref: "multiply two numbers"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [*]

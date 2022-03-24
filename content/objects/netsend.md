@@ -4,7 +4,7 @@ description: "send messages over the internet"
 bref: "send messages over the internet"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [netsend]

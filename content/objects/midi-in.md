@@ -4,7 +4,7 @@ description: "MIDI input"
 bref: "MIDI input"
 draft: false
 categories: ["object"]
-pd-category: "I/O via MIDI, OSC, and FUDI"
+pdcategory: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [notein], [ctlin], [bendin], [pgmin], [touchin], [polytouchin], [midiin], [midirealtimein], [sysexin]

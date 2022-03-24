@@ -4,7 +4,7 @@ description: "write one block continuously to a table"
 bref: "write one block continuously to a table"
 draft: false
 categories: ["object"]
-pd-category: "Audio Oscillators And Tables"
+pdcategory: "Audio Oscillators And Tables"
 ---
 
 ### [tabsend~]

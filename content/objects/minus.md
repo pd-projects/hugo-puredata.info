@@ -4,7 +4,7 @@ description: "subtract two numbers"
 bref: "subtract two numbers"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [-]

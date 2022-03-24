@@ -4,7 +4,7 @@ description: "looping mechanism"
 bref: "looping mechanism"
 draft: false
 categories: ["object"]
-pd-category: "General"
+pdcategory: "General"
 ---
 
 ### [until]

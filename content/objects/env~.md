@@ -4,7 +4,7 @@ description: "envelope follower"
 bref: "envelope follower"
 draft: false
 categories: ["object"]
-pd-category: "Audio Filters"
+pdcategory: "Audio Filters"
 ---
 
 ### [env~]

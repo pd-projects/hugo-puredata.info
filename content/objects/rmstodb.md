@@ -4,7 +4,7 @@ description: "convert acoustical units"
 bref: "convert acoustical units"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [rmstodb]

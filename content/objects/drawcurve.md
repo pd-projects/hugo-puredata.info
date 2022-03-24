@@ -4,7 +4,7 @@ description: "draw a curve"
 bref: "draw a curve"
 draft: false
 categories: ["object"]
-pd-category: "Data Templates"
+pdcategory: "Data Templates"
 ---
 
 ### [drawcurve]

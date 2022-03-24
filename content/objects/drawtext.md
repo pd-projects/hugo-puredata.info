@@ -4,7 +4,7 @@ description: "draw text"
 bref: "draw text"
 draft: false
 categories: ["object"]
-pd-category: "Data Templates"
+pdcategory: "Data Templates"
 ---
 
 ### [drawtext]

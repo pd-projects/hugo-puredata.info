@@ -4,7 +4,7 @@ description: "plot an array field"
 bref: "plot an array field"
 draft: false
 categories: ["object"]
-pd-category: "Data Templates"
+pdcategory: "Data Templates"
 ---
 
 ### [plot]

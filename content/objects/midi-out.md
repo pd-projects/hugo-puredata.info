@@ -4,7 +4,7 @@ description: "MIDI output"
 bref: "MIDI output"
 draft: false
 categories: ["object"]
-pd-category: "I/O via MIDI, OSC, and FUDI"
+pdcategory: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [noteout], [ctlout], [bendout], [pgmout], [touchout], [polytouchout], [midiout]

@@ -4,7 +4,7 @@ description: "receive them"
 bref: "receive them"
 draft: false
 categories: ["object"]
-pd-category: "Misc"
+pdcategory: "Misc"
 ---
 
 ### [netreceive]

@@ -4,7 +4,7 @@ description: "arithmetic"
 bref: "arithmetic"
 draft: false
 categories: ["object"]
-pd-category: "Math"
+pdcategory: "Math"
 ---
 
 ### [+], [-], [*], [/], [max], [min]

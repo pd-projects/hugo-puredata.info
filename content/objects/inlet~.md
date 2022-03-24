@@ -4,7 +4,7 @@ description: "signal versions"
 bref: "signal versions"
 draft: false
 categories: ["object"]
-pd-category: "Subwindows"
+pdcategory: "Subwindows"
 ---
 
 ### [inlet~]

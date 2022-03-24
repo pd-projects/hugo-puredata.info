@@ -4,7 +4,7 @@ description: "cosine"
 bref: "cosine"
 draft: false
 categories: ["object"]
-pd-category: "Audio Oscillators And Tables"
+pdcategory: "Audio Oscillators And Tables"
 ---
 
 ### [cos~]

@@ -4,7 +4,7 @@ description: "get numeric fields"
 bref: "get numeric fields"
 draft: false
 categories: ["object"]
-pd-category: "Accessing Data"
+pdcategory: "Accessing Data"
 ---
 
 ### [get]
