@@ -298,4 +298,4 @@ if __name__ == "__main__":
                 ofile.write(parsed.toString(cfg.format))
 
         except IndexError as e:
-            log.exception("OOPSIE: %s" % (f,))
+            log.exception("OOPSIE: %s" % (infile,))
