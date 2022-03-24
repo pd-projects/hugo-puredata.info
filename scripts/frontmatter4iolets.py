@@ -48,53 +48,13 @@ def dict2order(d, keys):
     return o
 
 
-def parse_iolets(ioletstr, multiple=True):
-    def parse_iolet(iolet):
-        result = {}
-        for l in iolet.splitlines():
-            l = l.strip()
-            if not l:
-                continue
-            if l.startswith("-"):
-                x = re.findall("^- (.*) - (.*)", l)
-                if x:
-                    msg, descr = x[0]
-                    result[msg] = descr
-            else:
-                log.error("OOOOPSIE: %s" % (l,))
-        return result
-
-    ioletstr = ioletstr.strip()
-    if "- NONE" == ioletstr:
-        return None
-
-    if not multiple:
-        # single iolet
-        return {"1st": parse_iolet(ioletstr)}
-
-    # multiple iolets
-    result = {}
-    ioletdata = []
-    ioletid = ""
-    for l in ioletstr.splitlines():
-        if l.startswith("-"):
-            if ioletid and ioletdata:
-                result[ioletid] = parse_iolet("\n".join(ioletdata))
-            ioletdata = []
-            ioletid = l.strip().lstrip("-").rstrip(":").strip()
-            continue
-        ioletdata.append(l.strip())
-    if ioletid and ioletdata:
-        result[ioletid] = parse_iolet("\n".join(ioletdata))
-    return result
-
-
 class ObjectFile:
     YAML = 0
     TOML = 1
     JSON = 2
 
     def __init__(self, filename):
+        self.filename = filename
         data = fm.read_file(filename)
         self.data = data["attributes"]
         # parse the body!
@@ -156,9 +116,9 @@ class ObjectFile:
             log.warning("title mismatch: %s != %s" % (title, self.data["title"]))
 
         ## inlets/outlets/arguments are structured
-        self.data["inlets"] = parse_iolets(inlets, "INLETS" in inlets_full)
-        self.data["outlets"] = parse_iolets(outlets, "OUTLETS" in outlets_full)
-        arguments = parse_iolets(arguments, False)
+        self.data["inlets"] = self.parse_iolets(inlets, "INLETS" in inlets_full)
+        self.data["outlets"] = self.parse_iolets(outlets, "OUTLETS" in outlets_full)
+        arguments = self.parse_iolets(arguments, False)
         if arguments:
             self.data["arguments"] = arguments.get("1st")
 
@@ -181,6 +141,49 @@ class ObjectFile:
                 "outlets",
             ],
         )
+
+    def parse_iolets(self, ioletstr, multiple=True):
+        def parse_iolet(iolet):
+            result = {}
+            for l in iolet.splitlines():
+                l = l.strip()
+                if not l:
+                    continue
+                if l.startswith("-"):
+                    x = re.findall("^- (.*) - (.*)", l)
+                    if x:
+                        msg, descr = x[0]
+                        result[msg] = descr
+                else:
+                    log.error("OOOOPSIE[%s]: %s" % (self.filename, l))
+            return result
+
+        ioletstr = ioletstr.strip()
+        if "- NONE" == ioletstr:
+            return None
+
+        if not multiple:
+            # single iolet
+            return {"1st": parse_iolet(ioletstr)}
+
+        # multiple iolets
+        result = {}
+        ioletdata = []
+        ioletid = ""
+        for l in ioletstr.splitlines():
+            if l.startswith("-"):
+                if ioletid and ioletdata:
+                    result[ioletid] = parse_iolet("\n".join(ioletdata))
+                ioletdata = []
+                ioletid = l.strip().lstrip("-").rstrip(":").strip()
+                continue
+            ioletdata.append(l.strip())
+        if ioletid and ioletdata:
+            result[ioletid] = parse_iolet("\n".join(ioletdata))
+        return result
+
+
+
 
     def __str__(self):
         return self.toString()
