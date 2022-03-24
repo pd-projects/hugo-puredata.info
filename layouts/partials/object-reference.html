@@ -1,22 +1,27 @@
-<div id="reference">
-  {{ with .inlets }}  <h3>INLETs</h3>{{ partial "object-iolets" .}}  {{ end }}
-  {{ with .outlets }}  <h3>OUTLETs</h3>{{ partial "object-iolets" .}}  {{ end }}
+<div class="object-reference">
+  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h3>INLETs </h3>{{ partial "object-iolets" .}}</div>{{ end }}
+  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h3>OUTLETs</h3>{{ partial "object-iolets" .}}</div>{{ end }}
 
   {{ with .arguments }}
+  <div id="arguments"  class="reference-arguments">
   <h3>ARGUMENTs</h3>
   <dl>
   {{ range $elem_definition, $elem_description := . }}
   <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
   {{ end }}
   </dl>
+  </div>
   {{ end }}
 
+
   {{ with .last_update }}
-  <p>Last updated for Pd-{{.}}</p>
+  <div class="reference-lastupdate">
+    Last updated for Pd-{{.}}
+  </div>
   {{end}}
 
   {{ with .see_also }}
-  <div id="see-also">
+  <div id="reference-seealso">
     {{/* LATER use 'delimit' to generate a nicer string */}}
     see also: {{ range . }}
     <a href="../{{.}}">[{{.}}]</a>
