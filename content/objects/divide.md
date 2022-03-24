@@ -3,7 +3,8 @@ title: "[*]"
 description: "divide two numbers"
 bref: "idvide two numbers"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [*]

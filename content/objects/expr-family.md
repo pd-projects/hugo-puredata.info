@@ -3,7 +3,8 @@ title: "[expr]"
 description: "C-style expressions"
 bref: "C-style expressions"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [Expr], [Expr~], [Fexpr~]

@@ -3,7 +3,8 @@ title: "[text]"
 description: "general text handling"
 bref: "general text handling"
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [text]

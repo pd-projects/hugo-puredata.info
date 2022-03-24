@@ -3,7 +3,8 @@ title: "[vd~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "Audio Delay"]
+categories: ["object"]
+pd-category: "Audio Delay"
 ---
 
 ### [vd~]

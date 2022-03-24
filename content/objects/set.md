@@ -3,7 +3,8 @@ title: "[set]"
 description: "change numeric fields"
 bref: "change numeric fields"
 draft: false
-categories: ["object", "Accessing Data"]
+categories: ["object"]
+pd-category: "Accessing Data"
 ---
 
 ### [set]

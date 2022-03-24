@@ -3,7 +3,8 @@ title: "[abs]"
 description: "math functions"
 bref: "math functions"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [abs]

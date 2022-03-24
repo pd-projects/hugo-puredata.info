@@ -3,7 +3,8 @@ title: "[clip]"
 description: "force a number into a range"
 bref: "force a number into a range"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [clip]

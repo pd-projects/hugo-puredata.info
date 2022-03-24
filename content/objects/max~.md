@@ -3,7 +3,8 @@ title: "[max~]"
 description: "maximum or minimum of 2 inputs"
 bref: "maximum or minimum of 2 inputs"
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [max~]

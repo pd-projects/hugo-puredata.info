@@ -2,7 +2,8 @@
 title: "[float]"
 description: "store and recall a number"
 bref: "store and recall a number"
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 aliases: [ "f" ]
 draft: false
 ---

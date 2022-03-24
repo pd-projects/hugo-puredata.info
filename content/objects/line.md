@@ -3,7 +3,8 @@ title: "[line]"
 description: "send a series of linearly stepped numbers"
 bref: "send a series of linearly stepped numbers"
 draft: false
-categories: ["object", "Time"]
+categories: ["object"]
+pd-category: "Time"
 ---
 
 ### [line]

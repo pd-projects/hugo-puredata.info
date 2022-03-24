@@ -3,7 +3,8 @@ title: "[biquad~]"
 description: "raw filter"
 bref: "raw filter"
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [biquad~]

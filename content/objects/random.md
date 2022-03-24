@@ -3,7 +3,8 @@ title: "[random]"
 description: "pseudo random integers"
 bref: "pseudo random integers"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [random]

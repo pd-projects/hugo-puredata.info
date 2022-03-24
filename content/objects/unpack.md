@@ -3,7 +3,8 @@ title: "[unpack]"
 description: "get elements of compound messages"
 bref: "get elements of compound messages"
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 ### [unpack]

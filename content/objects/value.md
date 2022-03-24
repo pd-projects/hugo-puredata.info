@@ -3,7 +3,8 @@ title: "[value]"
 description: "shared numeric value"
 bref: "shared numeric value"
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 ### [value]

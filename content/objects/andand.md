@@ -3,7 +3,8 @@ title: "[&&]"
 description: "bit twiddling"
 bref: "bit twiddling"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [&&]

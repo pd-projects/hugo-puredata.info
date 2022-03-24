@@ -3,7 +3,8 @@ title: "[element]"
 description: "get an array element"
 bref: "get an array element"
 draft: false
-categories: ["object", "Accessing Data"]
+categories: ["object"]
+pd-category: "Accessing Data"
 ---
 
 ### [element]

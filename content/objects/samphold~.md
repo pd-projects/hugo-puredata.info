@@ -3,7 +3,8 @@ title: "[samphold~]"
 description: "sample and hold unit"
 bref: "sample and hold unit"
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [samphold~]

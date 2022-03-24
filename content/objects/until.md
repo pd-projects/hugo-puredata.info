@@ -3,7 +3,8 @@ title: "[until]"
 description: "looping mechanism"
 bref: "looping mechanism"
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 ### [until]

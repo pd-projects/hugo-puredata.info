@@ -3,7 +3,8 @@ title: "[polytouchout]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "I/O via MIDI, OSC, and FUDI"]
+categories: ["object"]
+pd-category: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [polytouchout]

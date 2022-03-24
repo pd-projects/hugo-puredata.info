@@ -3,7 +3,8 @@ title: "[keyname]"
 description: "symbolic key name"
 bref: "symbolic key name"
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [keyname]

@@ -3,7 +3,8 @@ title: "[pow~]"
 description: "math"
 bref: "math"
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [pow~]

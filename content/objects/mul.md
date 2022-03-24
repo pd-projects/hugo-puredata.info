@@ -3,7 +3,8 @@ title: "[*]"
 description: "multiply two numbers"
 bref: "multiply two numbers"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [*]

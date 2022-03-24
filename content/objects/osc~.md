@@ -3,7 +3,8 @@ title: "[osc~]"
 description: "cosine oscillator"
 bref: "cosine oscillator"
 draft: false
-categories: ["object", "Audio Oscillators And Tables"]
+categories: ["object"]
+pd-category: "Audio Oscillators And Tables"
 ---
 
 ### [osc~]

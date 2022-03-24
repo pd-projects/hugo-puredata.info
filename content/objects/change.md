@@ -3,7 +3,8 @@ title: "[change]"
 description: "remove repeated numbers from a stream"
 bref: "remove repeated numbers from a stream"
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 ### [change]

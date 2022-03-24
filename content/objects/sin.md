@@ -3,7 +3,8 @@ title: "[sin]"
 description: "trigonometric functions"
 bref: "trigonometric functions"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [sin]

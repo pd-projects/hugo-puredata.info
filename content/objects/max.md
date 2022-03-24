@@ -3,7 +3,8 @@ title: "[max]"
 description: "maximum of 2 numbers"
 bref: "maximum of 2 numbers"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [max]

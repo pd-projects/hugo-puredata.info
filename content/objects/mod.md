@@ -3,7 +3,8 @@ title: "[mod]"
 description: "higher math"
 bref: "higher math"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [mod]

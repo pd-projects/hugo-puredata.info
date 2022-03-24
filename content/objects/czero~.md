@@ -3,7 +3,8 @@ title: "[czero~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [czero~]

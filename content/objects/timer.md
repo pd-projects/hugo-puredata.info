@@ -3,7 +3,8 @@ title: "[timer]"
 description: "measure time intervals"
 bref: "measure time intervals"
 draft: false
-categories: ["object", "Time"]
+categories: ["object"]
+pd-category: "Time"
 ---
 
 ### [timer]

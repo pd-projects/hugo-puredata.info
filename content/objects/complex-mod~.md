@@ -3,7 +3,8 @@ title: "[complex-mod~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
+categories: ["object"]
+pd-category: "'EXTRA' (patches and externs in pd/extra)"
 ---
 
 ### [complex-mod~]

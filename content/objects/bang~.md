@@ -3,7 +3,8 @@ title: "[bang~]"
 description: "send a bang message after each DSP block"
 bref: "send a bang message after each DSP block"
 draft: false
-categories: ["object", "General Audio Manipulation"]
+categories: ["object"]
+pd-category: "General Audio Manipulation"
 ---
 
 ### [bang~]

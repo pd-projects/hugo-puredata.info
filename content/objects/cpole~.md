@@ -3,7 +3,8 @@ title: "[cpole~]"
 description: "corresponding complex-valued filters"
 bref: "corresponding complex-valued filters"
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [cpole~]

@@ -3,7 +3,8 @@ title: "[switch]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "Subwindows"]
+categories: ["object"]
+pd-category: "Subwindows"
 ---
 
 ### [switch]

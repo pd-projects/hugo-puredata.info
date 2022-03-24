@@ -3,7 +3,8 @@ title: "[drawnumber]"
 description: "print a numeric value"
 bref: "print a numeric value"
 draft: false
-categories: ["object", "Data Templates"]
+categories: ["object"]
+pd-category: "Data Templates"
 ---
 
 ### [drawnumber]

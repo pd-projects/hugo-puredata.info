@@ -3,7 +3,8 @@ title: "[keyup]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [keyup]

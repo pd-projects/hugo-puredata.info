@@ -3,7 +3,8 @@ title: "[rsqrt~]"
 description: "reciprocal square root"
 bref: "reciprocal square root"
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [rsqrt~]

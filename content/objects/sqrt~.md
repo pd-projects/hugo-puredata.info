@@ -3,7 +3,8 @@ title: "[sqrt~]"
 description: "approximate (16-bit) square root"
 bref: "approximate (16-bit) square root"
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [sqrt~]

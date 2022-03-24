@@ -3,7 +3,8 @@ title: "[route]"
 description: "route messages according to first element"
 bref: "route messages according to first element"
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 ### [route]

@@ -3,7 +3,8 @@ title: "[+~]"
 description: "arithmetic on audio signals"
 bref: "arithmetic on audio signals"
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [+~]

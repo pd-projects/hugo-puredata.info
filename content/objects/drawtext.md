@@ -3,7 +3,8 @@ title: "[drawtext]"
 description: "draw text"
 bref: "draw text"
 draft: false
-categories: ["object", "Data Templates"]
+categories: ["object"]
+pd-category: "Data Templates"
 ---
 
 ### [drawtext]

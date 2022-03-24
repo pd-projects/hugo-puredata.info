@@ -3,7 +3,8 @@ title: "[tabwrite]"
 description: "write a number to a table"
 bref: "write a number to a table"
 draft: false
-categories: ["object", "Arrays & Tables"]
+categories: ["object"]
+pd-category: "Arrays & Tables"
 ---
 
 ### [tabwrite]

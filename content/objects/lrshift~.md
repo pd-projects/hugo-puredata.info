@@ -3,7 +3,8 @@ title: "[lrshift~]"
 description: "left and right shift (useful with FFT objects)"
 bref: "left and right shift (useful with FFT objects)"
 draft: false
-categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
+categories: ["object"]
+pd-category: "'EXTRA' (patches and externs in pd/extra)"
 ---
 
 ### [lrshift~]

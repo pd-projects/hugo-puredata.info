@@ -3,7 +3,8 @@ title: "[setsize]"
 description: "change the size of an array"
 bref: "change the size of an array"
 draft: false
-categories: ["object", "Accessing Data"]
+categories: ["object"]
+pd-category: "Accessing Data"
 ---
 
 ### [setsize]

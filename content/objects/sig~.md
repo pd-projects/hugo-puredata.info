@@ -3,7 +3,8 @@ title: "[sig~]"
 description: "convert numbers to audio signals"
 bref: "convert numbers to audio signals"
 draft: false
-categories: ["object", "General Audio Manipulation"]
+categories: ["object"]
+pd-category: "General Audio Manipulation"
 ---
 
 ### [sig~]

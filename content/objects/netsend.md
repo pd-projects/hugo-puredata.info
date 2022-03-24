@@ -3,7 +3,8 @@ title: "[netsend]"
 description: "send messages over the internet"
 bref: "send messages over the internet"
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [netsend]

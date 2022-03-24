@@ -3,7 +3,8 @@ title: "[<]"
 description: "relational tests"
 bref: "relational tests"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [<]

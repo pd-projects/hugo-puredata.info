@@ -3,7 +3,8 @@ title: "[qlist]"
 description: "message sequencer"
 bref: "message sequencer"
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [qlist]

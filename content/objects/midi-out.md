@@ -3,7 +3,8 @@ title: "[noteout], [ctlout], [bendout], [pgmout], [touchout], [polytouchout], [m
 description: "MIDI output"
 bref: "MIDI output"
 draft: false
-categories: ["object", "I/O via MIDI, OSC, and FUDI"]
+categories: ["object"]
+pd-category: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [noteout], [ctlout], [bendout], [pgmout], [touchout], [polytouchout], [midiout]

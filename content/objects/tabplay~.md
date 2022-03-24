@@ -3,7 +3,8 @@ title: "[tabplay~]"
 description: "play back from a table (non-transposing)"
 bref: "play back from a table (non-transposing)"
 draft: false
-categories: ["object", "Audio Oscillators And Tables"]
+categories: ["object"]
+pd-category: "Audio Oscillators And Tables"
 ---
 
 ### [tabplay~]

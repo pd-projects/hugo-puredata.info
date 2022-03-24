@@ -3,7 +3,8 @@ title: "[metro]"
 description: "send a message periodically"
 bref: "send a message periodically"
 draft: false
-categories: ["object", "Time"]
+categories: ["object"]
+pd-category: "Time"
 ---
 
 ### [metro]

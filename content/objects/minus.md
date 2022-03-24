@@ -3,7 +3,8 @@ title: "[-]"
 description: "subtract two numbers"
 bref: "subtract two numbers"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [-]

@@ -3,7 +3,8 @@ title: "[delread~]"
 description: "read from a delay line"
 bref: "read from a delay line"
 draft: false
-categories: ["object", "Audio Delay"]
+categories: ["object"]
+pd-category: "Audio Delay"
 ---
 
 ### [delread~]

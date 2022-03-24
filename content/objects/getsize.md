@@ -3,7 +3,8 @@ title: "[getsize]"
 description: "get the size of an array"
 bref: "get the size of an array"
 draft: false
-categories: ["object", "Accessing Data"]
+categories: ["object"]
+pd-category: "Accessing Data"
 ---
 
 ### [getsize]

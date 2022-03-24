@@ -3,7 +3,8 @@ title: "[samplerate~]"
 description: "get the sample rate"
 bref: "get the sample rate"
 draft: false
-categories: ["object", "General Audio Manipulation"]
+categories: ["object"]
+pd-category: "General Audio Manipulation"
 ---
 
 ### [samplerate~]

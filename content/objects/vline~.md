@@ -3,7 +3,8 @@ title: "[vline~]"
 description: "deluxe line~"
 bref: "deluxe line~"
 draft: false
-categories: ["object", "General Audio Manipulation"]
+categories: ["object"]
+pd-category: "General Audio Manipulation"
 ---
 
 ### [vline~]

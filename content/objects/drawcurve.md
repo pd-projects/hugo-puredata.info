@@ -3,7 +3,8 @@ title: "[drawcurve]"
 description: "draw a curve"
 bref: "draw a curve"
 draft: false
-categories: ["object", "Data Templates"]
+categories: ["object"]
+pd-category: "Data Templates"
 ---
 
 ### [drawcurve]

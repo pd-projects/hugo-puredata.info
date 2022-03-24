@@ -3,7 +3,8 @@ title: "[trigger]"
 description: "sequence messages in right-to-left order."
 bref: "sequence messages in right-to-left order."
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 ### [trigger]

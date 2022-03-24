@@ -3,7 +3,8 @@ title: "[mtof], [ftom], [dbtorms], [rmstodb], [dbtopow], [powtodb]"
 description: "acoustic conversions"
 bref: "acoustic conversions"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [mtof], [ftom], [dbtorms], [rmstodb], [dbtopow], [powtodb]

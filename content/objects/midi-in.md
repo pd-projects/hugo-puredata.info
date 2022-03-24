@@ -3,7 +3,8 @@ title: "[notein], [ctlin], [bendin], [pgmin], [touchin], [polytouchin], [midiin]
 description: "MIDI input"
 bref: "MIDI input"
 draft: false
-categories: ["object", "I/O via MIDI, OSC, and FUDI"]
+categories: ["object"]
+pd-category: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [notein], [ctlin], [bendin], [pgmin], [touchin], [polytouchin], [midiin], [midirealtimein], [sysexin]

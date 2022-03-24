@@ -3,7 +3,8 @@ title: "[textfile]"
 description: "file to message converter"
 bref: "file to message converter"
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [textfile]

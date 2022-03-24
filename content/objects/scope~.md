@@ -3,7 +3,8 @@ title: "[scope~]"
 description: "(use tabwrite~ now)"
 bref: "(use tabwrite~ now)"
 draft: false
-categories: ["object", "Obsolete"]
+categories: ["object"]
+pd-category: "Obsolete"
 ---
 
 ### [scope~]

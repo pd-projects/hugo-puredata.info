@@ -3,7 +3,8 @@ title: "[sin], [cos], [tan], [atan], [atan2], [wrap], [abs], [sqrt], [exp], [log
 description: "math functions"
 bref: "math functions"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [sin], [cos], [tan], [atan], [atan2], [wrap], [abs], [sqrt], [exp], [log], [pow]

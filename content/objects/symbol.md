@@ -2,7 +2,8 @@
 title: "[symbol]"
 description: "store and recall a symbol"
 bref: "store and recall a symbol"
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 draft: false
 ---
 

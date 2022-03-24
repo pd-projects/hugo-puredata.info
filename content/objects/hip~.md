@@ -3,7 +3,8 @@ title: "[hip~]"
 description: "high pass filter"
 bref: "high pass filter"
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [hip~]

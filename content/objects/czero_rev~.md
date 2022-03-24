@@ -3,7 +3,8 @@ title: "[czero_rev~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [czero_rev~]

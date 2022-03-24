@@ -3,7 +3,8 @@ title: "[>], [>=], [<], [<=], [==], [!=], [&&], [||], [&], [|], [<<], [>>], [div
 description: "other binary operators"
 bref: "other binary operators"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [>], [>=], [<], [<=], [==], [!=], [&&], [||], [&], [|], [&lt;&lt;], [&gt;&gt;], [div], [mod]

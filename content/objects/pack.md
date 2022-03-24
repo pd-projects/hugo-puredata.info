@@ -3,7 +3,8 @@ title: "[pack]"
 description: "make compound messages"
 bref: "make compound messages"
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 ### [pack]

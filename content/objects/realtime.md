@@ -3,7 +3,8 @@ title: "[realtime]"
 description: "measure real time"
 bref: "measure real time"
 draft: false
-categories: ["object", "Time"]
+categories: ["object"]
+pd-category: "Time"
 ---
 
 ### [realtime]

@@ -3,7 +3,8 @@ title: "[choice]"
 description: "best match of list to templates"
 bref: "best match of list to templates"
 draft: false
-categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
+categories: ["object"]
+pd-category: "'EXTRA' (patches and externs in pd/extra)"
 ---
 
 ### [choice]

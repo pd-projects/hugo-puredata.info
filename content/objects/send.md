@@ -2,7 +2,8 @@
 title: "[send]"
 description: "Send messages without patch cords."
 bref: "Send messages without patch cords."
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 
 draft: false
 ---

@@ -3,7 +3,8 @@ title: "[writesf~]"
 description: "record sound to disk"
 bref: "record sound to disk"
 draft: false
-categories: ["object", "General Audio Manipulation"]
+categories: ["object"]
+pd-category: "General Audio Manipulation"
 ---
 
 ### [writesf~]

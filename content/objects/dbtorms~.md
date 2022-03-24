@@ -3,7 +3,8 @@ title: "[dbtorms~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [dbtorms~]

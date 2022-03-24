@@ -3,7 +3,8 @@ title: "[drawpolygon]"
 description: "draw a polygon"
 bref: "draw a polygon"
 draft: false
-categories: ["object", "Data Templates"]
+categories: ["object"]
+pd-category: "Data Templates"
 ---
 
 ### [drawpolygon]

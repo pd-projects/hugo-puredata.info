@@ -3,7 +3,8 @@ title: "[scalar]"
 description: "create a single scalar"
 bref: "create a single scalar"
 draft: false
-categories: ["object", "Accessing Data"]
+categories: ["object"]
+pd-category: "Accessing Data"
 ---
 
 ### [scalar]

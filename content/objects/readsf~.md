@@ -3,7 +3,8 @@ title: "[readsf~]"
 description: "soundfile playback from disk"
 bref: "soundfile playback from disk"
 draft: false
-categories: ["object", "General Audio Manipulation"]
+categories: ["object"]
+pd-category: "General Audio Manipulation"
 ---
 
 ### [readsf~]

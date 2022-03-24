@@ -3,7 +3,8 @@ title: "[openpanel]"
 description: "'Open' dialog"
 bref: "'Open' dialog"
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [openpanel]

@@ -3,7 +3,8 @@ title: "[bob~]"
 description: "Moog resonant filter model"
 bref: "Moog resonant filter model"
 draft: false
-categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
+categories: ["object"]
+pd-category: "'EXTRA' (patches and externs in pd/extra)"
 ---
 
 ### [bob~]

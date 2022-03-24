@@ -3,7 +3,8 @@ title: "[list store]"
 description: "manipulate lists"
 bref: "manipulate lists"
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 

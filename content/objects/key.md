@@ -3,7 +3,8 @@ title: "[key]"
 description: "numeric key values from keyboard"
 bref: "numeric key values from keyboard"
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [key]

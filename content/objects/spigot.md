@@ -3,7 +3,8 @@ title: "[spigot]"
 description: "pass or block messages"
 bref: "pass or block messages"
 draft: false
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 ---
 
 ### [spigot]

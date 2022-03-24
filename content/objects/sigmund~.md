@@ -3,7 +3,8 @@ title: "[sigmund~]"
 description: "pitch tracker"
 bref: "pitch tracker"
 draft: false
-categories: ["object", "'EXTRA' (patches and externs in pd/extra)"]
+categories: ["object"]
+pd-category: "'EXTRA' (patches and externs in pd/extra)"
 ---
 
 ### [sigmund~]

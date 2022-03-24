@@ -3,7 +3,8 @@ title: "[bag]"
 description: "set of numbers"
 bref: "set of numbers"
 draft: false
-categories: ["object", "Misc"]
+categories: ["object"]
+pd-category: "Misc"
 ---
 
 ### [bag]

@@ -3,7 +3,8 @@ title: "[mtof~]"
 description: "acoustic conversions"
 bref: "acoustic conversions"
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [mtof~]

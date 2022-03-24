@@ -3,7 +3,8 @@ title: "[struct]"
 description: "define a data structure"
 bref: "define a data structure"
 draft: false
-categories: ["object", "Data Templates"]
+categories: ["object"]
+pd-category: "Data Templates"
 ---
 
 ### [struct]

@@ -3,7 +3,8 @@ title: "[array]"
 description: "general array creation and manipulation"
 bref: "general array creation and manipulation"
 draft: false
-categories: ["object", "Arrays Arrays Arrays GENERAL Tables Tables Tables"]
+categories: ["object"]
+pd-category: "Arrays Arrays Arrays GENERAL Tables Tables Tables"
 ---
 
 ### [array]

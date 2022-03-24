@@ -3,7 +3,8 @@ title: "[ifft~]"
 description: "complex inverse discrete Fourier transform"
 bref: "complex inverse discrete Fourier transform"
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [ifft~]

@@ -3,7 +3,8 @@ title: "[makenote]"
 description: "schedule delayed 'note off' message for a note-on"
 bref: "schedule delayed 'note off' message for a note-on"
 draft: false
-categories: ["object", "I/O via MIDI, OSC, and FUDI"]
+categories: ["object"]
+pd-category: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [makenote]

@@ -3,7 +3,8 @@ title: "[tabwrite~]"
 description: "write to a table"
 bref: "write to a table"
 draft: false
-categories: ["object", "Audio Oscillators And Tables"]
+categories: ["object"]
+pd-category: "Audio Oscillators And Tables"
 ---
 
 ### [tabwrite~]

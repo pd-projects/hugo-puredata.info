@@ -3,7 +3,8 @@ title: "[oscformat]"
 description: "OSC messages to and from Pd lists"
 bref: "OSC messages to and from Pd lists"
 draft: false
-categories: ["object", "I/O via MIDI, OSC, and FUDI"]
+categories: ["object"]
+pd-category: "I/O via MIDI, OSC, and FUDI"
 ---
 
 ### [oscformat]

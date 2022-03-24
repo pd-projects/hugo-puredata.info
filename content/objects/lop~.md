@@ -3,7 +3,8 @@ title: "[lop~]"
 description: "low pass filter"
 bref: "low pass filter"
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [lop~]

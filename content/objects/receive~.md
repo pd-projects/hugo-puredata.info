@@ -3,7 +3,8 @@ title: "[receive~]"
 description: "get signal from send~"
 bref: "get signal from send~"
 draft: false
-categories: ["object", "General Audio Manipulation"]
+categories: ["object"]
+pd-category: "General Audio Manipulation"
 ---
 
 ### [receive~]

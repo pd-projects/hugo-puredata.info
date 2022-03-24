@@ -3,7 +3,8 @@ title: "[bp~]"
 description: "band pass filter"
 bref: "band pass filter"
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [bp~]

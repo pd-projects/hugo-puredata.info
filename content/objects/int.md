@@ -2,7 +2,8 @@
 title: "[int]"
 description: "store and recall an integer"
 bref: "store and recall an integer"
-categories: ["object", "General"]
+categories: ["object"]
+pd-category: "General"
 aliases: [ "i"]
 draft: false
 ---

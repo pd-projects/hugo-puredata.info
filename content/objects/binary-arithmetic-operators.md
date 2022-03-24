@@ -3,7 +3,8 @@ title: "[+] [-] [*] [/] [max] [min]"
 description: "arithmetic"
 bref: "arithmetic"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [+], [-], [*], [/], [max], [min]

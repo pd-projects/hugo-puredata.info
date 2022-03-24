@@ -3,7 +3,8 @@ title: "[plot]"
 description: "plot an array field"
 bref: "plot an array field"
 draft: false
-categories: ["object", "Data Templates"]
+categories: ["object"]
+pd-category: "Data Templates"
 ---
 
 ### [plot]

@@ -3,7 +3,8 @@ title: "[powtodb]"
 description: "convert acoustical units"
 bref: "convert acoustical units"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [powtodb]

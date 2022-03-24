@@ -3,7 +3,8 @@ title: "[rifft~]"
 description: "real inverse discrete Fourier transform"
 bref: "real inverse discrete Fourier transform"
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [rifft~]

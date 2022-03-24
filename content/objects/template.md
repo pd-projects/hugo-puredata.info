@@ -3,7 +3,8 @@ title: "[template]"
 description: "(use struct now)"
 bref: "(use struct now)"
 draft: false
-categories: ["object", "Obsolete"]
+categories: ["object"]
+pd-category: "Obsolete"
 ---
 
 ### [template]

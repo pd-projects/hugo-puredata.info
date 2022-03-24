@@ -3,7 +3,8 @@ title: "[rpole~]"
 description: "raw real-valued one-pole filter"
 bref: "raw real-valued one-pole filter"
 draft: false
-categories: ["object", "Audio Filters"]
+categories: ["object"]
+pd-category: "Audio Filters"
 ---
 
 ### [rpole~]

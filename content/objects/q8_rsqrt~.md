@@ -3,7 +3,8 @@ title: "[q8_rsqrt~]"
 description: ""
 bref: ""
 draft: false
-categories: ["object", "Audio Math"]
+categories: ["object"]
+pd-category: "Audio Math"
 ---
 
 ### [q8_rsqrt~]

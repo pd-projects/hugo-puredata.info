@@ -3,7 +3,8 @@ title: "[min]"
 description: "minimum of two numbers"
 bref: "minimum of two numbers"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [min]

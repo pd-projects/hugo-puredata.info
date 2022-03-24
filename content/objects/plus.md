@@ -3,7 +3,8 @@ title: "[+]"
 description: "add two numbers"
 bref: "add two numbers"
 draft: false
-categories: ["object", "Math"]
+categories: ["object"]
+pd-category: "Math"
 ---
 
 ### [+]
