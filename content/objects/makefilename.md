@@ -12,20 +12,6 @@ format a symbol with a variable field
 
 The Makefilename object generates name symbols according to a format string,  for use as a series of filenames,  table names,  or whatnot. You can plug in a variable number or symbol by using different types in the string ("such as %s",  "%c",  "%d",  "%X and others). Each object can have only one variable pattern,  but you can cascade objects for multiple substitutions.
 
-INLET: 
-
-- float/symbol - to replace format specifiers.
-
-- set &lt;string&gt; - message replaces format.
-
-OUTLET:
-
-- symbol - formatted symbol.
-
-ARGUMENTS: 
-
-- symbol - format strring with specifiers (%c,  %d,  '%i,  %e,  %E,  %f,  %g,  %G,  %o,  %s,  %u,  %x,  %X and %p).
-
 ----------------------
 
 ### Possible printf pattern types. 
@@ -122,3 +108,19 @@ For symbol strings (%s), the precision sets a maximum character limit. Below, we
 For integer types ('%d'/'%i'/'%o'/'%u'/'%x'/'%X'/'%p'), the precision field does not set a maximum number of characters. Instead, it sets a fixed number of digits and adds zeros to the left as a fill. This is slightly different than setting a width field with a '0' flag. The difference is only observed for numbers of different sign as below. Note how the width field will suppress a zero to include a "-" character.
 
 For floats, the precision field sets the maximum number of digits to the right of the decimal point. Note that there's a default of 6 digits. Also note that this affects the resolution and can cause the number to be rounded.
+
+----------------
+
+INLET:
+
+- float/symbol - to replace format specifiers.
+
+- set &lt;string&gt; - message replaces format.
+
+OUTLET:
+
+- symbol - formatted symbol.
+
+ARGUMENTS:
+
+- symbol - format strring with specifiers (%c,  %d,  '%i,  %e,  %E,  %f,  %g,  %G,  %o,  %s,  %u,  %x,  %X and %p).
