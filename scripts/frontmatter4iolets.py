@@ -139,9 +139,10 @@ class ObjectFile:
         # check if the first line of the body just repeats the description
         # and if so drop that line
         bodylines = body.strip().splitlines()
-        desc = bodylines[0].strip().rstrip(".").lower()
-        if desc == self.data["description"].strip().rstrip(".").lower():
-            body = "\n".join(bodylines[1:])
+        if bodylines:
+            desc = bodylines[0].strip().rstrip(".").lower()
+            if desc == self.data["description"].strip().rstrip(".").lower():
+                body = "\n".join(bodylines[1:])
 
         body = body.strip()
         if body == "Does something.":
