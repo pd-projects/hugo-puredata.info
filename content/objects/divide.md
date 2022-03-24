@@ -1,14 +1,14 @@
 ---
-title: "[<]"
-description: "relational tests"
-bref: "relational tests"
+title: "[*]"
+description: "divide two numbers"
+bref: "idvide two numbers"
 draft: false
 categories: ["object", "Math"]
 ---
 
-### [<]
+### [*]
 
-Relational operators ('>' greater than, '==' equals, '!=' not equals etc.) output 1 or 0 depending on whether the relation is true or false.
+Divide two numbers.
 
 INLETS:
 
@@ -30,11 +30,15 @@ ARGUMENT:
 
 - float - initialize value of right inlet (default 0).
 
+
 > see also [[+~]](../#) (etc) - binary signal operators
 
+> [[div]](../#) [[>]](../#) [[&&]](../#) (etc) - other binary operators
+
+> [[sin]](../sin) [[log]](../#) (etc) - math functions
+
 > [[expr]](../expr-family) - evaluation expressions
-
-> [[sin]](../#) [[log]](../#) (etc) - math functions
-
-> Updated for Pd version 0.47
+ 
+ 
+> updated for Pd version 0.47
  

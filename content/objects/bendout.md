@@ -8,15 +8,30 @@ categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 
 ### [bendout]
 
-Does something.
+INLETS:
 
-### Inlets & Outlets
+- 1st: 
+ 
+  - float - MIDI bend value.
+  
+- 2nd: 
 
-inlet 0
+  - float - MIDI channel/port
 
- - dummy
+OUTLETS:
+  
+- NONE.
+  
+ARGUMENTS:
 
-outlet 0
+- float - MIDI channel/port
 
- - dummy
+**Known bug:** [bendin] and [bendout] are inconsistent ([bendin] outputs values from 0 to 16383 and [bendout] takes values from -8192 to 8191) - this won't change.
+
+
+> see also [[notein]](../notein) (etc) - MIDI in objects.
+
+> see also [[noteout]](../noteout) (etc) - MIDI out objects.
+
+> updated for Pd version 0.48-2
  

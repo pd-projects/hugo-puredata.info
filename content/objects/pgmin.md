@@ -8,15 +8,31 @@ categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 
 ### [pgmin]
 
-Does something.
+INLETS:
 
-### Inlets & Outlets
+- NONE.
 
-inlet 0
+OUTLETS:
 
- - dummy
+- n: (number depends on number of arguments)
 
-outlet 0
+- 1st: 
+ 
+  - float - MIDI program value.
+  
+- 2nd: 
 
- - dummy
+  - float - MIDI channel/port
+  
+ARGUMENTS:
+
+- float - MIDI channel/port
+
+**Known bug:** Program change values in [pgmin] and [pgmout] are indexed from 1, which means that the possible values are from 1 to 128 (not 0 to 127)!
+
+> see also [[notein]](../notein) (etc) - MIDI in objects.
+
+> see also [[noteout]](../noteout) (etc) - MIDI out objects.
+
+> updated for Pd version 0.48-2
  
