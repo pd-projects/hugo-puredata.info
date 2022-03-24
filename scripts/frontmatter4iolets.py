@@ -37,6 +37,13 @@ bodyreg = re.compile(
 )
 
 
+def dehtml(x):
+    try:
+        return x.replace("&lt;", "<").replace("&gt;", ">")
+    except:
+        return x
+
+
 def dict2order(d, keys):
     d = dict(d)
     o = collections.OrderedDict()
@@ -153,7 +160,7 @@ class ObjectFile:
                     x = re.findall("^- (.*) - (.*)", l)
                     if x:
                         msg, descr = x[0]
-                        result[msg] = descr
+                        result[dehtml(msg)] = dehtml(descr)
                 else:
                     log.error("OOOOPSIE[%s]: %s" % (self.filename, l))
             return result
