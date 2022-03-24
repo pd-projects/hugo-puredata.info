@@ -1,27 +1,6 @@
 <div id="reference">
-  {{ with .inlets }}
-  <h3>INLETs</h3>
-  {{ range $elem_key, $elem_val := . }}
-  <h4>{{$elem_key}}</h4>
-  <dl>
-    {{ range $elem_definition, $elem_description := $elem_val }}
-    <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
-    {{ end }}
-  </dl>
-  {{ end }}
-  {{ end }}
-
-  {{ with .outlets }}
-  <h3>OUTLETs</h3>
-  {{ range $elem_key, $elem_val := . }}
-    <h4>{{$elem_key}}</h4>
-    <dl>
-      {{ range $elem_definition, $elem_description := $elem_val }}
-      <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
-      {{ end }}
-    </dl>
-  {{ end }}
-  {{ end }}
+  {{ with .inlets }}  <h3>INLETs</h3>{{ partial "object-iolets" .}}  {{ end }}
+  {{ with .outlets }}  <h3>OUTLETs</h3>{{ partial "object-iolets" .}}  {{ end }}
 
   {{ with .arguments }}
   <h3>ARGUMENTs</h3>
