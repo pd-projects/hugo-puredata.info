@@ -1,22 +1,44 @@
 ---
 title: "[min]"
-description: ""
-bref: ""
+description: "minimum of two numbers"
+bref: "minimum of two numbers"
 draft: false
 categories: ["object", "Math"]
 ---
 
 ### [min]
 
-Does something.
+Minimum of two numbers
 
-### Inlets & Outlets
+INLETS:
 
-inlet 0
+- 1st:
 
- - dummy
+  - bang - output the operation on the previously set values.
 
-outlet 0
+  - float - value to the left side of operation and output.
 
- - dummy
+- 2nd:
+
+  - float - value to the right side of operation.
+
+OUTLET:
+
+- float - the result of the operation.
+
+ARGUMENT:
+
+- float - initialize value of right inlet (default 0).
+
+
+> see also [[+~]](../#) (etc) - binary signal operators
+
+> [[div]](../#) [[>]](../#) [[&&]](../#) (etc) - other binary operators
+
+> [[sin]](../sin) [[log]](../#) (etc) - math functions
+
+> [[expr]](../expr-family) - evaluation expressions
+ 
+ 
+> updated for Pd version 0.47
  

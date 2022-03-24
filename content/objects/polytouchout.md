@@ -8,15 +8,32 @@ categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 
 ### [polytouchout]
 
-Does something.
+INLETS:
 
-### Inlets & Outlets
+- 1st: 
+ 
+  - float - MIDI aftertouch value.
+  
+- 2nd: 
 
-inlet 0
+  - float - MIDI note number
+  
+- 3rd: 
 
- - dummy
+  - float - channel/port
 
-outlet 0
+OUTLETS:
+  
+- NONE.
+  
+ARGUMENTS:
 
- - dummy
+- float - channel/port
+
+
+> see also [[notein]](../notein) (etc) - MIDI in objects.
+
+> see also [[noteout]](../noteout) (etc) - MIDI out objects.
+
+> updated for Pd version 0.48-2
  

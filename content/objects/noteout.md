@@ -8,15 +8,31 @@ categories: ["object", "I/O via MIDI, OSC, and FUDI"]
 
 ### [noteout]
 
-MIDI output
+INLETS:
 
-### Inlets & Outlets
+- 1st: 
+ 
+  - float - MIDI note number.
+  
+- 2nd: 
 
-inlet 0
+  - float - MIDI velocity
+  
+- 3rd: 
 
- - dummy
+  - float - MIDI channel/port
 
-outlet 0
+OUTLETS:
 
- - dummy
+- NONE.
+  
+ARGUMENTS:
+
+- float - MIDI channel/port
+
+> see also [[notein]](../notein) (etc) - MIDI in objects.
+
+> see also [[ctlout]](../ctlout) (etc) - MIDI out objects.
+
+> updated for Pd version 0.48-2
  

@@ -1,16 +1,14 @@
 ---
-title: "[list]"
+title: "[list append]"
 description: "manipulate lists"
 bref: "manipulate lists"
 draft: false
 categories: ["object", "General"]
 ---
 
-### [list]
+### [list append]
 
-Manipulate lists.
-
-Short for "list append"
+Use list append to concatenate a second list (defined via arguments or the right inlet) to the first list via the left inlet.
 
 INLETS
 
@@ -28,9 +26,9 @@ OUTLET:
 
 ARGUMENTS:
 
-- symbol - sets the function of [list], possible values: append, prepend, store, split, trim, length, fromsymbol and tosymbol. The default value is 'append'.
+- list - initialize the list to append (default empty).
 
-> see also [[list append]](../list-append)\
+> see also [[list]](../list)\
 > [[list prepend]](../list-prepend)\
 > [[list store]](../list-store)\
 > [[list split]](../list-split)\
@@ -38,5 +36,3 @@ ARGUMENTS:
 > [[list length]](../list-length)\
 > [[list fromsymbol]](../list-fromsymbol)\
 > [[list tosymbol]](../list-tosymbol)
-
-

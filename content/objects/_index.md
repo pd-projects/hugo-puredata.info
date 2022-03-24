@@ -18,8 +18,8 @@ boxes but come straight off the "add" menu.)
 [[float]](float) - store and recall a number\
 [[symbol]](symbol) - store and recall a symbol\
 [[int]](int) - store and recall an integer\
-[[send]](send-receive) - send a message to a named object\
-[[receive]](send-receive#receive) - catch "sent" messages\
+[[send]](send) - send a message to a named object\
+[[receive]](receive) - catch "sent" messages\
 [[select]](select) - test for matching numbers or symbols\
 [[route]](route) - route messages according to first element\
 [[pack]](pack) - make compound messages\
@@ -34,7 +34,15 @@ boxes but come straight off the "add" menu.)
 [[change]](change) - remove repeated numbers from a stream\
 [[swap]](swap) - swap two numbers\
 [[value]](value) - shared numeric value\
-[[list]](list) - manipulate lists
+[[list]](list) - manipulate lists\
+[[list append]](list-append)\
+[[list prepend]](list-prepend)\
+[[list store]](list-store)\
+[[list split]](list-split)\
+[[list trim]](list-trim)\
+[[list length]](list-length)\
+[[list fromsymbol]](list-fromsymbol)\
+[[list tosymbol]](list-tosymbol)
 
 ### Time 
 
@@ -46,74 +54,75 @@ boxes but come straight off the "add" menu.)
 [[realtime]](realtime) - measure real time\
 [[pipe]](pipe) - dynamically growable delay line for numbers
 
-### Math 
+### Math (TODO: all these needs proper fine tuning)
 
 [[expr]](expr-family) - C-style expressions\
-[[+]](binary-arithmetic-operators) - arithmetic\
-[[-]](binary-arithmetic-operators)\
-[[*]](binary-arithmetic-operators)\
-[[/]](binary-arithmetic-operators)\
-[[max]](binary-arithmetic-operators)\
-[[min]]( binary-arithmetic-operators)\
-[[==]](other-binary-operators) - relational tests\
-[[!=]](other-binary-operators)\
-[[>]](other-binary-operators)\
-[[<]](other-binary-operators)\
-[[>=]](other-binary-operators)\
-[[<=]](other-binary-operators)\
-[[&]](other-binary-operators) - bit twiddling\
-[[&&]](other-binary-operators)\
-[[|]](other-binary-operators)\
-[[||]](other-binary-operators)\
-[[%]](other-binary-operators)\
-[[&lt;&lt;]](other-binary-operators)\
-[[&gt;&gt;]](other-binary-operators)\
-[[mod]](other-binary-operators)\
-[[div]](other-binary-operators)\
-[[mtof]](acoustic-conversions) - convert acoustical units\
-[[ftom]](acoustic-conversions)\
-[[powtodb]](acoustic-conversions)\
-[[dbtopow]](acoustic-conversions)\
-[[rmstodb]](acoustic-conversions)\
-[[dbtorms]](acoustic-conversions) \
-[[sin]](math-functions) - higher math\
-[[cos]](math-functions)\
-[[tan]](math-functions)\
-[[atan]](math-functions)\
-[[atan2]](math-functions)\
-[[sqrt]](math-functions)\
-[[pow]](math-functions)\
-[[log]](math-functions)\
-[[exp]](math-functions)\
-[[abs]]( math-functions)\
+[[+]](plus) - arithmetic\
+[[-]](minus)\
+[[*]](mul)\
+[[/]](divide)\
+[[max]](max)\
+[[min]](min)\
+[[==]](eq) - relational tests\
+[[!=]](neq)\
+[[>]](gt)\
+[[<]](lt)\
+[[>=]](ge)\
+[[<=]](le)\
+[[&]](and) - bit twiddling\
+[[&&]](andand)\
+[[|]](or)\
+[[||]](oror)\
+[[&lt;&lt;]](lshift)\
+[[&gt;&gt;]](rshift)\
+[[mtof]](mtof) - convert acoustical units\
+[[ftom]](ftom)\
+[[powtodb]](powtodb)\
+[[dbtopow]](dbtopow)\
+[[rmstodb]](rmstodb)\
+[[dbtorms]](dbtorms) \
+[[sin]](sin) - higher math\
+[[cos]](cos)\
+[[tan]](tan)\
+[[atan]](atan)\
+[[atan2]](atan2)\
+[[sqrt]](sqrt)\
+[[pow]](pow)\
+[[log]](log)\
+[[exp]](exp)\
+[[abs]](abs)\
+[[%]](percent)\
+[[mod]](mod)\
+[[div]](div)\
+[[wrap]](wrap)\
 [[random]](random) - lower math\
-[[clip]](clip) - force a number into a range\
-[[wrap]](math-functions) - wrap a number to range [[0, 1)
+[[clip]](clip) - force a number into a range
 
-### I/O via MIDI, OSC, and FUDI 
 
-[[notein]](midi-in#notein) - MIDI input\
-[[ctlin]](midi-in#ctlin)\
-[[pgmin]](midi-in#pgmin)\
-[[bendin]](midi-in#bendin)\
-[[touchin]](midi-in#touchin)\
-[[midiin]](midi-in#midiin)\
-[[polytouchin]](midi-in#polytouchin)\
-[[sysexin]](midi-in#sysexin)\
-[[midirealtimein]](midi-in#midirealtimein)\
-[[noteout]](midi-out#noteout) - MIDI output\
-[[ctlout]](midi-out#ctlout)\
-[[pgmout]](midi-out#pgmout)\
-[[bendout]](midi-out#bendout)\
-[[touchout]](midi-out#touchout)\
-[[polytouchout]](midi-out#polytouchout)\
-[[midiout]](midi-out#midiout)\
+### I/O via MIDI, OSC, and FUDI (TODO: midi objects need fine tuning)
+
+[[notein]](notein) - MIDI input\
+[[ctlin]](ctlin)\
+[[pgmin]](pgmin)\
+[[bendin]](bendin)\
+[[touchin]](touchin)\
+[[midiin]](midiin)\
+[[polytouchin]](polytouchin)\
+[[sysexin]](sysexin)\
+[[midirealtimein]](midirealtimein)\
+[[noteout]](noteout) - MIDI output\
+[[ctlout]](ctlout)\
+[[pgmout]](pgmout)\
+[[bendout]](bendout)\
+[[touchout]](touchout)\
+[[polytouchout]](polytouchout)\
+[[midiout]](midiout)\
 [[makenote]](makenote) - schedule delayed "note off" message for a note-on\
 [[stripnote]](stripnote) - strip "note off" messages\
-[[oscparse]](osc-format-parse) - OSC messages to and from Pd lists\
-[[oscformat]](osc-format-parse)\
-[[fudiparse]](fudi-format-parse) - FUDI messages to and from Pd lists\
-[[fudiformat]](fudi-format-parse)
+[[oscparse]](oscparse) - OSC messages to and from Pd lists\
+[[oscformat]](oscformat)\
+[[fudiparse]](fudiparse) - FUDI messages to and from Pd lists\
+[[fudiformat]](fudiformat)
 
 ### Arrays & Tables 
 
@@ -122,6 +131,12 @@ boxes but come straight off the "add" menu.)
 [[tabwrite]](tabwrite) - write a number to a table\
 [[soundfiler]](soundfiler) - read and write tables to soundfiles\
 [[table]](array) - create a named table\
+
+-------------------
+
+---------below all empty------------
+
+-------------------
 [[array]](array) - general array creation and manipulation
 
 ### Misc 

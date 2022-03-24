@@ -1,22 +1,33 @@
 ---
 title: "[dbtopow]"
-description: ""
-bref: ""
+description: "convert acoustical units"
+bref: "convert acoustical units"
 draft: false
 categories: ["object", "Math"]
 ---
 
 ### [dbtopow]
 
-Does something.
+dbtopow and powtodb convert decibels to and from power units, equal to the square of the "RMS" amplitude.
 
-### Inlets & Outlets
+INLET:
 
-inlet 0
+- float - incomming value to be converted.
 
- - dummy
+OUTLET:
 
-outlet 0
+- float - converted value
 
- - dummy
+ARGUMENT:
+
+- NONE.
+ 
+
+
+> see also [[mtof~]](../#) (etc.) - acoustic conversions for audio signals
+
+> [[expr]](../expr-family) - evaluation expressions
+ 
+ 
+> updated for Pd version 0.40
  

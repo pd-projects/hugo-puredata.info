@@ -62,9 +62,9 @@ ARGUMENT:
 
 > see also [[+~]](../#) (etc) - signal versions
 
-> [[+]](../binary-arithmetic-operators) (etc) - binary arithmetic operators
+> [[+]](../plus) (etc) - binary arithmetic operators
 
-> [[div]](../other-binary-operators) (etc) - other binary operators
+> [[div]](../div) (etc) - other binary operators
 
 > [[expr]](../expr-family) - evaluation expressions
 
