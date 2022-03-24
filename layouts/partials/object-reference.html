@@ -3,6 +3,7 @@
 
 {{ with .Params }}
 <div class="object-reference">
+  <hr>
   {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h3>INLETs </h3>{{ partial "object-reference/iolets" .}}</div>{{ end }}
   {{ with .outlets}}<div id="outlets" class="reference-iolets"><h3>OUTLETs</h3>{{ partial "object-reference/iolets" .}}</div>{{ end }}
 
