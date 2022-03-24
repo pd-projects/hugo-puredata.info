@@ -21,3 +21,5 @@ pdcategories:
 
 draft: false
 ---
+The following is a list of built-in objects in Pd.
+(Not included in this list are messages, atoms, graphs, etc. which aren’t typed into object boxes but come straight off the “add” menu.)

@@ -8,7 +8,7 @@
   </div>
   {{ with .Content }}
   {{ . }}
-  {{ else }}
+  {{ end }}
   <div id="components">
     <div class="row gutters">
       {{ range $cat := .Page.Params.pdcategories}}
@@ -23,7 +23,6 @@
 
     </div>
   </div>
-  {{ end }}
 </div>
 {{ end }}
 
