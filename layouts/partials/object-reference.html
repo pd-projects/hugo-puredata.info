@@ -1,3 +1,6 @@
+{{ $pages := site.Pages }}
+{{ $section := .Section }}
+
 {{ with .Params }}
 <div class="object-reference">
   {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h3>INLETs </h3>{{ partial "object-reference/iolets" .}}</div>{{ end }}
@@ -24,8 +27,9 @@
   {{ with .see_also }}
   <div id="reference-seealso">
     {{/* LATER use 'delimit' to generate a nicer string */}}
-    see also: {{ range . }}
-    <a href="../{{.}}">[{{.}}]</a>
+    see also:
+    {{ range where (where $pages "Section" $section) "Title" "in" . }}
+    <a href="../{{.File.BaseFileName}}">[{{.Title}}]</a>
     {{end}}
   </div>
   {{end}}
