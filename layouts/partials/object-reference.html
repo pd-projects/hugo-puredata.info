@@ -35,7 +35,7 @@
     {{/* LATER use 'delimit' to generate a nicer string */}}
     <blockquote><p> see also:
     {{ range where (where $pages "Section" $section) "Title" "in" . }}
-    <a href="{{.Permalink}}">[{{.Title}}]</a>
+    <a href="{{.Permalink}}">[{{replace .Title " " "\u00a0"}}]</a>
     {{end}}
 	</p></blockquote>
   </div>
