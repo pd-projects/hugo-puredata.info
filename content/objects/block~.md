@@ -10,7 +10,7 @@ inlets:
   1st: {}
 outlets:
   1st: {}
-draft: false
+draft: true
 pdcategory: Subwindows
 aliases:
 - switch~
