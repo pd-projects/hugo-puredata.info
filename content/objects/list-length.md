@@ -14,7 +14,8 @@ see_also:
 - list fromsymbol
 - list tosymbol
 inlets:
-  1st: {}
+  1st:
+    anything: messages to have its elements counted.
 outlets:
   1st:
     float: list length.
@@ -25,7 +26,3 @@ pdcategory: General
 Number of items in list.
 
 The "list length" object outputs the number of arguments in a list or other message.
-
-INLETS
-
-- anything - messages to have its elements counted.
