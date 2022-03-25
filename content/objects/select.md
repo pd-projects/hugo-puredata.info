@@ -21,6 +21,8 @@ outlets:
     float/symbol: when input doesn't match the arguments,  it is passed here.
 draft: false
 pdcategory: General
+aliases:
+- sel
 
 ---
 

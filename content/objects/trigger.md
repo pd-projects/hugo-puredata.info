@@ -20,6 +20,8 @@ outlets:
       type depends on the arguments.
 draft: false
 pdcategory: General
+aliases:
+- t
 
 ---
 The trigger object outputs its input from right to left. Because of the hot/cold inlet paradigm of Pd, output from right to left is the usual output order in Pd objects.

@@ -19,6 +19,8 @@ inlets:
   '2nd: (if created without arguments)':
     symbol: sets the send name.
 pdcategory: General
+aliases:
+- s
 draft: false
 
 ---

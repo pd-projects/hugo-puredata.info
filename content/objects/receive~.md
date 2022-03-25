@@ -10,6 +10,8 @@ outlets:
   1st: {}
 draft: false
 pdcategory: General Audio Manipulation
+aliases:
+- r~
 
 ---
 

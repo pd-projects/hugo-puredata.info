@@ -15,6 +15,8 @@ outlets:
   1st:
     any message: outputs the messages destined to its receive name.
 pdcategory: General
+aliases:
+- r
 draft: false
 
 ---

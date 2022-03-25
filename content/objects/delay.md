@@ -26,6 +26,8 @@ outlets:
     bang: bang at a delayed time.
 draft: false
 pdcategory: Time
+aliases:
+- del
 
 ---
 send a bang message after a time delay

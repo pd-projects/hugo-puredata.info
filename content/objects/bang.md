@@ -12,6 +12,8 @@ outlets:
   1st:
     bang: a bang message
 pdcategory: General
+aliases:
+- b
 draft: false
 
 ---
