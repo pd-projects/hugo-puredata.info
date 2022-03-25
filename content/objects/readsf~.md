@@ -1,7 +1,6 @@
 ---
 title: readsf~
 description: soundfile playback from disk
-bref: soundfile playback from disk
 categories:
 - object
 inlets:

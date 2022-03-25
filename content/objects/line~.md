@@ -1,7 +1,6 @@
 ---
 title: line~
 description: generate audio ramps
-bref: generate audio ramps
 categories:
 - object
 inlets:

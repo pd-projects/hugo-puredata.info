@@ -1,7 +1,6 @@
 ---
 title: delread4~
 description: read with a time-varying delay time
-bref: read with a time-varying delay time
 categories:
 - object
 inlets:

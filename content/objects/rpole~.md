@@ -1,7 +1,6 @@
 ---
 title: rpole~
 description: raw real-valued one-pole filter
-bref: raw real-valued one-pole filter
 categories:
 - object
 inlets:

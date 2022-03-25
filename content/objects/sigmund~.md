@@ -1,7 +1,6 @@
 ---
 title: sigmund~
 description: pitch tracker
-bref: pitch tracker
 categories:
 - object
 inlets:

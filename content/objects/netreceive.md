@@ -1,7 +1,6 @@
 ---
 title: netreceive
 description: receive them
-bref: receive them
 categories:
 - object
 inlets:

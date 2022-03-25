@@ -1,7 +1,6 @@
 ---
 title: lop~
 description: low pass filter
-bref: low pass filter
 categories:
 - object
 inlets:

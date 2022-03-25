@@ -1,7 +1,6 @@
 ---
 title: pd~
 description: run another copy of Pd (for multiprocessing)
-bref: run another copy of Pd (for multiprocessing)
 categories:
 - object
 inlets:

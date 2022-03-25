@@ -1,7 +1,6 @@
 ---
 title: bang~
 description: send a bang message after each DSP block
-bref: send a bang message after each DSP block
 categories:
 - object
 inlets:

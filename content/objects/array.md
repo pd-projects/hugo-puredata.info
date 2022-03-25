@@ -1,7 +1,6 @@
 ---
 title: array
 description: general array creation and manipulation
-bref: general array creation and manipulation
 categories:
 - object
 inlets:

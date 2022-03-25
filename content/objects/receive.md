@@ -1,7 +1,6 @@
 ---
 title: receive
 description: Receive messages without patch cords.
-bref: Receive messages without patch cords.
 categories:
 - object
 last_update: '0.48'

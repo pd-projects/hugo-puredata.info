@@ -1,7 +1,6 @@
 ---
 title: delay
 description: send a message after a time delay
-bref: send a message after a time delay
 categories:
 - object
 last_update: '0.45'

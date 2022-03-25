@@ -1,7 +1,6 @@
 ---
 title: tabwrite~
 description: write to a table
-bref: write to a table
 categories:
 - object
 inlets:

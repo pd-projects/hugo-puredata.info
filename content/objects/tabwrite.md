@@ -1,7 +1,6 @@
 ---
 title: tabwrite
 description: write a number to a table
-bref: write a number to a table
 categories:
 - object
 last_update: '0.33'

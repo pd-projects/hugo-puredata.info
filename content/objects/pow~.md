@@ -1,7 +1,6 @@
 ---
 title: pow~
 description: math
-bref: math
 categories:
 - object
 inlets:

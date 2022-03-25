@@ -1,7 +1,6 @@
 ---
 title: swap
 description: swap two numbers
-bref: swap two numbers
 categories:
 - object
 last_update: '0.41'

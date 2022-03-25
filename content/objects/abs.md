@@ -1,7 +1,6 @@
 ---
 title: abs
 description: math functions
-bref: math functions
 categories:
 - object
 see_also:

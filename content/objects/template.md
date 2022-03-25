@@ -1,7 +1,6 @@
 ---
 title: template
 description: (use struct now)
-bref: (use struct now)
 categories:
 - object
 inlets:

@@ -1,7 +1,6 @@
 ---
 title: change
 description: remove repeated numbers from a stream
-bref: remove repeated numbers from a stream
 categories:
 - object
 last_update: '0.27'

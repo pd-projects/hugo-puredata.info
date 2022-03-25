@@ -1,7 +1,6 @@
 ---
 title: list fromsymbol
 description: manipulate lists
-bref: manipulate lists
 categories:
 - object
 see_also:

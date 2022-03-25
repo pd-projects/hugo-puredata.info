@@ -1,7 +1,6 @@
 ---
 title: throw~
 description: add to a summing bus
-bref: add to a summing bus
 categories:
 - object
 inlets:

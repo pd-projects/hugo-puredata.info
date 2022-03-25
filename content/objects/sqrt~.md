@@ -1,7 +1,6 @@
 ---
 title: sqrt~
 description: approximate (16-bit) square root
-bref: approximate (16-bit) square root
 categories:
 - object
 inlets:

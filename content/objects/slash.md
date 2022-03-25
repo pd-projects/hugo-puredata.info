@@ -1,7 +1,6 @@
 ---
 title: /
 description: divide two numbers
-bref: divide two numbers
 categories:
 - object
 inlets:

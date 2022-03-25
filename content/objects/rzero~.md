@@ -1,7 +1,6 @@
 ---
 title: rzero~
 description: raw real-valued one-zero filter
-bref: raw real-valued one-zero filter
 categories:
 - object
 inlets:

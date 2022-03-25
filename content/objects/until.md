@@ -1,7 +1,6 @@
 ---
 title: until
 description: looping mechanism
-bref: looping mechanism
 categories:
 - object
 last_update: '0.28'

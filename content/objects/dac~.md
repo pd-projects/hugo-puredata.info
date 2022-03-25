@@ -1,7 +1,6 @@
 ---
 title: dac~
 description: audio output
-bref: audio output
 categories:
 - object
 inlets:

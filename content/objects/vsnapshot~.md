@@ -1,7 +1,6 @@
 ---
 title: vsnapshot~
 description: deluxe snapshot~
-bref: deluxe snapshot~
 categories:
 - object
 inlets:

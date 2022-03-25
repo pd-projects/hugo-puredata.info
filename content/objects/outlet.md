@@ -1,7 +1,6 @@
 ---
 title: outlet
 description: add an outlet to a pd
-bref: add an outlet to a pd
 categories:
 - object
 inlets:

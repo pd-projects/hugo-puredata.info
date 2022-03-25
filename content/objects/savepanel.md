@@ -1,7 +1,6 @@
 ---
 title: savepanel
 description: '''Save as'' dialog'
-bref: '''Save as'' dialog'
 categories:
 - object
 inlets:

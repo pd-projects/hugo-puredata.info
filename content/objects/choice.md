@@ -1,7 +1,6 @@
 ---
 title: choice
 description: best match of list to templates
-bref: best match of list to templates
 categories:
 - object
 inlets:

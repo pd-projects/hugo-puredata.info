@@ -1,7 +1,6 @@
 ---
 title: tabplay~
 description: play back from a table (non-transposing)
-bref: play back from a table (non-transposing)
 categories:
 - object
 inlets:

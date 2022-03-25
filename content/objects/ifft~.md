@@ -1,7 +1,6 @@
 ---
 title: ifft~
 description: complex inverse discrete Fourier transform
-bref: complex inverse discrete Fourier transform
 categories:
 - object
 inlets:

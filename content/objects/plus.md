@@ -1,7 +1,6 @@
 ---
 title: +
 description: add two numbers
-bref: add two numbers
 categories:
 - object
 last_update: '0.47'

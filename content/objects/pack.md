@@ -1,7 +1,6 @@
 ---
 title: pack
 description: make compound messages
-bref: make compound messages
 categories:
 - object
 last_update: '0.34'

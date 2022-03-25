@@ -1,7 +1,6 @@
 ---
 title: vcf~
 description: voltage controlled filter
-bref: voltage controlled filter
 categories:
 - object
 inlets:

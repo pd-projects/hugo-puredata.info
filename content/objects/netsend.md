@@ -1,7 +1,6 @@
 ---
 title: netsend
 description: send messages over the internet
-bref: send messages over the internet
 categories:
 - object
 inlets:

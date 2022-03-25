@@ -1,7 +1,6 @@
 ---
 title: hilbert~
 description: phase quadrature / frequency shifting
-bref: phase quadrature / frequency shifting
 categories:
 - object
 inlets:

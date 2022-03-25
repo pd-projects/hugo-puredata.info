@@ -1,7 +1,6 @@
 ---
 title: rzero_rev~
 description: time-reversed
-bref: time-reversed
 categories:
 - object
 inlets:

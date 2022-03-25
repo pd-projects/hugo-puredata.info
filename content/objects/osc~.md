@@ -1,7 +1,6 @@
 ---
 title: osc~
 description: cosine oscillator
-bref: cosine oscillator
 categories:
 - object
 inlets:

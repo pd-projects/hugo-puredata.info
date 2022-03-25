@@ -1,7 +1,6 @@
 ---
 title: inlet~
 description: signal versions
-bref: signal versions
 categories:
 - object
 inlets:

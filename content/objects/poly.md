@@ -1,7 +1,6 @@
 ---
 title: poly
 description: polyphonic voice allocation
-bref: polyphonic voice allocation
 categories:
 - object
 inlets:

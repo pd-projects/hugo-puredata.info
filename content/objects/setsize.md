@@ -1,7 +1,6 @@
 ---
 title: setsize
 description: change the size of an array
-bref: change the size of an array
 categories:
 - object
 inlets:

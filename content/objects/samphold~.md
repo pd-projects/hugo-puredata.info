@@ -1,7 +1,6 @@
 ---
 title: samphold~
 description: sample and hold unit
-bref: sample and hold unit
 categories:
 - object
 inlets:

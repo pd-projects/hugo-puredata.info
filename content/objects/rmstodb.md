@@ -1,7 +1,6 @@
 ---
 title: rmstodb
 description: convert acoustical units
-bref: convert acoustical units
 categories:
 - object
 last_update: '0.40'

@@ -1,7 +1,6 @@
 ---
 title: bag
 description: set of numbers
-bref: set of numbers
 categories:
 - object
 inlets:

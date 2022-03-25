@@ -1,7 +1,6 @@
 ---
 title: biquad~
 description: raw filter
-bref: raw filter
 categories:
 - object
 inlets:

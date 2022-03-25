@@ -1,7 +1,6 @@
 ---
 title: bonk~
 description: attack detector
-bref: attack detector
 categories:
 - object
 inlets:

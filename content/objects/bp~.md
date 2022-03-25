@@ -1,7 +1,6 @@
 ---
 title: bp~
 description: band pass filter
-bref: band pass filter
 categories:
 - object
 inlets:

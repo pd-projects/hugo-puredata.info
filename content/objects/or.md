@@ -1,7 +1,6 @@
 ---
 title: '|'
 description: bit twiddling
-bref: bit twiddling
 categories:
 - object
 see_also:

@@ -1,9 +1,6 @@
 ---
 title: block~
-description: specify block size and overlap, or, if invoked as 'switch', also switch
-  subpatches on and off
-bref: specify block size and overlap, or, if invoked as 'switch', also switch subpatches
-  on and off
+description: control block-based signal processing
 categories:
 - object
 inlets:
@@ -16,4 +13,6 @@ aliases:
 - switch~
 
 ---
+specify block size, overlap and resampling.
 
+If invoked as 'switch', also switches DSP-processing on and off in the subpatch.

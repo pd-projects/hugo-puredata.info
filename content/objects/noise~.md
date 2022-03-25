@@ -1,7 +1,6 @@
 ---
 title: noise~
 description: white noise generator
-bref: white noise generator
 categories:
 - object
 inlets:

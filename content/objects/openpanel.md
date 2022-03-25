@@ -1,7 +1,6 @@
 ---
 title: openpanel
 description: '''Open'' dialog'
-bref: '''Open'' dialog'
 categories:
 - object
 inlets:

@@ -1,7 +1,6 @@
 ---
 title: symbol
 description: store and recall a symbol
-bref: store and recall a symbol
 categories:
 - object
 last_update: '0.45'

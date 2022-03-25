@@ -1,7 +1,6 @@
 ---
 title: scope~
 description: (use tabwrite~ now)
-bref: (use tabwrite~ now)
 categories:
 - object
 inlets:

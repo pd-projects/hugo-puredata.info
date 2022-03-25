@@ -1,7 +1,6 @@
 ---
 title: threshold~
 description: detect signal thresholds
-bref: detect signal thresholds
 categories:
 - object
 inlets:

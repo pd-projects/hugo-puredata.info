@@ -1,7 +1,6 @@
 ---
 title: oscformat
 description: OSC messages to and from Pd lists
-bref: OSC messages to and from Pd lists
 categories:
 - object
 last_update: 0.51.

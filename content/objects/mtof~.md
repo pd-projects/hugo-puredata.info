@@ -1,7 +1,6 @@
 ---
 title: mtof~
 description: acoustic conversions
-bref: acoustic conversions
 categories:
 - object
 inlets:

@@ -1,7 +1,6 @@
 ---
 title: moses
 description: part a numeric stream
-bref: part a numeric stream
 categories:
 - object
 last_update: '0.33'

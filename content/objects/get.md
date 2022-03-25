@@ -1,7 +1,6 @@
 ---
 title: get
 description: get numeric fields
-bref: get numeric fields
 categories:
 - object
 inlets:

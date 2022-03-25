@@ -1,7 +1,6 @@
 ---
 title: tabosc4~
 description: wavetable oscillator
-bref: wavetable oscillator
 categories:
 - object
 inlets:

@@ -1,7 +1,6 @@
 ---
 title: tabread4~
 description: four-point interpolating table read
-bref: four-point interpolating table read
 categories:
 - object
 inlets:

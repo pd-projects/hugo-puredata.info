@@ -1,7 +1,6 @@
 ---
 title: expr
 description: C-style expressions
-bref: C-style expressions
 categories:
 - object
 last_update: 0.51-3

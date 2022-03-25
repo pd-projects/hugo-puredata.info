@@ -1,7 +1,6 @@
 ---
 title: keyname
 description: symbolic key name
-bref: symbolic key name
 categories:
 - object
 inlets:

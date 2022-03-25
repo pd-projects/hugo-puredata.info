@@ -1,7 +1,6 @@
 ---
 title: loadbang
 description: bang on load
-bref: bang on load
 categories:
 - object
 inlets:

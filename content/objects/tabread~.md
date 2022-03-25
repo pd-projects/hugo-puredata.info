@@ -1,7 +1,6 @@
 ---
 title: tabread~
 description: non-interpolating table read
-bref: non-interpolating table read
 categories:
 - object
 inlets:

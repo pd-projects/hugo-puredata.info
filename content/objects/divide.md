@@ -1,7 +1,6 @@
 ---
 title: '*'
 description: divide two numbers
-bref: idvide two numbers
 categories:
 - object
 last_update: '0.47'

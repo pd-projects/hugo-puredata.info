@@ -1,7 +1,6 @@
 ---
 title: hip~
 description: high pass filter
-bref: high pass filter
 categories:
 - object
 inlets:

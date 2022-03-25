@@ -1,7 +1,6 @@
 ---
 title: key
 description: numeric key values from keyboard
-bref: numeric key values from keyboard
 categories:
 - object
 inlets:

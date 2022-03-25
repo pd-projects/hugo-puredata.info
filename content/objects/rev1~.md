@@ -1,7 +1,6 @@
 ---
 title: rev1~
 description: reverberators
-bref: reverberators
 categories:
 - object
 inlets:

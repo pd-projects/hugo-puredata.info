@@ -1,7 +1,6 @@
 ---
 title: trigger
 description: sequence messages in right-to-left order.
-bref: sequence messages in right-to-left order.
 categories:
 - object
 last_update: '0.52'

@@ -1,7 +1,6 @@
 ---
 title: drawnumber
 description: print a numeric value
-bref: print a numeric value
 categories:
 - object
 inlets:

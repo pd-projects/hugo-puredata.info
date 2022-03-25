@@ -1,7 +1,6 @@
 ---
 title: env~
 description: envelope follower
-bref: envelope follower
 categories:
 - object
 inlets:

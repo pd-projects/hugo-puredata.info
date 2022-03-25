@@ -1,7 +1,6 @@
 ---
 title: cos~
 description: cosine
-bref: cosine
 categories:
 - object
 inlets:

@@ -1,7 +1,6 @@
 ---
 title: wrap
 description: wrap a number to range [[0, 1)
-bref: wrap a number to range [[0, 1)
 categories:
 - object
 see_also:

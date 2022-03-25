@@ -1,7 +1,6 @@
 ---
 title: pdcontrol
 description: communicate with canvas (for example, to get directory)
-bref: communicate with canvas (for example, to get directory)
 categories:
 - object
 inlets:

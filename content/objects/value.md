@@ -1,7 +1,6 @@
 ---
 title: value
 description: shared numeric value
-bref: shared numeric value
 categories:
 - object
 last_update: '0.51'

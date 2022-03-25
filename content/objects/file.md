@@ -1,7 +1,6 @@
 ---
 title: file
 description: low-level file operations
-bref: low-level file operations
 categories:
 - object
 inlets:

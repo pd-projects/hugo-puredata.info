@@ -1,7 +1,6 @@
 ---
 title: phasor~
 description: sawtooth oscillator
-bref: sawtooth oscillator
 categories:
 - object
 inlets:

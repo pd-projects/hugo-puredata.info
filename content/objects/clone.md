@@ -1,7 +1,6 @@
 ---
 title: clone
 description: multiple copies of a patch
-bref: multiple copies of a patch
 categories:
 - object
 inlets:

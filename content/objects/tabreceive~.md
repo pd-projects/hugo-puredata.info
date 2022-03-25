@@ -1,7 +1,6 @@
 ---
 title: tabreceive~
 description: read one block continuously from a table
-bref: read one block continuously from a table
 categories:
 - object
 inlets:

@@ -1,7 +1,6 @@
 ---
 title: delwrite~
 description: write to a delay line
-bref: write to a delay line
 categories:
 - object
 inlets:

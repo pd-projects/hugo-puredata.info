@@ -1,7 +1,6 @@
 ---
 title: adc~
 description: audio input
-bref: audio input
 categories:
 - object
 inlets:

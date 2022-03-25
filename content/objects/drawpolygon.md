@@ -1,7 +1,6 @@
 ---
 title: drawpolygon
 description: draw a polygon
-bref: draw a polygon
 categories:
 - object
 inlets:

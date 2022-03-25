@@ -1,7 +1,6 @@
 ---
 title: +~
 description: arithmetic on audio signals
-bref: arithmetic on audio signals
 categories:
 - object
 inlets:

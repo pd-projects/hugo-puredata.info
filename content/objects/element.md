@@ -1,7 +1,6 @@
 ---
 title: element
 description: get an array element
-bref: get an array element
 categories:
 - object
 inlets:

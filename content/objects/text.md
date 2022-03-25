@@ -1,7 +1,6 @@
 ---
 title: text
 description: general text handling
-bref: general text handling
 categories:
 - object
 inlets:

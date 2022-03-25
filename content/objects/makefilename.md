@@ -1,7 +1,6 @@
 ---
 title: makefilename
 description: format a symbol with a variable field
-bref: format a symbol with a variable field
 categories:
 - object
 arguments:

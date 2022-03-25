@@ -1,7 +1,6 @@
 ---
 title: stripnote
 description: strip 'note off' messages
-bref: strip 'note off' messages
 categories:
 - object
 last_update: '0.28'

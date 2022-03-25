@@ -1,7 +1,6 @@
 ---
 title: tabsend~
 description: write one block continuously to a table
-bref: write one block continuously to a table
 categories:
 - object
 inlets:

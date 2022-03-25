@@ -1,7 +1,6 @@
 ---
 title: table
 description: create a named table
-bref: create a named table
 categories:
 - object
 inlets:

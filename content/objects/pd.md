@@ -1,7 +1,6 @@
 ---
 title: pd
 description: define a subwindow
-bref: define a subwindow
 categories:
 - object
 inlets:

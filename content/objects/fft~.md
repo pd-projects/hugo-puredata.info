@@ -1,7 +1,6 @@
 ---
 title: fft~
 description: complex forward discrete Fourier transform
-bref: complex forward discrete Fourier transform
 categories:
 - object
 inlets:

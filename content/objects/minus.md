@@ -1,7 +1,6 @@
 ---
 title: '-'
 description: subtract two numbers
-bref: subtract two numbers
 categories:
 - object
 last_update: '0.47'

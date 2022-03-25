@@ -1,7 +1,6 @@
 ---
 title: route
 description: route messages according to first element
-bref: route messages according to first element
 categories:
 - object
 last_update: '0.43'

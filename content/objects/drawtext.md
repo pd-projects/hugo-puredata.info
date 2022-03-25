@@ -1,7 +1,6 @@
 ---
 title: drawtext
 description: draw text
-bref: draw text
 categories:
 - object
 inlets:

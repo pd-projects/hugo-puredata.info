@@ -1,7 +1,6 @@
 ---
 title: sin
 description: trigonometric functions
-bref: trigonometric functions
 categories:
 - object
 see_also:

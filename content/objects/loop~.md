@@ -1,7 +1,6 @@
 ---
 title: loop~
 description: phasor~ with S/H on its frequency input
-bref: phasor~ with S/H on its frequency input
 categories:
 - object
 inlets:

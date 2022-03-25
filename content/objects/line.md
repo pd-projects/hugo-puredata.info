@@ -1,7 +1,6 @@
 ---
 title: line
 description: send a series of linearly stepped numbers
-bref: send a series of linearly stepped numbers
 categories:
 - object
 last_update: '0.48'

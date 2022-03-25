@@ -1,7 +1,6 @@
 ---
 title: samplerate~
 description: get the sample rate
-bref: get the sample rate
 categories:
 - object
 inlets:

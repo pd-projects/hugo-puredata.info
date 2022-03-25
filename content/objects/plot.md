@@ -1,7 +1,6 @@
 ---
 title: plot
 description: plot an array field
-bref: plot an array field
 categories:
 - object
 inlets:

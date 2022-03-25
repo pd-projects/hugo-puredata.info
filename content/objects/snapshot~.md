@@ -1,7 +1,6 @@
 ---
 title: snapshot~
 description: sample a signal (convert it back to a number)
-bref: sample a signal (convert it back to a number)
 categories:
 - object
 inlets:

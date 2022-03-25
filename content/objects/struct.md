@@ -1,7 +1,6 @@
 ---
 title: struct
 description: define a data structure
-bref: define a data structure
 categories:
 - object
 inlets:

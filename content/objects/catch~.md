@@ -1,7 +1,6 @@
 ---
 title: catch~
 description: define and read a summing bus
-bref: define and read a summing bus
 categories:
 - object
 inlets:

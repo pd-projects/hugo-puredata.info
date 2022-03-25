@@ -1,7 +1,6 @@
 ---
 title: rsqrt~
 description: reciprocal square root
-bref: reciprocal square root
 categories:
 - object
 inlets:

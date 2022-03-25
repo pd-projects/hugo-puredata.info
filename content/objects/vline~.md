@@ -1,7 +1,6 @@
 ---
 title: vline~
 description: deluxe line~
-bref: deluxe line~
 categories:
 - object
 inlets:

@@ -1,7 +1,6 @@
 ---
 title: bob~
 description: Moog resonant filter model
-bref: Moog resonant filter model
 categories:
 - object
 inlets:
