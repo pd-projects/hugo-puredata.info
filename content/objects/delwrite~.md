@@ -1,14 +1,13 @@
 ---
 title: delwrite~
 description: write to a delay line
-bref: write to a delay line
 categories:
 - object
 inlets:
   1st: {}
 outlets:
   1st: {}
-draft: false
+draft: true
 pdcategory: Audio Delay
 
 ---

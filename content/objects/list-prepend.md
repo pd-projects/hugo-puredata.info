@@ -1,7 +1,6 @@
 ---
 title: list prepend
 description: manipulate lists
-bref: manipulate lists
 categories:
 - object
 see_also:
@@ -28,5 +27,4 @@ pdcategory: General
 
 ---
 Use list prepend to concatenate a second list (defined via arguments or the right inlet) to the first list via the left inlet.
-
 

@@ -1,7 +1,6 @@
 ---
 title: select
 description: test for matching numbers or symbols
-bref: test for matching numbers or symbols
 categories:
 - object
 last_update: '0.33'
@@ -21,6 +20,8 @@ outlets:
     float/symbol: when input doesn't match the arguments,  it is passed here.
 draft: false
 pdcategory: General
+aliases:
+- sel
 
 ---
 

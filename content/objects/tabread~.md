@@ -1,14 +1,13 @@
 ---
 title: tabread~
 description: non-interpolating table read
-bref: non-interpolating table read
 categories:
 - object
 inlets:
   1st: {}
 outlets:
   1st: {}
-draft: false
+draft: true
 pdcategory: Audio Oscillators And Tables
 
 ---

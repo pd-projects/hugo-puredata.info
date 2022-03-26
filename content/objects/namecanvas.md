@@ -1,15 +1,11 @@
 ---
 title: namecanvas
-description: (potentially dangerous but no substitute exists yet)
-bref: (potentially dangerous but no substitute exists yet)
+description: attach a name to a pd window
 categories:
 - object
-inlets:
-  1st: {}
-outlets:
-  1st: {}
-draft: false
-pdcategory: Obsolete
+draft: true
+pdcategory: "Subwindows"
 
 ---
 
+ (potentially dangerous but no substitute exists yet)

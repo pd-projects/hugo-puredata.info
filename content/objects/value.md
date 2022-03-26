@@ -1,7 +1,6 @@
 ---
 title: value
 description: shared numeric value
-bref: shared numeric value
 categories:
 - object
 last_update: '0.51'
@@ -25,6 +24,8 @@ outlets:
     float: sets variable value.
 draft: false
 pdcategory: General
+aliases:
+- v
 
 ---
 "Value" stores a numeric value which is shared between all values with the same name (which need not be in the same Pd window.)

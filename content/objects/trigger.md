@@ -1,7 +1,6 @@
 ---
 title: trigger
 description: sequence messages in right-to-left order.
-bref: sequence messages in right-to-left order.
 categories:
 - object
 last_update: '0.52'
@@ -20,6 +19,8 @@ outlets:
       type depends on the arguments.
 draft: false
 pdcategory: General
+aliases:
+- t
 
 ---
 The trigger object outputs its input from right to left. Because of the hot/cold inlet paradigm of Pd, output from right to left is the usual output order in Pd objects.

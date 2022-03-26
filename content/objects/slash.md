@@ -1,7 +1,6 @@
 ---
 title: /
 description: divide two numbers
-bref: divide two numbers
 categories:
 - object
 last_update: '0.47'
@@ -25,5 +24,6 @@ outlets:
   1st:
     float: the result of the operation.
 draft: false
+
 pdcategory: Math
 ---

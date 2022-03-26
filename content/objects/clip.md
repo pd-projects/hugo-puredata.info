@@ -1,7 +1,6 @@
 ---
 title: clip
 description: force a number into a range
-bref: force a number into a range
 categories:
 - object
 last_update: '0.47'

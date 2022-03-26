@@ -1,7 +1,6 @@
 ---
 title: tabread
 description: read a number from a table
-bref: read a number from a table
 categories:
 - object
 last_update: '0.43'

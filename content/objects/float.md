@@ -1,7 +1,6 @@
 ---
 title: float
 description: store and recall a number
-bref: store and recall a number
 categories:
 - object
 last_update: '0.48'

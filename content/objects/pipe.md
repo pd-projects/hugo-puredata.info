@@ -1,7 +1,6 @@
 ---
 title: pipe
 description: dynamically growable delay line for numbers
-bref: dynamically growable delay line for numbers
 categories:
 - object
 last_update: '0.33'

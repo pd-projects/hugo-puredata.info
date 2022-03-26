@@ -1,7 +1,6 @@
 ---
 title: <
 description: relational tests
-bref: relational tests
 categories:
 - object
 see_also:

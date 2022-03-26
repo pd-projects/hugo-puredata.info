@@ -1,7 +1,6 @@
 ---
 title: list
 description: manipulate lists
-bref: manipulate lists
 categories:
 - object
 see_also:
@@ -29,5 +28,4 @@ pdcategory: General
 
 ---
 Short for "list append"
-
 

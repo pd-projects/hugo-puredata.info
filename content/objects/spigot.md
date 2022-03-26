@@ -1,7 +1,6 @@
 ---
 title: spigot
 description: pass or block messages
-bref: pass or block messages
 categories:
 - object
 last_update: '0.38'

@@ -1,7 +1,6 @@
 ---
 title: timer
 description: measure time intervals
-bref: measure time intervals
 categories:
 - object
 last_update: '0.47'

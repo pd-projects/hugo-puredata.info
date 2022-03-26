@@ -1,13 +1,17 @@
 ---
-title: '!='
-description: relational tests
+title: '*'
+description: divide two numbers
 categories:
 - object
+last_update: '0.47'
 see_also:
 - +~
-- expr
+- div
+- '>'
+- '&&'
 - sin
 - log
+- expr
 arguments:
   float: initialize value of right inlet (default 0).
 inlets:
@@ -23,4 +27,4 @@ draft: false
 pdcategory: Math
 
 ---
-Relational operators ('>' greater than, '==' equals, '!=' not equals etc.) output 1 or 0 depending on whether the relation is true or false.
+

@@ -1,7 +1,6 @@
 ---
 title: min
 description: minimum of two numbers
-bref: minimum of two numbers
 categories:
 - object
 last_update: '0.47'

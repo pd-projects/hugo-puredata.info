@@ -1,7 +1,6 @@
 ---
 title: print
 description: print messages to terminal window
-bref: print messages to terminal window
 categories:
 - object
 see_also:

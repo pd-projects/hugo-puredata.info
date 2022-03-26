@@ -1,7 +1,6 @@
 ---
 title: list fromsymbol
 description: manipulate lists
-bref: manipulate lists
 categories:
 - object
 see_also:
@@ -26,5 +25,4 @@ pdcategory: General
 Convert from symbols to lists of numeric character codes.
 
 `[list fromsymbol]` and `[list tosymbol]` allow you to do string manipulations (such as scanning a filename for '/' characters). They convert a list of numbers (which might be ASCII or might be unicode if, for example, they represent a filename on a non-ASCII machine) to or from a symbol.
-
 

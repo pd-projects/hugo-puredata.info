@@ -1,7 +1,6 @@
 ---
 title: send
 description: Send messages without patch cords.
-bref: Send messages without patch cords.
 categories:
 - object
 last_update: '0.48'
@@ -20,6 +19,8 @@ inlets:
   '2nd: (if created without arguments)':
     symbol: sets the send name.
 pdcategory: General
+aliases:
+- s
 draft: false
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: bang
 description: output a bang message
-bref: output a bang message
 categories:
 - object
 last_update: '0.27'
@@ -12,6 +11,8 @@ outlets:
   1st:
     bang: a bang message
 pdcategory: General
+aliases:
+- b
 draft: false
 
 ---

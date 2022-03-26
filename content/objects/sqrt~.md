@@ -1,14 +1,13 @@
 ---
 title: sqrt~
 description: approximate (16-bit) square root
-bref: approximate (16-bit) square root
 categories:
 - object
 inlets:
   1st: {}
 outlets:
   1st: {}
-draft: false
+draft: true
 pdcategory: Audio Math
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: metro
 description: send a message periodically
-bref: send a message periodically
 categories:
 - object
 see_also:

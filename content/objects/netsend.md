@@ -1,14 +1,13 @@
 ---
 title: netsend
 description: send messages over the internet
-bref: send messages over the internet
 categories:
 - object
 inlets:
   1st: {}
 outlets:
   1st: {}
-draft: false
+draft: true
 pdcategory: Misc
 
 ---

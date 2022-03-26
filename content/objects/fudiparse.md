@@ -1,7 +1,6 @@
 ---
 title: fudiparse
 description: FUDI messages to and from Pd lists
-bref: FUDI messages to and from Pd lists
 categories:
 - object
 last_update: '0.48'

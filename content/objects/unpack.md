@@ -1,7 +1,6 @@
 ---
 title: unpack
 description: get elements of compound messages
-bref: get elements of compound messages
 categories:
 - object
 last_update: '0.33'

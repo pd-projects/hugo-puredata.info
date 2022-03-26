@@ -1,7 +1,6 @@
 ---
 title: makenote
 description: schedule delayed 'note off' message for a note-on
-bref: schedule delayed 'note off' message for a note-on
 categories:
 - object
 last_update: '0.33'

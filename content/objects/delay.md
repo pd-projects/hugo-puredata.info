@@ -1,7 +1,6 @@
 ---
 title: delay
 description: send a message after a time delay
-bref: send a message after a time delay
 categories:
 - object
 last_update: '0.45'
@@ -26,6 +25,8 @@ outlets:
     bang: bang at a delayed time.
 draft: false
 pdcategory: Time
+aliases:
+- del
 
 ---
 send a bang message after a time delay

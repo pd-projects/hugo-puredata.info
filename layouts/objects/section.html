@@ -18,6 +18,8 @@
         <p style="margin: 1px"><a href="{{ .Permalink }}">[{{ .Title }}]</a>
         {{ with .Params.description }} - {{ . }} {{ end }}</p>
       </div>
+      {{else}}
+      No documented objects in this category.
       {{end}}
       {{end}}
 

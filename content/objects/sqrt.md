@@ -1,7 +1,6 @@
 ---
 title: sqrt
 description: math functions
-bref: math functions
 categories:
 - object
 see_also:

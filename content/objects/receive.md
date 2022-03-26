@@ -1,7 +1,6 @@
 ---
 title: receive
 description: Receive messages without patch cords.
-bref: Receive messages without patch cords.
 categories:
 - object
 last_update: '0.48'
@@ -16,6 +15,8 @@ outlets:
   1st:
     any message: outputs the messages destined to its receive name.
 pdcategory: General
+aliases:
+- r
 draft: false
 
 ---

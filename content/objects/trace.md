@@ -1,7 +1,6 @@
 ---
 title: trace
 description: message tracing for debugging
-bref: message tracing for debugging
 categories:
 - object
 last_update: '0.52'

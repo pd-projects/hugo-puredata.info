@@ -1,7 +1,6 @@
 ---
 title: list tosymbol
 description: manipulate lists
-bref: manipulate lists
 categories:
 - object
 see_also:
@@ -14,8 +13,8 @@ see_also:
 - list length
 - list fromsymbol
 inlets:
-  1st: 
-   list: list of character codes to convert to a symbol.
+  1st:
+    list: list of character codes to convert to a symbol.
 outlets:
   1st:
     symbol: converted symbol from list of character codes.

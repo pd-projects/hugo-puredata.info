@@ -1,7 +1,6 @@
 ---
 title: '*'
 description: multiply two numbers
-bref: multiply two numbers
 categories:
 - object
 last_update: '0.47'

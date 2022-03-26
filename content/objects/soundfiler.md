@@ -1,7 +1,6 @@
 ---
 title: soundfiler
 description: read and write tables to soundfiles
-bref: read and write tables to soundfiles
 categories:
 - object
 last_update: '0.51'

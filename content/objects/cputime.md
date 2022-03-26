@@ -1,7 +1,6 @@
 ---
 title: cputime
 description: measure CPU time
-bref: measure CPU time
 categories:
 - object
 last_update: '0.33'

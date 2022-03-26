@@ -1,7 +1,6 @@
 ---
 title: max
 description: maximum of 2 numbers
-bref: maximum of 2 numbers
 categories:
 - object
 last_update: '0.47'

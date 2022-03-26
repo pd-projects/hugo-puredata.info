@@ -1,7 +1,6 @@
 ---
 title: list length
 description: manipulate lists
-bref: manipulate lists
 categories:
 - object
 see_also:
@@ -26,5 +25,4 @@ pdcategory: General
 Number of items in list.
 
 The "list length" object outputs the number of arguments in a list or other message.
-
 

@@ -1,7 +1,6 @@
 ---
 title: random
 description: pseudo random integers
-bref: pseudo random integers
 categories:
 - object
 last_update: '0.33'

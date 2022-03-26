@@ -1,7 +1,6 @@
 ---
 title: realtime
 description: measure real time
-bref: measure real time
 categories:
 - object
 last_update: '0.33'

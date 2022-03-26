@@ -1,14 +1,13 @@
 ---
 title: key
 description: numeric key values from keyboard
-bref: numeric key values from keyboard
 categories:
 - object
 inlets:
   1st: {}
 outlets:
   1st: {}
-draft: false
+draft: true
 pdcategory: Misc
 
 ---

@@ -1,7 +1,6 @@
 ---
 title: '%'
 description: higher math
-bref: higher math
 categories:
 - object
 see_also:
