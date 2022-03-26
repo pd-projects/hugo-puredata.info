@@ -10,16 +10,24 @@
 
   {{ with .arguments }}
   <div id="arguments"  class="reference-arguments">
-  <h4>ARGUMENTs</h4>
+  <h4>ARGUMENTs</h4>  
+  {{ range $elem_definition, $elem_description := . }}
+  <li>
+  <mark>{{$elem_definition}}</mark> - {{$elem_description}}
+  </li>
+  {{ end }} 
+  </div>
+  {{ end }}
   
+  {{ with .flags }}
+  <div id="flags"  class="reference-flags">
+  <h4>FLAGs</h4> 
   {{ range $elem_definition, $elem_description := . }}
   <li>
   <mark>{{$elem_definition}}</mark> - {{$elem_description}}
   </li>
   {{ end }}
-  
-  
-  </div>
+   </div>
   {{ end }}
 
   </br>
