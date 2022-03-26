@@ -10,6 +10,8 @@ see_also:
 - timer
 inlets:
   1st:
+    bang: reset (set elapsed time to zero).
+  2nd:
     bang: time to measure.
 outlets:
   1st:

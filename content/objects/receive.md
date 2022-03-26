@@ -7,6 +7,7 @@ categories:
 last_update: '0.48'
 see_also:
 - send~
+- send
 - receive~
 - samplerate~
 arguments:

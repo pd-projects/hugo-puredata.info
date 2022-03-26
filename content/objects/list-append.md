@@ -16,7 +16,10 @@ see_also:
 arguments:
   list: initialize the list to append (default empty).
 inlets:
-  1st: {}
+  1st: 
+    anything: set messages to concatenate to a second list and output (a bang is a zero element list).
+  2nd:
+    anything: set messages to append to the first list (a bang is a zero element list and clears it).
 outlets:
   1st:
     list: the concatenated list.
@@ -28,12 +31,4 @@ aliases:
 ---
 Use list append to concatenate a second list (defined via arguments or the right inlet) to the first list via the left inlet.
 
-INLETS
 
-- 1st:
-
-  - anything - set messages to concatenate to a second list and output (a bang is a zero element list).
-
-- 2nd:
-
-  - anything - set messages to append to the first list (a bang is a zero element list and clears it).

@@ -14,7 +14,8 @@ see_also:
 - list length
 - list tosymbol
 inlets:
-  1st: {}
+  1st: 
+    symbol: symbol to be converted to a list of character codes.
 outlets:
   1st:
     list: list of converted character codes.
@@ -26,6 +27,4 @@ Convert from symbols to lists of numeric character codes.
 
 `[list fromsymbol]` and `[list tosymbol]` allow you to do string manipulations (such as scanning a filename for '/' characters). They convert a list of numbers (which might be ASCII or might be unicode if, for example, they represent a filename on a non-ASCII machine) to or from a symbol.
 
-INLETS
 
-- symbol - symbol to be converted to a list of character codes.

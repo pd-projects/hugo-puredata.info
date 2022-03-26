@@ -1,5 +1,7 @@
 ---
 title: bendout
+description: MIDI output
+bref: MIDI output
 categories:
 - object
 last_update: 0.48-2

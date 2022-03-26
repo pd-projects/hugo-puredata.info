@@ -1,5 +1,7 @@
 ---
 title: touchin
+description: MIDI input
+bref: MIDI input
 categories:
 - object
 last_update: 0.48-2

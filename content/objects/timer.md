@@ -16,8 +16,10 @@ arguments:
   symbol: time unit (default 'msec').
 inlets:
   1st:
-    bang: time to measure.
+    bang: reset (set elapsed time to zero).
     tempo <float,  symbol>: set tempo value (float) and time unit symbol.
+  2nd:
+    bang: time to measure.
 outlets:
   1st:
     bang: output elapsed time.
