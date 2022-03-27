@@ -1,14 +1,21 @@
 ---
 title: table
-description: create a named table
+description: subpatch with array.
 categories:
 - object
-inlets:
-  1st: {}
-outlets:
-  1st: {}
-draft: true
+last_update: '0.52'
+see_also:
+- inlet
+- namecanvas
+- array
+
+arguments:
+  1) symbol: sets array name (default internal).
+  2) float: sets array size (default 100).
+
+draft: false
 pdcategory: Arrays & Tables
 
 ---
 
+Subpatch with array

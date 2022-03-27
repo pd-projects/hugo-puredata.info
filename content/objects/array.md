@@ -25,3 +25,4 @@ pdcategory: Arrays & Tables
 
 ---
 
+In Pd an array may be part of a "garray" (a graphical array of numbers) or appear as a slot in a data structure (in which case the elements may be arbitrary data, not necessarily just numbers). The "array" object can define an array (so far just of numbers but maybe later arbitrary data structures) or access an array defined elsewhere to get or change its size, set or read its elements, and so on.

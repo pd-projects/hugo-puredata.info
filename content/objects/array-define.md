@@ -6,7 +6,6 @@ categories:
 last_update: '0.52'
 see_also:
 - array
-- array define
 - array size
 - array sum
 - array get
@@ -15,6 +14,9 @@ see_also:
 - array random
 - array max
 - array min
+- text
+- scalar
+- list
 inlets:
   1st:
     bang: output a pointer to the scalar containing the array.
@@ -35,3 +37,4 @@ pdcategory: Arrays & Tables
 
 ---
 
+"array define" maintains an array and can name it so that other objects can find it (and later should have some alternative, anonymous way to be found).

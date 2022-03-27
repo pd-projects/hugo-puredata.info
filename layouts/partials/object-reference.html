@@ -29,6 +29,17 @@
   {{ end }}
    </div>
   {{ end }}
+  
+  {{ with .methods }}
+  <div id="methods"  class="reference-flags">
+  <h4>METHODs</h4> 
+  {{ range $elem_definition, $elem_description := . }}
+  <li>
+  <mark>{{$elem_definition}}</mark> - {{$elem_description}}
+  </li>
+  {{ end }}
+   </div>
+  {{ end }}
 
   </br>
 
