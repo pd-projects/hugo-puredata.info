@@ -9,6 +9,7 @@ arguments:
 inlets:
   1st:
     bang: outputs the stored values swapped.
+  2nd:
     float: set left value,  swap and output.
 outlets:
   1st:
