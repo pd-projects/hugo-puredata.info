@@ -4,8 +4,8 @@
 {{ with .Params }}
 <div class="object-reference">
   <hr>
-  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4>{{ partial "object-reference/iolets" .}}</div>{{ end }}
-  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h4>OUTLETs</h4>{{ partial "object-reference/iolets" .}}</div>{{ end }}
+  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4><ul>{{ partial "object-reference/iolets" .}}</ul></div>{{ end }}
+  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h4>OUTLETs</h4><ul>{{ partial "object-reference/iolets" .}}</ul></div>{{ end }}
   
 
   {{ with .arguments }}
