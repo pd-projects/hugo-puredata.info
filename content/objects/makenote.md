@@ -11,9 +11,15 @@ arguments:
   2nd - float: initial duration value (default 0).
 inlets:
   1st:
+    float: MIDI pitch.
+  2nd:
+    float: MIDI velocity.
+  3rd:
     float: MIDI note duratin in ms.
 outlets:
   1st:
+    float: MIDI pitch.
+  2nd:
     float: MIDI velocity.
 draft: false
 pdcategory: I/O via MIDI, OSC, and FUDI
