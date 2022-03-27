@@ -1,13 +1,13 @@
 ---
-title: text
-description: manage a list of messages
+title: text define
+description: create, store, and/or edit texts
 categories:
 - object
 see_also:
 - list
 - array
 - scalar
-- text define
+- text
 - text get
 - text set
 - text insert
@@ -36,13 +36,15 @@ outlets:
 flags:
   -k: saves/keeps the contents of the text with the patch.
 arguments:
-  symbol: "sets the function of [text], possible values: define, get, set, insert, delete, size, tolist, fromlist, search and sequence. The default value is 'define'."
+  1) symbol: set text name.
 draft: false
 pdcategory: Misc
 
 ---
 
+"text define" maintains a text object and can name it so that other objects can find it (and later should have some alternative, anonymous way to be found).
 
+an optional `-c` flag allows you to read or write to/from a file interpreting carriage returns as separators.
 
 
 
