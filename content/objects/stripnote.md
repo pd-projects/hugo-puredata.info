@@ -8,9 +8,13 @@ see_also:
 - makenote
 inlets:
   1st:
+    float: MIDI pitch.
+  2nd:
     float: MIDI velocity (no output if equal to zero).
 outlets:
   1st:
+    float: MIDI pitch.
+  2nd:
     float: MIDI velocity.
 draft: false
 pdcategory: I/O via MIDI, OSC, and FUDI
