@@ -9,6 +9,7 @@ arguments:
 inlets:
   1st:
     anything: any message to pass or not.
+  2nd:
     float: nonzero to pass messages,  zero to stop them.
 outlets:
   1st:
