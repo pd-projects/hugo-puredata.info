@@ -8,6 +8,8 @@ inlets:
   1st:
     bang: stops the loop.
     float: set number of iterations in the loop.
+  2nd:
+    bang: stops the loop.
 outlets:
   1st:
     bang: bangs in a loop.
