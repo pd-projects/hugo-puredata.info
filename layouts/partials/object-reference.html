@@ -1,7 +1,16 @@
 {{ $pages := site.Pages }}
 {{ $section := .Section }}
 
+
+
 {{ with .Params }}
+
+  {{ with .aliases }}
+  {{ range $elem_description := . }}
+  <p>Abbreviation: <b>[{{$elem_description}}]</b></p>
+  {{ end }}
+  {{ end }}
+
 <div class="object-reference">
   <hr>
   {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4><ul>{{ partial "object-reference/iolets" .}}</ul></div>{{ end }}
