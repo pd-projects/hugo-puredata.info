@@ -15,6 +15,8 @@ inlets:
   1st:
     float: sets index to write to.
     set <symbol>: set the table name.
+  2nd:
+    float: sets index to write to.
 draft: false
 pdcategory: Arrays & Tables
 
