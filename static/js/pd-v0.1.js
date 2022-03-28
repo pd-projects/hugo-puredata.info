@@ -56,6 +56,11 @@ function doDark () {
     x[i].classList.add("dark-theme");
 	}
 	
+  x = document.getElementsByTagName("li");  
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.add("dark-theme");
+	}
+	
   var x = document.getElementsByTagName("mark");  
   for (i = 0; i < x.length; i++) {
     x[i].classList.add("dark-theme");
@@ -146,6 +151,11 @@ function doLight () {
 	}
 	
   x = document.getElementsByTagName("ul");  
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.remove("dark-theme");
+	}
+	
+  x = document.getElementsByTagName("li");  
   for (i = 0; i < x.length; i++) {
     x[i].classList.remove("dark-theme");
 	}
