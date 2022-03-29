@@ -1,32 +1,4 @@
----
-title: expr
-description: C-style expressions
-categories:
-- object
-last_update: 0.51-3
-see_also:
-- +
-- '>'
-- sin
-- +~
-- block~
-- value
-- random
-- array
-- cos~
-- wrap~
-- abs~
-- log~
-- sqrt~
-- pow~
-inlets:
-  1st: {}
-outlets:
-  1st: {}
-draft: false
-pdcategory: Math
 
----
 Expr family objects by [Shahrokh Yadegari](http://yadegari.org/).
 
 Based on original sources from IRCAM's jMax Released under BSD License.
