@@ -1,6 +1,6 @@
 ---
 title: file handle
-description: low-level file operations
+description: operate on file handles.
 categories:
 - object
 aliases:
