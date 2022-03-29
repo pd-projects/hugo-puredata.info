@@ -8,7 +8,7 @@ see_also:
 - bang
 outlets:
   1st: 
-    bang: when loadding the patch.
+    bang: when loading the patch.
 draft: false
 pdcategory: Misc
 
@@ -18,5 +18,5 @@ The loadbang object outputs a 'bang' message when the containing patch is opened
 
 Loadbangs within abstractions send their "bang" messages before those of loadbangs in the calling patch. Otherwise, the order in which the "bangs" are sent from two loadbang objects is undefined.
 
-You can force loaddbangs to fire if you send a 'loadbang' message to the patch (see 'pd-messages').
+You can force loadbangs to fire if you send a 'loadbang' message to the patch (see 'pd-messages').
 
