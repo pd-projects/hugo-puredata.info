@@ -47,6 +47,12 @@ flags:
   -q: set quiet verbosity.
   -v: set loud verbosity.
   -m: file creation mode (user/group/other permissions) in octal.
+  
+methods:
+  open <symbol> r: explicit Read-mode
+  open <symbol> a: open file for writing (Append mode)
+  open <symbol> c: open file for writing (Create (or trunCate) mode)
+  
 draft: false
 pdcategory: Misc
 
