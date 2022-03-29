@@ -4,6 +4,8 @@ description: send Pd messages over a network
 categories:
 - object
 last_update: '0.51'
+see_also:
+- netreceive
 inlets:
   1st:
     connect <list>: sets host and port number, an additional port argument can be set for messages sent back from the receiver.

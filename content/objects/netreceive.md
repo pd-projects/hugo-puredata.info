@@ -4,6 +4,8 @@ description: listen for incoming messages from network
 categories:
 - object
 last_update: '0.51'
+see_also:
+- netsend
 inlets:
   1st:
     listen <float, symbol>: a number sets or changes the port number (0 or negative closes the port). Optional symbol is a hostname which can be a UDP multicast address or a network interface.
