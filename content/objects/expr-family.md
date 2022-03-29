@@ -49,8 +49,8 @@ The **fexpr~** object provides a flexible mechanism for building FIR and IIR fil
 |%	|Modulo|	
 |+	|Add|	
 |-	|Subtract|	
-|<<	|Shift Left|	
-|>>	|Shift Right|	
+|\<\<|Shift Left|	
+|\>\>|Shift Right|	
 |<	|Less than (boolean)|	
 |<=	|Less than or equal (boolean)|	
 |>	|Greater than (boolean)|	
