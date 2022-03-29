@@ -49,20 +49,28 @@ def dict2order(d, keys):
     return o
 
 
-def map2list(d, key="type", value="description"):
+def map2list(d, key="type", value="description", other="remark"):
     result = []
-    for k, v in d.items():
-        od = collections.OrderedDict()
-        od[key] = k
-        od[value] = v
-        result.append(od)
+    try:
+        for k, v in d.items():
+            od = collections.OrderedDict()
+            od[key] = k
+            od[value] = v
+            result.append(od)
+    except AttributeError:
+        result = d
     return result
 
 
-def iolet_map2list(d, key="type", value="description"):
+def iolet_map2list(d, key="type", value="description", other="remark"):
     result = collections.OrderedDict()
     for iolet in d:
-        result[iolet] = map2list(d[iolet], "type", "description")
+        if d[iolet]:
+            x = map2list(d[iolet], key, value, other)
+            if x:
+                result[iolet] = x
+        else:
+            result[other] = iolet
     return result
 
 
@@ -91,6 +99,7 @@ class ObjectFile:
         fix_iolets("outlets")
         fix_args("arguments", "type", "description")
         fix_args("flags", "flag", "description")
+        fix_args("methods", "method", "description")
 
         self.data = dict2order(
             {k: v for k, v in self.data.items() if v == 0 or v},
