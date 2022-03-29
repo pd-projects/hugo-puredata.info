@@ -1,6 +1,6 @@
 ---
 title: expr
-description: C-style expressions
+description: evaluation of control data expressions
 categories:
 - object
 last_update: 0.51-3
@@ -20,9 +20,11 @@ see_also:
 - sqrt~
 - pow~
 inlets:
-  1st: {}
+  see below:
 outlets:
-  1st: {}
+  see below:
+arguments:
+  list: see below
 draft: false
 pdcategory: Math
 

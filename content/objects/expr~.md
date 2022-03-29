@@ -1,14 +1,34 @@
 ---
 title: expr~
-description: C-style expressions
+description: evaluation of audio signal expressions on a vector by vector basis
 categories:
 - object
+last_update: 0.51-3
+see_also:
+- +
+- '>'
+- sin
+- +~
+- block~
+- value
+- random
+- array
+- cos~
+- wrap~
+- abs~
+- log~
+- sqrt~
+- pow~
 inlets:
-  1st: {}
+  see below:
 outlets:
-  1st: {}
-draft: true
+  see below:
+arguments:
+  list: see below
+draft: false
 pdcategory: Audio Math
 
 ---
 
+
+{{< expr-family >}}
