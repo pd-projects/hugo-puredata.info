@@ -1,14 +1,16 @@
 ---
-title: file
+title: file handle
 description: low-level file operations
 categories:
 - object
+aliases:
+- file
 last_update: '0.52'
 see_also:
 - text
 - array
 - list
-- file handle
+- file
 - file define
 - file mkdir
 - file which
@@ -40,8 +42,7 @@ outlets:
   2nd:
     bang: if file can't be opened, end of the file is reached or a read error occurred.
     seek <float>: seek output.
-arguments:
-  symbol: "sets the function of [file], possible values: handle, define, mkdir, which, glob, stat, isfile, isdirectory, size, copy, move, delete, split, join, splitext and splitname. The default value is 'handle'."
+
 flags:
   -q: set quiet verbosity.
   -v: set loud verbosity.
@@ -51,4 +52,5 @@ pdcategory: Misc
 
 ---
 
-Short for "file handle"
+
+The data you read from or write to a file are lists of bytes, which appear in Pd as lists of numbers from 0 to 255 (using out-of-range numbers of symbols leads to undefined behaviour.) The 2nd inlet of the 'file handle' object is documented in the 'file define' subpatch.
