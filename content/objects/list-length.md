@@ -25,4 +25,3 @@ pdcategory: General
 Number of items in list.
 
 The "list length" object outputs the number of arguments in a list or other message.
-

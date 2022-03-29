@@ -37,5 +37,3 @@ draft: false
 pdcategory: Misc
 
 ---
-
-

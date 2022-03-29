@@ -35,7 +35,3 @@ The textfile object reads and writes text files to and from memory. You can read
 To record textual messages and save them to a file, first send "clear" to empty the qlist and "add" to add messages (terminated with semicolons.) The message, "add2" adds a list of atoms without finishing with a semicolon in case you want to make variable-length messages.
 
 You can also use this object simply for storing heterogeneous sequences of lists.
-
-
-
-

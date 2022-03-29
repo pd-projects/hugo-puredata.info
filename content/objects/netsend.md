@@ -40,4 +40,3 @@ First outlet is nonzero if connection is open, zero otherwise.
 Second outlet outputs messages sent back from netreceive object. In TCP mode this works for any established connection. In UDP you have to send at least one message forward through the connection for backward messages to find their way back.
 
 An old (pre-0.45) calling convention is provided for compatibility: a single float argument, "0" or "1" for TCP or UDP respectively.
-

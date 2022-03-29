@@ -41,5 +41,3 @@ pdcategory: Misc
 ---
 
 "text search" outputs the line number of the line that best matches a search key. By default it seeks a line whose leading fields match the incoming list.
-
-

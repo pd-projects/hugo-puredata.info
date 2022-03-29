@@ -20,4 +20,3 @@ pdcategory: Math
 ---
 
 The wrap object wraps the input to a value between 0 and 1, including negative numbers (for instance, -0.2 maps to 0.8.).
-

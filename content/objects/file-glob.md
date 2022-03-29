@@ -61,4 +61,3 @@ the following rules should help you to write patches that use platform independe
 - files/dirs starting with a "." only match if the matching pattern explicitly contains the leading dot.
 
 - the special files/dirs "." and ".." only match if requested explicitly, never with a wildcard pattern.
-

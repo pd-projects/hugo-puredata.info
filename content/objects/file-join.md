@@ -42,7 +42,3 @@ pdcategory: Misc
 This objects perform common string operations on filenames. no checks are performed verifying the validity/existence of any path-component.
 
 'file join' object accepts both symbols and numbers.
-
-
-
-

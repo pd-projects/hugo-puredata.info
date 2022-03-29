@@ -19,4 +19,3 @@ The loadbang object outputs a 'bang' message when the containing patch is opened
 Loadbangs within abstractions send their "bang" messages before those of loadbangs in the calling patch. Otherwise, the order in which the "bangs" are sent from two loadbang objects is undefined.
 
 You can force loadbangs to fire if you send a 'loadbang' message to the patch (see 'pd-messages').
-

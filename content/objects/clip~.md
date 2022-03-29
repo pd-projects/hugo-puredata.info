@@ -29,5 +29,3 @@ pdcategory: Audio Math
 ---
 
 The clip~ object passes its signal input to its output, clipping it to lie between two limits.
-
-

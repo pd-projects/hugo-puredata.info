@@ -46,6 +46,3 @@ pdcategory: Misc
 ---
 
 "text get" reads the nth line from the named text and outputs it, or optionally reads one or more specific fields (atoms) from the line.
-
-
-

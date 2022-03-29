@@ -27,4 +27,3 @@ draft: false
 pdcategory: Math
 
 ---
-

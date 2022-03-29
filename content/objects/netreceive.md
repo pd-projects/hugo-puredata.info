@@ -43,7 +43,3 @@ There are some possibilities for intercommunication with other programs... see t
 SECURITY NOTE: Don't publish the port number of your netreceive unless you wouldn't mind other people being able to send you messages.
 
 An old (pre-0.45) calling convention is provided for compatibility, port number and following "0" or "1" for TCP or UDP respectively.
-
-
-
-

@@ -25,4 +25,3 @@ pdcategory: Math
 ---
 
 As in the signal version log~, log takes a base value via an argument or the right inlet, but it defaults to [e](https://en.wikipedia.org/wiki/E_(mathematical_constant)).
-

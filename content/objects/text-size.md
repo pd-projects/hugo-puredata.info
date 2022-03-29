@@ -40,5 +40,3 @@ pdcategory: Misc
 ---
 
 "text size" reports the number of lines in the text or the length of a specified line.
-
-

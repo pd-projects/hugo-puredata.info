@@ -44,4 +44,3 @@ pdcategory: Misc
 "text set" replaces the nth line with the incoming list. If the number n is greater than the number of lines in the text the new line is added.
 
 If inlet 2 is unset or set to a negative number, the entire line is replaced, but if it is set to 0 or more to specify a starting field, the line is not resized - instead, as many items are replaced as were already in the list. In this case, an out-of-range line number will not cause a new line to be added - instead, the last existing line is modified.
-

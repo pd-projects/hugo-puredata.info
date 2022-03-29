@@ -18,4 +18,3 @@ draft: false
 pdcategory: Math
 
 ---
-

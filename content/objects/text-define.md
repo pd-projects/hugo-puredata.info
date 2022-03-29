@@ -45,6 +45,3 @@ pdcategory: Misc
 "text define" maintains a text object and can name it so that other objects can find it (and later should have some alternative, anonymous way to be found).
 
 an optional `-c` flag allows you to read or write to/from a file interpreting carriage returns as separators.
-
-
-

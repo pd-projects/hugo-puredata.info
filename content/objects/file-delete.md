@@ -44,5 +44,3 @@ pdcategory: Misc
 ---
 
 NOTE: deleting destroys data. there is no confirmation dialog or anything of that kind.
-
-

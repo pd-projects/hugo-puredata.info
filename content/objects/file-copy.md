@@ -44,5 +44,3 @@ pdcategory: Misc
 ---
 
 [file copy] duplicates the content of a file to a destination.
-
-

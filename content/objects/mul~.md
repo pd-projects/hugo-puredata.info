@@ -30,5 +30,3 @@ pdcategory: Audio Math
 ---
 
 This object combine two signals as above, or, if you give a numeric argument, the right inlet only takes floats (no signals) and the argument initializes the right inlet value.
-
-

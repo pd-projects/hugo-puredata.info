@@ -37,5 +37,3 @@ pdcategory: Misc
 ---
 
 "text fromlist" converts a list such as "text tolist" would output and fills the text with it. Whatever the text had previously contained is discarded.
-
-

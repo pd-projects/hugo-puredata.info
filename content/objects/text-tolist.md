@@ -39,5 +39,3 @@ pdcategory: Misc
 ---
 
 "text tolist" outputs the entire contents as a list. Semicolons, commas, and dollar signs are output as symbols (and so, if symbols like ", " are encountered, they're escaped with backslashes).
-
-

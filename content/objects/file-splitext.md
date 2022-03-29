@@ -46,6 +46,3 @@ If no extension is found, the path is sent to the 2nd outlet.
 An extension is a non-empty string after the last '.' in the filename-component of the path.
 
 NOTE: the 'file split*' objects will always output (lists of) symbols, even if the component looks like a number. on one hand this makes it harder to [route], but on the other hand this will keep zero-padded numbers intact (think "2020/01/01/0042.wav").
-
-
-

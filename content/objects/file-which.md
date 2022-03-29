@@ -51,4 +51,3 @@ notes:
 - currently this only works for files, not for directories!
 
 - currently only the first match is returned
-

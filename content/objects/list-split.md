@@ -29,4 +29,3 @@ pdcategory: General
 Cut a list into smaller ones.
 
 The "list split" object takes lists and outputs the first "n" items (left outlet) and the remaining ones (middle outlet). If the incoming list also has 'n' items, the middle outlet spits a list with zero elements (which becomes a bang). The two outputs appear in the usual right-to-left order. In case there are fewer than "n" items in the list, it is output (in its entirety) from the third outlet instead. The creation argument or the inlet sets the split point.
-

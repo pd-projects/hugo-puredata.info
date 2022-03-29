@@ -52,6 +52,3 @@ A trailing slash is removed.
 The filename is the non-empty string after the last path-separator
 
 NOTE: the 'file split*' objects will always output (lists of) symbols, even if the component looks like a number. on one hand this makes it harder to [route], but on the other hand this will keep zero-padded numbers intact (think "2020/01/01/0042.wav").
-
-
-

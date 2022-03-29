@@ -37,5 +37,3 @@ pdcategory: Misc
 ---
 
 "text delete" deletes the nth line.
-
-

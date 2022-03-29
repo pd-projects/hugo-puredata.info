@@ -44,4 +44,3 @@ pdcategory: Misc
 ---
 
 [file stat] queries the filesystem about the given path, and outputs the collected data as a number of routable messages.
-

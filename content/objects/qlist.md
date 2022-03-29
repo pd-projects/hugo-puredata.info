@@ -36,6 +36,3 @@ To run the qlist automatically, send it a "read" message (the filename is relati
 To run it manually, send "rewind" followed by "next". All messages not preceded by numbers are sent. As soon as a message starting with one or more numbers is encountered, the numbers are output as a list. There are many ways you could design a sequencer around this.
 
 You can also record textual messages and save them to a file. Send "clear" to empty the qlist and "add" to add messages (terminated with semicolons.) The message, "add2" adds a list of atoms without finishing with a semicolon in case you want to make variable-length messages.
-
-
-
