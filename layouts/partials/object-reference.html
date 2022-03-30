@@ -13,8 +13,8 @@
 
 <div class="object-reference">
   <hr>
-  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4><ul>{{ partial "object-reference/iolets" .}}</ul></div>{{ end }}
-  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h4>OUTLETs</h4><ul>{{ partial "object-reference/iolets" .}}</ul></div>{{ end }}
+  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4>{{ with .remark}}{{.}}{{else}}<ul>{{ partial "object-reference/iolets" .}}</ul>{{ end }}</div>{{ end }}
+  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h4>OUTLETs</h4>{{ with .remark}}{{.}}{{else}}<ul>{{ partial "object-reference/iolets" .}}</ul>{{ end }}</div>{{ end }}
   
 
   {{ with .arguments }}
