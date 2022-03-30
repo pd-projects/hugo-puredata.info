@@ -13,7 +13,7 @@ inlets:
     timeout <float>: TCP connect timeout in ms (default 10000).
     send <anything>: sends messages over the network.
     list: works like 'send'.
-    
+
 outlets:
   1st:
     float: nonzero if connection is open, zero otherwise.

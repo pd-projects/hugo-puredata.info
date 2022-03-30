@@ -8,8 +8,8 @@ see_also:
 - savepanel
 - pdcontrol
 inlets:
-  1st: 
-    bang: "open dialog window to choose file(s) or directory."	
+  1st:
+    bang: "open dialog window to choose file(s) or directory."
     symbol: set starting directory and open dialog window.
 outlets:
   1st:

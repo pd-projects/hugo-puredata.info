@@ -25,7 +25,7 @@ see_also:
 - file splitext
 - file splitname
 inlets:
-  1st: 
+  1st:
     symbol: pattern to be found.
     verbose <float>: set verbosity on or off.
 outlets:

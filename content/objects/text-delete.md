@@ -30,7 +30,7 @@ flags:
 arguments:
   symbol: "text name if no flags are given (default: none)."
 
-  
+
 draft: false
 pdcategory: Misc
 

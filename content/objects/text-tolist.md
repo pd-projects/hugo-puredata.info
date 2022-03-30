@@ -13,7 +13,7 @@ see_also:
 - text insert
 - text delete
 - text size
-- text 
+- text
 - text fromlist
 - text search
 - text sequence
@@ -32,7 +32,7 @@ flags:
 arguments:
   symbol: "text name if no flags are given (default: none)."
 
-  
+
 draft: false
 pdcategory: Misc
 

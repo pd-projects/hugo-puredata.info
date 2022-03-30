@@ -7,7 +7,7 @@ last_update: '0.47'
 see_also:
 - bang
 outlets:
-  1st: 
+  1st:
     bang: when loading the patch.
 draft: false
 pdcategory: Misc

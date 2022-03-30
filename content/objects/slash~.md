@@ -21,7 +21,7 @@ inlets:
 outlets:
   1st:
     signal: the result of the operation.
-  
+
 arguments:
   float: "initialize value of right inlet and makes it only take floats instead of signals (default 0)."
 draft: false

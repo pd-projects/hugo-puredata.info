@@ -8,8 +8,8 @@ see_also:
 - openpanel
 - pdcontrol
 inlets:
-  1st: 
-    bang: open dialog window to choose a file name to save to.	
+  1st:
+    bang: open dialog window to choose a file name to save to.
     symbol: set starting directory and open dialog window.
 outlets:
   1st:

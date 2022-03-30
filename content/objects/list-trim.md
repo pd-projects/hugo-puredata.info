@@ -13,7 +13,7 @@ see_also:
 - list fromsymbol
 - list tosymbol
 inlets:
-  1st: 
+  1st:
     list: list messages to be trimmed.
     symbol: the symbol selector is also trimmed.
     anything: any other messages are output intact.

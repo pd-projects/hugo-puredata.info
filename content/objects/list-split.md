@@ -15,7 +15,7 @@ see_also:
 arguments:
   float: initialize split point.
 inlets:
-  1st: 
+  1st:
     anything: messages to be split into smaller lists.
   2nd:
     float: sets new 'n' split point.

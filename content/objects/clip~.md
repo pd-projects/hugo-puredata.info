@@ -19,7 +19,7 @@ inlets:
 outlets:
   1st:
     signal: the clipped signal.
-  
+
 arguments:
   1) float: initial lower limit (default 0).
   2) float: initial upper limit (default 0).

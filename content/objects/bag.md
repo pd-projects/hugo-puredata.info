@@ -8,7 +8,7 @@ see_also:
 - poly
 - makenote
 inlets:
-  1st: 
+  1st:
     float: value to store or delete depending on the flag.
     flush: output stored values and clear the bag.
     clear: clear stored values from the bag (no output).

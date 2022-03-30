@@ -11,7 +11,7 @@ inlets:
     listen <float, symbol>: a number sets or changes the port number (0 or negative closes the port). Optional symbol is a hostname which can be a UDP multicast address or a network interface.
     send <anything>: sends messages back to connected netsend objects.
     list: works like 'send'.
-    
+
 outlets:
   1st:
     anything: messages sent from connected netsend objects.

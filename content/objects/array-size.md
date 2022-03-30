@@ -26,9 +26,9 @@ outlets:
     float: array size.
 arguments:
   1) symbol: array name if no flags are given (default = none).
-  
+
 flags:
-  -s <symbol, symbol>: struct name and field name of main structure. 
+  -s <symbol, symbol>: struct name and field name of main structure.
   -f <symbol, symbol>: struct name and field name of element structure.
 draft: false
 pdcategory: Arrays & Tables

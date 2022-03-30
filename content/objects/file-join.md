@@ -25,13 +25,13 @@ see_also:
 - file splitext
 - file splitname
 inlets:
-  1st: 
+  1st:
     list: list of components to join.
 outlets:
   1st:
     symbol: joined path or file.
   2nd:
-    Inactive Outlet!: 
+    Inactive Outlet!:
 
 
 draft: false

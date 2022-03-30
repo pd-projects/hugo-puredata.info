@@ -25,13 +25,13 @@ see_also:
 - file join
 - file splitext
 inlets:
-  1st: 
+  1st:
     symbol: file name.
 outlets:
   1st:
     list: the separated directory and file components.
   2nd:
-    symbol: file component if no directory component is found. 
+    symbol: file component if no directory component is found.
 
 
 draft: false

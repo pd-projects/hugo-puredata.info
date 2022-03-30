@@ -9,7 +9,7 @@ see_also:
 - scalar
 - text define
 - text get
-- text 
+- text
 - text insert
 - text delete
 - text size
@@ -35,7 +35,7 @@ arguments:
   symbol: "text name if no flags are given (default: none)."
   float: "set line number (default: 0)."
   float: "set field number (default: -1)"
-  
+
 draft: false
 pdcategory: Misc
 

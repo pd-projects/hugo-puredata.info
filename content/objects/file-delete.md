@@ -25,7 +25,7 @@ see_also:
 - file splitext
 - file splitname
 inlets:
-  1st: 
+  1st:
     symbol: file or directory to be deleted.
     verbose <float>: set verbosity on or off.
 outlets:

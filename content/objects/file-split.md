@@ -25,7 +25,7 @@ see_also:
 - file splitext
 - file splitname
 inlets:
-  1st: 
+  1st:
     symbol: file or directory name to split.
 outlets:
   1st:

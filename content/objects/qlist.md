@@ -18,7 +18,7 @@ inlets:
     add <anything>: add a message to a qlist.
     add2 <anything>: add a message to a qlist but don't terminate it.
     read <symbol>: read a file into qlist.
-    write <symbol>: write contents to a file.    
+    write <symbol>: write contents to a file.
 outlets:
   1st:
     list: list of leading numbers for the next message.

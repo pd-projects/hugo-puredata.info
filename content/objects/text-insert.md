@@ -32,7 +32,7 @@ flags:
 arguments:
   symbol: "text name if no flags are given (default: none)."
   float: "set line number (default: 0)."
-  
+
 draft: false
 pdcategory: Misc
 

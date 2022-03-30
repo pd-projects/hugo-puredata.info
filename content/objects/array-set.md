@@ -28,9 +28,9 @@ outlets:
 arguments:
   1) symbol: array name if no flags are given (default none).
   2) float: initial onset (default 0).
-  
+
 flags:
-  -s <symbol, symbol>: struct name and field name of main structure. 
+  -s <symbol, symbol>: struct name and field name of main structure.
   -f <symbol, symbol>: struct name and field name of element structure.
 draft: false
 pdcategory: Arrays & Tables

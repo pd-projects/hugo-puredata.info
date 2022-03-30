@@ -39,7 +39,7 @@ arguments:
   symbol: "text name if no flags are given (default: none)."
   float: "starting field number (default: 0)."
   float: "initial number of fields (default: 1)."
-  
+
 draft: false
 pdcategory: Misc
 

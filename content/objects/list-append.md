@@ -15,7 +15,7 @@ see_also:
 arguments:
   list: initialize the list to append (default empty).
 inlets:
-  1st: 
+  1st:
     anything: set messages to concatenate to a second list and output (a bang is a zero element list).
   2nd:
     anything: set messages to append to the first list (a bang is a zero element list and clears it).

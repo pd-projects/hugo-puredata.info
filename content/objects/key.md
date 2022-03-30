@@ -10,7 +10,7 @@ see_also:
 
 outlets:
   1st:
-    float: key number when pressed. 
+    float: key number when pressed.
 
 
 draft: false

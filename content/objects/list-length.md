@@ -13,7 +13,7 @@ see_also:
 - list fromsymbol
 - list tosymbol
 inlets:
-  1st: 
+  1st:
     anything: messages to have its elements counted.
 outlets:
   1st:

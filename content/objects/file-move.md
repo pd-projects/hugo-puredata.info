@@ -25,7 +25,7 @@ see_also:
 - file splitext
 - file splitname
 inlets:
-  1st: 
+  1st:
     list: source and destination.
     verbose <float>: set verbosity on or off.
 outlets:

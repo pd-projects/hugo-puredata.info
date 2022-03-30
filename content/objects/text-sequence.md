@@ -16,7 +16,7 @@ see_also:
 - text tolist
 - text fromlist
 - text search
-- text 
+- text
 last_update: '0.49'
 inlets:
   1st:
@@ -46,7 +46,7 @@ flags:
   -t <float, symbol>: sets tempo value and time unit.
 arguments:
   symbol: "text name if no flags are given (default: none)."
-  
+
 draft: false
 pdcategory: Misc
 

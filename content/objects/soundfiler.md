@@ -46,11 +46,11 @@ The number of channels is limited to 64.
 - -raw &lt;headersize&gt; &lt;channels&gt; &lt;bytespersample&gt; &lt;endianness&gt;
 
   - you can leave soundfiler to figure out which of the known soundfile formats the file belongs to or override all header and type information using the "-raw" flag, which causes all header and type information to be ignored. Endianness is "l" ("little") for Intel machines or "b" ("big") for older PPC Macintoshes. You can give "n" (natural) to take the byte order your machine prefers.
-  
+
 - -ascii - read a file containing ascii numbers
 
   - May be combined with -resize. Newlines in the file are ignored, non-numeric fields are replaced by zero. If multiple arrays are specified, the first elements of each array should come first in the file, followed by all the second elements and so on (interleaved).
-  
+
 ### Flags for 'write' messages:
 
 - -wave, -aiff, -caf, -next, -ascii

@@ -14,7 +14,7 @@ see_also:
 - text delete
 - text size
 - text tolist
-- text 
+- text
 - text search
 - text sequence
 last_update: '0.49'
@@ -30,7 +30,7 @@ flags:
 arguments:
   symbol: "text name if no flags are given (default: none)."
 
-  
+
 draft: false
 pdcategory: Misc
 

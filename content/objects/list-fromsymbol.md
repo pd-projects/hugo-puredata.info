@@ -13,7 +13,7 @@ see_also:
 - list length
 - list tosymbol
 inlets:
-  1st: 
+  1st:
     symbol: symbol to be converted to a list of character codes.
 outlets:
   1st:

@@ -25,13 +25,13 @@ see_also:
 - file join
 - file splitname
 inlets:
-  1st: 
+  1st:
     symbol: file name.
 outlets:
   1st:
     list: the separated directory and file components.
   2nd:
-    symbol: path if no extension is found. 
+    symbol: path if no extension is found.
 
 
 draft: false

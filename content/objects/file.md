@@ -25,7 +25,7 @@ see_also:
 - file splitext
 - file splitname
 inlets:
-  1st: 
+  1st:
     open <symbol>: open a file.
     float: read number of bytes.
     seek <list>: seek file.

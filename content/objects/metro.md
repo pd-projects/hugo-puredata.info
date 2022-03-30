@@ -29,7 +29,7 @@ Send a bang message periodically (a la metronome).
 
 The metro object sends a series of bangs at regular time intervals. The left inlet takes a nonzero number or "bang" to start and 0 or 'stop' to stop it. The time is set via the right inlet or first argument. The default time unit is 1 millisecond but you can change this via the 2nd and 3rd argument or the "tempo" message (as in [timer],  [delay] and [text sequence]),  which set a different tempo number and a time unit symbol. Possible symbols are:
 
-- millisecond (msec for short) 
+- millisecond (msec for short)
 - seconds (sec)
 - minutes (min
 - samples (samp)

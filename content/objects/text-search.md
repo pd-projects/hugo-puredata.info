@@ -34,7 +34,7 @@ arguments:
   1) symbol: "text name if no flags are given (default: none)."
   2) list: "search field number optionally preceded by '>'. '>=', '<', '<=', or 'near'."
 
-  
+
 draft: false
 pdcategory: Misc
 
