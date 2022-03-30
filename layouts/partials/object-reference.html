@@ -19,12 +19,14 @@
 
   {{ with .arguments }}
   <div id="arguments"  class="reference-arguments">
-  <h4>ARGUMENTs</h4>  
+  <h4>ARGUMENTs</h4>
+  <ol>
   {{ range . }}
   <li>
   <mark>{{.type}}</mark> - {{.description}}
   </li>
-  {{ end }} 
+  {{ end }}
+  </ol>
   </div>
   {{ end }}
   
