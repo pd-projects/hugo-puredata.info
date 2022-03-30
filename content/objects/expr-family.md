@@ -41,7 +41,7 @@ The **fexpr~** object provides a flexible mechanism for building FIR and IIR fil
 
 ### The operators expr, expr~ and fexpr~ support (listed from highest precedence to lowest) are as follows:
 
-|  |  |
+|Operator |Description|
 |:----|----:|
 |~      |One's complement|
 |*      |Multiply|
