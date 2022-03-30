@@ -9,16 +9,19 @@ see_also:
 - ctlin
 - noteout
 arguments:
-- type: float
-  description: MIDI channel/port
+- description: MIDI channel/port
+  type: float
 outlets:
   1st:
-    float: MIDI note number.
+  - type: float
+    description: MIDI note number.
   2nd:
-    float: MIDI velocity
+  - type: float
+    description: MIDI velocity
   3rd:
-    float: MIDI channel/port
-  'n: (number depends on number of arguments)': {}
+  - type: float
+    description: MIDI channel/port
+  'n: (number depends on number of arguments)':
 draft: false
 ---
 

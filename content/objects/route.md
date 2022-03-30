@@ -8,18 +8,22 @@ last_update: '0.43'
 see_also:
 - select
 arguments:
-- type: list
-  description: of floats or symbols to route to to (default 0).
+- description: of floats or symbols to route to to (default 0).
+  type: list
 inlets:
   1st:
-    anything: any message to route according to the first element.
+  - type: anything
+    description: any message to route according to the first element.
   2nd:
-    float/symbol: if there's one argument,  an inlet is created to update it.
+  - type: float/symbol
+    description: if there's one argument,  an inlet is created to update it.
 outlets:
   'n: (depends on the number of arguments)':
-    anything: routed message with the first element trimmed.
+  - type: anything
+    description: routed message with the first element trimmed.
   rightmost:
-    anything: when input doesn't match the arguments,  it is passed here.
+  - type: anything
+    description: when input doesn't match the arguments,  it is passed here.
 draft: false
 ---
 Route checks the first element of a message against each of its arguments,  which may be numbers or symbols (but not a mixture of the two). If a match is found,  the rest of the message appears on the corresponding outlet. If there's no match,  the message is repeated to the last "rejection" outlet. The number of outlets is the number of arguments plus one.

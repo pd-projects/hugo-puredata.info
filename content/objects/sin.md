@@ -11,10 +11,12 @@ see_also:
 - expr
 inlets:
   1st:
-    float: input value to given function.
+  - type: float
+    description: input value to given function.
 outlets:
   1st:
-    float: the result of the operation.
+  - type: float
+    description: the result of the operation.
 draft: false
 ---
 Unlike the signal version cos~, control-rate trigonometric functions take inputs in radians.

@@ -10,10 +10,12 @@ see_also:
 - oscformat
 inlets:
   1st:
-    list: FUDI packet to convert to Pd messages.
+  - type: list
+    description: FUDI packet to convert to Pd messages.
 outlets:
   1st:
-    anything: Pd messages.
+  - type: anything
+    description: Pd messages.
 draft: false
 ---
 The fudiparse object takes incoming lists of numbers, interpreting them as the bytes in a FUDI message (as received when sending Pd-messages via [netreceive -b]).

@@ -9,25 +9,32 @@ see_also:
 - delay
 - timer
 arguments:
-- type: list
-  description: (optional) symbols sets number of inlets and type (f default,  s,  p)
+- description: (optional) symbols sets number of inlets and type (f default,  s,  p)
     and floats set float type and initial value.
-- type: float
-  description: sets delay time in ms (default 0).
+  type: list
+- description: sets delay time in ms (default 0).
   order: last
+  type: float
 inlets:
   1st:
-    bang: sends the last received data after the delay time.
-    clear: forget all scheduled messages.
-    float/symbol/pointer: the type depends on the creation argument.
-    flush: sends the scheduled messages immediately.
+  - type: bang
+    description: sends the last received data after the delay time.
+  - type: clear
+    description: forget all scheduled messages.
+  - type: float/symbol/pointer
+    description: the type depends on the creation argument.
+  - type: flush
+    description: sends the scheduled messages immediately.
   'n: number of inlets depends on creation arguments':
-    float/symbol/pointer: the type depends on the creation argument.
+  - type: float/symbol/pointer
+    description: the type depends on the creation argument.
   rightmost:
-    float: set the delay time in ms.
+  - type: float
+    description: set the delay time in ms.
 outlets:
   'n: number of inlets depends on creation arguments':
-    float/symbol/pointer: the type depends on the creation argument.
+  - type: float/symbol/pointer
+    description: the type depends on the creation argument.
 draft: false
 ---
 Message "delay line".

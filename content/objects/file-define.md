@@ -26,8 +26,8 @@ see_also:
 - file splitext
 - file splitname
 arguments:
-- type: symbol
-  description: declared file-handle name.
+- description: declared file-handle name.
+  type: symbol
 draft: false
 ---
 Sometimes it is easier to access the same file-handle from different parts of the patch (e.g. when reading and parsing a file), rather than going backwards and forwards with a single 'file handle' object.

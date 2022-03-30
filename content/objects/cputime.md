@@ -10,12 +10,15 @@ see_also:
 - timer
 inlets:
   1st:
-    bang: reset (set elapsed time to zero).
+  - type: bang
+    description: reset (set elapsed time to zero).
   2nd:
-    bang: time to measure.
+  - type: bang
+    description: time to measure.
 outlets:
   1st:
-    bang: output elapsed time.
+  - type: bang
+    description: output elapsed time.
 draft: false
 ---
 The cputime object measures elapsed CPU time,  as measured by your operating system. This appears to work on NT,  IRIX,  and Linux,  but not on W98.

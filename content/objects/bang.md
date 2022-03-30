@@ -7,10 +7,12 @@ pdcategory: General
 last_update: '0.27'
 inlets:
   1st:
-    anything: any message outputs a bang
+  - type: anything
+    description: any message outputs a bang
 outlets:
   1st:
-    bang: a bang message
+  - type: bang
+    description: a bang message
 aliases:
 - b
 draft: false

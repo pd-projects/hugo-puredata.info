@@ -20,21 +20,25 @@ see_also:
 - text search
 - text sequence
 arguments:
-- type: symbol
-  description: 'text name if no flags are given (default: none).'
-- type: float
-  description: 'set line number (default: 0).'
+- description: 'text name if no flags are given (default: none).'
+  type: symbol
+- description: 'set line number (default: 0).'
+  type: float
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
 inlets:
   1st:
-    list: a line to insert.
+  - type: list
+    description: a line to insert.
   2nd:
-    float: line number to insert.
+  - type: float
+    description: line number to insert.
   3rd:
-    pointer: pointer to the text if -s flag is used.
-    symbol: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
+  - type: symbol
+    description: set text name.
 draft: false
 ---
 

@@ -27,12 +27,15 @@ see_also:
 - file splitname
 inlets:
   1st:
-    list: list of components to join.
+  - type: list
+    description: list of components to join.
 outlets:
   1st:
-    symbol: joined path or file.
+  - type: symbol
+    description: joined path or file.
   2nd:
-    Inactive Outlet!: null
+  - type: Inactive Outlet!
+    description: null
 draft: false
 ---
 This objects perform common string operations on filenames. no checks are performed verifying the validity/existence of any path-component.

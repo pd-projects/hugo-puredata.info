@@ -10,9 +10,11 @@ see_also:
 - noteout
 inlets:
   1st:
-    float: raw MIDI byte by byte
+  - type: float
+    description: raw MIDI byte by byte
   2nd:
-    float: MIDI channel/port
+  - type: float
+    description: MIDI channel/port
 bref: MIDI output
 draft: false
 ---

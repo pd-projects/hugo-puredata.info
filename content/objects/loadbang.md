@@ -9,7 +9,8 @@ see_also:
 - bang
 outlets:
   1st:
-    bang: when loading the patch.
+  - type: bang
+    description: when loading the patch.
 draft: false
 ---
 The loadbang object outputs a 'bang' message when the containing patch is opened as a document or included in another patch as an abstraction.

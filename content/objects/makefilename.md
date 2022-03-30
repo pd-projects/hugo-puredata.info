@@ -5,16 +5,19 @@ categories:
 - object
 pdcategory: General
 arguments:
-- type: symbol
-  description: format strring with specifiers (%c,  %d,  '%i,  %e,  %E,  %f,  %g,  %G,  %o,  %s,  %u,  %x,  %X
+- description: format strring with specifiers (%c,  %d,  '%i,  %e,  %E,  %f,  %g,  %G,  %o,  %s,  %u,  %x,  %X
     and %p).
+  type: symbol
 inlets:
   1st:
-    float/symbol: to replace format specifiers.
-    set <string>: message replaces format.
+  - type: float/symbol
+    description: to replace format specifiers.
+  - type: set <string>
+    description: message replaces format.
 outlets:
   1st:
-    symbol: formatted symbol.
+  - type: symbol
+    description: formatted symbol.
 draft: false
 ---
 The Makefilename object generates name symbols according to a format string,  for use as a series of filenames,  table names,  or whatnot. You can plug in a variable number or symbol by using different types in the string ("such as %s",  "%c",  "%d",  "%X and others). Each object can have only one variable pattern,  but you can cascade objects for multiple substitutions.

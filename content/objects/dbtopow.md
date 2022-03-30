@@ -10,10 +10,12 @@ see_also:
 - expr
 inlets:
   1st:
-    float: incomming value to be converted.
+  - type: float
+    description: incomming value to be converted.
 outlets:
   1st:
-    float: converted value
+  - type: float
+    description: converted value
 draft: false
 ---
 dbtopow and powtodb convert decibels to and from power units, equal to the square of the "RMS" amplitude.

@@ -10,19 +10,25 @@ see_also:
 - value
 - send
 arguments:
-- type: float
-  description: initially stored value (default 0).
+- description: initially stored value (default 0).
+  type: float
 inlets:
   1st:
-    bang: output the stored value.
-    list: considers the first element if it's a float,  stores and outputs it.
-    send <symbol>: send the stored value to a [receive] or [value] object that has
-      the same name as the symbol (no output).
+  - type: bang
+    description: output the stored value.
+  - type: list
+    description: considers the first element if it's a float,  stores and outputs
+      it.
+  - type: send <symbol>
+    description: send the stored value to a [receive] or [value] object that has the
+      same name as the symbol (no output).
   2nd:
-    float: store the value, non-integers are truncated (no output).
+  - type: float
+    description: store the value, non-integers are truncated (no output).
 outlets:
   1st:
-    float: the stored integer value.
+  - type: float
+    description: the stored integer value.
 aliases:
 - i
 draft: false

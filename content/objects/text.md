@@ -20,27 +20,37 @@ see_also:
 - text search
 - text sequence
 arguments:
-- type: symbol
-  description: 'sets the function of [text], possible values: define, get, set, insert,
+- description: 'sets the function of [text], possible values: define, get, set, insert,
     delete, size, tolist, fromlist, search and sequence. The default value is ''define''.'
+  type: symbol
 flags:
-- flag: -k
-  description: saves/keeps the contents of the text with the patch.
+- description: saves/keeps the contents of the text with the patch.
+  flag: -k
 inlets:
   1st:
-    bang: output a pointer to the scalar containing the text.
-    clear: clear contents of the text.
-    click: open text window.
-    close: closes the text window.
-    read <symbol>: read from a file (with optional -c flag).
-    send <symbol>: send pointer to a named receive object
-    sort: sort the text contents.
-    write <symbol>: write to a file (with optional -c flag).
+  - type: bang
+    description: output a pointer to the scalar containing the text.
+  - type: clear
+    description: clear contents of the text.
+  - type: click
+    description: open text window.
+  - type: close
+    description: closes the text window.
+  - type: read <symbol>
+    description: read from a file (with optional -c flag).
+  - type: send <symbol>
+    description: send pointer to a named receive object
+  - type: sort
+    description: sort the text contents.
+  - type: write <symbol>
+    description: write to a file (with optional -c flag).
 outlets:
   1st:
-    pointer: a pointer to the scalar containing the array.
+  - type: pointer
+    description: a pointer to the scalar containing the array.
   2nd:
-    anything: outputs "updated" when text changes.
+  - type: anything
+    description: outputs "updated" when text changes.
 draft: false
 ---
 

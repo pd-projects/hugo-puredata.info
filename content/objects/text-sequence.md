@@ -20,40 +20,53 @@ see_also:
 - text search
 - text
 arguments:
-- type: symbol
-  description: 'text name if no flags are given (default: none).'
+- description: 'text name if no flags are given (default: none).'
+  type: symbol
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
-- flag: -g
-  description: sets to global mode (with symbolic destinations).
-- flag: -w <symbol>
-  description: sets symbols that define waiting points.
-- flag: -w <float>
-  description: sets number of leading floats used as waiting points.
-- flag: -t <float, symbol>
-  description: sets tempo value and time unit.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
+- description: sets to global mode (with symbolic destinations).
+  flag: -g
+- description: sets symbols that define waiting points.
+  flag: -w <symbol>
+- description: sets number of leading floats used as waiting points.
+  flag: -w <float>
+- description: sets tempo value and time unit.
+  flag: -t <float, symbol>
 inlets:
   1st:
-    args <list>: set values for $1, $2, etc in the text.
-    auto: automatically sequence interpreting waits as delay times.
-    bang: output all lines from current to next waiting point.
-    line <float>: set line number (counting from 0).
-    list: same as bang but temporarily override 'args' with list's elements (a bang
-      is a 0 element list, btw).
-    step: output next line.
-    stop: stops the sequence when in auto mode.
-    tempo <f, sym>: set tempo value (float) and time unit symbol.
+  - type: args <list>
+    description: set values for $1, $2, etc in the text.
+  - type: auto
+    description: automatically sequence interpreting waits as delay times.
+  - type: bang
+    description: output all lines from current to next waiting point.
+  - type: line <float>
+    description: set line number (counting from 0).
+  - type: list
+    description: same as bang but temporarily override 'args' with list's elements
+      (a bang is a 0 element list, btw).
+  - type: step
+    description: output next line.
+  - type: stop
+    description: stops the sequence when in auto mode.
+  - type: tempo <f, sym>
+    description: set tempo value (float) and time unit symbol.
   2nd:
-    pointer: pointer to the text if -s flag is used.
-    symbol: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
+  - type: symbol
+    description: set text name.
 outlets:
   1st:
-    list: messages from the sequence or waits if -g flag is given.
+  - type: list
+    description: messages from the sequence or waits if -g flag is given.
   2nd:
-    list: waits if -w flag is given (which creates a mid outlet).
+  - type: list
+    description: waits if -w flag is given (which creates a mid outlet).
   rightmost:
-    bang: when finishing the sequence.
+  - type: bang
+    description: when finishing the sequence.
 draft: false
 ---
 "text sequence" outputs lines from a text buffer, either to an outlet or as messages to named destinations. The text is interpreted as a sequence of lists, and possibly some interspersed waiting instructions (called "waits" here). You can ask for one line at a time ("step" message), or to proceed without delay to the next wait ("bang"), or to automatically sequence through a series of waits (with each wait specifying a delay in milliseconds).

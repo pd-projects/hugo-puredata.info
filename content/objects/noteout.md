@@ -9,15 +9,18 @@ see_also:
 - notein
 - ctlout
 arguments:
-- type: float
-  description: MIDI channel/port
+- description: MIDI channel/port
+  type: float
 inlets:
   1st:
-    float: MIDI note number.
+  - type: float
+    description: MIDI note number.
   2nd:
-    float: MIDI velocity
+  - type: float
+    description: MIDI velocity
   3rd:
-    float: MIDI channel/port
+  - type: float
+    description: MIDI channel/port
 draft: false
 ---
 

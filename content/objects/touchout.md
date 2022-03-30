@@ -9,13 +9,15 @@ see_also:
 - notein
 - noteout
 arguments:
-- type: float
-  description: MIDI channel/port
+- description: MIDI channel/port
+  type: float
 inlets:
   1st:
-    float: MIDI aftertouch value.
+  - type: float
+    description: MIDI aftertouch value.
   2nd:
-    float: MIDI channel/port
+  - type: float
+    description: MIDI channel/port
 bref: MIDI output
 draft: false
 ---

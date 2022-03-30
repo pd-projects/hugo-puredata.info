@@ -12,19 +12,23 @@ see_also:
 - metro
 - text sequence
 arguments:
-- type: float
-  description: tempo value (default 1).
-- type: symbol
-  description: time unit (default 'msec').
+- description: tempo value (default 1).
+  type: float
+- description: time unit (default 'msec').
+  type: symbol
 inlets:
   1st:
-    bang: reset (set elapsed time to zero).
-    tempo <float,  symbol>: set tempo value (float) and time unit symbol.
+  - type: bang
+    description: reset (set elapsed time to zero).
+  - type: tempo <float,  symbol>
+    description: set tempo value (float) and time unit symbol.
   2nd:
-    bang: time to measure.
+  - type: bang
+    description: time to measure.
 outlets:
   1st:
-    bang: output elapsed time.
+  - type: bang
+    description: output elapsed time.
 draft: false
 ---
 Measure logical time.

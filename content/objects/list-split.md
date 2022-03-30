@@ -14,16 +14,19 @@ see_also:
 - list fromsymbol
 - list tosymbol
 arguments:
-- type: float
-  description: initialize split point.
+- description: initialize split point.
+  type: float
 inlets:
   1st:
-    anything: messages to be split into smaller lists.
+  - type: anything
+    description: messages to be split into smaller lists.
   2nd:
-    float: sets new 'n' split point.
+  - type: float
+    description: sets new 'n' split point.
 outlets:
   1st:
-    list: if incoming list is shorter than n.
+  - type: list
+    description: if incoming list is shorter than n.
 draft: false
 ---
 Cut a list into smaller ones.

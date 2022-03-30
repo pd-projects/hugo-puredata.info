@@ -9,16 +9,18 @@ see_also:
 - bang
 - unpack
 arguments:
-- type: list
-  description: 'symbols that define outlet''s message type: float'',  ''bang'',  ''symbol'',  ''list'',  ''anything''
+- description: 'symbols that define outlet''s message type: float'',  ''bang'',  ''symbol'',  ''list'',  ''anything''
     and ''pointer'',  all of which can be abreviatted (default: f f).'
+  type: list
 inlets:
   1st:
-    anything: any message to be sequenced over the outlets.
+  - type: anything
+    description: any message to be sequenced over the outlets.
 outlets:
   'n: (depends on the number of arguments)':
-    anything: sequenced messages from right to left,  the number of outlets and message
-      type depends on the arguments.
+  - type: anything
+    description: sequenced messages from right to left,  the number of outlets and
+      message type depends on the arguments.
 draft: false
 aliases:
 - t

@@ -26,22 +26,27 @@ see_also:
 - file splitext
 - file splitname
 flags:
-- flag: -q
-  description: set quiet verbosity.
-- flag: -v
-  description: set loud verbosity.
-- flag: -m
-  description: file creation mode (user/group/other permissions) in octal.
+- description: set quiet verbosity.
+  flag: -q
+- description: set loud verbosity.
+  flag: -v
+- description: file creation mode (user/group/other permissions) in octal.
+  flag: -m
 inlets:
   1st:
-    creationmode <octal>: restrict permissions of the to-be-created file.
-    symbol: directory to be created.
-    verbose <float>: set verbosity on or off.
+  - type: creationmode <octal>
+    description: restrict permissions of the to-be-created file.
+  - type: symbol
+    description: directory to be created.
+  - type: verbose <float>
+    description: set verbosity on or off.
 outlets:
   1st:
-    symbol: created directory on success.
+  - type: symbol
+    description: created directory on success.
   2nd:
-    bang: when there's an error creating the directory.
+  - type: bang
+    description: when there's an error creating the directory.
 draft: false
 ---
 This ensures that a given directory exists by creating it.

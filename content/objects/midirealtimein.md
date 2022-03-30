@@ -10,9 +10,11 @@ see_also:
 - noteout
 outlets:
   1st:
-    float: MIDI real-time messages
+  - type: float
+    description: MIDI real-time messages
   2nd:
-    float: MIDI channel/port
+  - type: float
+    description: MIDI channel/port
 bref: MIDI input
 draft: false
 ---

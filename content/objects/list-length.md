@@ -15,10 +15,12 @@ see_also:
 - list tosymbol
 inlets:
   1st:
-    anything: messages to have its elements counted.
+  - type: anything
+    description: messages to have its elements counted.
 outlets:
   1st:
-    float: list length.
+  - type: float
+    description: list length.
 draft: false
 ---
 Number of items in list.

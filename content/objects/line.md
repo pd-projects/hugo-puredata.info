@@ -9,20 +9,26 @@ see_also:
 - line~
 - vline~
 arguments:
-- type: float
-  description: time grain in ms (default 20 ms).
+- description: time grain in ms (default 20 ms).
+  type: float
 inlets:
   1st:
-    float: set target value and start ramp.
-    set <float>: set initial ramp value.
-    stop: stop the ramp.
+  - type: float
+    description: set target value and start ramp.
+  - type: set <float>
+    description: set initial ramp value.
+  - type: stop
+    description: stop the ramp.
   2nd:
-    float: set next ramp time (cleared when ramp starts).
+  - type: float
+    description: set next ramp time (cleared when ramp starts).
   3rd:
-    float: sets time grain in ms.
+  - type: float
+    description: sets time grain in ms.
 outlets:
   1st:
-    float: ramp values.
+  - type: float
+    description: ramp values.
 draft: false
 ---
 Ramp generator.

@@ -11,20 +11,24 @@ see_also:
 - clip
 - expr~
 arguments:
-- type: float
-  description: initial lower limit (default 0).
-- type: float
-  description: initial upper limit (default 0).
+- description: initial lower limit (default 0).
+  type: float
+- description: initial upper limit (default 0).
+  type: float
 inlets:
   1st:
-    signal: signal value to clip.
+  - type: signal
+    description: signal value to clip.
   2nd:
-    float: set lower limit.
+  - type: float
+    description: set lower limit.
   3rd:
-    float: set upper limit.
+  - type: float
+    description: set upper limit.
 outlets:
   1st:
-    signal: the clipped signal.
+  - type: signal
+    description: the clipped signal.
 draft: false
 ---
 The clip~ object passes its signal input to its output, clipping it to lie between two limits.

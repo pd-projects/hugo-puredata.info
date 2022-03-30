@@ -11,21 +11,27 @@ see_also:
 - text sequence
 - timer
 arguments:
-- type: float
-  description: tempo value (default 1).
-- type: symbol
-  description: time unit (default 'msec').
+- description: tempo value (default 1).
+  type: float
+- description: time unit (default 'msec').
+  type: symbol
 inlets:
   1st:
-    bang: start the delay.
-    float: set delay time and start the delay.
-    stop: stop the delay.
-    tempo <float,  symbol>: set tempo value (float) and time unit symbol.
+  - type: bang
+    description: start the delay.
+  - type: float
+    description: set delay time and start the delay.
+  - type: stop
+    description: stop the delay.
+  - type: tempo <float,  symbol>
+    description: set tempo value (float) and time unit symbol.
   2nd:
-    float: set delay time for the next tempo.
+  - type: float
+    description: set delay time for the next tempo.
 outlets:
   1st:
-    bang: bang at a delayed time.
+  - type: bang
+    description: bang at a delayed time.
 draft: false
 aliases:
 - del

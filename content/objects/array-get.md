@@ -16,29 +16,35 @@ see_also:
 - array max
 - array min
 arguments:
-- type: symbol
-  description: array name if no flags are given (default none).
-- type: float
-  description: initial onset (default 0).
-- type: float
-  description: initial number of points (default -1, end of array).
+- description: array name if no flags are given (default none).
+  type: symbol
+- description: initial onset (default 0).
+  type: float
+- description: initial number of points (default -1, end of array).
+  type: float
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
-- flag: -f <symbol, symbol>
-  description: struct name and field name of element structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
+- description: struct name and field name of element structure.
+  flag: -f <symbol, symbol>
 inlets:
   1st:
-    bang: output the elements of the array.
-    float: onset (index to output from, 0 is the start).
+  - type: bang
+    description: output the elements of the array.
+  - type: float
+    description: onset (index to output from, 0 is the start).
   2nd:
-    float: number or points to output from onset (-1 is the end of array).
+  - type: float
+    description: number or points to output from onset (-1 is the end of array).
   3rd:
-    pointer: pointer to the array if -s flag is used.
-    symbol: set array name.
+  - type: pointer
+    description: pointer to the array if -s flag is used.
+  - type: symbol
+    description: set array name.
 outlets:
   1st:
-    list: array's elements.
+  - type: list
+    description: array's elements.
 draft: false
 ---
 "array get" outputs all or a selected range of elements of the array as a list.

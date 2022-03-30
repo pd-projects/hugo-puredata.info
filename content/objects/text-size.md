@@ -20,21 +20,26 @@ see_also:
 - text search
 - text sequence
 arguments:
-- type: symbol
-  description: 'text name if no flags are given (default: none).'
+- description: 'text name if no flags are given (default: none).'
+  type: symbol
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
 inlets:
   1st:
-    bang: output the number of lines.
-    float: set line number and output its length.
+  - type: bang
+    description: output the number of lines.
+  - type: float
+    description: set line number and output its length.
   2nd:
-    pointer: pointer to the text if -s flag is used.
-    symbol: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
+  - type: symbol
+    description: set text name.
 outlets:
   1st:
-    float: number of lines or line length.
+  - type: float
+    description: number of lines or line length.
 draft: false
 ---
 "text size" reports the number of lines in the text or the length of a specified line.

@@ -10,9 +10,11 @@ see_also:
 - keyname
 outlets:
   1st:
-    float: 1 when key is pressed and 0 when released.
+  - type: float
+    description: 1 when key is pressed and 0 when released.
   2nd:
-    symbol: key name.
+  - type: symbol
+    description: key name.
 draft: false
 ---
 keyname gives the symbolic name of the key on the right outlet, with a 1 or 0 in the left outlet if it's up or down, and works with non-printing keys like shift or "F1".

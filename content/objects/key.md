@@ -10,7 +10,8 @@ see_also:
 - keyname
 outlets:
   1st:
-    float: key number when pressed.
+  - type: float
+    description: key number when pressed.
 draft: false
 ---
 Key and keyup report the (system dependent) numbers of "printing" keys of the keyboard. Key outputs when the keyboard key is pressed while keyup outputs it when you release the key. Check your system's preferences for 'autorepeat' as it affects the output of these objects.

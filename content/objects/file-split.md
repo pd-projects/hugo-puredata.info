@@ -27,12 +27,15 @@ see_also:
 - file splitname
 inlets:
   1st:
-    symbol: file or directory name to split.
+  - type: symbol
+    description: file or directory name to split.
 outlets:
   1st:
-    list: list of split components.
+  - type: list
+    description: list of split components.
   2nd:
-    symbol/bang: '''/'' if inputs ends with ''/'' or bang otherwise.'
+  - type: symbol/bang
+    description: '''/'' if inputs ends with ''/'' or bang otherwise.'
 draft: false
 ---
 This objects perform common string operations on filenames. no checks are performed verifying the validity/existence of any path-component.

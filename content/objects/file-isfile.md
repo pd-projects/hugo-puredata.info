@@ -26,19 +26,23 @@ see_also:
 - file splitext
 - file splitname
 flags:
-- flag: -q
-  description: set quiet verbosity.
-- flag: -v
-  description: set loud verbosity.
+- description: set quiet verbosity.
+  flag: -q
+- description: set loud verbosity.
+  flag: -v
 inlets:
   1st:
-    symbol: file or directory name.
-    verbose <float>: set verbosity on or off.
+  - type: symbol
+    description: file or directory name.
+  - type: verbose <float>
+    description: set verbosity on or off.
 outlets:
   1st:
-    float: true <1> of false <0>.
+  - type: float
+    description: true <1> of false <0>.
   2nd:
-    bang: if an error occurs.
+  - type: bang
+    description: if an error occurs.
 draft: false
 ---
 

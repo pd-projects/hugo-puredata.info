@@ -20,17 +20,20 @@ see_also:
 - text search
 - text sequence
 arguments:
-- type: symbol
-  description: 'text name if no flags are given (default: none).'
+- description: 'text name if no flags are given (default: none).'
+  type: symbol
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
 inlets:
   1st:
-    list: sets contents of text from given list.
+  - type: list
+    description: sets contents of text from given list.
   2nd:
-    pointer: pointer to the text if -s flag is used.
-    symbol: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
+  - type: symbol
+    description: set text name.
 draft: false
 ---
 "text fromlist" converts a list such as "text tolist" would output and fills the text with it. Whatever the text had previously contained is discarded.

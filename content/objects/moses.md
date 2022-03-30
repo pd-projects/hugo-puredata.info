@@ -9,18 +9,22 @@ see_also:
 - change
 - select
 arguments:
-- type: float
-  description: set initial control value (default 0).
+- description: set initial control value (default 0).
+  type: float
 inlets:
   1st:
-    float: number to be parted.
+  - type: float
+    description: number to be parted.
   2nd:
-    float: set control value.
+  - type: float
+    description: set control value.
 outlets:
   1st:
-    float: input number if less than control value.
+  - type: float
+    description: input number if less than control value.
   2nd:
-    float: input number if equal or higher than control value.
+  - type: float
+    description: input number if equal or higher than control value.
 draft: false
 ---
 Moses takes numbers and outputs them at left if they're less than a control value,  and at right if they're greater or equal to it.

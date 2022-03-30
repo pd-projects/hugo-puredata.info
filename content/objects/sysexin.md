@@ -10,9 +10,11 @@ see_also:
 - noteout
 outlets:
   1st:
-    float: MIDI system exclusive messages only, byte by byte
+  - type: float
+    description: MIDI system exclusive messages only, byte by byte
   2nd:
-    float: MIDI channel/port
+  - type: float
+    description: MIDI channel/port
 bref: MIDI input
 draft: false
 ---

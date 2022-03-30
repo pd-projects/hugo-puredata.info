@@ -4,9 +4,9 @@ categories:
 - object
 pdcategory: Audio Math
 inlets:
-  1st: {}
+  1st:
 outlets:
-  1st: {}
+  1st:
 draft: true
 ---
 

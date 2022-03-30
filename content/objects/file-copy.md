@@ -26,19 +26,23 @@ see_also:
 - file splitext
 - file splitname
 flags:
-- flag: -q
-  description: set quiet verbosity.
-- flag: -v
-  description: set loud verbosity.
+- description: set quiet verbosity.
+  flag: -q
+- description: set loud verbosity.
+  flag: -v
 inlets:
   1st:
-    list: source and destination.
-    verbose <float>: set verbosity on or off.
+  - type: list
+    description: source and destination.
+  - type: verbose <float>
+    description: set verbosity on or off.
 outlets:
   1st:
-    list: source and destination on success.
+  - type: list
+    description: source and destination on success.
   2nd:
-    bang: if an error occurs.
+  - type: bang
+    description: if an error occurs.
 draft: false
 ---
 [file copy] duplicates the content of a file to a destination.

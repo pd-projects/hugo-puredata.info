@@ -10,11 +10,14 @@ see_also:
 - pdcontrol
 inlets:
   1st:
-    bang: open dialog window to choose a file name to save to.
-    symbol: set starting directory and open dialog window.
+  - type: bang
+    description: open dialog window to choose a file name to save to.
+  - type: symbol
+    description: set starting directory and open dialog window.
 outlets:
   1st:
-    symbol: file name.
+  - type: symbol
+    description: file name.
 draft: false
 ---
 When savepanel gets a "bang" a "Save As" file browser appears on the screen, If you choose a filename, it appears on the outlet.

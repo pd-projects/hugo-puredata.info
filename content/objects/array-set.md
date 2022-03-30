@@ -16,26 +16,31 @@ see_also:
 - array max
 - array min
 arguments:
-- type: symbol
-  description: array name if no flags are given (default none).
-- type: float
-  description: initial onset (default 0).
+- description: array name if no flags are given (default none).
+  type: symbol
+- description: initial onset (default 0).
+  type: float
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
-- flag: -f <symbol, symbol>
-  description: struct name and field name of element structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
+- description: struct name and field name of element structure.
+  flag: -f <symbol, symbol>
 inlets:
   1st:
-    list: list of values to write to array
+  - type: list
+    description: list of values to write to array
   2nd:
-    float: onset (index to set from, 0 is the start).
+  - type: float
+    description: onset (index to set from, 0 is the start).
   3rd:
-    pointer: pointer to the array if -s flag is used.
-    symbol: set array name.
+  - type: pointer
+    description: pointer to the array if -s flag is used.
+  - type: symbol
+    description: set array name.
 outlets:
   1st:
-    list: array's elements.
+  - type: list
+    description: array's elements.
 draft: false
 ---
 "array set" sets values of an array from an incoming list, starting from a specified onset (0 by default). The size of the array is not changed - values that would be written past the end of the array are dropped.

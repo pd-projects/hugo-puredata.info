@@ -9,24 +9,31 @@ see_also:
 - makenote
 - route
 arguments:
-- type: float
-  description: number of voices (default 1).
-- type: float
-  description: non-zero sets to voice stealing.
+- description: number of voices (default 1).
+  type: float
+- description: non-zero sets to voice stealing.
+  type: float
 inlets:
   1st:
-    clear: clear memory.
-    float: MIDI pitch value.
-    stop: flush hanging note on messages.
+  - type: clear
+    description: clear memory.
+  - type: float
+    description: MIDI pitch value.
+  - type: stop
+    description: flush hanging note on messages.
   2nd:
-    float: set velocity value.
+  - type: float
+    description: set velocity value.
 outlets:
   1st:
-    float: the voice number.
+  - type: float
+    description: the voice number.
   2nd:
-    float: note pitch.
+  - type: float
+    description: note pitch.
   3rd:
-    float: note velocitty.
+  - type: float
+    description: note velocitty.
 draft: false
 ---
 The poly object takes a stream of pitch/velocity pairs and outputs triples containing voice number, pitch and velocity. You can pack the output and use the route object to route messages among a bank of voices depending on the first outlet. Another option is to connect it [clone] so you can route to different copies. Poly can be configured to do voice stealing or not (the default.)

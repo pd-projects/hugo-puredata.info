@@ -10,14 +10,19 @@ see_also:
 - makenote
 inlets:
   1st:
-    clear: clear stored values from the bag (no output).
-    float: value to store or delete depending on the flag.
-    flush: output stored values and clear the bag.
+  - type: clear
+    description: clear stored values from the bag (no output).
+  - type: float
+    description: value to store or delete depending on the flag.
+  - type: flush
+    description: output stored values and clear the bag.
   2nd:
-    float: 'flag: true (nonzero) or false (zero).'
+  - type: float
+    description: 'flag: true (nonzero) or false (zero).'
 outlets:
   1st:
-    float: the stored values on flush message.
+  - type: float
+    description: the stored values on flush message.
 draft: false
 ---
 The bag object adds a value to or removes it from a collection of numbers depending on the flag. The left inlet takes the value and the right inlet takes the flag. If the flag is true (nonzero), the value is added to the collection and removed otherwise. The example here takes a list input, which gets spread at inlets (as is common in Pd).

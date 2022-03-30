@@ -20,20 +20,24 @@ see_also:
 - text search
 - text sequence
 arguments:
-- type: symbol
-  description: 'text name if no flags are given (default: none).'
+- description: 'text name if no flags are given (default: none).'
+  type: symbol
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
 inlets:
   1st:
-    bang: output contents as a list.
+  - type: bang
+    description: output contents as a list.
   2nd:
-    pointer: pointer to the text if -s flag is used.
-    symbol: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
+  - type: symbol
+    description: set text name.
 outlets:
   1st:
-    list: contents of text as a list.
+  - type: list
+    description: contents of text as a list.
 draft: false
 ---
 "text tolist" outputs the entire contents as a list. Semicolons, commas, and dollar signs are output as symbols (and so, if symbols like ", " are encountered, they're escaped with backslashes).

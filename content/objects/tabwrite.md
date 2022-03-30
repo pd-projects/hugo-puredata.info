@@ -11,14 +11,17 @@ see_also:
 - tabread4
 - tabwrite~
 arguments:
-- type: symbol
-  description: sets table name with the sample.
+- description: sets table name with the sample.
+  type: symbol
 inlets:
   1st:
-    float: sets index to write to.
-    set <symbol>: set the table name.
+  - type: float
+    description: sets index to write to.
+  - type: set <symbol>
+    description: set the table name.
   2nd:
-    float: sets index to write to.
+  - type: float
+    description: sets index to write to.
 draft: false
 ---
 Tabwrite writes floats into an array,  input values are set in the left inlet,  while the index is set on the right inlet.

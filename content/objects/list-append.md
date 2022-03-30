@@ -14,18 +14,21 @@ see_also:
 - list fromsymbol
 - list tosymbol
 arguments:
-- type: list
-  description: initialize the list to append (default empty).
+- description: initialize the list to append (default empty).
+  type: list
 inlets:
   1st:
-    anything: set messages to concatenate to a second list and output (a bang is a
-      zero element list).
+  - type: anything
+    description: set messages to concatenate to a second list and output (a bang is
+      a zero element list).
   2nd:
-    anything: set messages to append to the first list (a bang is a zero element list
-      and clears it).
+  - type: anything
+    description: set messages to append to the first list (a bang is a zero element
+      list and clears it).
 outlets:
   1st:
-    list: the concatenated list.
+  - type: list
+    description: the concatenated list.
 draft: false
 aliases:
 - list

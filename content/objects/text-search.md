@@ -20,23 +20,27 @@ see_also:
 - text
 - text sequence
 arguments:
-- type: symbol
-  description: 'text name if no flags are given (default: none).'
-- type: list
-  description: search field number optionally preceded by '>'. '>=', '<', '<=', or
+- description: 'text name if no flags are given (default: none).'
+  type: symbol
+- description: search field number optionally preceded by '>'. '>=', '<', '<=', or
     'near'.
+  type: list
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
 inlets:
   1st:
-    list: search key.
+  - type: list
+    description: search key.
   2nd:
-    pointer: pointer to the text if -s flag is used.
-    symbol: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
+  - type: symbol
+    description: set text name.
 outlets:
   1st:
-    float: found line number or -1 if not found.
+  - type: float
+    description: found line number or -1 if not found.
 draft: false
 ---
 "text search" outputs the line number of the line that best matches a search key. By default it seeks a line whose leading fields match the incoming list.

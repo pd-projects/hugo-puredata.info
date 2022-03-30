@@ -7,14 +7,15 @@ pdcategory: General
 see_also:
 - print~
 arguments:
-- type: list
-  description: message to distinct one [print] from another.
+- description: message to distinct one [print] from another.
+  type: list
 flags:
-- flag: -n
-  description: the default "print:" prefix is suppressed.
+- description: the default "print:" prefix is suppressed.
+  flag: -n
 inlets:
   1st:
-    anything: any message to print into the terminal window.
+  - type: anything
+    description: any message to print into the terminal window.
 draft: false
 ---
 Print prints out the messages it receives on the "terminal window" that Pd is run from. If no argument is given,  the message has a "print:" prefix. Any message as an argument is used as the prefix instead (so you can differentiate between different printouts).

@@ -10,18 +10,23 @@ see_also:
 - int
 - float
 arguments:
-- type: symbol
-  description: 'initially stored symbol (default: empty symbol).'
+- description: 'initially stored symbol (default: empty symbol).'
+  type: symbol
 inlets:
   1st:
-    anything: converts to symbol,  stores it and outputs it.
-    bang: output the stored symbol.
-    symbol: stores the symbol received and outputs it.
+  - type: anything
+    description: converts to symbol,  stores it and outputs it.
+  - type: bang
+    description: output the stored symbol.
+  - type: symbol
+    description: stores the symbol received and outputs it.
   2nd:
-    symbol: stores the symbol (no output).
+  - type: symbol
+    description: stores the symbol (no output).
 outlets:
   1st:
-    symbol: the stored symbol.
+  - type: symbol
+    description: the stored symbol.
 draft: false
 ---
 Store a symbol (i.e., string)

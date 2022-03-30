@@ -9,14 +9,16 @@ see_also:
 - fudiparse
 - oscformat
 flags:
-- flag: -u
-  description: "switches to \u201CUDP\u201D mode"
+- description: "switches to \u201CUDP\u201D mode"
+  flag: -u
 inlets:
   1st:
-    anything: any message to convert to a FUDI packet.
+  - type: anything
+    description: any message to convert to a FUDI packet.
 outlets:
   1st:
-    list: converted FUDI packet.
+  - type: list
+    description: converted FUDI packet.
 bref: FUDI messages to and from Pd lists
 draft: false
 ---

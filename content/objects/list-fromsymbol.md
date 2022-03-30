@@ -15,10 +15,12 @@ see_also:
 - list tosymbol
 inlets:
   1st:
-    symbol: symbol to be converted to a list of character codes.
+  - type: symbol
+    description: symbol to be converted to a list of character codes.
 outlets:
   1st:
-    list: list of converted character codes.
+  - type: list
+    description: list of converted character codes.
 draft: false
 ---
 Convert from symbols to lists of numeric character codes.

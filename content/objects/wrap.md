@@ -11,10 +11,12 @@ see_also:
 - expr
 inlets:
   1st:
-    float: input value to given function.
+  - type: float
+    description: input value to given function.
 outlets:
   1st:
-    float: the result of the operation.
+  - type: float
+    description: the result of the operation.
 draft: false
 ---
 The wrap object wraps the input to a value between 0 and 1, including negative numbers (for instance, -0.2 maps to 0.8.).

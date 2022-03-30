@@ -9,21 +9,27 @@ see_also:
 - text sequence
 - timer
 arguments:
-- type: float
-  description: tempo value (default 1).
-- type: symbol
-  description: time unit (default 'msec').
+- description: tempo value (default 1).
+  type: float
+- description: time unit (default 'msec').
+  type: symbol
 inlets:
   1st:
-    bang: start the metronome.
-    float: non zero starts and zero stops the metronome.
-    stop: stop the metronome.
-    tempo <float,  symbol>: set tempo value (float) and time unit symbol.
+  - type: bang
+    description: start the metronome.
+  - type: float
+    description: non zero starts and zero stops the metronome.
+  - type: stop
+    description: stop the metronome.
+  - type: tempo <float,  symbol>
+    description: set tempo value (float) and time unit symbol.
   2nd:
-    float: set metronome time for the next tempo.
+  - type: float
+    description: set metronome time for the next tempo.
 outlets:
   1st:
-    bang: bang at a periodic time.
+  - type: bang
+    description: bang at a periodic time.
 draft: false
 ---
 Send a bang message periodically (a la metronome).

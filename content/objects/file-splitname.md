@@ -27,12 +27,15 @@ see_also:
 - file splitext
 inlets:
   1st:
-    symbol: file name.
+  - type: symbol
+    description: file name.
 outlets:
   1st:
-    list: the separated directory and file components.
+  - type: list
+    description: the separated directory and file components.
   2nd:
-    symbol: file component if no directory component is found.
+  - type: symbol
+    description: file component if no directory component is found.
 draft: false
 ---
 This object perform common string operations on filenames. no checks are performed verifying the validity/existence of any path-component.

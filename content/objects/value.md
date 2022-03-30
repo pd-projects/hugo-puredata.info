@@ -11,19 +11,24 @@ see_also:
 - float
 - expr
 arguments:
-- type: symbol
-  description: sets value name (if no name is given,  a right inlet is created to
+- description: sets value name (if no name is given,  a right inlet is created to
     set the name).
+  type: symbol
 inlets:
   1st:
-    bang: outputs the value.
-    float: sets variable value.
-    send <symbol>: sends the value to a matching receive name.
+  - type: bang
+    description: outputs the value.
+  - type: float
+    description: sets variable value.
+  - type: send <symbol>
+    description: sends the value to a matching receive name.
   '2nd: (if created without argument)':
-    symbol: sets the value name.
+  - type: symbol
+    description: sets the value name.
 outlets:
   1st:
-    float: sets variable value.
+  - type: float
+    description: sets variable value.
 draft: false
 aliases:
 - v

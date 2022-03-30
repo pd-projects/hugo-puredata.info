@@ -20,24 +20,29 @@ see_also:
 - text search
 - text sequence
 arguments:
-- type: symbol
-  description: 'text name if no flags are given (default: none).'
-- type: float
-  description: 'set field number (default: -1)'
+- description: 'text name if no flags are given (default: none).'
+  type: symbol
+- description: 'set field number (default: -1)'
+  type: float
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
 inlets:
   1st:
-    list: a line to add or replace.
+  - type: list
+    description: a line to add or replace.
   2nd:
-    float: line number to replace or add (if greater than the number of lines).
+  - type: float
+    description: line number to replace or add (if greater than the number of lines).
   3rd:
-    float: field number to start replacing if negative (or not supplied), replace
+  - type: float
+    description: field number to start replacing if negative (or not supplied), replace
       whole line.
   4th:
-    pointer: pointer to the text if -s flag is used.
-    symbol: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
+  - type: symbol
+    description: set text name.
 draft: false
 ---
 "text set" replaces the nth line with the incoming list. If the number n is greater than the number of lines in the text the new line is added.

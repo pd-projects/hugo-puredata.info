@@ -14,28 +14,38 @@ see_also:
 - list fromsymbol
 - list tosymbol
 arguments:
-- type: list
-  description: initialize the stored list (default empty).
+- description: initialize the stored list (default empty).
+  type: list
 inlets:
   1st:
-    append <list>: append a list to the stored list.
-    delete <list>: delete a given item for just one float or a number of items specified
+  - type: append <list>
+    description: append a list to the stored list.
+  - type: delete <list>
+    description: delete a given item for just one float or a number of items specified
       in the second element starting at index from the first element (-1 means delete
       all items from given index).
-    get <list>: output an item (if only one float is given) or sublist, where first
+  - type: get <list>
+    description: output an item (if only one float is given) or sublist, where first
       element sets staring index and the second sets ending index (-1 is end of the
       list).
-    insert <list>: insert values before index from the fisrt element.
-    list: concatenate incoming list with stored list and output (a bang is a zero
-      element list and outputs stored list).
-    prepend <list>: prepend a list to the stored list.
-    send <symbol>: send stored list to a named receiver.
-    set <list>: set values starting at index from the fisrt element.
+  - type: insert <list>
+    description: insert values before index from the fisrt element.
+  - type: list
+    description: concatenate incoming list with stored list and output (a bang is
+      a zero element list and outputs stored list).
+  - type: prepend <list>
+    description: prepend a list to the stored list.
+  - type: send <symbol>
+    description: send stored list to a named receiver.
+  - type: set <list>
+    description: set values starting at index from the fisrt element.
   2nd:
-    anything: set stored list (a bang is a zero element list and clears it).
+  - type: anything
+    description: set stored list (a bang is a zero element list and clears it).
 outlets:
   1st:
-    list: the stored list.
+  - type: list
+    description: the stored list.
 draft: false
 ---
 Put together or break apart a list to/from sublists

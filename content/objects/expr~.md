@@ -21,12 +21,12 @@ see_also:
 - sqrt~
 - pow~
 arguments:
-- type: list
-  description: see below
+- description: see below
+  type: list
 inlets:
-  see below: null
+  remark: see below
 outlets:
-  see below: null
+  remark: see below
 draft: false
 ---
 {{< expr-family >}}

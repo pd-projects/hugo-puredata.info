@@ -5,9 +5,9 @@ categories:
 - object
 pdcategory: Audio Oscillators And Tables
 inlets:
-  1st: {}
+  1st:
 outlets:
-  1st: {}
+  1st:
 draft: true
 ---
 

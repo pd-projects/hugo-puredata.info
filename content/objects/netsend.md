@@ -8,23 +8,30 @@ last_update: '0.51'
 see_also:
 - netreceive
 flags:
-- flag: -u
-  description: sets UDP connection (default TCP).
-- flag: -b
-  description: sets to binary mode (default 'FUDI').
+- description: sets UDP connection (default TCP).
+  flag: -u
+- description: sets to binary mode (default 'FUDI').
+  flag: -b
 inlets:
   1st:
-    connect <list>: sets host and port number, an additional port argument can be
-      set for messages sent back from the receiver.
-    disconnect: close the connection.
-    list: works like 'send'.
-    send <anything>: sends messages over the network.
-    timeout <float>: TCP connect timeout in ms (default 10000).
+  - type: connect <list>
+    description: sets host and port number, an additional port argument can be set
+      for messages sent back from the receiver.
+  - type: disconnect
+    description: close the connection.
+  - type: list
+    description: works like 'send'.
+  - type: send <anything>
+    description: sends messages over the network.
+  - type: timeout <float>
+    description: TCP connect timeout in ms (default 10000).
 outlets:
   1st:
-    float: nonzero if connection is open, zero otherwise.
+  - type: float
+    description: nonzero if connection is open, zero otherwise.
   2nd:
-    anything: messages sent back from netreceive objects.
+  - type: anything
+    description: messages sent back from netreceive objects.
 draft: false
 ---
 As of 0.51, Pd supports IPv6 addresses, netsend -u (UDP) is fully "connectionless" and no longer closes if no one receives a UDP message, and netsend (TCP) has a settable connect timeout which defaults to 10 seconds.

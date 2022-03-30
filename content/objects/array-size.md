@@ -16,23 +16,28 @@ see_also:
 - array max
 - array min
 arguments:
-- type: symbol
-  description: array name if no flags are given (default = none).
+- description: array name if no flags are given (default = none).
+  type: symbol
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
-- flag: -f <symbol, symbol>
-  description: struct name and field name of element structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
+- description: struct name and field name of element structure.
+  flag: -f <symbol, symbol>
 inlets:
   1st:
-    bang: output the array size.
-    float: set the array size.
+  - type: bang
+    description: output the array size.
+  - type: float
+    description: set the array size.
   2nd:
-    pointer: pointer to the array if '-s' flag is used.
-    symbol: set array name.
+  - type: pointer
+    description: pointer to the array if '-s' flag is used.
+  - type: symbol
+    description: set array name.
 outlets:
   1st:
-    float: array size.
+  - type: float
+    description: array size.
 draft: false
 ---
 "array define" maintains an array and can name it so that other objects can find it (and later should have some alternative, anonymous way to be found).

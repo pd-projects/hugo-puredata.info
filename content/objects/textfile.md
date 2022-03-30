@@ -10,20 +10,31 @@ see_also:
 - text sequence
 inlets:
   1st:
-    add <anything>: add a message to textfile.
-    add2 <anything>: add a message but don't terminate it.
-    bang: output a whole line and go to the next
-    clear: empty the textfile.
-    print: print contents to Pd window.
-    read <symbol, cr>: read a file (with optional 'cr' argument).
-    rewind: go to beginning (and stop).
-    set <anything>: clear and add a message to textfile.
-    write <symbol, cr>: write to a file (with optional 'cr' argument).
+  - type: add <anything>
+    description: add a message to textfile.
+  - type: add2 <anything>
+    description: add a message but don't terminate it.
+  - type: bang
+    description: output a whole line and go to the next
+  - type: clear
+    description: empty the textfile.
+  - type: print
+    description: print contents to Pd window.
+  - type: read <symbol, cr>
+    description: read a file (with optional 'cr' argument).
+  - type: rewind
+    description: go to beginning (and stop).
+  - type: set <anything>
+    description: clear and add a message to textfile.
+  - type: write <symbol, cr>
+    description: write to a file (with optional 'cr' argument).
 outlets:
   1st:
-    anything: lines stored in the textfile object.
+  - type: anything
+    description: lines stored in the textfile object.
   2nd:
-    bang: when reaching the end of sequence.
+  - type: bang
+    description: when reaching the end of sequence.
 draft: false
 ---
 'cr' = terminating lines only with carriage return (omitting semicolons.) You can read files this way too, in which case carriage returns are mapped to semicolons.

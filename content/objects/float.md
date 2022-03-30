@@ -11,21 +11,29 @@ see_also:
 - send
 - symbol
 arguments:
-- type: float
-  description: initially stored value (default 0).
+- description: initially stored value (default 0).
+  type: float
 inlets:
   1st:
-    bang: output the stored value.
-    float: store and output the value.
-    list: considers the first element if it's a float,  stores and outputs it.
-    send <symbol>: send the stored value to a [receive] or [value] object that has
-      the same name as the symbol (no output).
-    symbol: symbols that look like a float are converted,  stored and output.
+  - type: bang
+    description: output the stored value.
+  - type: float
+    description: store and output the value.
+  - type: list
+    description: considers the first element if it's a float,  stores and outputs
+      it.
+  - type: send <symbol>
+    description: send the stored value to a [receive] or [value] object that has the
+      same name as the symbol (no output).
+  - type: symbol
+    description: symbols that look like a float are converted,  stored and output.
   2nd:
-    float: store the value (no output).
+  - type: float
+    description: store the value (no output).
 outlets:
   1st:
-    float: the stored value.
+  - type: float
+    description: the stored value.
 aliases:
 - f
 draft: false

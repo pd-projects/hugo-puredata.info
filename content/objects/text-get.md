@@ -20,29 +20,36 @@ see_also:
 - text search
 - text sequence
 arguments:
-- type: symbol
-  description: 'text name if no flags are given (default: none).'
-- type: float
-  description: 'initial number of fields (default: 1).'
+- description: 'text name if no flags are given (default: none).'
+  type: symbol
+- description: 'initial number of fields (default: 1).'
+  type: float
 flags:
-- flag: -s <symbol, symbol>
-  description: struct name and field name of main structure.
+- description: struct name and field name of main structure.
+  flag: -s <symbol, symbol>
 inlets:
   1st:
-    float: specify line number and output (0 for first line).
+  - type: float
+    description: specify line number and output (0 for first line).
   2nd:
-    float: starting field number (-1 for the whole line).
+  - type: float
+    description: starting field number (-1 for the whole line).
   3rd:
-    float: specify number of fields.
+  - type: float
+    description: specify number of fields.
   4th:
-    pointer: pointer to the text if -s flag is used.
-    symbol: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
+  - type: symbol
+    description: set text name.
 outlets:
   1st:
-    list: a line from text or fields from a line.
+  - type: list
+    description: a line from text or fields from a line.
   2nd:
-    float: 'line type: 0 if terminated by a semicolon, 1 if by a comma, or 2 if the
-      line number was out of range.'
+  - type: float
+    description: 'line type: 0 if terminated by a semicolon, 1 if by a comma, or 2
+      if the line number was out of range.'
 draft: false
 ---
 "text get" reads the nth line from the named text and outputs it, or optionally reads one or more specific fields (atoms) from the line.

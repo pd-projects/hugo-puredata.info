@@ -27,12 +27,15 @@ see_also:
 - file splitname
 inlets:
   1st:
-    symbol: file name.
+  - type: symbol
+    description: file name.
 outlets:
   1st:
-    list: the separated directory and file components.
+  - type: list
+    description: the separated directory and file components.
   2nd:
-    symbol: path if no extension is found.
+  - type: symbol
+    description: path if no extension is found.
 draft: false
 ---
 'splitext' separates the directory+file component from the extension of the given path, and outputs a list with both on the 1st outlet.

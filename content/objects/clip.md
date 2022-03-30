@@ -11,21 +11,26 @@ see_also:
 - max
 - min
 arguments:
-- type: float
-  description: initial lower limit (default 0).
-- type: float
-  description: initial upper limit (default 0).
+- description: initial lower limit (default 0).
+  type: float
+- description: initial upper limit (default 0).
+  type: float
 inlets:
   1st:
-    bang: re clip last incomming number between the two limits.
-    float: number to clip.
+  - type: bang
+    description: re clip last incomming number between the two limits.
+  - type: float
+    description: number to clip.
   2nd:
-    float: set lower limit.
+  - type: float
+    description: set lower limit.
   3rd:
-    float: set upper limit.
+  - type: float
+    description: set upper limit.
 outlets:
   1st:
-    float: the clipped value.
+  - type: float
+    description: the clipped value.
 draft: false
 ---
 Bound a number between two limits.

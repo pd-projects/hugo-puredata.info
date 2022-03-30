@@ -8,31 +8,37 @@ last_update: '0.51'
 see_also:
 - netsend
 arguments:
-- type: float
-  description: port number
-- type: symbol
-  description: UDP hostname or multicast address.
+- description: port number
+  type: float
+- description: UDP hostname or multicast address.
+  type: symbol
 flags:
-- flag: -u
-  description: sets UDP connection (default TCP).
-- flag: -b
-  description: sets to binary mode (default 'FUDI').
-- flag: -f
-  description: flag for from address & port outlet.
+- description: sets UDP connection (default TCP).
+  flag: -u
+- description: sets to binary mode (default 'FUDI').
+  flag: -b
+- description: flag for from address & port outlet.
+  flag: -f
 inlets:
   1st:
-    list: works like 'send'.
-    listen <float, symbol>: a number sets or changes the port number (0 or negative
-      closes the port). Optional symbol is a hostname which can be a UDP multicast
-      address or a network interface.
-    send <anything>: sends messages back to connected netsend objects.
+  - type: list
+    description: works like 'send'.
+  - type: listen <float, symbol>
+    description: a number sets or changes the port number (0 or negative closes the
+      port). Optional symbol is a hostname which can be a UDP multicast address or
+      a network interface.
+  - type: send <anything>
+    description: sends messages back to connected netsend objects.
 outlets:
   1st:
-    anything: messages sent from connected netsend objects.
+  - type: anything
+    description: messages sent from connected netsend objects.
   2nd:
-    float: number of open connections for TCP connections. (TCP connection only)
+  - type: float
+    description: number of open connections for TCP connections. (TCP connection only)
   rightmost:
-    list: address and port. (if the -f flag is given)
+  - type: list
+    description: address and port. (if the -f flag is given)
 draft: false
 ---
 As of 0.51, Pd supports IPv6 addresses.
