@@ -7,9 +7,6 @@ pdcategory: Misc
 last_update: '0.49'
 inlets:
   1st:
-  - type: args <float>
-    description: outputs patch's argument. Optional float sets level (0, this patch,
-      1, its owner, and so on).
   - type: browse <symbol>
     description: open a URL given by the symbol.
   - type: dir <float, symbol>
@@ -18,6 +15,9 @@ inlets:
       directory.
   - type: isvisible
     description: outputs float to specify if patch is visible (1) or not (0).
+  - type: args <float>
+    description: outputs patch's argument. Optional float sets level (0, this patch,
+      1, its owner, and so on).
 outlets:
   1st:
   - type: list

@@ -37,10 +37,10 @@ inlets:
   - type: float
     description: number or points to sum from onset (-1 is the end of array).
   3rd:
-  - type: pointer
-    description: pointer to the array if -s flag is used.
   - type: symbol
     description: set array name.
+  - type: pointer
+    description: pointer to the array if -s flag is used.
 outlets:
   1st:
   - type: float

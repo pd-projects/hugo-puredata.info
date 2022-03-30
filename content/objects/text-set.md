@@ -39,10 +39,10 @@ inlets:
     description: field number to start replacing if negative (or not supplied), replace
       whole line.
   4th:
-  - type: pointer
-    description: pointer to the text if -s flag is used.
   - type: symbol
     description: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
 draft: false
 ---
 "text set" replaces the nth line with the incoming list. If the number n is greater than the number of lines in the text the new line is added.

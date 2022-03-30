@@ -15,10 +15,10 @@ arguments:
   type: float
 inlets:
   1st:
-  - type: clear
-    description: clear memory.
   - type: float
     description: MIDI pitch value.
+  - type: clear
+    description: clear memory.
   - type: stop
     description: flush hanging note on messages.
   2nd:

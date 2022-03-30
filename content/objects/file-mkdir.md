@@ -34,12 +34,12 @@ flags:
   flag: -m
 inlets:
   1st:
-  - type: creationmode <octal>
-    description: restrict permissions of the to-be-created file.
   - type: symbol
     description: directory to be created.
   - type: verbose <float>
     description: set verbosity on or off.
+  - type: creationmode <octal>
+    description: restrict permissions of the to-be-created file.
 outlets:
   1st:
   - type: symbol

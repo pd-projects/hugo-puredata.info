@@ -34,11 +34,11 @@ inlets:
   1st:
   - type: bang
     description: output a pointer to the scalar containing the array.
+  - type: send <symbol>
+    description: send pointer to a named receive object.
   - type: other messages
     description: '[array define] send other messages that arrays understand like ''const'',
       ''resize'', etc. For reference, see 2.control.examples ''15.array'' and ''16.more.arrays''.'
-  - type: send <symbol>
-    description: send pointer to a named receive object.
 outlets:
   1st:
   - type: pointer

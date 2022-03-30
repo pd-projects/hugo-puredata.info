@@ -10,12 +10,12 @@ see_also:
 - makenote
 inlets:
   1st:
-  - type: clear
-    description: clear stored values from the bag (no output).
   - type: float
     description: value to store or delete depending on the flag.
   - type: flush
     description: output stored values and clear the bag.
+  - type: clear
+    description: clear stored values from the bag (no output).
   2nd:
   - type: float
     description: 'flag: true (nonzero) or false (zero).'

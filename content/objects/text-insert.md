@@ -35,10 +35,10 @@ inlets:
   - type: float
     description: line number to insert.
   3rd:
-  - type: pointer
-    description: pointer to the text if -s flag is used.
   - type: symbol
     description: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
 draft: false
 ---
 

@@ -35,28 +35,28 @@ flags:
   flag: -t <float, symbol>
 inlets:
   1st:
-  - type: args <list>
-    description: set values for $1, $2, etc in the text.
   - type: auto
     description: automatically sequence interpreting waits as delay times.
-  - type: bang
-    description: output all lines from current to next waiting point.
+  - type: stop
+    description: stops the sequence when in auto mode.
+  - type: step
+    description: output next line.
   - type: line <float>
     description: set line number (counting from 0).
+  - type: args <list>
+    description: set values for $1, $2, etc in the text.
+  - type: bang
+    description: output all lines from current to next waiting point.
   - type: list
     description: same as bang but temporarily override 'args' with list's elements
       (a bang is a 0 element list, btw).
-  - type: step
-    description: output next line.
-  - type: stop
-    description: stops the sequence when in auto mode.
   - type: tempo <f, sym>
     description: set tempo value (float) and time unit symbol.
   2nd:
-  - type: pointer
-    description: pointer to the text if -s flag is used.
   - type: symbol
     description: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
 outlets:
   1st:
   - type: list

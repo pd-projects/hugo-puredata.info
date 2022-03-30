@@ -30,10 +30,10 @@ inlets:
   - type: float
     description: line number to delete (negative deletes all lines).
   2nd:
-  - type: pointer
-    description: pointer to the text if -s flag is used.
   - type: symbol
     description: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
 draft: false
 ---
 "text delete" deletes the nth line.
