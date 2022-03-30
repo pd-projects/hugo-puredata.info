@@ -14,6 +14,7 @@ arguments:
     and floats set float type and initial value.
 - type: float
   description: sets delay time in ms (default 0).
+  order: last
 inlets:
   1st:
     bang: sends the last received data after the delay time.
