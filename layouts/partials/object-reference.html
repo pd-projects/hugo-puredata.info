@@ -20,9 +20,9 @@
   {{ with .arguments }}
   <div id="arguments"  class="reference-arguments">
   <h4>ARGUMENTs</h4>  
-  {{ range $elem_definition, $elem_description := . }}
+  {{ range . }}
   <li>
-  <mark>{{$elem_definition}}</mark> - {{$elem_description}}
+  <mark>{{.type}}</mark> - {{.description}}
   </li>
   {{ end }} 
   </div>
@@ -31,9 +31,9 @@
   {{ with .flags }}
   <div id="flags"  class="reference-flags">
   <h4>FLAGs</h4> 
-  {{ range $elem_definition, $elem_description := . }}
+  {{ range . }}
   <li>
-  <mark>{{$elem_definition}}</mark> - {{$elem_description}}
+  <mark>{{.flag}}</mark> - {{.description}}
   </li>
   {{ end }}
    </div>
@@ -42,9 +42,9 @@
   {{ with .methods }}
   <div id="methods"  class="reference-flags">
   <h4>METHODs</h4> 
-  {{ range $elem_definition, $elem_description := . }}
+  {{ range . }}
   <li>
-  <mark>{{$elem_definition}}</mark> - {{$elem_description}}
+  <mark>{{.method}}</mark> - {{.description}}
   </li>
   {{ end }}
    </div>
