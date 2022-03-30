@@ -3,6 +3,7 @@ title: list fromsymbol
 description: manipulate lists
 categories:
 - object
+pdcategory: General
 see_also:
 - list
 - list append
@@ -19,8 +20,6 @@ outlets:
   1st:
     list: list of converted character codes.
 draft: false
-pdcategory: General
-
 ---
 Convert from symbols to lists of numeric character codes.
 

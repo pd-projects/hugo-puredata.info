@@ -3,6 +3,7 @@ title: send
 description: Send messages without patch cords.
 categories:
 - object
+pdcategory: General
 last_update: '0.48'
 see_also:
 - send~
@@ -10,7 +11,8 @@ see_also:
 - receive~
 - samplerate~
 arguments:
-  symbol: 'send symbol (if given,  2nd inlet is suppressed,  default: empty symbol)'
+- type: symbol
+  description: 'send symbol (if given,  2nd inlet is suppressed,  default: empty symbol)'
 inlets:
   1st:
     any message: 'sends to the corresponding receive object,  or any named object
@@ -18,10 +20,8 @@ inlets:
       to a named patch,  etc...'
   '2nd: (if created without arguments)':
     symbol: sets the send name.
-pdcategory: General
 aliases:
 - s
 draft: false
-
 ---
 [Send] sends messages to "receive" objects. Sends and receives are named to tell them whom to connect to. They work across windows too.

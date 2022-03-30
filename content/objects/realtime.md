@@ -3,6 +3,7 @@ title: realtime
 description: measure real time
 categories:
 - object
+pdcategory: Time
 last_update: '0.33'
 see_also:
 - timer
@@ -16,8 +17,6 @@ outlets:
   1st:
     bang: output elapsed time.
 draft: false
-pdcategory: Time
-
 ---
 Ask OS for elapsed real time.
 

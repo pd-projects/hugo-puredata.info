@@ -3,6 +3,7 @@ title: value
 description: shared numeric value
 categories:
 - object
+pdcategory: General
 last_update: '0.51'
 see_also:
 - send
@@ -10,8 +11,9 @@ see_also:
 - float
 - expr
 arguments:
-  symbol: sets value name (if no name is given,  a right inlet is created to set the
-    name).
+- type: symbol
+  description: sets value name (if no name is given,  a right inlet is created to
+    set the name).
 inlets:
   1st:
     bang: outputs the value.
@@ -23,10 +25,8 @@ outlets:
   1st:
     float: sets variable value.
 draft: false
-pdcategory: General
 aliases:
 - v
-
 ---
 "Value" stores a numeric value which is shared between all values with the same name (which need not be in the same Pd window.)
 

@@ -1,15 +1,16 @@
 ---
 title: polytouchin
 description: MIDI input
-bref: MIDI input
 categories:
 - object
+pdcategory: I/O via MIDI, OSC, and FUDI
 last_update: 0.48-2
 see_also:
 - notein
 - noteout
 arguments:
-  float: channel/port
+- type: float
+  description: channel/port
 outlets:
   1st:
     float: MIDI aftertouch value.
@@ -18,7 +19,7 @@ outlets:
   3rd:
     float: channel/port
   'n: (number depends on number of arguments)': {}
+bref: MIDI input
 draft: false
-pdcategory: I/O via MIDI, OSC, and FUDI
-
 ---
+

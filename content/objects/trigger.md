@@ -3,12 +3,14 @@ title: trigger
 description: sequence messages in right-to-left order.
 categories:
 - object
+pdcategory: General
 last_update: '0.52'
 see_also:
 - bang
 - unpack
 arguments:
-  list: 'symbols that define outlet''s message type: float'',  ''bang'',  ''symbol'',  ''list'',  ''anything''
+- type: list
+  description: 'symbols that define outlet''s message type: float'',  ''bang'',  ''symbol'',  ''list'',  ''anything''
     and ''pointer'',  all of which can be abreviatted (default: f f).'
 inlets:
   1st:
@@ -18,10 +20,8 @@ outlets:
     anything: sequenced messages from right to left,  the number of outlets and message
       type depends on the arguments.
 draft: false
-pdcategory: General
 aliases:
 - t
-
 ---
 The trigger object outputs its input from right to left. Because of the hot/cold inlet paradigm of Pd, output from right to left is the usual output order in Pd objects.
 

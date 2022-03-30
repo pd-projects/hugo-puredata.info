@@ -3,6 +3,7 @@ title: file
 description: low-level file operations
 categories:
 - object
+pdcategory: Misc
 last_update: '0.52'
 see_also:
 - text
@@ -24,14 +25,26 @@ see_also:
 - file join
 - file splitext
 - file splitname
+arguments:
+- type: symbol
+  description: 'sets the function of [file], possible values: handle, define, mkdir,
+    which, glob, stat, isfile, isdirectory, size, copy, move, delete, split, join,
+    splitext and splitname. The default value is ''handle''.'
+flags:
+- flag: -q
+  description: set quiet verbosity.
+- flag: -v
+  description: set loud verbosity.
+- flag: -m
+  description: file creation mode (user/group/other permissions) in octal.
 inlets:
   1st:
-    open <symbol>: open a file.
-    float: read number of bytes.
-    seek <list>: seek file.
     close: close file.
-    verbose <float>: set verbosity on or off.
     creationmode <octal>: restrict permissions of the to-be-created file.
+    float: read number of bytes.
+    open <symbol>: open a file.
+    seek <list>: seek file.
+    verbose <float>: set verbosity on or off.
   2nd:
     symbol: change the associated file-handle.
 outlets:
@@ -40,19 +53,13 @@ outlets:
   2nd:
     bang: if file can't be opened, end of the file is reached or a read error occurred.
     seek <float>: seek output.
-arguments:
-  symbol: "sets the function of [file], possible values: handle, define, mkdir, which, glob, stat, isfile, isdirectory, size, copy, move, delete, split, join, splitext and splitname. The default value is 'handle'."
-flags:
-  -q: set quiet verbosity.
-  -v: set loud verbosity.
-  -m: file creation mode (user/group/other permissions) in octal.
 methods:
-  open <symbol> r: explicit Read-mode
-  open <symbol> a: open file for writing (Append mode)
-  open <symbol> c: open file for writing (Create (or trunCate) mode)
+- method: open <symbol> r
+  description: explicit Read-mode
+- method: open <symbol> a
+  description: open file for writing (Append mode)
+- method: open <symbol> c
+  description: open file for writing (Create (or trunCate) mode)
 draft: false
-pdcategory: Misc
-
 ---
-
 Short for "file handle"

@@ -3,6 +3,7 @@ title: file glob
 description: find pathnames matching a pattern
 categories:
 - object
+pdcategory: Misc
 last_update: '0.52'
 see_also:
 - text
@@ -24,26 +25,23 @@ see_also:
 - file join
 - file splitext
 - file splitname
+flags:
+- flag: -q
+  description: set quiet verbosity.
+- flag: -v
+  description: set loud verbosity.
 inlets:
   1st:
     symbol: pattern to be found.
     verbose <float>: set verbosity on or off.
 outlets:
   1st:
-    list: found files/directories as a path symbol and type (file <0> or directory <1>).
+    list: found files/directories as a path symbol and type (file <0> or directory
+      <1>).
   2nd:
     bang: if nothing is found or an error occurs.
-
-flags:
-  -q: set quiet verbosity.
-  -v: set loud verbosity.
-
 draft: false
-pdcategory: Misc
-
 ---
-
-
 cross-platform notes on globbing:
 
 [file glob] attempts to unify the behaviour of wildcard matching on different platforms. as such, it does not support all features of a given pattern matching implementation (or only accidentally).

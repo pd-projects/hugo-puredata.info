@@ -3,13 +3,16 @@ title: metro
 description: send a message periodically
 categories:
 - object
+pdcategory: Time
 see_also:
 - delay
 - text sequence
 - timer
 arguments:
-  float: tempo value (default 1).
-  symbol: time unit (default 'msec').
+- type: float
+  description: tempo value (default 1).
+- type: symbol
+  description: time unit (default 'msec').
 inlets:
   1st:
     bang: start the metronome.
@@ -22,8 +25,6 @@ outlets:
   1st:
     bang: bang at a periodic time.
 draft: false
-pdcategory: Time
-
 ---
 Send a bang message periodically (a la metronome).
 

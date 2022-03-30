@@ -3,6 +3,7 @@ title: sqrt
 description: math functions
 categories:
 - object
+pdcategory: Math
 see_also:
 - +~
 - +
@@ -15,6 +16,5 @@ outlets:
   1st:
     float: the result of the operation.
 draft: false
-pdcategory: Math
-
 ---
+

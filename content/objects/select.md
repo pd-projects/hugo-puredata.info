@@ -3,11 +3,13 @@ title: select
 description: test for matching numbers or symbols
 categories:
 - object
+pdcategory: General
 last_update: '0.33'
 see_also:
 - route
 arguments:
-  list: of floats or symbols to match to (default 0).
+- type: list
+  description: of floats or symbols to match to (default 0).
 inlets:
   1st:
     float/symbol: input to compare to arguments.
@@ -19,8 +21,7 @@ outlets:
   rightmost:
     float/symbol: when input doesn't match the arguments,  it is passed here.
 draft: false
-pdcategory: General
 aliases:
 - sel
-
 ---
+

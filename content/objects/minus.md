@@ -3,6 +3,7 @@ title: '-'
 description: subtract two numbers
 categories:
 - object
+pdcategory: Math
 last_update: '0.47'
 see_also:
 - +~
@@ -13,7 +14,8 @@ see_also:
 - log
 - expr
 arguments:
-  float: initialize value of right inlet (default 0).
+- type: float
+  description: initialize value of right inlet (default 0).
 inlets:
   1st:
     bang: output the operation on the previously set values.
@@ -24,6 +26,5 @@ outlets:
   1st:
     float: the result of the operation.
 draft: false
-pdcategory: Math
-
 ---
+

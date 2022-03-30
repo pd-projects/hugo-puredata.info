@@ -3,12 +3,14 @@ title: pack
 description: make compound messages
 categories:
 - object
+pdcategory: General
 last_update: '0.34'
 see_also:
 - trigger
 - unpack
 arguments:
-  list: list of types (defining the number of inlets). These can be 'float/'f',  'symbol/'s'
+- type: list
+  description: list of types (defining the number of inlets). These can be 'float/'f',  'symbol/'s'
     and 'pointer/'p'. A number sets a numeric inlet and initializes the value,  'float/f'
     initialized to 0 (default 0 0).
 inlets:
@@ -22,8 +24,6 @@ outlets:
   1st:
     list: the packed list.
 draft: false
-pdcategory: General
-
 ---
 The pack object outputs a concatenated list from a series of inputs. Creation arguments set the number of inlets and their type,  possible values are: float (or 'f'),  symbol (or 's') and pointer (or 'p') - see [pd pointer]. A number sets a numeric inlet and initializes the value ('float'/'f' initializes to 0).
 

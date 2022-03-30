@@ -3,13 +3,15 @@ title: <=
 description: relational tests
 categories:
 - object
+pdcategory: Math
 see_also:
 - +~
 - expr
 - sin
 - log
 arguments:
-  float: initialize value of right inlet (default 0).
+- type: float
+  description: initialize value of right inlet (default 0).
 inlets:
   1st:
     bang: output the operation on the previously set values.
@@ -20,7 +22,5 @@ outlets:
   1st:
     float: the result of the operation.
 draft: false
-pdcategory: Math
-
 ---
 Relational operators ('>' greater than, '==' equals, '!=' not equals etc.) output 1 or 0 depending on whether the relation is true or false.

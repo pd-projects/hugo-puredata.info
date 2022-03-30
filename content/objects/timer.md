@@ -3,6 +3,7 @@ title: timer
 description: measure time intervals
 categories:
 - object
+pdcategory: Time
 last_update: '0.47'
 see_also:
 - cputime
@@ -11,8 +12,10 @@ see_also:
 - metro
 - text sequence
 arguments:
-  float: tempo value (default 1).
-  symbol: time unit (default 'msec').
+- type: float
+  description: tempo value (default 1).
+- type: symbol
+  description: time unit (default 'msec').
 inlets:
   1st:
     bang: reset (set elapsed time to zero).
@@ -23,8 +26,6 @@ outlets:
   1st:
     bang: output elapsed time.
 draft: false
-pdcategory: Time
-
 ---
 Measure logical time.
 

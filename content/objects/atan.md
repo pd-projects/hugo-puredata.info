@@ -3,6 +3,7 @@ title: atan
 description: trigonometric functions
 categories:
 - object
+pdcategory: Math
 see_also:
 - +~
 - +
@@ -15,7 +16,5 @@ outlets:
   1st:
     float: the result of the operation.
 draft: false
-pdcategory: Math
-
 ---
 Unlike the signal version cos~, control-rate trigonometric functions take inputs in radians.

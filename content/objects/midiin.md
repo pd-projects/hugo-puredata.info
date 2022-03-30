@@ -1,9 +1,9 @@
 ---
 title: midiin
 description: MIDI input
-bref: MIDI input
 categories:
 - object
+pdcategory: I/O via MIDI, OSC, and FUDI
 last_update: 0.48-2
 see_also:
 - notein
@@ -13,7 +13,7 @@ outlets:
     float: raw MIDI byte by byte (except real-time messages)
   2nd:
     float: MIDI channel/port
+bref: MIDI input
 draft: false
-pdcategory: I/O via MIDI, OSC, and FUDI
-
 ---
+

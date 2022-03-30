@@ -3,6 +3,7 @@ title: delay
 description: send a message after a time delay
 categories:
 - object
+pdcategory: Time
 last_update: '0.45'
 see_also:
 - metro
@@ -10,8 +11,10 @@ see_also:
 - text sequence
 - timer
 arguments:
-  float: tempo value (default 1).
-  symbol: time unit (default 'msec').
+- type: float
+  description: tempo value (default 1).
+- type: symbol
+  description: time unit (default 'msec').
 inlets:
   1st:
     bang: start the delay.
@@ -24,10 +27,8 @@ outlets:
   1st:
     bang: bang at a delayed time.
 draft: false
-pdcategory: Time
 aliases:
 - del
-
 ---
 send a bang message after a time delay
 

@@ -3,6 +3,7 @@ title: list trim
 description: manipulate lists
 categories:
 - object
+pdcategory: General
 see_also:
 - list
 - list append
@@ -14,15 +15,13 @@ see_also:
 - list tosymbol
 inlets:
   1st:
+    anything: any other messages are output intact.
     list: list messages to be trimmed.
     symbol: the symbol selector is also trimmed.
-    anything: any other messages are output intact.
 outlets:
   1st:
     anything: trimmed list.
 draft: false
-pdcategory: General
-
 ---
 Remove list selector.
 

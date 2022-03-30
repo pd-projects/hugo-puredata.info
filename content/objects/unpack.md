@@ -3,12 +3,14 @@ title: unpack
 description: get elements of compound messages
 categories:
 - object
+pdcategory: General
 last_update: '0.33'
 see_also:
 - pack
 - trigger
 arguments:
-  list: 'symbols that define atoms''s type: float'',  ''symbol'',  and ''pointer'',  all
+- type: list
+  description: 'symbols that define atoms''s type: float'',  ''symbol'',  and ''pointer'',  all
     of which can be abreviatted (default: f f).'
 inlets:
   1st:
@@ -17,8 +19,6 @@ outlets:
   'n: (depends on the number of arguments)':
     float/symbol: a float or a symbol,  depending on the argument.
 draft: false
-pdcategory: General
-
 ---
 [unpack] takes lists of atoms and distributes them to its outlets. The creation arguments specify the number of outlets and the atom type,  possible values are: float (or 'f'),  symbol (or 's') and pointer (or 'p') - see [pd pointer].
 

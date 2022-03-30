@@ -3,6 +3,8 @@ title: text get
 description: read and output a line.
 categories:
 - object
+pdcategory: Misc
+last_update: '0.49'
 see_also:
 - list
 - array
@@ -17,7 +19,14 @@ see_also:
 - text fromlist
 - text search
 - text sequence
-last_update: '0.49'
+arguments:
+- type: symbol
+  description: 'text name if no flags are given (default: none).'
+- type: float
+  description: 'initial number of fields (default: 1).'
+flags:
+- flag: -s <symbol, symbol>
+  description: struct name and field name of main structure.
 inlets:
   1st:
     float: specify line number and output (0 for first line).
@@ -26,23 +35,14 @@ inlets:
   3rd:
     float: specify number of fields.
   4th:
-    symbol: set text name.
     pointer: pointer to the text if -s flag is used.
+    symbol: set text name.
 outlets:
   1st:
     list: a line from text or fields from a line.
   2nd:
-    float: "line type: 0 if terminated by a semicolon, 1 if by a comma, or 2 if the line number was out of range."
-flags:
-  -s <symbol, symbol>: struct name and field name of main structure.
-arguments:
-  symbol: "text name if no flags are given (default: none)."
-  float: "starting field number (default: 0)."
-  float: "initial number of fields (default: 1)."
-
+    float: 'line type: 0 if terminated by a semicolon, 1 if by a comma, or 2 if the
+      line number was out of range.'
 draft: false
-pdcategory: Misc
-
 ---
-
 "text get" reads the nth line from the named text and outputs it, or optionally reads one or more specific fields (atoms) from the line.

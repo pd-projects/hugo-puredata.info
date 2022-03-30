@@ -3,13 +3,15 @@ title: int
 description: store and recall an integer
 categories:
 - object
+pdcategory: General
 last_update: '0.48'
 see_also:
 - float
 - value
 - send
 arguments:
-  float: initially stored value (default 0).
+- type: float
+  description: initially stored value (default 0).
 inlets:
   1st:
     bang: output the stored value.
@@ -21,11 +23,9 @@ inlets:
 outlets:
   1st:
     float: the stored integer value.
-pdcategory: General
 aliases:
 - i
 draft: false
-
 ---
 Truncate floats and store an integer
 

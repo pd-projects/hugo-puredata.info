@@ -3,6 +3,7 @@ title: tabwrite
 description: write a number to a table
 categories:
 - object
+pdcategory: Arrays & Tables
 last_update: '0.33'
 see_also:
 - array
@@ -10,7 +11,8 @@ see_also:
 - tabread4
 - tabwrite~
 arguments:
-  symbol: sets table name with the sample.
+- type: symbol
+  description: sets table name with the sample.
 inlets:
   1st:
     float: sets index to write to.
@@ -18,7 +20,5 @@ inlets:
   2nd:
     float: sets index to write to.
 draft: false
-pdcategory: Arrays & Tables
-
 ---
 Tabwrite writes floats into an array,  input values are set in the left inlet,  while the index is set on the right inlet.

@@ -3,6 +3,7 @@ title: clip
 description: force a number into a range
 categories:
 - object
+pdcategory: Math
 last_update: '0.47'
 see_also:
 - clip~
@@ -10,8 +11,10 @@ see_also:
 - max
 - min
 arguments:
-  1st float: initial lower limit (default 0).
-  2nd float: initial upper limit (default 0).
+- type: 1st float
+  description: initial lower limit (default 0).
+- type: 2nd float
+  description: initial upper limit (default 0).
 inlets:
   1st:
     bang: re clip last incomming number between the two limits.
@@ -24,8 +27,6 @@ outlets:
   1st:
     float: the clipped value.
 draft: false
-pdcategory: Math
-
 ---
 Bound a number between two limits.
 

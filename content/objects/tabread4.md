@@ -3,6 +3,7 @@ title: tabread4
 description: read a number from a table
 categories:
 - object
+pdcategory: Arrays & Tables
 last_update: '0.43'
 see_also:
 - tabplay~
@@ -12,7 +13,8 @@ see_also:
 - tabwrite
 - tabwrite~
 arguments:
-  symbol: sets table name with the sample.
+- type: symbol
+  description: sets table name with the sample.
 inlets:
   1st:
     float: sets table index and output its value with interpoation.
@@ -21,8 +23,6 @@ outlets:
   1st:
     float: value of index input.
 draft: false
-pdcategory: Arrays & Tables
-
 ---
 The tabread4 object reads values from an array ("table") according to an index,  applying four-point polynomial interpolation. Indices should range from 1 to (size-2) so that the 4-point interpolation is meaningful. Indices outside of the range are replaced by the nearest index in range.
 

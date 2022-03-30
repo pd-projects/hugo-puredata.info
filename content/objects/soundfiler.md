@@ -3,6 +3,7 @@ title: soundfiler
 description: read and write tables to soundfiles
 categories:
 - object
+pdcategory: Arrays & Tables
 last_update: '0.51'
 see_also:
 - array
@@ -26,8 +27,6 @@ outlets:
     list: sample rate,  header size,  number of channels,  bytes per sample & endianness
       (when reading a file).
 draft: false
-pdcategory: Arrays & Tables
-
 ---
 The soundfiler object reads and writes floating point arrays to binary soundfiles which may contain uncompressed 2- or 3-byte integer ("pcm") or 4-byte floating point samples in wave, aiff, caf, next, or ascii text formats. The number of channels of the soundfile need not match the number of arrays given (extras are dropped and unsupplied channels are zeroed out).
 

@@ -3,18 +3,19 @@ title: declare
 description: set environment for loading patch
 categories:
 - object
+pdcategory: Misc
 last_update: '0.52'
 flags:
-  -path <symbol>: add to search path, relative to the patch or user paths.
-  -stdpath <symbol>: add to search path, relative to Pd (the 'extra' folder).
-  -lib <symbol>: load a library, relative to the patch or user paths.
-  -stdlib <symbol>: load a library, relative to Pd (the 'extra' folder).
-
+- flag: -path <symbol>
+  description: add to search path, relative to the patch or user paths.
+- flag: -stdpath <symbol>
+  description: add to search path, relative to Pd (the 'extra' folder).
+- flag: -lib <symbol>
+  description: load a library, relative to the patch or user paths.
+- flag: -stdlib <symbol>
+  description: load a library, relative to Pd (the 'extra' folder).
 draft: false
-pdcategory: Misc
-
 ---
-
 Compiled external libraries come either as a single binary pack (the "classic" library format) or as a set of separate binaries and/or abstractions. A single binary pack is what we refer to as a 'library' and needs to be pre loaded - whereas external libraries that have separate binaries/abstractions can be loaded by simply adding its directory to the search path. Adding a directory to the path is also needed if you want to load things like audio and text files that are in it.
 
 A declare object adds one or more directories to the search path and/or pre-loads one or more libraries ("externals") to Pd in preparation for opening the patch from a file. The usage is "declare [-flag value] [-flag value] ..." (For any of these you may use a full pathname such as "/tmp/dir" or, in Windows, "C:/garbage" instead of a relative path).

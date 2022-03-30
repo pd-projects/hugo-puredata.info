@@ -3,13 +3,15 @@ title: symbol
 description: store and recall a symbol
 categories:
 - object
+pdcategory: General
 last_update: '0.45'
 see_also:
 - print
 - int
 - float
 arguments:
-  symbol: 'initially stored symbol (default: empty symbol).'
+- type: symbol
+  description: 'initially stored symbol (default: empty symbol).'
 inlets:
   1st:
     anything: converts to symbol,  stores it and outputs it.
@@ -20,9 +22,7 @@ inlets:
 outlets:
   1st:
     symbol: the stored symbol.
-pdcategory: General
 draft: false
-
 ---
 Store a symbol (i.e., string)
 

@@ -3,30 +3,30 @@ title: netsend
 description: send Pd messages over a network
 categories:
 - object
+pdcategory: Misc
 last_update: '0.51'
 see_also:
 - netreceive
+flags:
+- flag: -u
+  description: sets UDP connection (default TCP).
+- flag: -b
+  description: sets to binary mode (default 'FUDI').
 inlets:
   1st:
-    connect <list>: sets host and port number, an additional port argument can be set for messages sent back from the receiver.
+    connect <list>: sets host and port number, an additional port argument can be
+      set for messages sent back from the receiver.
     disconnect: close the connection.
-    timeout <float>: TCP connect timeout in ms (default 10000).
-    send <anything>: sends messages over the network.
     list: works like 'send'.
-
+    send <anything>: sends messages over the network.
+    timeout <float>: TCP connect timeout in ms (default 10000).
 outlets:
   1st:
     float: nonzero if connection is open, zero otherwise.
   2nd:
     anything: messages sent back from netreceive objects.
-flags:
-  -u: sets UDP connection (default TCP).
-  -b: sets to binary mode (default 'FUDI').
 draft: false
-pdcategory: Misc
-
 ---
-
 As of 0.51, Pd supports IPv6 addresses, netsend -u (UDP) is fully "connectionless" and no longer closes if no one receives a UDP message, and netsend (TCP) has a settable connect timeout which defaults to 10 seconds.
 
 The netsend object sends TCP ("stream") or UDP ("datagram") messages over the network, which can be received by netreceive objects in other patches (which may be running on another machine). An outlet reports whether the connection is open or not. A connection request should specify the name or IP address of the other host and the port number. There should be a "netreceive" on the remote host with a matching port number.

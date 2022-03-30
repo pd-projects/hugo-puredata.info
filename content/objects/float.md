@@ -3,6 +3,7 @@ title: float
 description: store and recall a number
 categories:
 - object
+pdcategory: General
 last_update: '0.48'
 see_also:
 - int
@@ -10,7 +11,8 @@ see_also:
 - send
 - symbol
 arguments:
-  float: initially stored value (default 0).
+- type: float
+  description: initially stored value (default 0).
 inlets:
   1st:
     bang: output the stored value.
@@ -24,11 +26,9 @@ inlets:
 outlets:
   1st:
     float: the stored value.
-pdcategory: General
 aliases:
 - f
 draft: false
-
 ---
 Store a (floating point) number
 

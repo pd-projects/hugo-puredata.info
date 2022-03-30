@@ -3,6 +3,7 @@ title: dbtorms
 description: convert acoustical units
 categories:
 - object
+pdcategory: Math
 last_update: '0.40'
 see_also:
 - mtof~
@@ -14,7 +15,5 @@ outlets:
   1st:
     float: converted value
 draft: false
-pdcategory: Math
-
 ---
 The dbtorms and rmstodb objects convert from decibels to linear ("RMS") amplitude, so that 100 dB corresponds to an "RMS" of 1 Zero amplitude (strictly speaking, minus infinity dB) is clipped to zero dB, and zero dB, which should correspond to 0.0001 in "RMS", is instead rounded down to zero.

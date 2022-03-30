@@ -3,6 +3,7 @@ title: expr
 description: evaluation of control data expressions
 categories:
 - object
+pdcategory: Math
 last_update: 0.51-3
 see_also:
 - +
@@ -19,16 +20,13 @@ see_also:
 - log~
 - sqrt~
 - pow~
-inlets:
-  see below:
-outlets:
-  see below:
 arguments:
-  list: see below
+- type: list
+  description: see below
+inlets:
+  see below: null
+outlets:
+  see below: null
 draft: false
-pdcategory: Math
-
 ---
-
-
 {{< expr-family >}}

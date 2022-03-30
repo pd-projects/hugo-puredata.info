@@ -3,6 +3,7 @@ title: file which
 description: locate a file
 categories:
 - object
+pdcategory: Misc
 last_update: '0.52'
 see_also:
 - text
@@ -24,6 +25,11 @@ see_also:
 - file join
 - file splitext
 - file splitname
+flags:
+- flag: -q
+  description: set quiet verbosity.
+- flag: -v
+  description: set loud verbosity.
 inlets:
   1st:
     symbol: file to locate using Pd's search-paths.
@@ -33,17 +39,8 @@ outlets:
     list: symbol path of located file and directory flag.
   2nd:
     float: when there's an error creating the directory.
-
-flags:
-  -q: set quiet verbosity.
-  -v: set loud verbosity.
-
 draft: false
-pdcategory: Misc
-
 ---
-
-
 [file which] tries to locate the file in using Pd's search-paths and returns the resolved path.
 
 notes:

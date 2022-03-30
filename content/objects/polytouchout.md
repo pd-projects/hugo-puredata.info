@@ -1,15 +1,16 @@
 ---
 title: polytouchout
 description: MIDI output
-bref: MIDI output
 categories:
 - object
+pdcategory: I/O via MIDI, OSC, and FUDI
 last_update: 0.48-2
 see_also:
 - notein
 - noteout
 arguments:
-  float: channel/port
+- type: float
+  description: channel/port
 inlets:
   1st:
     float: MIDI aftertouch value.
@@ -17,7 +18,7 @@ inlets:
     float: MIDI note number
   3rd:
     float: channel/port
+bref: MIDI output
 draft: false
-pdcategory: I/O via MIDI, OSC, and FUDI
-
 ---
+

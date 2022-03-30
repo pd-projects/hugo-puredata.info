@@ -3,11 +3,13 @@ title: route
 description: route messages according to first element
 categories:
 - object
+pdcategory: General
 last_update: '0.43'
 see_also:
 - select
 arguments:
-  list: of floats or symbols to route to to (default 0).
+- type: list
+  description: of floats or symbols to route to to (default 0).
 inlets:
   1st:
     anything: any message to route according to the first element.
@@ -19,8 +21,6 @@ outlets:
   rightmost:
     anything: when input doesn't match the arguments,  it is passed here.
 draft: false
-pdcategory: General
-
 ---
 Route checks the first element of a message against each of its arguments,  which may be numbers or symbols (but not a mixture of the two). If a match is found,  the rest of the message appears on the corresponding outlet. If there's no match,  the message is repeated to the last "rejection" outlet. The number of outlets is the number of arguments plus one.
 

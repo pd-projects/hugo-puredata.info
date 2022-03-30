@@ -3,12 +3,14 @@ title: line
 description: send a series of linearly stepped numbers
 categories:
 - object
+pdcategory: Time
 last_update: '0.48'
 see_also:
 - line~
 - vline~
 arguments:
-  float: time grain in ms (default 20 ms).
+- type: float
+  description: time grain in ms (default 20 ms).
 inlets:
   1st:
     float: set target value and start ramp.
@@ -22,8 +24,6 @@ outlets:
   1st:
     float: ramp values.
 draft: false
-pdcategory: Time
-
 ---
 Ramp generator.
 

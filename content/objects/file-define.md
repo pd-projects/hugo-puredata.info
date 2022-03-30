@@ -3,6 +3,7 @@ title: file define
 description: share file handles.
 categories:
 - object
+pdcategory: Misc
 last_update: '0.52'
 see_also:
 - text
@@ -25,13 +26,10 @@ see_also:
 - file splitext
 - file splitname
 arguments:
-  symbol: declared file-handle name.
+- type: symbol
+  description: declared file-handle name.
 draft: false
-pdcategory: Misc
-
 ---
-
-
 Sometimes it is easier to access the same file-handle from different parts of the patch (e.g. when reading and parsing a file), rather than going backwards and forwards with a single 'file handle' object.
 
 In this case, you can use the 'file define' object to provide a file handle that can then be accessed by multiple 'file handle' objects.

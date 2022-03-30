@@ -3,6 +3,7 @@ title: bang
 description: output a bang message
 categories:
 - object
+pdcategory: General
 last_update: '0.27'
 inlets:
   1st:
@@ -10,10 +11,8 @@ inlets:
 outlets:
   1st:
     bang: a bang message
-pdcategory: General
 aliases:
 - b
 draft: false
-
 ---
 The [bang] object outputs a "bang" message for whatever message it receives.

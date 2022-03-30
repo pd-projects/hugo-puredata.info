@@ -3,7 +3,8 @@ title: +~
 description: binary operators on audio signals
 categories:
 - object
-last_update: "0.27"
+pdcategory: Audio Math
+last_update: '0.27'
 see_also:
 - +
 - cos~
@@ -13,6 +14,10 @@ see_also:
 - sqrt~
 - pow~
 - expr~
+arguments:
+- type: float
+  description: initialize value of right inlet and makes it only take floats instead
+    of signals (default 0).
 inlets:
   1st:
     signal: value to the left side of operation and output.
@@ -21,12 +26,6 @@ inlets:
 outlets:
   1st:
     signal: the result of the operation.
-
-arguments:
-  float: "initialize value of right inlet and makes it only take floats instead of signals (default 0)."
 draft: false
-pdcategory: Audio Math
-
 ---
-
 This object combine two signals as above, or, if you give a numeric argument, the right inlet only takes floats (no signals) and the argument initializes the right inlet value.

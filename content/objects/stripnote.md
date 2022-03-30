@@ -3,6 +3,7 @@ title: stripnote
 description: strip 'note off' messages
 categories:
 - object
+pdcategory: I/O via MIDI, OSC, and FUDI
 last_update: '0.28'
 see_also:
 - makenote
@@ -17,8 +18,6 @@ outlets:
   2nd:
     float: MIDI velocity.
 draft: false
-pdcategory: I/O via MIDI, OSC, and FUDI
-
 ---
 Stripnote ignores note-off (zero-velocity) messages from a stream of MIDI-style note message and passes the others through unchanged. It can deal with any kind of number (negative,  floats,  whatever) even though MIDI values need to be integers from 0 to 127!
 

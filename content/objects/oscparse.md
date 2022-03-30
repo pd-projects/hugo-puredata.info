@@ -3,6 +3,7 @@ title: oscparse
 description: OSC messages to and from Pd lists
 categories:
 - object
+pdcategory: I/O via MIDI, OSC, and FUDI
 last_update: 0.51.
 see_also:
 - oscformat
@@ -16,8 +17,6 @@ outlets:
   1st:
     list: Pd list messages from OSC packets.
 draft: false
-pdcategory: I/O via MIDI, OSC, and FUDI
-
 ---
 Oscformat makes OSC (Open Sound Control) packets (byte by byte) suitable for sending over the network via netsend (in UDP binary mode). The OSC address (the strings between the slashes) are given by the creation arguments or by "set" messages. Oscparse takes lists of numbers interpreting them as the bytes in an OSC message and outputs a list containing, first, the symbols making up the address of the OSC packet, and following that, numbers and symbols as present in the OSC message.
 

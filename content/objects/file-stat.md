@@ -3,6 +3,7 @@ title: file stat
 description: get metainformation about a file/directory
 categories:
 - object
+pdcategory: Misc
 last_update: '0.52'
 see_also:
 - text
@@ -24,6 +25,11 @@ see_also:
 - file join
 - file splitext
 - file splitname
+flags:
+- flag: -q
+  description: set quiet verbosity.
+- flag: -v
+  description: set loud verbosity.
 inlets:
   1st:
     symbol: file or directory name.
@@ -33,14 +39,6 @@ outlets:
     anything: several messages for metainformation.
   2nd:
     bang: if an error occurs.
-
-flags:
-  -q: set quiet verbosity.
-  -v: set loud verbosity.
-
 draft: false
-pdcategory: Misc
-
 ---
-
 [file stat] queries the filesystem about the given path, and outputs the collected data as a number of routable messages.

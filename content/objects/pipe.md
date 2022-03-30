@@ -3,14 +3,17 @@ title: pipe
 description: dynamically growable delay line for numbers
 categories:
 - object
+pdcategory: Time
 last_update: '0.33'
 see_also:
 - delay
 - timer
 arguments:
-  '1st: list': (optional) symbols sets number of inlets and type (f default,  s,  p)
+- type: '1st: list'
+  description: (optional) symbols sets number of inlets and type (f default,  s,  p)
     and floats set float type and initial value.
-  '2nd: float': sets delay time in ms (default 0).
+- type: '2nd: float'
+  description: sets delay time in ms (default 0).
 inlets:
   1st:
     bang: sends the last received data after the delay time.
@@ -25,8 +28,6 @@ outlets:
   'n: number of inlets depends on creation arguments':
     float/symbol/pointer: the type depends on the creation argument.
 draft: false
-pdcategory: Time
-
 ---
 Message "delay line".
 

@@ -3,6 +3,7 @@ title: list length
 description: manipulate lists
 categories:
 - object
+pdcategory: General
 see_also:
 - list
 - list append
@@ -19,8 +20,6 @@ outlets:
   1st:
     float: list length.
 draft: false
-pdcategory: General
-
 ---
 Number of items in list.
 
