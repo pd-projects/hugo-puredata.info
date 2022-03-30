@@ -8,7 +8,7 @@ last_update: '0.33'
 see_also:
 - expr
 arguments:
-- type: ' float'
+- type: float
   description: initial range value (default 1).
 inlets:
   1st:

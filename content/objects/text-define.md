@@ -20,7 +20,7 @@ see_also:
 - text search
 - text sequence
 arguments:
-- type: 1) symbol
+- type: symbol
   description: set text name.
 flags:
 - flag: -k

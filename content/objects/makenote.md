@@ -8,9 +8,9 @@ last_update: '0.33'
 see_also:
 - stripnote
 arguments:
-- type: 1st - float
+- type: float
   description: initial velocity value (default 0).
-- type: 2nd - float
+- type: float
   description: initial duration value (default 0).
 inlets:
   1st:

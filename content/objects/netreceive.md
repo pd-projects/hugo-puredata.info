@@ -8,9 +8,9 @@ last_update: '0.51'
 see_also:
 - netsend
 arguments:
-- type: 1) float
+- type: float
   description: port number
-- type: 2) symbol
+- type: symbol
   description: UDP hostname or multicast address.
 flags:
 - flag: -u

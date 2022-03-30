@@ -16,7 +16,7 @@ see_also:
 - array max
 - array min
 arguments:
-- type: 1) symbol
+- type: symbol
   description: array name if no flags are given (default = none).
 flags:
 - flag: -s <symbol, symbol>

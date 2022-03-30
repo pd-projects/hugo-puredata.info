@@ -9,10 +9,10 @@ see_also:
 - delay
 - timer
 arguments:
-- type: '1st: list'
+- type: list
   description: (optional) symbols sets number of inlets and type (f default,  s,  p)
     and floats set float type and initial value.
-- type: '2nd: float'
+- type: float
   description: sets delay time in ms (default 0).
 inlets:
   1st:

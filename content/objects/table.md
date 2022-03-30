@@ -10,9 +10,9 @@ see_also:
 - namecanvas
 - array
 arguments:
-- type: 1) symbol
+- type: symbol
   description: sets array name (default internal).
-- type: 2) float
+- type: float
   description: sets array size (default 100).
 draft: false
 ---

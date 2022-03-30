@@ -11,9 +11,9 @@ see_also:
 - max
 - min
 arguments:
-- type: 1st float
+- type: float
   description: initial lower limit (default 0).
-- type: 2nd float
+- type: float
   description: initial upper limit (default 0).
 inlets:
   1st:

@@ -9,9 +9,9 @@ see_also:
 - makenote
 - route
 arguments:
-- type: 1) float
+- type: float
   description: number of voices (default 1).
-- type: 2) float
+- type: float
   description: non-zero sets to voice stealing.
 inlets:
   1st:

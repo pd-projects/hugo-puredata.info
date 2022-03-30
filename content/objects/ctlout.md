@@ -9,9 +9,9 @@ see_also:
 - notein
 - noteout
 arguments:
-- type: 1st - float
+- type: float
   description: MIDI controller number
-- type: 2nd - float
+- type: float
   description: MIDI channel/port
 inlets:
   1st:

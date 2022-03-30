@@ -19,9 +19,9 @@ see_also:
 - scalar
 - list
 arguments:
-- type: 1) symbol
+- type: symbol
   description: array name (default = internal numbered 'table#').
-- type: 2) float
+- type: float
   description: size and also xrange (default = 100).
 flags:
 - flag: -k

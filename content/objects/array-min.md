@@ -17,11 +17,11 @@ see_also:
 - array max
 - array min
 arguments:
-- type: 1) symbol
+- type: symbol
   description: array name if no flags are given (default none).
-- type: 2) float
+- type: float
   description: initial onset (default 0).
-- type: 3) float
+- type: float
   description: initial number of points (default -1, end of array).
 flags:
 - flag: -s <symbol, symbol>
