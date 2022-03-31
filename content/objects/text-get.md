@@ -38,10 +38,10 @@ inlets:
   - type: float
     description: specify number of fields.
   4th:
-  - type: pointer
-    description: pointer to the text if -s flag is used.
   - type: symbol
     description: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
 outlets:
   1st:
   - type: list

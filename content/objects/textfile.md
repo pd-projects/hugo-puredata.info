@@ -10,22 +10,22 @@ see_also:
 - text sequence
 inlets:
   1st:
+  - type: bang
+    description: output a whole line and go to the next
+  - type: rewind
+    description: go to beginning (and stop).
+  - type: clear
+    description: empty the textfile.
   - type: add <anything>
     description: add a message to textfile.
   - type: add2 <anything>
     description: add a message but don't terminate it.
-  - type: bang
-    description: output a whole line and go to the next
-  - type: clear
-    description: empty the textfile.
+  - type: set <anything>
+    description: clear and add a message to textfile.
   - type: print
     description: print contents to Pd window.
   - type: read <symbol, cr>
     description: read a file (with optional 'cr' argument).
-  - type: rewind
-    description: go to beginning (and stop).
-  - type: set <anything>
-    description: clear and add a message to textfile.
   - type: write <symbol, cr>
     description: write to a file (with optional 'cr' argument).
 outlets:

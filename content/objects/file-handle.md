@@ -34,18 +34,18 @@ flags:
   flag: -m
 inlets:
   1st:
-  - type: close
-    description: close file.
-  - type: creationmode <octal>
-    description: restrict permissions of the to-be-created file.
-  - type: float
-    description: read number of bytes.
   - type: open <symbol>
     description: open a file.
+  - type: float
+    description: read number of bytes.
   - type: seek <list>
     description: seek file.
+  - type: close
+    description: close file.
   - type: verbose <float>
     description: set verbosity on or off.
+  - type: creationmode <octal>
+    description: restrict permissions of the to-be-created file.
   2nd:
   - type: symbol
     description: change the associated file-handle.

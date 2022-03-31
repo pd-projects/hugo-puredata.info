@@ -32,10 +32,10 @@ inlets:
   - type: float
     description: set line number and output its length.
   2nd:
-  - type: pointer
-    description: pointer to the text if -s flag is used.
   - type: symbol
     description: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
 outlets:
   1st:
   - type: float

@@ -27,4 +27,4 @@ outlets:
     description: the result of the operation.
 draft: false
 ---
-The bitwise operators "&" and "|" perform "and" and "or" on each bit of the inputs considered as binary numbers. the "&gt;&gt;" and "&lt;&lt;" objects perform left and right signed bit shifts. These also expect integer input and truncate float values.
+{{< bitwise-operators >}}

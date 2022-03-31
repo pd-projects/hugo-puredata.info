@@ -21,14 +21,14 @@ flags:
   flag: -f
 inlets:
   1st:
-  - type: list
-    description: works like 'send'.
   - type: listen <float, symbol>
     description: a number sets or changes the port number (0 or negative closes the
       port). Optional symbol is a hostname which can be a UDP multicast address or
       a network interface.
   - type: send <anything>
     description: sends messages back to connected netsend objects.
+  - type: list
+    description: works like 'send'.
 outlets:
   1st:
   - type: anything

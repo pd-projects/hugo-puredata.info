@@ -31,18 +31,18 @@ inlets:
   1st:
   - type: bang
     description: bang to generate a random value.
-  - type: float
-    description: sets onset.
   - type: seed <float>
     description: sets random seed.
+  - type: float
+    description: sets onset.
   2nd:
   - type: float
     description: set number of points (-1 is the end of the array).
   3rd:
-  - type: pointer
-    description: pointer to the array if -s flag is used.
   - type: symbol
     description: set array name.
+  - type: pointer
+    description: pointer to the array if -s flag is used.
 outlets:
   1st:
   - type: float

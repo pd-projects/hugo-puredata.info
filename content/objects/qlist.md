@@ -10,24 +10,24 @@ see_also:
 - text sequence
 inlets:
   1st:
-  - type: add <anything>
-    description: add a message to a qlist.
-  - type: add2 <anything>
-    description: add a message to a qlist but don't terminate it.
   - type: bang
     description: start sequence automatically.
-  - type: clear
-    description: empty the qlist.
+  - type: tempo <float>
+    description: set relative tempo.
+  - type: rewind
+    description: go to beginning (and stop).
   - type: next <float>
     description: single-step forward, optional float suppresses message sending.
   - type: print
     description: print contents to Pd window.
+  - type: clear
+    description: empty the qlist.
+  - type: add <anything>
+    description: add a message to a qlist.
+  - type: add2 <anything>
+    description: add a message to a qlist but don't terminate it.
   - type: read <symbol>
     description: read a file into qlist.
-  - type: rewind
-    description: go to beginning (and stop).
-  - type: tempo <float>
-    description: set relative tempo.
   - type: write <symbol>
     description: write contents to a file.
 outlets:

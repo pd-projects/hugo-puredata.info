@@ -19,12 +19,12 @@ inlets:
       for messages sent back from the receiver.
   - type: disconnect
     description: close the connection.
-  - type: list
-    description: works like 'send'.
-  - type: send <anything>
-    description: sends messages over the network.
   - type: timeout <float>
     description: TCP connect timeout in ms (default 10000).
+  - type: send <anything>
+    description: sends messages over the network.
+  - type: list
+    description: works like 'send'.
 outlets:
   1st:
   - type: float

@@ -30,10 +30,10 @@ inlets:
   - type: float
     description: set the array size.
   2nd:
-  - type: pointer
-    description: pointer to the array if '-s' flag is used.
   - type: symbol
     description: set array name.
+  - type: pointer
+    description: pointer to the array if '-s' flag is used.
 outlets:
   1st:
   - type: float

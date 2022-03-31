@@ -30,10 +30,10 @@ inlets:
   - type: list
     description: sets contents of text from given list.
   2nd:
-  - type: pointer
-    description: pointer to the text if -s flag is used.
   - type: symbol
     description: set text name.
+  - type: pointer
+    description: pointer to the text if -s flag is used.
 draft: false
 ---
 "text fromlist" converts a list such as "text tolist" would output and fills the text with it. Whatever the text had previously contained is discarded.

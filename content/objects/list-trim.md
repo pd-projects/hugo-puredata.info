@@ -15,12 +15,12 @@ see_also:
 - list tosymbol
 inlets:
   1st:
-  - type: anything
-    description: any other messages are output intact.
   - type: list
     description: list messages to be trimmed.
   - type: symbol
     description: the symbol selector is also trimmed.
+  - type: anything
+    description: any other messages are output intact.
 outlets:
   1st:
   - type: anything
