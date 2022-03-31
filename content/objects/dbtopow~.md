@@ -1,5 +1,5 @@
 ---
-title: dbtorms~
+title: dbtopow~
 description: acoustic conversions for audio signals
 categories:
 - object
