@@ -1,6 +1,6 @@
 ---
 title: rsqrt~
-description: signal square root
+description: signal reciprocal square root
 categories:
 - object
 pdcategory: Audio Math

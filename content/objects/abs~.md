@@ -1,6 +1,6 @@
 ---
 title: abs~
-description: exponential function
+description: absolute value for signals
 categories:
 - object
 pdcategory: Audio Math
