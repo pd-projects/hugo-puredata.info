@@ -1,13 +1,27 @@
 ---
 title: tabreceive~
-description: read one block continuously from a table
+description: read a block of a signal from an array continuously
 categories:
 - object
+see_also:
+- send~
+- block~
+- array
+- tabwrite~
+- tabsend~
 pdcategory: Audio Oscillators And Tables
+last_update: '0.43'
 inlets:
   1st:
+  - type: set <name>
+    description: set table name.
 outlets:
   1st:
-draft: true
+  - type: signal
+    description: outputs signal from a matching tabsend~ object.
+arguments:
+  - type: symbol
+    description: receive name symbol (default empty symbol).
+draft: false
 ---
-
+By default a block is 64 samples but this can be changed with the block~ object.

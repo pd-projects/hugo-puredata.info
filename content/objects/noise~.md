@@ -1,13 +1,21 @@
 ---
 title: noise~
-description: white noise generator
+description: uniformly distributed white noise
 categories:
 - object
-pdcategory: Audio Filters
+see_also: {}
+pdcategory: Audio Oscillators And Tables
+last_update: '0.48-2'
 inlets:
   1st:
+  - type: seed <float>
+    description: set seed for random number generator.
 outlets:
   1st:
-draft: true
----
+  - type: signal
+    description: white noise signal (in the range from -1 to 1).
 
+
+draft: false
+---
+Noise~ is a random number generator that outputs white noise from a pseudo-random number generator at the audio rate (with output from -1 to 1).
