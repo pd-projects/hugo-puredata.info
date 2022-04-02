@@ -1,6 +1,6 @@
 ---
-title: scalar
-description: create a scalar datum (default [scalar define]).
+title: scalar define
+description: defines and maintains a scalar.
 categories:
 - object
 see_also: 
@@ -27,4 +27,8 @@ arguments:
   description: template name.
 draft: false
 ---
-experimental - doesn't do much yet. This has been included in 0.45 to check that its design will work coherently with the array and text objects.
+create, store, and/or edit one
+
+`[read scalar-object-help.txt(` read/write a file (TBW)
+
+`[send scalar-help-send(` send a pointer to a named receive object
