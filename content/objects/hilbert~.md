@@ -1,13 +1,26 @@
 ---
 title: hilbert~
-description: phase quadrature / frequency shifting
+description: Hilbert transform
 categories:
 - object
-pdcategory: '''EXTRA'' (patches and externs in pd/extra)'
+see_also:
+- complex-mod~
+pdcategory: "'EXTRA' (patches and externs in pd/extra)"
+last_update: '0.52'
 inlets:
   1st:
+  - type: signal
+    description: signal input.
+  2nd:
+  - type: bang 
+    description: clear filter's state.	
 outlets:
   1st:
-draft: true
+  - type: signal
+    description: real part of transformed signal.
+  2nd:
+  - type: signal
+    description: imaginary part of transformed signal.
+draft: false
 ---
-
+The Hilbert transform (the name is abused here according to computer music tradition) puts out a phase quadrature version of the input signal suitable for signal sideband modulation via complex-mod~.
