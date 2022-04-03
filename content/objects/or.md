@@ -27,4 +27,4 @@ outlets:
     description: the result of the operation.
 draft: false
 ---
-{{< bitwise-operators >}}
+{{< md_include "objects/bitwise-operators.md" >}}

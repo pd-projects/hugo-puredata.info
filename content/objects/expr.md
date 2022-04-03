@@ -29,4 +29,4 @@ outlets:
   remark: see below
 draft: false
 ---
-{{< expr-family >}}
+{{< md_include "objects/expr-family.md" >}}
