@@ -132,7 +132,7 @@ li, ul {
 	--color: 	   #3E4349; /*#3E4349;*/
 }
 
-li.dark-theme, ul.dark-theme {
+li.dark-theme, ul.dark-theme ol.dark-theme {
 	--color: 	   #BCC0C3;
 }		
 
@@ -314,11 +314,6 @@ CODE {
    padding: 4px 8px;   
 }
 
-ol {
-	font-size:   14.5pt;
-	text-align:  left;
-	line-height: 1.6;
-	}
 
 
 P {
@@ -329,15 +324,7 @@ P {
 	line-height: 1.4em;
 }
 
-ul {
-	font-size:   12pt;
-	text-align:  left;
-	line-height: 1.6;
-	color: var(--color);
-	line-height: 1.4em;
-}
-
-li {
+ul, li, ol {
 	font-size:   12pt;
 	text-align:  left;
 	line-height: 1.6;
