@@ -27,4 +27,4 @@ outlets:
     description: the result of the operation.
 draft: false
 ---
-Relational operators ('>' greater than, '==' equals, '!=' not equals etc.) output 1 or 0 depending on whether the relation is true or false.
+{{< md_include "objects/relational-operators.md" >}}

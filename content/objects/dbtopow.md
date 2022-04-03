@@ -18,4 +18,4 @@ outlets:
     description: converted value
 draft: false
 ---
-dbtopow and powtodb convert decibels to and from power units, equal to the square of the "RMS" amplitude.
+{{< md_include "objects/acoustic-conversions.md" >}}
