@@ -1,4 +1,4 @@
-<a href="{{ .Site.BaseURL }}">home</a> | <a href="../">up </a> <span style="float:right;"> <button class="btn-toggle-theme">&#9680;</button> </span>
+<a href="{{ .Site.BaseURL }}">home</a> | <a href="../">up </a>  <span style="float:right;"> <button class="btn-toggle-theme">&#9680;</button> </span> <span style="float:right;"> {{ partial "search-form.html" . }} </span>
 <hr style="margin: 1px 0px;">
 <p style="margin: 0px;"><small><sub>{{.File.Path}}
-<span id="xi18n" style="float:right;"> <a href={{ "search" | absURL }}>search</a></span></sub></small></p>
+</sub></small></p>
