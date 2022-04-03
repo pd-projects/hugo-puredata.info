@@ -1,37 +1,28 @@
 ---
-title: "[list length]"
-description: "manipulate lists"
-bref: "manipulate lists"
+title: list length
+description: manipulate lists
+categories:
+- object
+pdcategory: General
+see_also:
+- list
+- list append
+- list prepend
+- list store
+- list split
+- list trim
+- list fromsymbol
+- list tosymbol
+inlets:
+  1st:
+  - type: anything
+    description: messages to have its elements counted.
+outlets:
+  1st:
+  - type: float
+    description: list length.
 draft: false
-categories: ["object"]
-pdcategory: "General"
 ---
-
-
-### [list length]
-
 Number of items in list.
 
 The "list length" object outputs the number of arguments in a list or other message.
-
-INLETS
-
-- anything - messages to have its elements counted.
-
-OUTLET:
-
-- float - list length.
-
-ARGUMENTS:
-
-- NONE.
-
-
-> see also [[list]](../list)\
-> [[list append]](../list-append)\
-> [[list prepend]](../list-prepend)\
-> [[list store]](../list-store)\
-> [[list split]](../list-split)\
-> [[list trim]](../list-trim)\
-> [[list fromsymbol]](../list-fromsymbol)\
-> [[list tosymbol]](../list-tosymbol)

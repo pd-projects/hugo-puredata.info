@@ -1,23 +1,13 @@
 ---
-title: "[setsize]"
-description: "change the size of an array"
-bref: "change the size of an array"
-draft: false
-categories: ["object"]
-pdcategory: "Accessing Data"
+title: setsize
+description: change the size of an array
+categories:
+- object
+pdcategory: Accessing Data
+inlets:
+  1st:
+outlets:
+  1st:
+draft: true
 ---
 
-### [setsize]
-
-change the size of an array
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

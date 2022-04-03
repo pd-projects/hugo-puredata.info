@@ -1,8 +1,8 @@
-{{ range $elem_key, $elem_val := . }}
-<h4>{{$elem_key}}</h4>
-<dl>
-  {{ range $elem_definition, $elem_description := $elem_val }}
-  <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
+{{ range $name, $info := . }}
+<li>{{$name}}</li>
+<ul>
+  {{ range $info }}
+  <li><mark>{{.type}}</mark> - {{.description}}</li>
   {{ end }}
-</dl>
+</ul>
 {{ end }}

@@ -1,23 +1,27 @@
 ---
-title: "[sqrt~]"
-description: "approximate (16-bit) square root"
-bref: "approximate (16-bit) square root"
+title: sqrt~
+description: signal square root
+categories:
+- object
+pdcategory: Audio Math
+last_update: '0.47'
+see_also:
+- rsqrt~
+- sqrt
+- exp~
+- expr~
+- log~
+- pow~
+inlets:
+  1st:
+  - type: signal
+    description: input to square root function.
+outlets:
+  1st:
+  - type: signal
+    description: output of square root function.
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
 ---
+sqrt~ takes the approximate square root of the incoming signal, using a fast, approximate algorithm which is probably accurate to about 120 dB (20 bits).
 
-### [sqrt~]
-
-approximate (16-bit) square root
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 
+An older object, q8_sqrt~, is included in Pd for back compatibility but should probably not be used. It only gives about 8 bit accuracy.

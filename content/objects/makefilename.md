@@ -1,21 +1,30 @@
 ---
-title: "[makefilename]"
-description: "format a symbol with a variable field"
-bref: "format a symbol with a variable field"
+title: makefilename
+description: format a symbol with a variable field
+categories:
+- object
+pdcategory: General
+arguments:
+- description: format strring with specifiers (%c,  %d,  '%i,  %e,  %E,  %f,  %g,  %G,  %o,  %s,  %u,  %x,  %X
+    and %p).
+  type: symbol
+inlets:
+  1st:
+  - type: float/symbol
+    description: to replace format specifiers.
+  - type: set <string>
+    description: message replaces format.
+outlets:
+  1st:
+  - type: symbol
+    description: formatted symbol.
 draft: false
-categories: ["object"]
-pdcategory: "General"
 ---
-
-### [makefilename]
-
-format a symbol with a variable field
-
 The Makefilename object generates name symbols according to a format string,  for use as a series of filenames,  table names,  or whatnot. You can plug in a variable number or symbol by using different types in the string ("such as %s",  "%c",  "%d",  "%X and others). Each object can have only one variable pattern,  but you can cascade objects for multiple substitutions.
 
 ----------------------
 
-### Possible printf pattern types. 
+### Possible printf pattern types.
 
 - `%c` - character
 
@@ -28,21 +37,21 @@ The Makefilename object generates name symbols according to a format string,  fo
 - `%e` or `%E` - decimal floating point in scientific notation
 
   - This pattern allows you to insert a number with scientific notation into a symbol (symbols are converted to 0). The '%e' or '%E' pattern specify respectively whether the exponential character is lower (e) or upper (E) case.
-  
+
 - `%f` - decimal floating point
 
   - This pattern allows you to format a float into a symbol (symbols are converted to 0).
-  
+
 - `%g` or `%G` - numbers with or without scientific notation
 
   - This pattern allows you to insert a number with or without scientific notation into a symbol (symbols are converted to 0). The '%g' or '%G' pattern specify respectively whether the exponential character is lower (e) or upper (E) case. The scientific notation is only used if there's not enough digit resolution. The default precision is 6 digits and we'll see how to change that later.
-  
+
   - Also, the decimal point is not included on whole numbers. This means that, unlike '%e' or '%E', not at all numbers are converted to scientific notation.
-  
+
 - `%o` - unsigned octal
 
   - This pattern allows you to insert an unsigned (only positive) octal integer into a symbol (symbols are converted to 0). Floats are truncated. Note that since this is an unsigned format, sending negative numbers doesn't work.
-  
+
 - `%s` - string
 
   - This pattern allows you to insert a symbol, but note it also works for float messages.
@@ -61,7 +70,7 @@ The Makefilename object generates name symbols according to a format string,  fo
 
 --------------------
 
-### Flags. 
+### Flags.
 
 The `+` flag prepends a plus sign for positive signed numeric types (%d/%i/%e/%E/%f/%g/%G):
 
@@ -90,9 +99,9 @@ The `#` flag presents an alternate form of some numeric types. For "%o", the num
 
 ----------------
 
-### Precision. 
+### Precision.
 
-The precision field behaves differently according to the type (strings, integers of floats). The syntax of this field is specified by a `.` and is followed by the precision number. 
+The precision field behaves differently according to the type (strings, integers of floats). The syntax of this field is specified by a `.` and is followed by the precision number.
 
 ````
 
@@ -111,17 +120,3 @@ For integer types ('%d'/'%i'/'%o'/'%u'/'%x'/'%X'/'%p'), the precision field does
 For floats, the precision field sets the maximum number of digits to the right of the decimal point. Note that there's a default of 6 digits. Also note that this affects the resolution and can cause the number to be rounded.
 
 ----------------
-
-INLET:
-
-- float/symbol - to replace format specifiers.
-
-- set &lt;string&gt; - message replaces format.
-
-OUTLET:
-
-- symbol - formatted symbol.
-
-ARGUMENTS:
-
-- symbol - format strring with specifiers (%c,  %d,  '%i,  %e,  %E,  %f,  %g,  %G,  %o,  %s,  %u,  %x,  %X and %p).

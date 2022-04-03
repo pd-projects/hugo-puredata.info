@@ -1,37 +1,73 @@
 {{ $pages := site.Pages }}
 {{ $section := .Section }}
 
+
+
 {{ with .Params }}
+
+  {{ with .aliases }}
+  {{ range $elem_description := . }}
+  <p>Abbreviation: <b>[{{$elem_description}}]</b></p>
+  {{ end }}
+  {{ end }}
+
 <div class="object-reference">
   <hr>
-  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h3>INLETs </h3>{{ partial "object-reference/iolets" .}}</div>{{ end }}
-  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h3>OUTLETs</h3>{{ partial "object-reference/iolets" .}}</div>{{ end }}
+  {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4>{{ with .remark}}{{.}}{{else}}<ul>{{ partial "object-reference/iolets" .}}</ul>{{ end }}</div>{{ end }}
+  {{ with .outlets}}<div id="outlets" class="reference-iolets"><h4>OUTLETs</h4>{{ with .remark}}{{.}}{{else}}<ul>{{ partial "object-reference/iolets" .}}</ul>{{ end }}</div>{{ end }}
+  
 
   {{ with .arguments }}
   <div id="arguments"  class="reference-arguments">
-  <h3>ARGUMENTs</h3>
-  <dl>
-  {{ range $elem_definition, $elem_description := . }}
-  <dt><tt>{{$elem_definition}}</tt></dt><dd>{{$elem_description}}</dd>
+  <h4>ARGUMENTs</h4>
+  <ol>
+  {{ range . }}
+  <li>
+  <mark>{{.type}}</mark> - {{.description}}
+  </li>
   {{ end }}
-  </dl>
+  </ol>
   </div>
   {{ end }}
+  
+  {{ with .flags }}
+  <div id="flags"  class="reference-flags">
+  <h4>FLAGs</h4> 
+  {{ range . }}
+  <li>
+  <mark>{{.flag}}</mark> - {{.description}}
+  </li>
+  {{ end }}
+   </div>
+  {{ end }}
+  
+  {{ with .methods }}
+  <div id="methods"  class="reference-flags">
+  <h4>METHODs</h4> 
+  {{ range . }}
+  <li>
+  <mark>{{.method}}</mark> - {{.description}}
+  </li>
+  {{ end }}
+   </div>
+  {{ end }}
 
+  </br>
 
   {{ with .last_update }}
   <div class="reference-lastupdate">
-    Last updated for Pd-{{.}}
+    <blockquote><p>Last updated for Pd-{{.}}</p></blockquote>
   </div>
   {{end}}
 
   {{ with .see_also }}
   <div id="reference-seealso">
     {{/* LATER use 'delimit' to generate a nicer string */}}
-    see also:
+    <blockquote><p> see also:
     {{ range where (where $pages "Section" $section) "Title" "in" . }}
-    <a href="{{.Permalink}}">[{{.Title}}]</a>
+    <a href="{{.Permalink}}">[{{replace .Title " " "\u00a0"}}]</a>
     {{end}}
+	</p></blockquote>
   </div>
   {{end}}
   <hr>

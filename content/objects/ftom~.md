@@ -1,23 +1,21 @@
 ---
-title: "[ftom~]"
-description: ""
-bref: ""
+title: ftom~
+description: acoustic conversions for audio signals
+categories:
+- object
+see_also:
+- mtof
+- expr~
+pdcategory: Audio Math
+last_update: '0.33'
+inlets:
+  1st:
+  - type: signal
+    description: incoming value to be converted.
+outlets:
+  1st:
+  - type: signal
+    description: converted value.
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
 ---
-
-### [ftom~]
-
-Does something.
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 
+{{< md_include "objects/acoustic-conversions-for-audio-signals.md" >}}

@@ -1,29 +1,20 @@
 ---
-title: "[bang]"
-description: "output a bang message"
-bref: "output a bang message"
-categories: ["object"]
-pdcategory: "General"
+title: bang
+description: output a bang message
+categories:
+- object
+pdcategory: General
+last_update: '0.27'
+inlets:
+  1st:
+  - type: anything
+    description: any message outputs a bang
+outlets:
+  1st:
+  - type: bang
+    description: a bang message
+aliases:
+- b
 draft: false
 ---
-
-### [bang]
-
 The [bang] object outputs a "bang" message for whatever message it receives.
-
-INLET:
-
-- anything - any message outputs a bang
-
-OUTLET:
-
-- bang - a bang message
-
-ARGUMENT:
-
-- NONE.
- 
-> updated for Pd version 0.27
- 
-
-

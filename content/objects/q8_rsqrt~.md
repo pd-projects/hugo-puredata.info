@@ -1,23 +1,24 @@
 ---
-title: "[q8_rsqrt~]"
-description: ""
-bref: ""
+title: q8_rsqrt~
+description: signal reciprocal square root
+categories:
+- object
+pdcategory: Audio Math
+last_update: '0.47'
+see_also:
+- rsqrt~
+- sqrt
+- expr~
+inlets:
+  1st:
+  - type: signal
+    description: input to reciprocal square root function.
+outlets:
+  1st:
+  - type: signal
+    description: output of reciprocal square root function.
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
 ---
+q8_rsqrt~, is included in Pd for back compatibility but should probably not be used. It only gives about 8 bit accuracy.
 
-### [q8_rsqrt~]
-
-Does something.
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 
+Use [rsqrt~].

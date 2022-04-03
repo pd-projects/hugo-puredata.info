@@ -1,23 +1,13 @@
 ---
-title: "[scope~]"
-description: "(use tabwrite~ now)"
-bref: "(use tabwrite~ now)"
-draft: false
-categories: ["object"]
-pdcategory: "Obsolete"
+title: scope~
+description: (use tabwrite~ now)
+categories:
+- object
+pdcategory: Obsolete
+inlets:
+  1st:
+outlets:
+  1st:
+draft: true
 ---
 
-### [scope~]
-
-(use tabwrite~ now)
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

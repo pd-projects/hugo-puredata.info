@@ -1,37 +1,25 @@
 ---
-title: "[touchin]"
-description: ""
-bref: ""
+title: touchin
+description: MIDI input
+categories:
+- object
+pdcategory: I/O via MIDI, OSC, and FUDI
+last_update: 0.48-2
+see_also:
+- notein
+- noteout
+arguments:
+- description: MIDI channel/port
+  type: float
+outlets:
+  1st:
+  - type: float
+    description: MIDI aftertouch value.
+  2nd:
+  - type: float
+    description: MIDI channel/port
+  'n: (number depends on number of arguments)':
+bref: MIDI input
 draft: false
-categories: ["object"]
-pdcategory: "I/O via MIDI, OSC, and FUDI"
 ---
 
-### [touchin]
-
-INLETS:
-
-- NONE.
-
-OUTLETS:
-
-- n: (number depends on number of arguments)
-
-- 1st: 
- 
-  - float - MIDI aftertouch value.
-  
-- 2nd: 
-
-  - float - MIDI channel/port
-  
-ARGUMENTS:
-
-- float - MIDI channel/port
-
-> see also [[notein]](../notein) (etc) - MIDI in objects.
-
-> see also [[noteout]](../noteout) (etc) - MIDI out objects.
-
-> updated for Pd version 0.48-2
- 

@@ -1,23 +1,22 @@
 ---
-title: "[bang~]"
-description: "send a bang message after each DSP block"
-bref: "send a bang message after each DSP block"
+title: bang~
+description: output bang after each DSP cycle
+categories:
+- object
+see_also:
+- block~
+pdcategory: General Audio Manipulation
+last_update: '0.33'
+inlets:
+  1st:
+  - type: NONE
+    description: (there's one actually, but it's inactive)
+outlets:
+  1st:
+  - type: bang
+    description: at every DSP block cycle when DSP is on.
 draft: false
-categories: ["object"]
-pdcategory: "General Audio Manipulation"
 ---
+bang~ outputs a bang after each DSP block cycle (at the same logical time as the DSP cycle.) This is primarily useful for sampling the outputs of analysis algorithms.
 
-### [bang~]
-
-send a bang message after each DSP block
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 
+By default, a block size is 64 samples, at a 44100 sample rate, this about 1.45 ms. You can change the sample rate in audio settings and the block size with the block~ or switch~ object. Note that the minimum block size bang~ can handle is 64!

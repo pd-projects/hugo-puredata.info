@@ -1,8 +1,8 @@
-{{ define "title" }} {{ .Site.Title }} - {{ .Page.Title }} {{ end }}
+{{ define "title" }} {{ .Site.Title }} - [{{ .Page.Title }}] {{ end }}
 {{ define "header"}} {{ partial "header" .}} {{ end }}
 {{ define "main"  }}
-<h1><tt>[{{ .Page.Title }}]</tt></h1>
-{{.Page.Description}}
+<h3>[{{ .Page.Title }}]</h3>
+<p style="font-size: 105%">{{.Page.Description}}</p>
   {{ partial "object-reference" .}}
   {{ with .Content }}{{ . }}{{ end }}
 {{ end }}

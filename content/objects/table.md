@@ -1,23 +1,19 @@
 ---
-title: "[table]"
-description: "create a named table"
-bref: "create a named table"
+title: table
+description: subpatch with array.
+categories:
+- object
+pdcategory: Arrays & Tables
+last_update: '0.52'
+see_also:
+- inlet
+- namecanvas
+- array
+arguments:
+- description: sets array name (default internal).
+  type: symbol
+- description: sets array size (default 100).
+  type: float
 draft: false
-categories: ["object"]
-pdcategory: "Arrays & Tables"
 ---
-
-### [table]
-
-create a named table
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 
+Subpatch with array

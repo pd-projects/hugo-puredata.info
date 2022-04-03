@@ -1,35 +1,22 @@
 ---
-title: "[sqrt]"
-description: "math functions"
-bref: "math functions"
+title: sqrt
+description: math functions
+categories:
+- object
+pdcategory: Math
+see_also:
+- +~
+- +
+- div
+- expr
+inlets:
+  1st:
+  - type: float
+    description: input value to given function.
+outlets:
+  1st:
+  - type: float
+    description: the result of the operation.
 draft: false
-categories: ["object"]
-pdcategory: "Math"
 ---
 
-### [sqrt]
-
-Does something.
-
-
-INLET:
-
-- float - input value to given function.
-
-OUTLET:
-
-- float - the result of the operation.
-
-ARGUMENT:
-
-- NONE.
- 
-> see also [[+~]](../plus~) (etc) - signal versions
-
-> [[+]](../plus) (etc) - binary arithmetic operators
-
-> [[div]](../div) (etc) - other binary operators
-
-> [[expr]](../expr-family) - evaluation expressions
-
-> Updated for Pd version 0.52

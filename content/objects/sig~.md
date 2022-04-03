@@ -1,23 +1,22 @@
 ---
-title: "[sig~]"
-description: "convert numbers to audio signals"
-bref: "convert numbers to audio signals"
+title: sig~
+description: convert numbers to signals
+categories:
+- object
+pdcategory: General Audio Manipulation
+last_update: '0.33'
+see_also:
+- snapshot~
+inlets:
+  1st:
+  - type: float
+    description: number to convert to signal.
+outlets:
+  1st:
+  - type: signal
+    description: converted signal.
+arguments:
+  - type: float
+    description: initially converted value.
 draft: false
-categories: ["object"]
-pdcategory: "General Audio Manipulation"
 ---
-
-### [sig~]
-
-convert numbers to audio signals
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 

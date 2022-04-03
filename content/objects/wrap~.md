@@ -1,23 +1,23 @@
 ---
-title: "[wrap~]"
-description: "wraparound (fractional part)"
-bref: "wraparound (fractional part)"
+title: wrap~
+description: remainder modulo 1 for signals
+categories:
+- object
+pdcategory: Audio Math
+last_update: '0.48'
+see_also:
+- wrap
+- expr~
+inlets:
+  1st:
+  - type: signal
+    description: input to 'modulo 1' function.
+outlets:
+  1st:
+  - type: signal
+    description: output of 'modulo 1' function.
 draft: false
-categories: ["object"]
-pdcategory: "Audio Math"
 ---
+wrap~ gives the difference between the input and the largest integer not exceeding it (for positive numbers this is the fractional part).
 
-### [wrap~]
-
-wraparound (fractional part)
-
-### Inlets & Outlets
-
-inlet 0
-
- - dummy
-
-outlet 0
-
- - dummy
- 
+COMPATIBILITY NOTE: in Pd versions before 0.48, wrap~ with an input of 0 output 1 (but now correctly outputs 0). To get the old behavior, set "compatibility" to 0.47 or below in Pd's command line or by a message.

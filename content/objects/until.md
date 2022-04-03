@@ -1,39 +1,23 @@
 ---
-title: "[until]"
-description: "looping mechanism"
-bref: "looping mechanism"
+title: until
+description: looping mechanism
+categories:
+- object
+pdcategory: General
+last_update: '0.28'
+inlets:
+  1st:
+  - type: bang
+    description: stops the loop.
+  - type: float
+    description: set number of iterations in the loop.
+  2nd:
+  - type: bang
+    description: stops the loop.
+outlets:
+  1st:
+  - type: bang
+    description: bangs in a loop.
 draft: false
-categories: ["object"]
-pdcategory: "General"
 ---
-
-### [until]
-
-Looping mechanism.
-
 The until object's left inlet starts a loop in which it outputs "bang" until its right inlet gets a bang which stops it. If you start "until" with a number,  it iterates at most that number of times,  as in the Max "uzi" object.
-
-
-INLET:
-
-- 1st:
-
-  - float - set number of iterations in the loop.
-
-  - bang - start loop until a bang reaches the right inlet.
-
-- 2nd:
-
-  - bang - stops the loop.
-
-OUTLET:
-
-- bang - bangs in a loop.
-
-ARGUMENT:
-
-- NONE
- 
-
- 
-> updated for Pd version 0.28
