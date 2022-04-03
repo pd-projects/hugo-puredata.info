@@ -3150,7 +3150,7 @@ lunr.QueryLexer.lexText = function (lexer) {
     if (char == ":") {
       return lunr.QueryLexer.lexField
     }
-
+	
     if (char == "~") {
       lexer.backup()
       if (lexer.width() > 0) {

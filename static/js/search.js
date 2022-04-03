@@ -16,11 +16,19 @@ function displayResults (results, store) {
 
 // Get the query parameter(s)
 const params = new URLSearchParams(window.location.search)
-const query = params.get('query')
+var query2 = params.get('query')
+
+// trick to be able to use '~` for Pd-objects
+// as is a range delimiter in lunr.js
+var query = query2.replace(/~/gi,'~0');
+
+
+
+
 // Perform a search if there is a query
 if (query) {
   // Retain the search input in the form when displaying results
-  document.getElementById('search-input').setAttribute('value', query)
+  document.getElementById('search-input').setAttribute('value', query2)
 
   const idx = lunr(function () {
     this.ref('id')
