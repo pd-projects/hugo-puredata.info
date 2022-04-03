@@ -1,6 +1,6 @@
 ---
 title: delread4~
-description: read from a delay line.
+description: read from a delay line with 4-point interpolation (for variable delay times)
 categories:
 - object
 see_also:
@@ -21,6 +21,8 @@ arguments:
   - type: symbol
     description: delay line name. 
 draft: false
+aliases:
+- vd~
 ---
 Delread4~ implements a 4-point interpolating delay tap. The delay in milliseconds of the tap is specified by an incoming signal for variable delay times.
 

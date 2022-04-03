@@ -44,5 +44,7 @@ outlets:
   - type: pointer
     description: a pointer to the scalar containing the array.
 draft: false
+aliases:
+- array
 ---
 "array define" maintains an array and can name it so that other objects can find it (and later should have some alternative, anonymous way to be found).

@@ -51,6 +51,8 @@ outlets:
   - type: anything
     description: outputs "updated" when text changes.
 draft: false
+aliases:
+- text
 ---
 "text define" maintains a text object and can name it so that other objects can find it (and later should have some alternative, anonymous way to be found).
 
