@@ -20,3 +20,5 @@ outlets:
 draft: false
 ---
 Unlike the signal version cos~, control-rate trigonometric functions take inputs in radians.
+
+{{< md_include "objects/trigonometric-functions.md" >}}
