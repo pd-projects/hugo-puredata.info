@@ -2,7 +2,7 @@
 {{ define "header"}} {{ partial "header" .}} {{ end }}
 {{ define "main"  }}
 <h3>[{{ .Page.Title }}]</h3>
-{{.Page.Description}}
+<p style="font-size: 105%">{{.Page.Description}}</p>
   {{ partial "object-reference" .}}
   {{ with .Content }}{{ . }}{{ end }}
 {{ end }}
