@@ -1,6 +1,6 @@
 Relational operators ('>' greater than, '==' equals, '!=' not equals etc.) output 1 or 0 depending on whether the relation is true or false.
 
-### relational operators:
+relational operators:
 
 |object |Description|
 |:---|---:|
