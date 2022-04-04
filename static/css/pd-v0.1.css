@@ -213,7 +213,15 @@ a.dark-theme:visited {
 	--color:#e68a00;
 }
 
+input {	
+	--background-color: #f2f2f2;
+    --color: #3E4349	
+}
 
+input.dark-theme {	
+	--background-color: #333333; /*#60636c;*/
+    --color: #BCC0C3	
+}
 
 
 /*  css  */
@@ -226,9 +234,14 @@ a.dark-theme:visited {
 
 
 
-
-
-
+input {	
+  width: 150px; 
+  height: 17px; 
+  background-color: var(--background-color);
+  border-radius: 4px; 
+  border: 1px solid #808080;
+  color: var(--color);  
+}
 
 
 BODY { 

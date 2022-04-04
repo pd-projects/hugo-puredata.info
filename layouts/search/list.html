@@ -1,0 +1,12 @@
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+{{ define "header"}} {{ partial "header" .}} {{ end }}
+{{ define "main" }}
+<br>
+<ul id="results">
+    <li>
+        Enter a keyword above to search this site.
+    </li>
+</ul>
+{{ partial "search-index.html" . }}
+{{ end }}
+ 
