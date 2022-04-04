@@ -5,6 +5,8 @@ categories:
 - object
 pdcategory: Audio Math
 last_update: '0.47'
+aliases:
+- q8_rsqrt~
 see_also:
 - sqrt
 - expr~

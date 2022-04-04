@@ -3,6 +3,8 @@ title: receive~
 description: receive signal from a send~ object.
 categories:
 - object
+aliases:
+- r~
 see_also:
 - throw~
 - send

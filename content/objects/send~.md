@@ -3,6 +3,8 @@ title: send~
 description: send signal to one or more receive~ objects.
 categories:
 - object
+aliases:
+- s~
 see_also:
 - throw~
 - send
