@@ -100,7 +100,11 @@ function doDark () {
   for (i = 0; i < x.length; i++) {
     x[i].classList.add("dark-theme");
 	}
-	
+
+  x = document.getElementsByTagName("input");  
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.add("dark-theme");
+	}	
 }
 
 function doLight () {
@@ -196,6 +200,11 @@ function doLight () {
 	}
 	
   x = document.getElementsByTagName("td");  
+  for (i = 0; i < x.length; i++) {
+    x[i].classList.remove("dark-theme");
+	}
+	
+  x = document.getElementsByTagName("input");  
   for (i = 0; i < x.length; i++) {
     x[i].classList.remove("dark-theme");
 	}
