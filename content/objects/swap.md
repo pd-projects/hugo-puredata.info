@@ -3,6 +3,8 @@ title: swap
 description: swap two numbers
 categories:
 - object
+aliases:
+- fswap
 pdcategory: General
 last_update: '0.41'
 arguments:

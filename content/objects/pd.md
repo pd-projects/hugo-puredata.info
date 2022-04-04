@@ -3,6 +3,8 @@ title: pd
 description: define a subwindow (subpatch)
 categories:
 - object
+aliases:
+- page
 see_also: 
 - inlet
 - inlet~
