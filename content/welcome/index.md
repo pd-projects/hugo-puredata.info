@@ -23,7 +23,7 @@ You can read the [Pd Manual](https://msp.puredata.info/Pd_documentation/index.ht
 under the 'Pure Data' tab. You'll also find the manual there as
 well as examples/tutorials.
 
-**Help/List of objects** opens a patch with all [native objects](../objects/) in
+**Help/List of objects** opens a patch with all [native objects](../objects/index.html) in
 Pure Data. You can right click on each object for help on how
 each object works.
 

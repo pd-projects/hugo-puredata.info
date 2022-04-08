@@ -4,10 +4,10 @@ relational operators:
 
 |object |Description|
 |:---|---:|
-|[<](../lt)      |Less than (boolean)|
-|[<=](../le)     |Less than or equal (boolean)|
-|[>](../gt)      |Greater than (boolean)|
-|[>=](../ge)     |Greater than or equal (boolean)|
-|[==](../eq)     |Equal (boolean)|
-|[!=](../neq)     |Not equal (boolean)|
+|[<](../lt/index.html)      |Less than (boolean)|
+|[<=](../le/index.html)     |Less than or equal (boolean)|
+|[>](../gt/index.html)      |Greater than (boolean)|
+|[>=](../ge/index.html)     |Greater than or equal (boolean)|
+|[==](../eq/index.html)     |Equal (boolean)|
+|[!=](../neq/index.html)     |Not equal (boolean)|
 

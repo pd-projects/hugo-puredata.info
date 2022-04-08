@@ -4,12 +4,12 @@ window.store = {
     {{ range .Site.Pages }}
     // For all pages in your site, use "range .Site.Pages"
     // You can use any unique identifier here
-   {{ .Permalink }}: {
+   {{ partial "plink.html" . }}: {
         // You can customize your searchable fields using any .Page parameters
         title: {{ .Title  }},
         tags: [{{ range .Params.Tags }}{{ . }},{{ end }}],
         content: {{ .Content | plainify }}, // Strip out HTML tags
-        url: {{ .Permalink }}
+        url: {{ partial "plink.html" . }}
     },
     {{ end }}
 }

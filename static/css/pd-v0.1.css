@@ -112,11 +112,11 @@ BODY.dark-theme {
 }
 
 BODY.serif {	
-	--font-family: Lato, Arial, sans-serif;
+	--font-family: Georgia, serif;
 }
 
 BODY.sans-serif {	
-	--font-family: Lato, Arial, sans-serif; 
+	--font-family: Georgia, serif;
 }
 
 

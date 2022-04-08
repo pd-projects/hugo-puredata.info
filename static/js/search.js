@@ -5,7 +5,7 @@ function displayResults (results, store) {
     // Iterate and build result list elements
     for (const n in results) {
       const item = store[results[n].ref]
-      resultList += '<li><p><a href="' + item.url + '">' + item.title + '</a></p>'
+      resultList += '<li><p><a href="..' + item.url + '">' + item.title + '</a></p>'
       resultList += '<p>' + item.content.substring(0, 150) + '...</p></li>'
     }
     searchResults.innerHTML = resultList

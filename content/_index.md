@@ -10,8 +10,8 @@ draft: false
 ### General
 
   - [Get Pd](http://puredata.info/downloads)
-  - [Welcome to Pd](welcome)
-  - [List of objects](objects)
+  - [Welcome to Pd]({{< mdlink "welcome" >}})
+  - [List of objects]({{< mdlink "objects" >}})
 
 ### People 
 
@@ -26,7 +26,7 @@ draft: false
  
 ### Developer
 
-  - [Building Pd](building-on-windows)
+  - [Building Pd]({{< mdlink "building-on-windows" >}})
   - [Writing C externals](https://github.com/pure-data/externals-howto)
   - [pd-lib-builder](https://github.com/pure-data/pd-lib-builder)
   - [libpd](https://github.com/libpd/libpd)

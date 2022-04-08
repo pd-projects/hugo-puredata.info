@@ -5,3 +5,4 @@ title = 'Pure Data'
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 relativeURLs = 'true'
+
