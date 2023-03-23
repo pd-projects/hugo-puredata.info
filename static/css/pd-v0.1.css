@@ -92,13 +92,13 @@
 
    
 BODY {
-    --background:  #ffffff;
-    --color:       #000000;
+    --background: #ffffff;
+    --color: #000000;
 }
 
 BODY.dark-theme {  
-    --background:  #202124;
-    --color:       #ffffff;
+    --background: #202124;
+    --color: #ffffff;
 }
 
 BODY.serif {   
@@ -111,19 +111,19 @@ BODY.sans-serif {
 
 
 P {
-    --color:       #3E4349; /*#3E4349;*/
+    --color: #3E4349; /*#3E4349;*/
 }
 
 P.dark-theme {
-    --color:       #BCC0C3;
+    --color: #BCC0C3;
 }
 
 li, ul {
-    --color:       #3E4349; /*#3E4349;*/
+    --color: #3E4349; /*#3E4349;*/
 }
 
 li.dark-theme, ul.dark-theme ol.dark-theme {
-    --color:       #BCC0C3;
+    --color: #BCC0C3;
 }      
 
 
@@ -132,7 +132,7 @@ H1, H2, H3, H4, H5, H6, ol, ul, mark, PRE {
 
 }
 
-H1.dark-theme, H2.dark-theme, H3.dark-theme, H4.dark-theme, H5.dark-theme, \
+H1.dark-theme, H2.dark-theme, H3.dark-theme, H4.dark-theme, H5.dark-theme, 
 H6.dark-theme, ol.dark-theme, ul.dark-theme, mark.dark-theme, PRE.dark-theme {
     --ccolor: #dedede;
 }
@@ -201,7 +201,7 @@ a.dark-theme:link {
 }
 
 a.dark-theme:visited {
-    --color:#e68a00;
+    --color: #e68a00;
 }
 
 input {
@@ -234,10 +234,10 @@ input {
 
 
 BODY {
-    background:  var(--background) ;
-    color:       var(--color);
+    background: var(--background) ;
+    color: var(--color);
     font-family: var(--font-family);  /*Georgia, serif; */ /*Helevetica, sans-serif;*/
-    font-size:   12.7pt; /* this is because there were many <p> missing. We can change this value to 7pt to easily detect missing <p> */
+    font-size: 12.7pt; /* this is because there were many <p> missing. We can change this value to 7pt to easily detect missing <p> */
     line-height: 1.6;
     }
    
@@ -246,33 +246,33 @@ BODY {
     margin-left: 1.2in;
     margin-right: 1.2in;   
     padding: 10px;   
-    width:      auto;
+    width: auto;
     }
    
 H1 {
-    font-size:   32.7pt;
-    text-align:  center;
+    font-size: 32.7pt;
+    text-align: center;
     font-weight: normal;   
 }
 H2 {
-    font-size:   22.7pt;
-    text-align:  center;
+    font-size: 22.7pt;
+    text-align: center;
     font-weight: normal;  
 }
 H3 {
-    font-size:   14.7pt;
-    text-align:  left;  
+    font-size: 14.7pt;
+    text-align: left;  
 }
 H4 {
-    font-size:   12.7pt;
-    text-align:  left;
+    font-size: 12.7pt;
+    text-align: left;
 }
 H5 {
-    font-size:   10.7pt;
-    text-align:  left;
+    font-size: 10.7pt;
+    text-align: left;
 }
 H6 {
-    font-size:   10.7pt;
+    font-size: 10.7pt;
     text-align:  left;
 }
 
@@ -282,8 +282,8 @@ H1, H2, H3, H4, H5, H6, ol, ul, mark, PRE {
 
 PRE {
     /*font-size: 80%;*/
-    background-color:var(--color);
-    text-align:  left;
+    background-color: var(--color);
+    text-align: left;
     border-radius: 8px;
     padding: 8px;
     font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
@@ -305,22 +305,22 @@ CODE {
     background-color:var(--color);
     font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
     font-size: 90%;
-    text-align:  left;
+    text-align: left;
     border-radius: 8px;
     padding: 4px 8px;  
 }
 
 P {
-    font-size:   12pt;
-    text-align:  left;
+    font-size: 12pt;
+    text-align: left;
     line-height: 1.6;
     color: var(--color);
     line-height: 1.4em;
 }
 
 ul, li, ol {
-    font-size:   12pt;
-    text-align:  left;
+    font-size: 12pt;
+    text-align: left;
     line-height: 1.6;
     color: var(--color);
     line-height: 1.4em;
@@ -353,7 +353,7 @@ a:active {
 /* green link (like a button) */
 
 a.green:link {
-    font-family:sans-serif;
+    font-family: sans-serif;
     background-color: #4CAF50; /* Green */
     border-radius: 4px;
     color: white;
@@ -432,12 +432,12 @@ footer {
 @media screen and (max-device-width: 700px) {
     #corpus {
     padding: 10px;   
-    width:      auto;
+    width: auto;
     margin-left: 6px;
     margin-right: 6px;
    
     }
-    H1 {font-size:   25pt;}
+    H1 {font-size: 25pt;}
     IMG {max-width: 100%;}
 }
 
@@ -446,10 +446,10 @@ footer {
 @media screen and (max-width: 700px) {
     #corpus {
     padding: 10px;   
-    width:      auto;
+    width: auto;
     margin-left: 6px;
     margin-right: 6px; 
     }
-    H1 {font-size:   25pt;}
+    H1 {font-size: 25pt;}
     IMG {max-width: 100%;}
 }
