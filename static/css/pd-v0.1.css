@@ -1,10 +1,10 @@
 /* (c) Lucas Cordiviola - lucarda27@hotmail.com
 * this file works with "pdmanual.js" to allow the user
-* to switch to "dark-mode" and also to switch to 
+* to switch to "dark-mode" and also to switch to
 * "sans-serif" font.
 *
 * dark-mode colors and sans-serif font suggested by Esteban Viveros.
-* 
+*
 * Licensed under the MIT license - https://opensource.org/licenses/MIT
 */
 
@@ -77,6 +77,8 @@
     font-style: italic;
 }
 
+
+
 @font-face {
     font-family: 'Lato';
     src: url('/font/Lato-Regular.woff') format('woff');
@@ -86,263 +88,242 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* themes variables */
 
-	
-BODY { 
-	--background:  #ffffff; 
-	--color: 	   #000000;
+   
+BODY {
+    --background:  #ffffff;
+    --color:       #000000;
 }
 
-BODY.dark-theme {	
-	--background:  #202124;
-	--color: 	   #ffffff;
+BODY.dark-theme {  
+    --background:  #202124;
+    --color:       #ffffff;
 }
 
-BODY.serif {	
-	--font-family: Lato, Arial, sans-serif;
+BODY.serif {   
+    --font-family: Lato, Arial, sans-serif;
 }
 
-BODY.sans-serif {	
-	--font-family: Lato, Arial, sans-serif; 
+BODY.sans-serif {  
+    --font-family: Lato, Arial, sans-serif;
 }
 
 
-P { 
-	--color: 	   #3E4349; /*#3E4349;*/
+P {
+    --color:       #3E4349; /*#3E4349;*/
 }
 
 P.dark-theme {
-	--color: 	   #BCC0C3;
+    --color:       #BCC0C3;
 }
 
-li, ul { 
-	--color: 	   #3E4349; /*#3E4349;*/
+li, ul {
+    --color:       #3E4349; /*#3E4349;*/
 }
 
 li.dark-theme, ul.dark-theme ol.dark-theme {
-	--color: 	   #BCC0C3;
-}		
+    --color:       #BCC0C3;
+}      
 
 
-H1, H2, H3, H4, H5, H6, ol, ul, mark, PRE { 
-	--ccolor: #3E4349;
- 
+H1, H2, H3, H4, H5, H6, ol, ul, mark, PRE {
+    --ccolor: #3E4349;
+
 }
 
-H1.dark-theme, H2.dark-theme, H3.dark-theme, H4.dark-theme, H5.dark-theme, H6.dark-theme, ol.dark-theme, ul.dark-theme, mark.dark-theme, PRE.dark-theme { 
-	--ccolor: #dedede; 
+H1.dark-theme, H2.dark-theme, H3.dark-theme, H4.dark-theme, H5.dark-theme, \
+H6.dark-theme, ol.dark-theme, ul.dark-theme, mark.dark-theme, PRE.dark-theme {
+    --ccolor: #dedede;
 }
 
 
-PRE { 
+PRE {
    --color: #f0f0f0;
 }
 
-PRE.dark-theme { 
+PRE.dark-theme {
    --color: #303136;
 }
 
 tr:nth-child(even) {
-	--background-color: #f0f0f0;
-	}
-	
+    --background-color: #f0f0f0;
+    }
+   
 tr.dark-theme:nth-child(even) {
-	--background-color: #303136;
-	}
-	
+    --background-color: #303136;
+    }
+   
 table, td, th {
-  --ccolor: #3E4349;
-  padding: 6px;
+    --ccolor: #3E4349;
+    padding: 6px;
 }
 
 table.dark-theme, td.dark-theme, th.dark-theme {
-  --ccolor: #BCC0C3;
+    --ccolor: #BCC0C3;
 }
 
-CODE { 
-   --color: #f0f0f0;
+CODE {
+    --color: #f0f0f0;
 }
 
-CODE.dark-theme { 
-   --color: #303136;
+CODE.dark-theme {
+    --color: #303136;
 }
 
 mark {
- --background-color: #fff0b3;
+    --background-color: #fff0b3;
 }
 
 mark.dark-theme {
- --background-color: #60636c;
+    --background-color: #60636c;
 }
 
 IMG {
-	--filter: brightness(1) contrast(1);
+    --filter: brightness(1) contrast(1);
 }
 
 IMG.dark-theme {
-	--filter: brightness(.8) contrast(1.2);
+    --filter: brightness(.8) contrast(1.2);
 }
 
 
 a:link {
-	--color: #0e5eb9;
+    --color: #0e5eb9;
 }
 
 a:visited {
-	--color: #0e5eb9;
+    --color: #0e5eb9;
 }
 
 a.dark-theme:link {
-	--color: #e68a00;
+    --color: #e68a00;
 }
 
 a.dark-theme:visited {
-	--color:#e68a00;
+    --color:#e68a00;
 }
 
-input {	
-	--background-color: #f2f2f2;
-    --color: #3E4349	
+input {
+    --background-color: #f2f2f2;
+    --color: #3E4349   
 }
 
-input.dark-theme {	
-	--background-color: #333333; /*#60636c;*/
-    --color: #BCC0C3	
+input.dark-theme { 
+    --background-color: #333333; /*#60636c;*/
+    --color: #BCC0C3   
 }
 
 
 /*  css  */
 
-
-
 :root {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 
 
-input {	
-  width: 150px; 
-  height: 17px; 
-  background-color: var(--background-color);
-  border-radius: 4px; 
-  border: 1px solid #808080;
-  color: var(--color);  
+input {
+    width: 150px;
+    height: 17px;
+    background-color: var(--background-color);
+    border-radius: 4px;
+    border: 1px solid #808080;
+    color: var(--color);    
 }
 
 
-BODY { 
-	background:  var(--background) ;
-	color: 	     var(--color);
-	font-family: var(--font-family);  /*Georgia, serif; */ /*Helevetica, sans-serif;*/
-	font-size:   12.7pt; /* this is because there were many <p> missing. We can change this value to 7pt to easily detect missing <p> */
-	line-height: 1.6;
-	}
-	
-#corpus { 
+BODY {
+    background:  var(--background) ;
+    color:       var(--color);
+    font-family: var(--font-family);  /*Georgia, serif; */ /*Helevetica, sans-serif;*/
+    font-size:   12.7pt; /* this is because there were many <p> missing. We can change this value to 7pt to easily detect missing <p> */
+    line-height: 1.6;
+    }
+   
+#corpus {
 
-	width: 	    6.5in; 
-	margin-left: 0.8in;
-	}
-	
+    margin-left: 1.2in;
+    margin-right: 1.2in;   
+    padding: 10px;   
+    width:      auto;
+    }
+   
 H1 {
-	font-size:   32.7pt;
-	text-align:  center;
-	font-weight: normal;
-	
-	
+    font-size:   32.7pt;
+    text-align:  center;
+    font-weight: normal;   
 }
 H2 {
-	font-size:   22.7pt;
-	text-align:  center;
-	font-weight: normal;
-	
+    font-size:   22.7pt;
+    text-align:  center;
+    font-weight: normal;  
 }
 H3 {
-	font-size:   14.7pt;
-	text-align:  left;
-	
+    font-size:   14.7pt;
+    text-align:  left;  
 }
 H4 {
-	font-size:   12.7pt;
-	text-align:  left;
-	
+    font-size:   12.7pt;
+    text-align:  left;
 }
 H5 {
-	font-size:   10.7pt;
-	text-align:  left;
-	
+    font-size:   10.7pt;
+    text-align:  left;
 }
 H6 {
-	font-size:   10.7pt;
-	text-align:  left;
-	
+    font-size:   10.7pt;
+    text-align:  left;
 }
 
-H1, H2, H3, H4, H5, H6, ol, ul, mark, PRE { 
-color: var(--ccolor);
- 
+H1, H2, H3, H4, H5, H6, ol, ul, mark, PRE {
+    color: var(--ccolor);
 }
 
-PRE { 
-   /*font-size: 80%;*/
-   background-color:var(--color);
-   text-align:  left;
-   border-radius: 8px;
-   padding: 8px;
-   font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+PRE {
+    /*font-size: 80%;*/
+    background-color:var(--color);
+    text-align:  left;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 }
 
 table, td, th {
-  border: 1px solid black;
-  color: var(--ccolor);
-  font-size: 12.7pt;
+    border: 1px solid black;
+    color: var(--ccolor);
+    font-size: 12.7pt;
 }
 
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 tr:nth-child(even) {background-color: var(--background-color);}
 
-CODE { 
-   background-color:var(--color);
-   font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
-   font-size: 90%;
-   text-align:  left;
-   border-radius: 8px;
-   padding: 4px 8px;   
+CODE {
+    background-color:var(--color);
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 90%;
+    text-align:  left;
+    border-radius: 8px;
+    padding: 4px 8px;  
 }
 
-
-
 P {
-	font-size:   12pt;
-	text-align:  left;
-	line-height: 1.6;
-	color: var(--color);
-	line-height: 1.4em;
+    font-size:   12pt;
+    text-align:  left;
+    line-height: 1.6;
+    color: var(--color);
+    line-height: 1.4em;
 }
 
 ul, li, ol {
-	font-size:   12pt;
-	text-align:  left;
-	line-height: 1.6;
-	color: var(--color);
-	line-height: 1.4em;
+    font-size:   12pt;
+    text-align:  left;
+    line-height: 1.6;
+    color: var(--color);
+    line-height: 1.4em;
 }
 
 
@@ -350,101 +331,94 @@ ul, li, ol {
 
 a:link {
     text-decoration: none;
-	color: var(--color);
-	font-weight: bold;
+    color: var(--color);
+    font-weight: bold;
 }
 
 a:visited {
     text-decoration: none;
-	color: var(--color);
+    color: var(--color);
 }
 
 a:hover {
-
-	background-color:#eeeee4;
+    background-color:#eeeee4;
 }
 
 a:active {
     text-decoration: none;
-	color: blue;
+    color: blue;
 }
 
 
 /* green link (like a button) */
 
 a.green:link {
-	font-family:sans-serif;
-	background-color: #4CAF50; /* Green */
+    font-family:sans-serif;
+    background-color: #4CAF50; /* Green */
     border-radius: 4px;
     color: white;
     padding: 0px 8px ;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 80%;
-	
+    font-size: 80%;  
 }
 
 a.green:hover {
     text-decoration: none;
-	background-color: #4CAF50;	
+    background-color: #4CAF50; 
 }
 
 a.green:visited {
-	color: white;
+    color: white;
 }
 
 
 /* button like a link */
-
-
-
 .btn-toggle-theme, .btn-toggle-font {
-  background-color: transparent;
-  border: none;
-  color: #666666;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12.7pt;
-  cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #666666;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12.7pt;
+    cursor: pointer;
 }
-
 
 
 /* standard images */
 
 IMG {
- 
+
     display: block;
     margin: 0 auto;
-	width: auto;
-	filter: var(--filter);
-
+    width: auto;
+    filter: var(--filter);
 }
 
 mark {
-background-color: var(--background-color);
-border-radius: 6px;
-padding: 0px 4px;
+    background-color: var(--background-color);
+    border-radius: 6px;
+    padding: 0px 4px;
 }
 
 p.fig {
-text-align: center;
+    text-align: center;
 }
 
 div.butt {
-  position: fixed;
-  top: 0;
-  left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-blockquote {  
-  padding: 0;
-  margin-right:0px;
+blockquote { 
+    padding: 0;
+    margin-right:0px;
 }
 
 blockquote p {
-  text-align: right;
+    text-align: right;
 }
 
 footer {
@@ -457,22 +431,25 @@ footer {
 
 @media screen and (max-device-width: 700px) {
     #corpus {
-    padding: 10px;    
-	width: 	    auto; 
-	margin-left: 6px;
+    padding: 10px;   
+    width:      auto;
+    margin-left: 6px;
+    margin-right: 6px;
+   
     }
-	H1 {font-size:   25pt;}
-	IMG {max-width: 100%;}
+    H1 {font-size:   25pt;}
+    IMG {max-width: 100%;}
 }
 
 /* responsive css for small "browser window" */
 
 @media screen and (max-width: 700px) {
     #corpus {
-    padding: 10px;    
-	width: 	    auto; 
-	margin-left: 6px;	
+    padding: 10px;   
+    width:      auto;
+    margin-left: 6px;
+    margin-right: 6px; 
     }
-	H1 {font-size:   25pt;}
-	IMG {max-width: 100%;}
+    H1 {font-size:   25pt;}
+    IMG {max-width: 100%;}
 }
