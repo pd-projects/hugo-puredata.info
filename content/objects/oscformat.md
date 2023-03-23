@@ -16,12 +16,12 @@ arguments:
 inlets:
   1st:
   - type: format <symbol>
-    description: 'characters set format types: ''b'' (blob),  ''i'' (interger),  ''f''
-      (float) or ''s'' (sring).'
+    description: 'characters set format types: ''b'' (blob),  ''i'' (integer),  ''f''
+      (float) or ''s'' (string).'
   - type: list
     description: list to format into a OSC packet.
   - type: set <list>
-    description: set one or more adresses.
+    description: set one or more addresses.
 outlets:
   1st:
   - type: list

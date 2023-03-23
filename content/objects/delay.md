@@ -47,6 +47,6 @@ Delay times are in units of 1 millisecond by default, but you can change this wi
 - minutes (min)
 - samples (samp)
 
-These symbols can also be preceeded by "per" (as in "permin",  "permsec",  etc.) In this case,  60 permin means 1/60 min (hence,  the same as 'BPM').
+These symbols can also be preceded by "per" (as in "permin",  "permsec",  etc.) In this case,  60 permin means 1/60 min (hence,  the same as 'BPM').
 
 'samp' depends on the sample rate the patch is running

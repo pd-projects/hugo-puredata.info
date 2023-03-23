@@ -16,7 +16,7 @@ arguments:
 inlets:
   1st:
   - type: anything
-    description: each inlet takes a message type acccording to its corresponding creation
+    description: each inlet takes a message type according to its corresponding creation
       argument. These can be float,  symbol and pointer. The 1st inlet causes an output
       and can also match an 'anything' to a symbol.
   - type: bang

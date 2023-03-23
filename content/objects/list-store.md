@@ -30,9 +30,9 @@ inlets:
       element sets staring index and the second sets ending index (-1 is end of the
       list).
   - type: set <list>
-    description: set values starting at index from the fisrt element.
+    description: set values starting at index from the first element.
   - type: insert <list>
-    description: insert values before index from the fisrt element.
+    description: insert values before index from the first element.
   - type: delete <list>
     description: delete a given item for just one float or a number of items specified
       in the second element starting at index from the first element (-1 means delete

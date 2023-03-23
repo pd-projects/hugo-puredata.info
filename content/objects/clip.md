@@ -18,7 +18,7 @@ arguments:
 inlets:
   1st:
   - type: bang
-    description: re clip last incomming number between the two limits.
+    description: re clip last incoming number between the two limits.
   - type: float
     description: number to clip.
   2nd:
