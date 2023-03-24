@@ -26,7 +26,7 @@ draft: false
  
 ### Developer
 
-  - [Building Pd](building-on-windows)
+  - [Building Pd](building-pd)
   - [Writing C externals](https://github.com/pure-data/externals-howto)
   - [pd-lib-builder](https://github.com/pure-data/pd-lib-builder)
   - [libpd](https://github.com/libpd/libpd)
