@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-## Welcome to Pd
+# Welcome to Pd
 
 You can reach the Pd mailing list for help, please subscribe to
 the [pd-list](https://lists.puredata.info/listinfo/pd-list).
