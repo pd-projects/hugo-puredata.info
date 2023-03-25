@@ -36,6 +36,18 @@ draft: false
   - [Gem](http://gem.iem.at/)
   - [Ofelia](https://github.com/cuinjune/Ofelia)
 
-### Arduino
+### Interface Pd with:
 
-  - [pduino](https://github.com/pd-externals/pduino)
+  - [Ableton Link]({{< mdlink "interface-pd-with" "Ableton Link">}})
+  - [Arduino]({{< mdlink "interface-pd-with" "Arduino">}})
+  - [Art-Net]({{< mdlink "interface-pd-with" "Art-Net">}})
+  - [Comport]({{< mdlink "interface-pd-with" "Comport">}})
+  - [HID]({{< mdlink "interface-pd-with" "HID">}})
+  - [icecast/shoutcast]({{< mdlink "interface-pd-with" "icecast/shoutcast">}})
+  - [JSON]({{< mdlink "interface-pd-with" "JSON">}})
+  - [LUA]({{< mdlink "interface-pd-with" "LUA">}})
+  - [MIDI]({{< mdlink "interface-pd-with" "MIDI">}})
+  - [OSC]({{< mdlink "interface-pd-with" "OSC">}})
+  - [TCP/IP]({{< mdlink "interface-pd-with" "TCP/IP">}})
+  - [VST]({{< mdlink "interface-pd-with" "VST">}})
+  - [WebSocket]({{< mdlink "interface-pd-with" "WebSocket">}})
