@@ -6,7 +6,7 @@ draft: false
 
 # Interface Pd with 
 
-
+For an overview of on "how to install externals" see [externals](../externals).
 
 ### Ableton Link
 

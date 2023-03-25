@@ -9,9 +9,10 @@ draft: false
 
 ### General
 
-  - [Get Pd](http://puredata.info/downloads)
-  - [Welcome to Pd](welcome)
+  - [Get Pd](get-pd)
+  - [Welcome to Pd](welcome)   
   - [List of objects](objects)
+  - [Externals](externals)
 
 ### People 
 
