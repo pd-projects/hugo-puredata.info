@@ -87,7 +87,7 @@ brew link --force gettext
 ```
 
 to compile run:
-    
+
 ```sh
 cd path/to/pd
 ./autogen.sh

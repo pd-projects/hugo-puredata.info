@@ -3,7 +3,7 @@ title: outlet
 description: control outlet
 categories:
 - object
-see_also: 
+see_also:
 - inlet~
 - inlet
 - outlet~
@@ -17,4 +17,4 @@ inlets:
     description: any message to send to parent patch.
 draft: false
 ---
-Inlets/outlets are used to receive and get information on a patch window. This can be an abstraction or a subpatch. 
+Inlets/outlets are used to receive and get information on a patch window. This can be an abstraction or a subpatch.

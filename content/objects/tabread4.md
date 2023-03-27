@@ -29,7 +29,7 @@ outlets:
     description: value of index input.
 arguments:
   - type: symbol
-    description: sets table name with the sample. 
+    description: sets table name with the sample.
 draft: false
 ---
 Tabread4~ is used to build samplers and other table lookup algorithms. The interpolation scheme is 4-point polynomial as used in delread4~ and tabosc4~.

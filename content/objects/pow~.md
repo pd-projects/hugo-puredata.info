@@ -24,7 +24,7 @@ outlets:
   - type: signal
     description: output of power function.
 arguments:
-  - type: float 
+  - type: float
     description: initial numeric power.
 draft: false
 ---

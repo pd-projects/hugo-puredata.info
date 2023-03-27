@@ -36,21 +36,20 @@ from C or C++), and **abstractions** (Pd patches loaded as objects).
 ### General
 
   - [Get Pd](get-pd)
-  - [Welcome to Pd](welcome-to-pd)   
+  - [Welcome to Pd](welcome-to-pd)
   - [List of objects](objects)
   - [Externals](externals)
 
-### People 
+### People
 
   - [Pd-list](https://lists.puredata.info/listinfo/pd-list)
   - [facebook](https://www.facebook.com/groups/puredata/)
   - [pdpatchrepo](https://forum.pdpatchrepo.info/)
-  
+
 ### Tutorials
 
   - [Tutorials](pd-tutorials)
 
- 
 ### Developer
 
   - [Building Pd](building-pd)

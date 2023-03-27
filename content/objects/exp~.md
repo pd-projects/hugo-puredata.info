@@ -20,7 +20,7 @@ outlets:
   - type: signal
     description: output of exp function.
 arguments:
-  - type: float 
+  - type: float
     description: initial base value.
 draft: false
 ---

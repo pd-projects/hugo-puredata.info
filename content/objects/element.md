@@ -3,7 +3,7 @@ title: element
 description: get pointer to an element of an array
 categories:
 - object
-see_also: 
+see_also:
 - struct
 - pointer
 - getsize
@@ -22,7 +22,7 @@ inlets:
     description: pointer to an array.
 outlets:
   1st:
-  - type: pointer 
+  - type: pointer
     description: pointer to element in an array.
 arguments:
 - type: symbol

@@ -3,7 +3,7 @@ title: inlet~
 description: audio inlet
 categories:
 - object
-see_also: 
+see_also:
 - outlet
 - inlet
 - outlet~
@@ -28,4 +28,4 @@ arguments:
 
 draft: false
 ---
-Inlets/outlets are used to receive and get information on a patch window. This can be an abstraction or a subpatch. 
+Inlets/outlets are used to receive and get information on a patch window. This can be an abstraction or a subpatch.

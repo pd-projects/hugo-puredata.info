@@ -5,7 +5,7 @@ categories:
 - object
 aliases:
 - page
-see_also: 
+see_also:
 - inlet
 - inlet~
 - outlet
@@ -16,7 +16,7 @@ last_update: '0.52'
 inlets:
   'n: depends on inlet/outlet objects':
 outlets:
-  'n: depends on inlet/outlet objects':	
+  'n: depends on inlet/outlet objects':
 arguments:
   - type: symbol
     description: sets the subpatch name that you can use to send messages to (see 'dynamic patching' in 'pd-messages' file.)

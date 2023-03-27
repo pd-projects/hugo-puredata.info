@@ -3,7 +3,7 @@ title: clone
 description: make multiple copies of an abstraction.
 categories:
 - object
-see_also: 
+see_also:
 - poly
 pdcategory: Subwindows
 last_update: '0.47'
@@ -31,7 +31,7 @@ flags:
   - flag: -x
     description: avoids including a first argument setting voice number.
   - flag: -s <float>
-    description: sets starting voice number (default 0).	
+    description: sets starting voice number (default 0).
 arguments:
   - type: symbol
     description: abstraction name.

@@ -11,7 +11,7 @@ last_update: '0.50'
 inlets:
   1st:
   - type: signal
-    description: input signal to be filtered. 
+    description: input signal to be filtered.
   - type: set <float>
     description: set state (previously stored output).
   2nd:
@@ -19,7 +19,7 @@ inlets:
     description: cutoff frequency in linear region.
   3rd:
   - type: signal
-    description: maximum downward slew of linear region. 
+    description: maximum downward slew of linear region.
   4th:
   - type: signal
     description: asymptotic downward cutoff frequency.
@@ -28,7 +28,7 @@ inlets:
     description: maximum upward slew of linear region.
   6th:
   - type: signal
-    description: asymptotic upward cutoff frequency.	
+    description: asymptotic upward cutoff frequency.
 outlets:
   1st:
   - type: signal

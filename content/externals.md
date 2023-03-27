@@ -4,7 +4,7 @@ title: "Externals"
 draft: false
 ---
 
-# Externals 
+# Externals
 
 For an in-depth knowledge on "externals" it is recommended that you read [Pd manual chapter 4](https://msp.puredata.info/Pd_documentation/x4.htm)
 

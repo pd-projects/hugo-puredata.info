@@ -3,7 +3,7 @@ title: plot
 description: draw array elements of scalars
 categories:
 - object
-see_also: 
+see_also:
 - drawnumber
 - drawpolygon
 - struct
@@ -18,7 +18,7 @@ inlets:
 flags:
 - flag: -c
   description: sets to Bezier curve plot.
-- flag: -n 
+- flag: -n
   description: makes it invisible initially.
 - flag: -v <float/symbol>
   description: constant of field name to make it visible/invisible.
@@ -46,6 +46,6 @@ arguments:
 - type: float*
   description: x spacing.
 - type: '*'
-  description: can also be field names. 
+  description: can also be field names.
 draft: false
 ---

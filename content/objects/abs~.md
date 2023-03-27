@@ -17,7 +17,7 @@ outlets:
   - type: signal
     description: signal with absolute values.
 arguments:
-  - type: float 
+  - type: float
     description: initial base value.
 draft: false
 ---

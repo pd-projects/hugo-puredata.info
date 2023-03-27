@@ -3,7 +3,7 @@ title: block~
 description: set block size for DSP
 categories:
 - object
-see_also: 
+see_also:
 - fft~
 - bang~
 - switch~
@@ -19,7 +19,7 @@ arguments:
 - type: float
   description: set overlap for FFT (default 1).
 - type: float
-  description: up/down-sampling factor (default 1). 
+  description: up/down-sampling factor (default 1).
 
 draft: false
 ---

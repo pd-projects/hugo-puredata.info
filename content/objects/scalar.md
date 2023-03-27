@@ -3,7 +3,7 @@ title: scalar
 description: create a scalar datum (default [scalar define]).
 categories:
 - object
-see_also: 
+see_also:
 - array
 - text
 - list

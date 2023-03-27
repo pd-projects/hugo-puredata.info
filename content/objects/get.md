@@ -3,7 +3,7 @@ title: get
 description: get values from a scalar
 categories:
 - object
-see_also: 
+see_also:
 - pointer
 - set
 - append
@@ -22,7 +22,7 @@ inlets:
 outlets:
   "'n': outlets depends on number of arguments":
   - type: float/symbol
-    description: field value. 
+    description: field value.
 arguments:
 - type: symbol
   description: template name.

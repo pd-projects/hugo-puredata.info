@@ -3,7 +3,7 @@ title: filledcurve
 description: draw shapes for data structures
 categories:
 - object
-see_also: 
+see_also:
 - struct
 - drawtext
 - plot
@@ -29,7 +29,7 @@ flags:
 - flag: -xv
   description: disable dragging vertices when in "run" mode (keeps reporting mouse clicks).
 arguments:
-- type: float* 
+- type: float*
   description: line color, filled shapes have an extra first interior color. (default 0, 0).
 - type: float*
   description: line width (default 1).

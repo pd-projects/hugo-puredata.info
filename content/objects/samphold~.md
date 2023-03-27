@@ -18,7 +18,7 @@ inlets:
     description: set last value of right inlet to infinity (forces output).
   2nd:
   - type: signal
-    description: control signal (triggers when smaller than previous)	
+    description: control signal (triggers when smaller than previous)
 outlets:
   1st:
   - type: signal

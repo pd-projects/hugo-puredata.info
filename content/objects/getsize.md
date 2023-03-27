@@ -3,17 +3,17 @@ title: getsize
 description: get size of a Data Structures array
 categories:
 - object
-see_also: 
+see_also:
 - struct
 - pointer
 - element
 - setsize
-- array get 
+- array get
 pdcategory: Accessing Data
 last_update: '0.47'
 inlets:
   1st:
-  - type: pointer 
+  - type: pointer
     description: pointer to a scalar with an array field.
   - type: set <symbol, symbol>
     description: set template and field name.

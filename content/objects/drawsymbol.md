@@ -3,7 +3,7 @@ title: drawsymbol
 description: draw numbers, symbols or texts for Data Structures.
 categories:
 - object
-see_also: 
+see_also:
 - struct
 - drawpolygon
 - plot

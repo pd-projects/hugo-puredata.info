@@ -45,7 +45,7 @@ outlets:
   2nd:
   - type: list
     description: "cooked: instrument number (if there's a template), velocity and temperature."
-flags:	
+flags:
 - flag: -npts
   description: window size in points (default 256).
 - flag: -hop

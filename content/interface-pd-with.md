@@ -4,7 +4,7 @@ title: "Interface Pd with"
 draft: false
 ---
 
-# Interface Pd with 
+# Interface Pd with
 
 For an overview of on "how to install externals" see [externals](../externals).
 
@@ -71,13 +71,13 @@ See built-in objects [[netsend]](../objects/netsend/) [[netreceive]](../objects/
 To load vst plugins inside Pd:
 
   - use the {{< deken "vstplugin~" >}} external.
-  
+
 To run Pd inside a vst host:
 
   - [plugdata](https://plugdata.org/)
-  
+
   - [camomile](https://github.com/pierreguillot/Camomile)
-  
+
   - [pdvst](https://git.nubegris.com.ar/lucarda/pdvst-0.52/releases) (MS-Windows only)
 
 ### WebSocket

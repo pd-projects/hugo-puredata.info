@@ -26,7 +26,7 @@ There are a number of books available that cover topics related to Pd in an in-d
 
 - [FLOSS Manuals: Pd-extended](http://write.flossmanuals.net/pure-data/) - Note that this manual refers to the abandoned Pd-extended fork, so it's pretty outdated. Use it for its tutorials, please refer to Pd's manual for more up to date information.
 
-- [Live Electronics Tutorial (For Pd Vanilla and ELSE library)](https://github.com/porres/Live-Electronics-Tutorial)  by [Alexandre Torres Porres](http://sites.google.com/site/porres/pd) 
+- [Live Electronics Tutorial (For Pd Vanilla and ELSE library)](https://github.com/porres/Live-Electronics-Tutorial)  by [Alexandre Torres Porres](http://sites.google.com/site/porres/pd)
 
 In French:
 - [Pure Data FLOSS Manual](https://fr.flossmanuals.net/puredata/) (this is an independent manual, based on the Pd-extended FLOSS Manual in english, aimed at beginners with some simple and didactic tutorials).

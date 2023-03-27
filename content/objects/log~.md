@@ -24,7 +24,7 @@ outlets:
   - type: signal
     description: output of log function.
 arguments:
-  - type: float 
+  - type: float
     description: initial base value.
 draft: false
 ---

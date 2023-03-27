@@ -3,7 +3,7 @@ title: scalar define
 description: defines and maintains a scalar.
 categories:
 - object
-see_also: 
+see_also:
 - array
 - text
 - list

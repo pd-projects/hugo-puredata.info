@@ -3,7 +3,7 @@ title: struct
 description: declare the fields in a data structure.
 categories:
 - object
-see_also: 
+see_also:
 - drawpolygon
 - drawtext
 - plot

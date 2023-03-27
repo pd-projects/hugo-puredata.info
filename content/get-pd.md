@@ -4,7 +4,7 @@ title: "Get Pd"
 draft: false
 ---
 
-# Get Pd 
+# Get Pd
 
 
 

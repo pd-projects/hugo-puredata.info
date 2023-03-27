@@ -3,7 +3,7 @@ title: append
 description: add an item to a Data Structure list.
 categories:
 - object
-see_also: 
+see_also:
 - pointer
 - getsize
 - setsize
@@ -11,7 +11,7 @@ see_also:
 - set
 - scalar
 - struct
-- element  
+- element
 pdcategory: Accessing Data
 last_update: '0.47'
 inlets:

@@ -3,7 +3,7 @@ title: set
 description: set values in a scalar
 categories:
 - object
-see_also: 
+see_also:
 - pointer
 - get
 - append

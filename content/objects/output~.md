@@ -11,7 +11,7 @@ inlets:
   1st:
   - type: signal
     description: left signal input.
-  - type: level <float> 
+  - type: level <float>
     description: sets output level.
   - type: bang
     description: mute/unmute.

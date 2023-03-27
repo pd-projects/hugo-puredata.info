@@ -26,7 +26,7 @@ outlets:
     description: value of index input.
 arguments:
   - type: symbol
-    description: sets table name with the sample. 
+    description: sets table name with the sample.
 draft: false
 ---
 Tabread~ looks up values out of the named array. Incoming values are truncated to the next lower integer, and values out of bounds get the nearest (first or last) point.
