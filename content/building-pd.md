@@ -18,13 +18,14 @@ Install the core build requirements using your distribution's package
 manager. For Debian, you can install the compiler chain, autotools, &
 gettext with:
 
-`sudo apt-get install build-essential automake autoconf libtool gettext`
-    
-`sudo apt-get install libasound2-dev tcl tk`
+```sh
+sudo apt-get install build-essential automake autoconf libtool gettext
+sudo apt-get install libasound2-dev tcl tk
+```
 
 to compile run:
 
-```
+```sh
 cd path/to/pd
 ./autogen.sh
 ./configure
@@ -40,13 +41,17 @@ cd bin
 ```
 
 To install to your system using the configuration prefix (default
-/usr/local):
+`/usr/local`):
 
-`sudo make install`
+```sh
+sudo make install
+```
 
 If want to uninstall, make sure Pd is configured and then run:
 
-`sudo make uninstall`
+```sh
+sudo make uninstall`
+```
 
 
 ### macOS
@@ -76,13 +81,14 @@ Follow the package manager set up instructions and then install the
 software you need. For example, to install the autotools & gettext using
 Homebrew:
 
-`brew install automake autoconf libtool pkg-config gettext`
-
-`brew link --force gettext` 
+```sh
+brew install automake autoconf libtool pkg-config gettext
+brew link --force gettext
+```
 
 to compile run:
     
-```
+```sh
 cd path/to/pd
 ./autogen.sh
 ./configure
@@ -103,9 +109,10 @@ to build for Windows we use Msys2
 
 open the Msys2 shell and install dependencies:
 
-`pacman -S make autoconf automake libtool`
-
-`pacman -S mingw64/mingw-w64-x86_64-gcc`
+```sh
+pacman -S make autoconf automake libtool
+pacman -S mingw64/mingw-w64-x86_64-gcc
+```
 
 
 install the ASIO SDK by doing the following:
@@ -118,7 +125,7 @@ install the ASIO SDK by doing the following:
 
 open the MinGW64 shell and do
 
-```
+```sh
 cd path/to/pd
 ./autogen.sh
 ./configure
