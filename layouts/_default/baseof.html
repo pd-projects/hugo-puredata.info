@@ -12,7 +12,7 @@
   <body>
     <div id=corpus>
       <header>{{ block "header" . }}{{ end }}</header>
-      <main>{{ block "main" . }}{{ .Content }}{{ end}}</main>
+      <main>{{ block "main" . }}{{ .Content | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" > &#128279</a> ${3}` | safeHTML }}{{ end}}</main>
       <footer>{{ block "footer" . }}{{ end }}</footer>
     </div>
     <script src="{{ "js/pd-v0.1.js" | absURL }}"></script>	

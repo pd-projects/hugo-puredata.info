@@ -426,6 +426,9 @@ footer {
     font-size: smaller;
 }
 
+.hanchor { font-size: 100%; visibility: hidden; color:blue;}
+h1:hover a, h2:hover a, h3:hover a, h4:hover a { visibility: visible}
+
 
 /* responsive css for small "devices" */
 

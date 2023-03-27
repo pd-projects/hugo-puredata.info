@@ -49,6 +49,7 @@ draft: false
   - [LUA]({{< mdlink "interface-pd-with" "LUA">}})
   - [MIDI]({{< mdlink "interface-pd-with" "MIDI">}})
   - [OSC]({{< mdlink "interface-pd-with" "OSC">}})
-  - [TCP/IP]({{< mdlink "interface-pd-with" "TCP/IP">}})
+  - [TCP/IP]({{< mdlink "interface-pd-with" "(raw) TCP/IP">}})
+  - [UDP]({{< mdlink "interface-pd-with" "(raw) UDP">}})
   - [VST]({{< mdlink "interface-pd-with" "VST">}})
   - [WebSocket]({{< mdlink "interface-pd-with" "WebSocket">}})
