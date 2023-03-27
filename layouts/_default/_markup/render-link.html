@@ -1,2 +1,1 @@
-{{ $u := urls.Parse .Destination }}
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $u.IsAbs }} target="_blank"{{ end }} >{{ .Text | safeHTML }}</a>
+{{ $u := urls.Parse .Destination }}<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $u.IsAbs }} target="_blank"{{ end }} >{{ .Text | safeHTML }}</a>{{- "" -}}
