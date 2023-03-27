@@ -67,4 +67,4 @@ Once they are accepted/merged, they will be automatically mirrored to the canoni
 
 
 # LICENSE
-This project is licensed under the BSD-3 license (see [LICENSE.md](./LICENSE.md) for the full text.
+This project is licensed under the BSD-3 license (see [LICENSE.md](./LICENSE.md) for the full text).

@@ -112,7 +112,7 @@ install the ASIO SDK by doing the following:
 
 - download the ASIO SDK: https://www.steinberg.net/en/company/developer.html
 
-- uncompress asiosdk2.3.zip (or higher) into the `asio` folder of your downloded Pd sources
+- uncompress asiosdk2.3.zip (or higher) into the `asio` folder of your downloaded Pd sources
 
 - remove the version number so that you get `pure-data/asio/ASIOSDK`
 
