@@ -10,43 +10,43 @@ For an overview of on "how to install externals" see [externals](../externals).
 
 ### Ableton Link
 
-You can use `abl_link~` external.
+You can use the {{< deken "abl_link~" >}} external.
 
 
 ### Arduino
 
-You can use `pduino` external.
+You can use the {{< deken "pduino" >}} external.
 
 
 ### Art-Net
 
-You can use `artnetlib` external.
+You can use the {{< deken "artnetlib" >}} external.
 
 
 ### Comport
 
-You can use `comport` external.
+You can use the {{< deken "comport" >}} external.
 
 ### HID
 
 You can use several externals:
 
-  - `hid`
-  - `hidin`
-  - `hidio`
-  - `hidraw`
+  - {{< deken "hid" >}} (Linux, macOS)
+  - {{< deken "hidin" >}} (MS-Windows)
+  - {{< deken "hidio" >}} (MS-Windows)
+  - {{< deken "hidraw" >}} (Linux, macOS, MS-Windows)
 
 ### Icecast/Shoutcast
 
-You can use `mp3cast~` external.
+You can use the {{< deken "mp3cast~" >}} external.
 
 ### JSON
 
-You can use `purest_json` external.
+You can use the {{< deken "purest_json" >}} external.
 
 ### LUA
 
-You can use `pdlua` external.
+You can use the {{< deken "pdlua" >}} external.
 
 ### MIDI
 
@@ -70,7 +70,7 @@ See built-in objects [[netsend]](../objects/netsend/) [[netreceive]](../objects/
 
 To load vst plugins inside Pd:
 
-  - use `vstplugin~` external.
+  - use the {{< deken "vstplugin~" >}} external.
   
 To run Pd inside a vst host:
 
@@ -84,6 +84,6 @@ To run Pd inside a vst host:
 
 You can use externals:
 
-  - `ws`
-  - `websocketserver`
+  - {{< deken "ws" >}}
+  - {{< deken "websocketserver" >}}
 
