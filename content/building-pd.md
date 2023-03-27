@@ -52,7 +52,7 @@ If want to uninstall, make sure Pd is configured and then run:
 ### macOS
 
 macOS is built on top of a BSD system and the bash commandline can be
-accessed with the Terminal application in the /Applications/Utility
+accessed with the Terminal application in the `/Applications/Utility`
 directory.
 
 The clang compiler and associated tools are provided by Apple. If you
@@ -90,7 +90,7 @@ make app
 ```
 
 This builds Pd-#.##.#.app in the Pd source directory which can be then
-be double-clicked and/or copied to /Applications.
+be double-clicked and/or copied to `/Applications`.
 
 ### Windows
 
@@ -127,5 +127,5 @@ make app
 
 This will create a "pd-VERSION" directory (ie. pd-0.48.1) which can
 then be used by running pd.exe in the bin directory and placed wherever
-on your system.
+you like on your system.
 
