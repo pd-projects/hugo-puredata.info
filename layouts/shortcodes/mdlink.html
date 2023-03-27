@@ -1,1 +1,7 @@
-{{ $foo := .Get 0}}{{ $foo2 := .Get 1 | anchorize}}{{ printf "%s#%s" $foo $foo2}}
+{{ $link := .Get 0}}
+{{ $anchor := .Get 1}}
+{{ if $anchor }}
+{{ printf "%s#%s" $link ($anchor | anchorize) }}
+{{ else }}
+{{ $link }}
+{{ end }}
