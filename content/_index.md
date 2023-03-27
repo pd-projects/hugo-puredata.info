@@ -44,7 +44,7 @@ draft: false
   - [Art-Net]({{< mdlink "interface-pd-with" "Art-Net">}})
   - [Comport]({{< mdlink "interface-pd-with" "Comport">}})
   - [HID]({{< mdlink "interface-pd-with" "HID">}})
-  - [icecast/shoutcast]({{< mdlink "interface-pd-with" "icecast/shoutcast">}})
+  - [Icecast/Shoutcast]({{< mdlink "interface-pd-with" "icecast/shoutcast">}})
   - [JSON]({{< mdlink "interface-pd-with" "JSON">}})
   - [LUA]({{< mdlink "interface-pd-with" "LUA">}})
   - [MIDI]({{< mdlink "interface-pd-with" "MIDI">}})

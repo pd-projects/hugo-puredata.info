@@ -36,7 +36,7 @@ You can use several externals:
   - `hidio`
   - `hidraw`
 
-### icecast/shoutcast
+### Icecast/Shoutcast
 
 You can use `mp3cast~` external.
 
