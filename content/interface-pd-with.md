@@ -56,7 +56,12 @@ See built-in objects in [I/O via MIDI, OSC, and FUDI]({{< mdlink "../objects" "I
 
 See built-in objects in [I/O via MIDI, OSC, and FUDI]({{< mdlink "../objects" "I/O via MIDI, OSC, and FUDI">}})
 
-### TCP/IP
+### (raw) TCP/IP
+
+See built-in objects [[netsend]](../objects/netsend/) [[netreceive]](../objects/netreceive/)
+
+
+### (raw) UDP
 
 See built-in objects [[netsend]](../objects/netsend/) [[netreceive]](../objects/netreceive/)
 
