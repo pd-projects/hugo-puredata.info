@@ -10,7 +10,7 @@ draft: false
 ### General
 
   - [Get Pd](get-pd)
-  - [Welcome to Pd](welcome)   
+  - [Welcome to Pd](welcome-to-pd)   
   - [List of objects](objects)
   - [Externals](externals)
 
