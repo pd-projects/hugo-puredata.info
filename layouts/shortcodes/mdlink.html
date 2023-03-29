@@ -1,7 +1,7 @@
-{{ $link := .Get 0}}
-{{ $anchor := .Get 1}}
-{{ if $anchor }}
-{{ printf "%s#%s" $link ($anchor | anchorize) }}
-{{ else }}
-{{ $link }}
-{{ end }}
+{{- $link := .Get 0 -}}
+{{- $anchor := .Get 1 -}}
+{{- if $anchor -}}
+{{- printf "%s#%s" $link ($anchor | anchorize) -}}
+{{- else -}}
+{{- $link -}}
+{{- end -}}
