@@ -4,11 +4,11 @@
 {{- range $.Site.Pages -}}
 {{- $aa := index (.Page.Params.aliases) 0 -}}
 {{- if eq $pdobj .Title -}}
-{{$ok = 1}}
+{{- $ok = 1 -}}
 <a href="{{ .Permalink }}">[{{ .Title }}]</a>
 {{else if eq $pdobj $aa -}}
-{{$ok = 1}}
-<a href="{{ .Permalink }}">[{{ .Title }}]</a></p>
+{{- $ok = 1 -}}
+<a href="{{ .Permalink }}">[{{ .Title }}]</a>
 {{- end -}}
 {{- end -}}
 {{- if eq $ok 0 -}}
