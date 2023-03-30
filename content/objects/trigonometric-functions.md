@@ -2,10 +2,10 @@ all trigonometric functions:
 
 |object |Description|
 |:---|---:|
-|[sin](../sin) |sine|
-|[cos](../cos) |cosine|
-|[tan](../tan) |tangent|
-|[atan](../atan) |arc tangent|
-|[atan2](../atan2)|arc tangent of 2 variables|
+|{{< pdobj "sin" >}} |sine|
+|{{< pdobj "cos" >}} |cosine|
+|{{< pdobj "tan" >}} |tangent|
+|{{< pdobj "atan" >}} |arc tangent|
+|{{< pdobj "atan2" >}}|arc tangent of 2 variables|
 
-see also [trigonometric](../expr#trigonometric) functions in the [[expr]](../expr) object.
+see also [trigonometric](../expr#trigonometric) functions in the {{< pdobj "expr" >}} object.
