@@ -7,7 +7,7 @@
 
   {{ with .aliases }}
   {{ range $elem_description := . }}
-  <p>Abbreviation: <b>[{{$elem_description}}]</b></p>
+  <p>Abbreviation: <a class="pdobj">{{$elem_description}}</a></p>
   {{ end }}
   {{ end }}
 
@@ -16,7 +16,6 @@
   {{ with .inlets }}<div id="inlets"  class="reference-iolets"><h4>INLETs </h4>{{ with .remark}}{{.}}{{else}}<ul>{{ partial "object-reference/iolets" .}}</ul>{{ end }}</div>{{ end }}
   {{ with .outlets}}<div id="outlets" class="reference-iolets"><h4>OUTLETs</h4>{{ with .remark}}{{.}}{{else}}<ul>{{ partial "object-reference/iolets" .}}</ul>{{ end }}</div>{{ end }}
   
-
   {{ with .arguments }}
   <div id="arguments"  class="reference-arguments">
   <h4>ARGUMENTs</h4>
@@ -65,7 +64,7 @@
     {{/* LATER use 'delimit' to generate a nicer string */}}
     <blockquote><p> see also:
     {{ range where (where $pages "Section" $section) "Title" "in" . }}
-    <a href="{{.Permalink}}">[{{replace .Title " " "\u00a0"}}]</a>
+    <a href="{{.Permalink}}" class="pdobj">{{replace .Title " " "\u00a0"}}</a>
     {{end}}
 	</p></blockquote>
   </div>

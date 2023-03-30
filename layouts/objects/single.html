@@ -1,7 +1,7 @@
 {{ define "title" }} {{ .Site.Title }} - [{{ .Page.Title }}] {{ end }}
 {{ define "header"}} {{ partial "header" .}} {{ end }}
 {{ define "main"  }}
-<h3>[{{ .Page.Title }}]</h3>
+<h3 class="pdobj">{{ .Page.Title }}</h3>
 <p style="font-size: 105%">{{.Page.Description}}</p>
   {{ partial "object-reference" .}}
   {{ with .Content }}{{ . }}{{ end }}
