@@ -1,11 +1,17 @@
 {{$ok := 0}}
 {{- $pdobj := .Get 0 -}}
+<p style="margin: 1px">
 {{- range $.Site.Pages -}}
+{{- $aa := index (.Page.Params.aliases) 0 -}}
 {{- if eq $pdobj .Title -}}
 {{$ok = 1}}
-<p style="margin: 1px"><a href="{{ .Permalink }}">[{{ .Title }}]</a></p>
+<a href="{{ .Permalink }}">[{{ .Title }}]</a>
+{{else if eq $pdobj $aa -}}
+{{$ok = 1}}
+<a href="{{ .Permalink }}">[{{ .Title }}]</a></p>
 {{- end -}}
 {{- end -}}
 {{- if eq $ok 0 -}}
-<p style="color:red;">pdobj error: no matching object for "{{ $pdobj }}"</p>
+pdobj error: no matching object for "{{ $pdobj }}"
 {{- end -}}
+</p>
