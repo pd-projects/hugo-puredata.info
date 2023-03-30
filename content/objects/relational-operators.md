@@ -4,10 +4,10 @@ relational operators:
 
 |object |Description|
 |:---|---:|
-|[<](../lt)      |Less than (boolean)|
-|[<=](../le)     |Less than or equal (boolean)|
-|[>](../gt)      |Greater than (boolean)|
-|[>=](../ge)     |Greater than or equal (boolean)|
-|[==](../eq)     |Equal (boolean)|
-|[!=](../neq)     |Not equal (boolean)|
+|{{< pdobj "<" >}}      |Less than (boolean)|
+|{{< pdobj "<=" >}}     |Less than or equal (boolean)|
+|{{< pdobj ">" >}}      |Greater than (boolean)|
+|{{< pdobj ">=" >}}     |Greater than or equal (boolean)|
+|{{< pdobj "==" >}}     |Equal (boolean)|
+|{{< pdobj "!=" >}}     |Not equal (boolean)|
 
