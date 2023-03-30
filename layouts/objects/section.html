@@ -16,7 +16,7 @@
         class="hanchor" > &#128279</a></h3>
       {{ range where $pages "Params.pdcategory" $cat }}
       <div class="col col-4 item">
-        <p style="margin: 1px"><a href="{{ .Permalink }}">[{{ .Title }}]</a>
+        <p style="margin: 1px"><a class="pdobj" href="{{ .Permalink }}">{{ .Title }}</a>
         {{ with .Params.description }} - {{ . }} {{ end }}</p>
       </div>
       {{else}}
