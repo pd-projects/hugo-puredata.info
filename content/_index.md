@@ -79,5 +79,3 @@ from C or C++), and **abstractions** (Pd patches loaded as objects).
   - [UDP]({{< mdlink "interface-pd-with" "(raw) UDP">}})
   - [VST]({{< mdlink "interface-pd-with" "VST">}})
   - [WebSocket]({{< mdlink "interface-pd-with" "WebSocket">}})
-
-
