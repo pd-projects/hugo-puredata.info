@@ -456,3 +456,27 @@ h1:hover a, h2:hover a, h3:hover a, h4:hover a { visibility: visible}
     H1 {font-size: 25pt;}
     IMG {max-width: 100%;}
 }
+
+
+
+/* Pd specific styles */
+
+/* urgh: umlaeute doesn't know any CSS */
+h3.pdobj {
+    font-size: 14.7pt;
+}
+
+.pdobj {
+    margin: 1px;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 90%;
+    text-align: left;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+.pdobj:before {
+  content: "[";
+}
+.pdobj:after {
+  content: "]";
+}
