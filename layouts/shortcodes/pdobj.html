@@ -6,6 +6,6 @@
 <p style="margin: 1px"><a href="{{ .Permalink }}">[{{ .Title }}]</a></p>
 {{- end -}}
 {{- end -}}
-{{- if eq $ok 0 -}}
+{{- if eq $ok "0" -}}
 <p style="color:red;">pdobj error: no matching object for "{{ $pdobj }}"</p>
 {{- end -}}
