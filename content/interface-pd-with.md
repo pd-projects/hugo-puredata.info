@@ -58,12 +58,12 @@ See built-in objects in [I/O via MIDI, OSC, and FUDI]({{< mdlink "../objects" "I
 
 ### (raw) TCP/IP
 
-See built-in objects [[netsend]](../objects/netsend/) [[netreceive]](../objects/netreceive/)
+See built-in objects {{< pdobj "netsend" >}} {{< pdobj "netreceive" >}}
 
 
 ### (raw) UDP
 
-See built-in objects [[netsend]](../objects/netsend/) [[netreceive]](../objects/netreceive/)
+See built-in objects {{< pdobj "netsend" >}} {{< pdobj "netreceive" >}}
 
 
 ### VST
