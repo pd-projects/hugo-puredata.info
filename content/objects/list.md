@@ -32,4 +32,4 @@ outlets:
     description: the concatenated list.
 draft: false
 ---
-Short for "list append"
+Short for {{< pdobj "list append" >}}.
