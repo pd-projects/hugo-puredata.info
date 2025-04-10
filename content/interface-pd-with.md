@@ -78,7 +78,7 @@ To run Pd inside a vst host:
 
   - [camomile](https://github.com/pierreguillot/Camomile)
 
-  - [pdvst](https://git.nubegris.com.ar/lucarda/pdvst-0.52/releases) (MS-Windows only)
+  - [pdvst](https://github.com/Lucarda/pdvst-0.52/releases) (MS-Windows only)
 
 ### WebSocket
 

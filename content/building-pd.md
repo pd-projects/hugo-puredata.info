@@ -6,7 +6,7 @@ draft: false
 
 # Building Pd
 
-these are basic instructions on building Pd for many platforms. for in-depth instructions see [Pd manual chapter 6](https://msp.puredata.info/Pd_documentation/x6.htm).
+these are basic instructions on building Pd for many platforms. for in-depth instructions see [Pd manual chapter 6](https://msp.ucsd.edu/Pd_documentation/resources/chapter6.htm).
 
 ### All
 

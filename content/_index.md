@@ -42,7 +42,7 @@ from C or C++), and **abstractions** (Pd patches loaded as objects).
 
 ### People
 
-  - [Pd-list](https://lists.puredata.info/listinfo/pd-list)
+  - [Pd-list](https://lists.iem.at/hyperkitty/list/pd-list@lists.iem.at/)
   - [facebook](https://www.facebook.com/groups/puredata/)
   - [pdpatchrepo](https://forum.pdpatchrepo.info/)
 

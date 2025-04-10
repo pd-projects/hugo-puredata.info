@@ -8,11 +8,11 @@ draft: false
 # Welcome to Pd
 
 You can reach the Pd mailing list for help, please subscribe to
-the [pd-list](https://lists.puredata.info/listinfo/pd-list).
+the [pd-list](https://lists.iem.at/hyperkitty/list/pd-list@lists.iem.at/).
 It is perfectly reasonable to post "beginner" questions there.
 
 There is a very extensive Pd community web site, 
-[pure-data.info](https://pure-data.info/), which aims to be
+[puredata.info](https://puredata.info/), which aims to be
 the central resource for Pd, from documentation and downloads;
 to forums, member pages, and a patch exchange. A link to it
 is also available in the Help Menu.
@@ -31,5 +31,5 @@ If you find a bug, please report it on our [issue tracker](https://bugs.puredata
 a link to it also available in the Help Menu.
 
 Finally, you can use the Help menu to [find and install externals](https://deken.puredata.info),
-for more details on how to do that, please refer to [chapter 4](https://msp.puredata.info/Pd_documentation/x4.htm)
+for more details on how to do that, please refer to [chapter 4](https://msp.ucsd.edu/Pd_documentation/resources/chapter4.htm)
 of Pd's manual.
