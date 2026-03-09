@@ -1,7 +1,7 @@
 Modified BSD License
 ====================
 
-_Copyright © 2018, the Pure Data comunity
+_Copyright © 2018, the Pure Data community
 _All rights reserved._
 
 Redistribution and use in source and binary forms, with or without
