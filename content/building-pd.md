@@ -104,10 +104,15 @@ to build for Windows we use Msys2
 
 - download the 64-bit installer from: https://www.msys2.org/
 
-- follow installation instructions on: https://www.msys2.org/wiki/MSYS2-installation/
+- open the Msys2 shell and update installation:
 
+```sh
+pacman -Suy
+```
+- repeat the above command until there's nothing left to do. You 
+might need to restart the Msys2 shell
 
-open the Msys2 shell and install dependencies:
+- install dependencies:
 
 ```sh
 pacman -S make autoconf automake libtool
