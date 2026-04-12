@@ -35,6 +35,6 @@ The "open" message may take flag-style arguments as follows:
 - -wave, -aiff, -caf, -next (file extension)
 - -big, -little (sample endianness)
 - -bytes <2, 3, or 4> (bit resolution)
-- -rate <sample rate> (affects the soundfile header but the file will **not** be resampled.)
+- -rate \<sample rate\> (affects the soundfile header but the file will **not** be resampled.)
 
 The soundfile is uncompressed 2- or 3-byte integer ("pcm") or 4-byte floating point. The soundfile format is determined by the file extension (ie. "foo.wav", "foo.aiff", "foo.caf", "foo.snd").
