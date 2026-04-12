@@ -1,15 +1,22 @@
-# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
-image: registry.gitlab.com/pages/hugo:latest
+default:
+  image: "hugomods/hugo:exts"
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-pages:
+test:  # builds and tests your site
   script:
-  - hugo
+    - hugo
+  rules:
+    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+
+create-pages:  # a user-defined job that builds your pages and saves them to the specified path.
+  script:
+    - hugo
+  pages: true  # specifies that this is a Pages job
   artifacts:
     paths:
-    - public
-  only:
-  - main
-
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  environment: production
