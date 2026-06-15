@@ -31,5 +31,5 @@ If you find a bug, please report it on our [issue tracker](https://bugs.puredata
 a link to it also available in the Help Menu.
 
 Finally, you can use the Help menu to [find and install externals](https://deken.puredata.info),
-for more details on how to do that, please refer to [chapter 4](https://msp.ucsd.edu/Pd_documentation/resources/chapter4.htm)
+for more details on how to do that, please refer to [chapter 4](https://msp.ucsd.edu/Pd_documentation/4.externals.htm)
 of Pd's manual.
